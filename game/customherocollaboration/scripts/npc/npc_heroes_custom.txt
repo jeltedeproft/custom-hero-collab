@@ -2951,7 +2951,7 @@
   }
 
   "npc_dota_hero_whitebeard"
-  {e
+  {
     "override_hero"             "npc_dota_hero_puck"
     "Model"                     "models/hero_whitebeard/hero_whitebeard_base.vmdl"
     "DisableWearables" "1"

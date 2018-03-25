@@ -1,35 +1,3 @@
-<!-- dmx encoding keyvalues2_noids 1 format vtex 1 -->
-"CDmeVtex"
-{
-	"m_inputTextureArray" "element_array" 
-	[
-		"CDmeInputTexture"
-		{
-			"m_name" "string" "0"
-			"m_fileName" "string" "materials/vgui/hud/minimap_hero_sheet_psd_3529892a_mip0.tga"
-			"m_colorSpace" "string" "srgb"
-			"m_typeString" "string" "2D"
-		}
-	]
-	"m_outputTypeString" "string" "2D"
-	"m_outputFormat" "string" "DXT5"
-	"m_textureOutputChannelArray" "element_array"
-	[
-		"CDmeTextureOutputChannel"
-		{
-			"m_inputTextureArray" "string_array"
-				[
-					"0"
-				]
-			"m_srcChannels" "string" "rgba"
-			"m_dstChannels" "string" "rgba"
-			"m_mipAlgorithm" "CDmeImageProcessor"
-			{
-				"m_algorithm" "string" ""
-				"m_stringArg" "string" ""
-				"m_vFloat4Arg" "vector4" "0 0 0 0"
-			}
-			"m_outputColorSpace" "string" "srgb"
-		}
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf586d7e7a2f1bba4092d2530653836a1b5fa4e38450c7c11e5c711e5c9a29a0
+size 804

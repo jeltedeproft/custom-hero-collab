@@ -236,7 +236,7 @@ function GameMode:OnPlayerPickHero(keys)
   
   --Wait a bit for illusions to become real illusions
   Timers:CreateTimer(0.2, function ()
-    InitHeroSetup(event)
+    InitHeroSetup(keys)
   end)
 end
 

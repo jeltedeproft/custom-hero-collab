@@ -1,4 +1,4 @@
-require('timers')
+require('libraries/timers')
 
 function playAnimation(keys)
 	local caster = keys.caster
