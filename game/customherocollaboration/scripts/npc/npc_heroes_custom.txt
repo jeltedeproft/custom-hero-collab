@@ -1,59 +1,1071 @@
 "DOTAHeroes"
 {
-  "npc_dota_hero_ancient_apparition_barebones"
+  "npc_dota_hero_goofy"
   {
     "AbilityLayout"     "6"
     "override_hero"     "npc_dota_hero_ancient_apparition"
-    "SoundSet"          "0" 
-    "Ability1"        "example_ability" 
-    "Ability2"        "barebones_empty2" 
-    "Ability3"        "barebones_empty3" 
-    "Ability4"        "barebones_empty4"
-    "Ability5"        "barebones_empty5"
-    "Ability6"        "barebones_empty6"
+    "Model"				"models/goofygood12bigger/goofy.vmdl"
+    "ModelScale"        "1.0"
+    "SoundSet"                  "Hero_ancient_apparition"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_ancient_apparition.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_ancient_apparition.vsndevts"
+    "IdleSoundLoop"             "Hero_Ancient_Apparition.IdleLoop"
+    "HeroSelectSoundEffect"     "goofyselect"
+    "Ability1"        "goofy_drop_coin" 
+    "Ability2"        "goofy_tumble" 
+    "Ability3"        "goofy_roar" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "goofy_song"
     "Ability7"        ""
     "Ability8"        ""
     "Ability9"        ""
-    "Ability10"       ""
-    "Ability11"       ""
-    "Ability12"       ""
-    "Ability13"       ""
-    "Ability14"       ""
-    "Ability15"       ""
-    "Ability16"       ""
+    "Ability10"        "special_bonus_agility_10"
+    "Ability11"        "special_bonus_armor_5"
+    "Ability12"        "special_bonus_magic_resistance_15"
+    "Ability13"        "special_bonus_attack_damage_30"
+    "Ability14"        "special_bonus_cooldown_reduction_10"
+    "Ability15"        "special_bonus_gold_income_5"
+    "Ability16"        "goofy_gold_bonus"
+    "Ability17"        "goofy_roar_damage_bonus"
 
-    "ArmorPhysical"       "0"                 // Physical protection.
-    "MagicalResistance"       "0"                 // Magical protection (percentage).
+    "DisableWearables"          "1"
 
-    "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
-    "AttackDamageMin"     "1"                   // Damage range min.
-    "AttackDamageMax"     "1"                   // Damage range max.
+    "MinimapIcon"        "minimap_goofy"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
 
-    //"AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
-    "AttributeBaseStrength"   "0"                   // Base strength
-    "AttributeStrengthGain"   "0"                   // Strength bonus per level.
-    "AttributeBaseIntelligence" "0"                   // Base intelligence
-    "AttributeIntelligenceGain" "0"                   // Intelligence bonus per level.
-    "AttributeBaseAgility"    "0"                   // Base agility
-    "AttributeAgilityGain"    "0"                   // Agility bonus per level.
+    "NameAliases"           "Goofball"
 
-    "BountyXP"          "0"                 // Experience earn.
-    "BountyGoldMin"       "0"                   // Gold earned min.
-    "BountyGoldMax"       "0"                   // Gold earned max.
+    "Role"                  "Escape,Nuker,Support"
+    "Rolelevels"            "2,1,2"
+    "Complexity"            "3"
 
-    //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
-    //"RingRadius"        "70"
+    "ArmorPhysical"       "2.67"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "52"                   // Damage range min.
+    "AttackDamageMax"     "59"                   // Damage range max.
+    "AttackRange"                "150"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+    "AttributeBaseStrength"   "23"                   // Base strength
+    "AttributeStrengthGain"   "2.7"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "20"                   // Base intelligence
+    "AttributeIntelligenceGain" "1.1"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "24"                   // Base agility
+    "AttributeAgilityGain"    "3.0"                   // Agility bonus per level.
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "310"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "0.25"                 // Health regeneration rate.
+    "StatusMana"        "110"                   // Base mana.
+    "StatusManaRegen"     "0.3"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_mario"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_antimage"
+    "Model"             "models/mario/mario2.vmdl"
+    "ModelScale"        "8.0"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_antimage"
+    "SoundSet"                  "Hero_Antimage"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_antimage.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_antimage.vsndevts"
+    "HeroSelectSoundEffect"     "mariopick"
+    "PickSound"       "mariopick"
+    "BanSound"        "marrioban"
+
+    "Ability1"        "mario_dash" 
+    "Ability2"        "mario_mushroom" 
+    "Ability3"        "mario_pipe" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "mario_mushroomy"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"       "dash_bonus"
+    "Ability11"       "special_bonus_movement_speed_25"
+    "Ability12"       "special_bonus_hp_175"
+    "Ability13"       "special_bonus_attack_speed_30"
+    "Ability14"       "special_bonus_hp_regen_4"
+    "Ability15"       "special_bonus_all_stats_5"
+    "Ability16"       "special_bonus_strength_25"
+    "Ability17"       "mushroomy_heal_bonus"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_mario"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "NameAliases"           "The Plumber"
+
+    "Role"                  "Escape,Nuker,Support"
+    "Rolelevels"            "2,1,2"
+    "Complexity"            "3"
+
+    "ArmorPhysical"       "5"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "49"                   // Damage range min.
+    "AttackDamageMax"     "53"                   // Damage range max.
+    "AttackRange"                "150"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "25"                   // Base strength
+    "AttributeStrengthGain"   "2.0"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "18"                   // Base intelligence
+    "AttributeIntelligenceGain" "1.6"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "20"                   // Base agility
+    "AttributeAgilityGain"    "1.8"                   // Agility bonus per level.
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "290"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "4.25"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_deku"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_axe"
+    "Model"             "models/heroacadmia/dekurechtopnieuwnoggroter.vmdl"
+    "ModelScale"        "2.0"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_axe"
+    "SoundSet"                  "Hero_Axe"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_axe.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_axe.vsndevts"
+    "HeroSelectSoundEffect"     "dekupick"
+    //"PickSound"       "dekupick"
+    "BanSound"        "marrioban"
+    "Ability1"        "dekumotivate" 
+    "Ability2"        "dekukick" 
+    "Ability3"        "dekuteleport" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "dekupunch"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_evasion_10"
+    "Ability11"        "special_bonus_exp_boost_15"
+    "Ability12"        "special_bonus_30_crit_2"
+    "Ability13"        "special_bonus_day_vision_400"
+    "Ability14"        "special_bonus_spell_block_15"
+    "Ability15"        "special_bonus_mana_break_20"
+    "Ability16"        "deku_punch_damage_bonus"
+    "Ability17"        "deku_motivate_dmg_block_bonus"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_deku"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "7"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "70"                   // Damage range min.
+    "AttackDamageMax"     "73"                   // Damage range max.
+    "AttackRange"                "150"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+    "AttributeBaseStrength"   "24"                   // Base strength
+    "AttributeStrengthGain"   "3.0"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "24"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.6"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "18"                   // Base agility
+    "AttributeAgilityGain"    "1.7"                   // Agility bonus per level.
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "320"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+
+    "precache"
+    {
+        "particle"  "particles/units/heroes/hero_elder_titan/elder_titan_earth_splitter.vpcf"
+    }
+  }
+
+  "npc_dota_hero_yagami"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_bane"
+    "Model"             "models/yagami/yagami.vmdl"
+    "ModelScale"        "1.0"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_bane"
+    "SoundSet"                  "Hero_Bane"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_bane.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_bane.vsndevts"
+    "HeroSelectSoundEffect"     "yagamiselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "yagamifool" 
+    "Ability2"        "yagamiwords" 
+    "Ability3"        "yagamieyes" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "yagamideathnote"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_hp_275"
+    "Ability11"        "special_bonus_mp_150"
+    "Ability12"        "special_bonus_attack_speed_40"
+    "Ability13"        "special_bonus_corruption_5"
+    "Ability14"        "special_bonus_hp_regen_5"
+    "Ability15"        "special_bonus_cleave_60"
+    "Ability16"        "yagami_eyes_no_mana"
+    "Ability17"        "yagami_fool_extra_time"
+
+    "DisableWearables"          "1"
+
+    "ProjectileModel"                       "particles/units/heroes/hero_skywrath_mage/skywrath_mage_base_attack.vpcf"
+    "ProjectileSpeed"                       "1000"
+
+    "MinimapIcon"        "minimap_yagami"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "4.83"                 // Physical protection.
+    "MagicalResistance"       "29"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageMin"     "30"                   // Damage range min.
+    "AttackDamageMax"     "35"                   // Damage range max.
+    "AttackRange"                "600"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLECT"
+    "AttributeBaseStrength"   "23"                   // Base strength
+    "AttributeStrengthGain"   "2.0"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "30"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.6"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "19"                   // Base agility
+    "AttributeAgilityGain"    "1.8"                   // Agility bonus per level.
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "300"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_chimera"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_beastmaster"
+    "Model"             "models/chimera/chimera.vmdl"
+    "ModelScale"        "1.0"
+    "SoundSet"                  "Hero_Beastmaster"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_beastmaster.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_beastmaster.vsndevts"
+    "HeroSelectSoundEffect"     "chimeraselect"
+    "BanSound"        ""
+    "Ability1"        "chimeraspit" 
+    "Ability2"        "chimeraroar" 
+    "Ability3"        "chimerafly" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "chimeratornado"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_hp_regen_12"
+    "Ability11"        "special_bonus_mp_regen_8"
+    "Ability12"        "special_bonus_movement_speed_35"
+    "Ability13"        "special_bonus_all_stats_12"
+    "Ability14"        "special_bonus_lifesteal_15"
+    "Ability15"        "special_bonus_intelligence_15"
+    "Ability16"        "chimera_spit_range"
+    "Ability17"        "chimera_roar_enemy_duration_bonus"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_chimera"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "8"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "70"                   // Damage range min.
+    "AttackDamageMax"     "84"                   // Damage range max.
+    "AttackRange"                "150"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "24"                   // Base strength
+    "AttributeStrengthGain"   "2.5"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "16"                   // Base intelligence
+    "AttributeIntelligenceGain" "1.9"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "18"                   // Base agility
+    "AttributeAgilityGain"    "1.6"                   // Agility bonus per level.
+
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "80"
 
     "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"       "360"                 // Speed.
-    "MovementTurnRate"      "1.0"                 // Turning rate.
+    "MovementTurnRate"      "0.2"                 // Turning rate.
 
-    "StatusHealth"        "1000"                 // Base health.
-    "StatusHealthRegen"     "0.0"                 // Health regeneration rate.
-    "StatusMana"        "400"                   // Base mana.
-    "StatusManaRegen"     "100.0"                 // Mana regeneration rate.
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
 
     "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
-    "VisionNighttimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_edward"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_bloodseeker"
+    "Model"             "models/edwardelric/edward.vmdl"
+    "ModelScale"        "1.5"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_bloodseeker"
+    "SoundSet"                  "Hero_Bloodseeker"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_bloodseeker.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_bloodseeker.vsndevts"
+    "HeroSelectSoundEffect"     "edwardselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "edwardtransmute" 
+    "Ability2"        "edwardstonearmor" 
+    "Ability3"        "edwardequivalentexchange" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "edwardhumantransmutation"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_strength_7"
+    "Ability11"        "special_bonus_agility_8"
+    "Ability12"        "special_bonus_armor_8"
+    "Ability13"        "special_bonus_magic_resistance_20"
+    "Ability14"        "special_bonus_attack_damage_45"
+    "Ability15"        "special_bonus_cooldown_reduction_12"
+    "Ability16"        "edward_transmute_range_bonus"
+    "Ability17"        "equivalent_exchange_bonus_stats"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_edward"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "6"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "55"                   // Damage range min.
+    "AttackDamageMax"     "65"                   // Damage range max.
+    "AttackRange"                "150"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+    "AttributeBaseStrength"   "17"                   // Base strength
+    "AttributeStrengthGain"   "2.1"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "19"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.0"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "21"                   // Base agility
+    "AttributeAgilityGain"    "3"                   // Agility bonus per level.
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "300"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "2.0"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_albus"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_chen"
+    "Model"             "models/albusdumbledore/dumbledore.vmdl"
+    "ModelScale"        "1.5"
+    "Portrait"                    "vgui/hud/heroportraits/portrait_chen"
+    "SoundSet"                  "Hero_Chen"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_chen.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_chen.vsndevts"
+    "HeroSelectSoundEffect"     "albusselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "albuswingardiumleviosa" 
+    "Ability2"        "albuspetrificustotalus" 
+    "Ability3"        "albuslumosmaximus" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "albusbombardamaxima"
+    "Ability7"        "albuswingardiumleviosa_end"
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_gold_income_5"
+    "Ability11"        "special_bonus_evasion_10"
+    "Ability12"        "special_bonus_exp_boost_15"
+    "Ability13"        "special_bonus_spell_lifesteal_10"
+    "Ability14"        "special_bonus_respawn_reduction_30"
+    "Ability15"        "special_bonus_cooldown_reduction_30"
+    "Ability16"        "petrificus_stun_duration_bonus"
+    "Ability17"        "lumos_no_mana"
+
+    "DisableWearables"          "1"
+
+    "ProjectileModel"                       "particles/econ/items/keeper_of_the_light/kotl_weapon_arcane_staff/keeper_base_attack_arcane_staff.vpcf"
+    "ProjectileSpeed"                       "1000"
+
+    "MinimapIcon"        "minimap_albus"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "-2"                      // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageMin"     "28"                   // Damage range min.
+    "AttackDamageMax"     "39"                   // Damage range max.
+    "AttackRange"                "600"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLECT"
+    "AttributeBaseStrength"   "15"                   // Base strength
+    "AttributeStrengthGain"   "2"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "25"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.4"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "22"                   // Base agility
+    "AttributeAgilityGain"    "1.7"                   // Agility bonus per level.
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "310"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_pikachu"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_crystal_maiden"
+    "Model"             "models/pikachutwo/pikachu.vmdl"
+    "ModelScale"        "1.5"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_crystal_maiden"
+    "SoundSet"                  "Hero_CrystalMaiden"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_crystalmaiden.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_crystalmaiden.vsndevts"
+    "HeroSelectSoundEffect"     "pikachuselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+
+    "Ability1"        "pikachushock" 
+    "Ability2"        "pikachuswiftaura" 
+    "Ability3"        "pikachuelectric" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "pikachuthunder"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_day_vision_400"
+    "Ability11"        "special_bonus_spell_block_15"
+    "Ability12"        "special_bonus_mana_break_25"
+    "Ability13"        "special_bonus_mp_100"
+    "Ability14"        "special_bonus_hp_325"
+    "Ability15"        "special_bonus_attack_speed_35"
+    "Ability16"        "pikachushock_bonus_damage"
+    "Ability17"        "electric_bonus_attack_projectile"
+
+    "ProjectileModel"                       "particles/units/heroes/hero_zuus/zuus_base_attack.vpcf"
+    "ProjectileSpeed"                       "1000"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_pikachu"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "0"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageMin"     "21"                   // Damage range min.
+    "AttackDamageMax"     "29"                   // Damage range max.
+    "AttackRange"                "600"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
+    "AttributeBaseStrength"   "19"                   // Base strength
+    "AttributeStrengthGain"   "2.6"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "22"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.7"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "11"                   // Base agility
+    "AttributeAgilityGain"    "1.2"                   // Agility bonus per level.
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "300"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_golem"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_dark_seer"
+    "Model"             "models/golem/newgolem.vmdl"
+    "ModelScale"        "1.0"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_dark_seer"
+    "SoundSet"                  "Hero_DarkSeer"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_dark_seer.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_dark_seer.vsndevts"
+    "HeroSelectSoundEffect"     "golemselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "golemslam" 
+    "Ability2"        "golemtaunt" 
+    "Ability3"        "golemrocks" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "golemsolitude"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_attack_speed_15"
+    "Ability11"        "special_bonus_mp_100"
+    "Ability12"        "special_bonus_hp_350"
+    "Ability13"        "special_bonus_cleave_15"
+    "Ability14"        "special_bonus_hp_regen_8"
+    "Ability15"        "special_bonus_mp_regen_5"
+    "Ability16"        "golem_slam_bonus_damage"
+    "Ability17"        "golem_solitude_bonus_range"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_golem"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "2"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "25"                   // Damage range min.
+    "AttackDamageMax"     "31"                   // Damage range max.
+    "AttackRange"                "150"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "27"                   // Base strength
+    "AttributeStrengthGain"   "3.4"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "17"                   // Base intelligence
+    "AttributeIntelligenceGain" "1.7"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "15"                   // Base agility
+    "AttributeAgilityGain"    "1.3"                   // Agility bonus per level.
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "290"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "2.0"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_alakazam"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_dazzle"
+    "Model"             "models/alakazam/alakazam.vmdl"
+    "ModelScale"        "1.0"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_dazzle"
+    "SoundSet"                  "Hero_Dazzle"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_dazzle.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_dazzle.vsndevts"
+    "HeroSelectSoundEffect"     "alakazamselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "alakazamteleport" 
+    "Ability2"        "alakazamblast" 
+    "Ability3"        "alakazamfocus" 
+    "Ability4"        "alakazamlink"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "alakazamshockwave"
+    "Ability7"        ""
+    "Ability8"        "phoenix_sun_ray_stop_datadriven"
+    "Ability9"        ""
+    "Ability10"        "special_bonus_mp_regen_5"
+    "Ability11"        "special_bonus_movement_speed_20"
+    "Ability12"        "special_bonus_all_stats_10"
+    "Ability13"        "special_bonus_strength_20"
+    "Ability14"        "special_bonus_intelligence_20"
+    "Ability15"        "special_bonus_armor_5"
+    "Ability16"        "alakazam_shockwave_reduced_cooldown"
+    "Ability17"        "alakazam_blast_damage_bonus"
+
+    "DisableWearables"          "1"
+
+    "ProjectileModel"                       "particles/econ/items/puck/puck_alliance_set/puck_base_attack_aproset.vpcf"
+    "ProjectileSpeed"                       "1000"
+
+    "MinimapIcon"        "minimap_alakazam"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "2"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageMin"     "22"                   // Damage range min.
+    "AttackDamageMax"     "28"                   // Damage range max.
+    "AttackRange"                "600"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLECT"
+    "AttributeBaseStrength"   "17"                   // Base strength
+    "AttributeStrengthGain"   "2.3"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "30"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.2"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "13"                   // Base agility
+    "AttributeAgilityGain"    "1.2"                   // Agility bonus per level..
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "300"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_ntropy"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_dragon_knight"
+    "Model"             "models/ntropy/ntropy.vmdl"
+    "ModelScale"        "1.1"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_dragon_knight"
+    "SoundSet"                  "Hero_DragonKnight"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_dragon_knight.vsndevts"
+    "HeroSelectSoundEffect"     "ntropyselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "ntropywave" 
+    "Ability2"        "ntropytimeaura" 
+    "Ability3"        "ntropyreset" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "ntropyrewindtime"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_mp_regen_5"
+    "Ability11"        "special_bonus_movement_speed_20"
+    "Ability12"        "special_bonus_all_stats_10"
+    "Ability13"        "special_bonus_strength_20"
+    "Ability14"        "special_bonus_intelligence_20"
+    "Ability15"        "special_bonus_armor_5"
+    "Ability16"        "wave_damage_bonus"
+    "Ability17"        "aura_damage_bonus"
+
+    "DisableWearables"          "1"
+
+    "ProjectileModel"                       "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf"
+    "ProjectileSpeed"                       "1000"
+
+    "MinimapIcon"        "minimap_ntropy"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "-1"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageMin"     "27"                   // Damage range min.
+    "AttackDamageMax"     "37"                   // Damage range max.
+    "AttackRange"                "600"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLECT"
+    "AttributeBaseStrength"   "16"                   // Base strength
+    "AttributeStrengthGain"   "2.1"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "24"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.9"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "13"                   // Base agility
+    "AttributeAgilityGain"    "1.4"                   // Agility bonus per level..
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "290"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_r2d2"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_doom_bringer"
+    "Model"             "models/r2d2/rtwodtwo.vmdl"
+    "ModelScale"        "1.0"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_doom_bringer"
+    "SoundSet"                  "Hero_doomBringer"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_doom_bringer.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_doom_bringer.vsndevts"
+    "HeroSelectSoundEffect"     "r2d2select"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "r2d2_item" 
+    "Ability2"        "r2d2_support_aura" 
+    "Ability3"        "r2d2_escape" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "r2d2_trooper"
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_strength_6"
+    "Ability11"        "special_bonus_intelligence_6"
+    "Ability12"        "special_bonus_lifesteal_10"
+    "Ability13"        "special_bonus_all_stats_7"
+    "Ability14"        "special_bonus_movement_speed_50"
+    "Ability15"        "special_bonus_mp_regen_10"
+    "Ability16"        "aura_regen_bonus"
+    "Ability17"        "special_bonus_magic_resistance_50"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_r2d2"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "4"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "27"                   // Damage range min.
+    "AttackDamageMax"     "37"                   // Damage range max.
+    "AttackRange"                "150"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLECT"
+    "AttributeBaseStrength"   "16"                   // Base strength
+    "AttributeStrengthGain"   "2.1"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "24"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.9"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "13"                   // Base agility
+    "AttributeAgilityGain"    "1.4"                   // Agility bonus per level..
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "290"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_goku"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_drow_ranger"
+    "Model"             "models/goku/baked/goku.vmdl"
+    "ModelScale"        "1.5"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_drow_ranger"
+    "SoundSet"                  "Hero_Drow"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_drowranger.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_drowranger.vsndevts"
+    "HeroSelectSoundEffect"     "gokuselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "gokukamehameha" 
+    "Ability2"        "gokuspiritbomb" 
+    "Ability3"        "gokublink" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "goku_supersaiyan"
+    "Ability7"        "gokublink_nocd"
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_hp_125"
+    "Ability11"        "special_bonus_cleave"
+    "Ability12"        "special_bonus_strength_25"
+    "Ability13"        "special_bonus_magic_resistance_25"
+    "Ability14"        "special_bonus_cooldown_reduction_12"
+    "Ability15"        "special_bonus_hp_600"
+    "Ability16"        "goku_kamehameha_range"
+    "Ability17"        "goku_spirit_bomb_radius_bonus"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_goku"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "4"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "55"                   // Damage range min.
+    "AttackDamageMax"     "65"                   // Damage range max.
+    "AttackRange"                "150"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+    "AttributeBaseStrength"   "22"                   // Base strength
+    "AttributeStrengthGain"   "2.2"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "17"                   // Base intelligence
+    "AttributeIntelligenceGain" "1.7"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "27"                   // Base agility
+    "AttributeAgilityGain"    "2.0"                   // Agility bonus per level..
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "310"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_haunter"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_earthshaker"
+    "Model"             "models/haunter/haunter.vmdl"
+    "ModelScale"        "1.0"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_earthshaker"
+    "SoundSet"                  "Hero_Earthshaker"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_earthshaker.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_earthshaker.vsndevts"
+    "HeroSelectSoundEffect"     "haunterselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "hauntermist" 
+    "Ability2"        "haunterharbinger" 
+    "Ability3"        "haunterdeathwings" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        "hauntergates"
+    "Ability7"        "haunterbeckoning"
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        "special_bonus_cooldown_reduction_10"
+    "Ability11"        "special_bonus_evasion_15"
+    "Ability12"        "special_bonus_gold_income_10"
+    "Ability13"        "special_bonus_respawn_reduction_25"
+    "Ability14"        "special_bonus_20_crit_15"
+    "Ability15"        "special_bonus_spell_lifesteal_30"
+    "Ability16"        "haunter_harbinger_duration_bonus"
+    "Ability17"        "haunter_wings_damage_bonus"
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_haunter"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "0"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageMin"     "35"                   // Damage range min.
+    "AttackDamageMax"     "45"                   // Damage range max.
+    "AttackRange"                "500"
+
+    "ProjectileModel"                       "particles/units/heroes/hero_bane/bane_projectile.vpcf"
+    "ProjectileSpeed"                       "1000"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLECT"
+    "AttributeBaseStrength"   "20"                   // Base strength
+    "AttributeStrengthGain"   "1.8"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "28"                   // Base intelligence
+    "AttributeIntelligenceGain" "1.9"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "21"                   // Base agility
+    "AttributeAgilityGain"    "2.0"                   // Agility bonus per level..
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "290"                 // Speed.
+    "MovementTurnRate"      "0.3"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
+  }
+
+  "npc_dota_hero_cyborg"
+  {
+    "AbilityLayout"     "6"
+    "override_hero"     "npc_dota_hero_enchantress"
+    "Model"             "models/cyborgblack/robot.vmdl"
+    "ModelScale"        "1.0"
+    "Portrait"                  "vgui/hud/heroportraits/portrait_enchantress"
+    "SoundSet"                  "Hero_Enchantress"
+    "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_enchantress.vsndevts"
+    "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_enchantress.vsndevts"
+    "HeroSelectSoundEffect"     "haunterselect"
+    //"PickSound"       "dekupick"
+    "BanSound"        ""
+    "Ability1"        "" 
+    "Ability2"        "" 
+    "Ability3"        "" 
+    "Ability4"        "generic_hidden"
+    "Ability5"        "generic_hidden"
+    "Ability6"        ""
+    "Ability7"        ""
+    "Ability8"        ""
+    "Ability9"        ""
+    "Ability10"        ""
+    "Ability11"        ""
+    "Ability12"        ""
+    "Ability13"        ""
+    "Ability14"        ""
+    "Ability15"        ""
+    "Ability16"        ""
+    "Ability17"        ""
+
+    "DisableWearables"          "1"
+
+    "MinimapIcon"        "minimap_cyborg"
+    "MinimapIconSize"    "1000"
+    "MinimapDisableTint" "1"
+
+    "ArmorPhysical"       "3"                 // Physical protection.
+    "MagicalResistance"       "25"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "28"                   // Damage range min.
+    "AttackDamageMax"     "32"                   // Damage range max.
+    "AttackRange"                "128"
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "22"                   // Base strength
+    "AttributeStrengthGain"   "2.33"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "24"                   // Base intelligence
+    "AttributeIntelligenceGain" "2.77"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "26"                   // Base agility
+    "AttributeAgilityGain"    "3.0"                   // Agility bonus per level..
+
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    "RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "317"                 // Speed.
+    "MovementTurnRate"      "1.0"                 // Turning rate.
+
+    "StatusHealth"        "200"                 // Base health.
+    "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+    "StatusMana"        "75"                   // Base mana.
+    "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "800"                  // Range of vision at night time.
   }
 }

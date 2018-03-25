@@ -1,0 +1,1402 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_meshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "chimera"
+				m_meshFile = "models/chimera/chimera.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList = 
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.05
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
+		m_nReservedInt = 0
+		m_bSoftSkinAnimation = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList = [  ]
+	}
+	m_physicsMeshList = 
+	{
+		m_meshList = [  ]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList = 
+	{
+		m_pObject = null
+	}
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "j_sebo_a"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sebo_a"
+								m_vMinBounds = [ -58.125816, -26.451202, -40.797379 ]
+								m_vMaxBounds = [ 72.46595, 69.337143, 40.797394 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sebo_b"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sebo_b"
+								m_vMinBounds = [ -50.382813, -39.93409, -45.117809 ]
+								m_vMaxBounds = [ 68.286194, 83.318848, 45.117832 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_a_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_a_r"
+								m_vMinBounds = [ -29.777607, -5.282425, -15.225836 ]
+								m_vMaxBounds = [ 19.585052, 40.314377, 15.215944 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_a_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_a_l"
+								m_vMinBounds = [ -29.777565, -5.282463, -15.215916 ]
+								m_vMaxBounds = [ 19.585094, 40.314369, 15.225863 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_kosi"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_kosi"
+								m_vMinBounds = [ -48.348701, -15.340813, -37.894554 ]
+								m_vMaxBounds = [ 28.671577, 55.503082, 37.894531 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_b_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_b_r"
+								m_vMinBounds = [ -19.184906, -20.481899, -15.225847 ]
+								m_vMaxBounds = [ 17.75882, 43.423416, 15.215933 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_b_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_b_l"
+								m_vMinBounds = [ -19.184891, -20.481853, -15.215929 ]
+								m_vMaxBounds = [ 17.758842, 43.423401, 15.225849 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sippo_a"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sippo_a"
+								m_vMinBounds = [ -16.953697, -1.980824, -8.722234 ]
+								m_vMaxBounds = [ 7.173622, 52.264046, 8.722196 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_c_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_c_r"
+								m_vMinBounds = [ -11.729103, -15.287788, -13.199202 ]
+								m_vMaxBounds = [ 17.6651, 36.942009, 13.189302 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sako_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sako_l"
+								m_vMinBounds = [ -29.57869, 25.5982, -22.812714 ]
+								m_vMaxBounds = [ 24.645817, 54.549126, 25.463272 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_c_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_c_l"
+								m_vMinBounds = [ -11.729095, -15.287827, -13.189322 ]
+								m_vMaxBounds = [ 17.6651, 35.506958, 13.199183 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sako_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sako_r"
+								m_vMinBounds = [ -29.578674, 25.598164, -25.463219 ]
+								m_vMaxBounds = [ 24.645851, 54.549061, 22.81282 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sippo_b"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sippo_b"
+								m_vMinBounds = [ -12.895378, -14.208485, -8.722232 ]
+								m_vMaxBounds = [ 5.067398, 42.767746, 8.722198 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_d_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_d_r"
+								m_vMinBounds = [ -15.466751, -24.39637, -12.262543 ]
+								m_vMaxBounds = [ 16.077827, 34.751419, 12.252628 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_kubi"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_kubi"
+								m_vMinBounds = [ -12.763275, -39.915237, -35.336346 ]
+								m_vMaxBounds = [ 35.427452, 43.679367, 35.336399 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ude_a_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ude_a_l"
+								m_vMinBounds = [ -22.505884, -19.752327, -19.417896 ]
+								m_vMaxBounds = [ 27.209494, 51.586906, 26.260616 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_d_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_d_l"
+								m_vMinBounds = [ -15.466782, -24.3964, -12.252663 ]
+								m_vMaxBounds = [ 16.07782, 34.751389, 12.262505 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ude_a_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ude_a_r"
+								m_vMinBounds = [ -22.505856, -19.75235, -26.260586 ]
+								m_vMaxBounds = [ 27.209503, 51.586853, 19.417885 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sippo_c"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sippo_c"
+								m_vMinBounds = [ -2.399361, -8.695374, -3.321606 ]
+								m_vMaxBounds = [ 4.842194, 51.578682, 3.32153 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_a_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_a_r"
+								m_vMinBounds = [ -30.041653, -15.445612, -20.490753 ]
+								m_vMaxBounds = [ 18.930302, 50.858879, 19.205856 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_a_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_a_l"
+								m_vMinBounds = [ -30.041639, -15.445595, -19.205875 ]
+								m_vMaxBounds = [ 15.559263, 50.858932, 20.490788 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_e_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_e_r"
+								m_vMinBounds = [ -25.07309, -17.33049, -14.883932 ]
+								m_vMaxBounds = [ 34.459164, 19.650543, 14.713995 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_kao"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_kao"
+								m_vMinBounds = [ -28.905167, -21.436676, -21.323298 ]
+								m_vMaxBounds = [ 11.147087, 34.272789, 21.32329 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ude_b_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ude_b_l"
+								m_vMinBounds = [ -16.951447, -11.421734, -20.63599 ]
+								m_vMaxBounds = [ 14.842762, 44.17239, 20.96069 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kubi_e_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kubi_e_l"
+								m_vMinBounds = [ -25.073147, -17.330399, -14.714071 ]
+								m_vMaxBounds = [ 34.459122, 27.437408, 14.88385 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ude_b_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ude_b_r"
+								m_vMinBounds = [ -16.951317, -11.421635, -20.960716 ]
+								m_vMaxBounds = [ 14.842922, 44.17247, 20.635956 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sippo_d"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sippo_d"
+								m_vMinBounds = [ -12.028427, -16.044685, -3.321604 ]
+								m_vMaxBounds = [ 5.029488, 57.932915, 3.321532 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_b_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_b_r"
+								m_vMinBounds = [ -21.673479, -18.429546, -30.087402 ]
+								m_vMaxBounds = [ 11.9559, 40.810165, 12.201939 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_b_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_b_l"
+								m_vMinBounds = [ -21.673508, -18.429581, -12.202038 ]
+								m_vMaxBounds = [ 11.955878, 40.810127, 30.087303 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kao_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kao_r"
+								m_vMinBounds = [ -22.140198, -32.516167, -19.42664 ]
+								m_vMaxBounds = [ 29.532516, 33.445465, 19.256687 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ago"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ago"
+								m_vMinBounds = [ -22.574326, -0.637413, -18.672974 ]
+								m_vMaxBounds = [ 15.989639, 41.820538, 18.673153 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ke_a_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ke_a_r"
+								m_vMinBounds = [ -7.950722, -2.817177, -34.078182 ]
+								m_vMaxBounds = [ 21.41259, 45.380684, 13.392845 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ke_a_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ke_a_l"
+								m_vMinBounds = [ -7.951149, -2.817108, -13.392952 ]
+								m_vMaxBounds = [ 21.41214, 45.380703, 34.078148 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "L_j_te"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "L_j_te"
+								m_vMinBounds = [ -15.26342, -5.706987, -9.601234 ]
+								m_vMaxBounds = [ 10.729197, 20.576141, 8.596699 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_kao_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_kao_l"
+								m_vMinBounds = [ -25.297562, -30.391472, -19.256714 ]
+								m_vMaxBounds = [ 26.58519, 30.020363, 19.426613 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "R_j_te"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "R_j_te"
+								m_vMinBounds = [ -15.263374, -5.706812, -8.59708 ]
+								m_vMaxBounds = [ 10.729658, 20.576263, 9.601685 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sippo_e"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sippo_e"
+								m_vMinBounds = [ -4.036491, -6.443375, -3.219824 ]
+								m_vMaxBounds = [ 13.721474, 59.115051, 3.219716 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "R_j_asi_d"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "R_j_asi_d"
+								m_vMinBounds = [ -9.248829, -8.765852, -10.527992 ]
+								m_vMaxBounds = [ 8.898512, 19.578878, 12.308857 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "L_j_asi_d"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "L_j_asi_d"
+								m_vMinBounds = [ -9.248387, -8.765675, -12.308979 ]
+								m_vMaxBounds = [ 8.898711, 19.579071, 10.527802 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ago_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ago_r"
+								m_vMinBounds = [ -8.195374, -9.517227, -12.817392 ]
+								m_vMaxBounds = [ 22.864235, 8.107117, 12.647333 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "neck_w_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "neck_w_r"
+								m_vMinBounds = [ -6.427006, -15.436874, -13.733442 ]
+								m_vMaxBounds = [ 7.165375, 14.476761, 13.563261 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sita"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sita"
+								m_vMinBounds = [ 0.277, -2.169373, -5.114578 ]
+								m_vMaxBounds = [ 15.587547, 4.729095, 5.114668 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "ear_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "ear_l"
+								m_vMinBounds = [ -5.518127, 5.275444, -1.840763 ]
+								m_vMaxBounds = [ 3.766266, 29.608521, 4.533817 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "n_miken"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "n_miken"
+								m_vMinBounds = [ -7.638584, -4.679443, -8.257187 ]
+								m_vMaxBounds = [ 7.638611, 1.504639, 5.237183 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "ear_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "ear_r"
+								m_vMinBounds = [ -5.518143, 5.275421, -4.533848 ]
+								m_vMaxBounds = [ 3.766266, 29.60849, 1.840714 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ke_d"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ke_d"
+								m_vMinBounds = [ -48.925049, 2.532192, -23.61269 ]
+								m_vMaxBounds = [ 12.175476, 58.410526, 23.612782 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ke_b_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ke_b_r"
+								m_vMinBounds = [ -8.530479, -15.033783, -13.140177 ]
+								m_vMaxBounds = [ 7.966438, 32.411839, 13.392843 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ke_b_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ke_b_l"
+								m_vMinBounds = [ -8.530678, -18.514603, -13.393024 ]
+								m_vMaxBounds = [ 7.966301, 32.411766, 13.139923 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ke_t_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ke_t_l"
+								m_vMinBounds = [ 0.124603, -4.996712, -23.595634 ]
+								m_vMaxBounds = [ 13.146652, 33.399765, 9.626717 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_te_hito_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_te_hito_l"
+								m_vMinBounds = [ -1.534714, -7.128672, -4.45026 ]
+								m_vMaxBounds = [ 14.428467, 7.592085, 5.103828 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_te_kusu_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_te_kusu_l"
+								m_vMinBounds = [ -2.282524, -7.162171, -4.752172 ]
+								m_vMaxBounds = [ 12.753456, 4.574035, 4.751481 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_te_naka_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_te_naka_l"
+								m_vMinBounds = [ -2.102524, -7.230931, -4.168808 ]
+								m_vMaxBounds = [ 16.508339, 7.653236, 3.984987 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "neck_w_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "neck_w_l"
+								m_vMinBounds = [ -6.427044, -15.436737, -13.563297 ]
+								m_vMaxBounds = [ 7.165333, 14.476898, 13.733404 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ago_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ago_l"
+								m_vMinBounds = [ -1.912003, -13.455475, -12.64736 ]
+								m_vMaxBounds = [ 29.211136, 3.660385, 12.817366 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_te_hito_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_te_hito_r"
+								m_vMinBounds = [ -1.536385, -7.129532, -5.103588 ]
+								m_vMaxBounds = [ 14.427311, 7.591246, 4.448704 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_te_naka_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_te_naka_r"
+								m_vMinBounds = [ -2.102394, -7.231164, -3.986546 ]
+								m_vMaxBounds = [ 16.50853, 7.653108, 4.167652 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_te_kusu_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_te_kusu_r"
+								m_vMinBounds = [ -2.281883, -7.161623, -4.754082 ]
+								m_vMaxBounds = [ 12.753784, 4.574673, 4.74955 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_ke_t_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_ke_t_r"
+								m_vMinBounds = [ 0.124649, -4.996735, -9.626671 ]
+								m_vMaxBounds = [ 13.146622, 33.399765, 23.59568 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_hara"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_hara"
+								m_vMinBounds = [ -38.373726, -7.120811, -37.367821 ]
+								m_vMaxBounds = [ 74.672012, 45.2883, 37.367828 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_sippo_f"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_sippo_f"
+								m_vMinBounds = [ -1.978973, -8.211029, -2.299887 ]
+								m_vMaxBounds = [ 10.85025, 27.929031, 2.299763 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_naka_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_naka_r"
+								m_vMinBounds = [ -1.691326, -7.227036, -4.49382 ]
+								m_vMaxBounds = [ 16.196421, 7.657301, 4.636593 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_kusu_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_kusu_r"
+								m_vMinBounds = [ -2.506433, -7.156738, -4.746185 ]
+								m_vMaxBounds = [ 12.962481, 4.57962, 4.885818 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_hito_r"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_hito_r"
+								m_vMinBounds = [ -2.044827, -7.126032, -5.325174 ]
+								m_vMaxBounds = [ 14.835419, 7.59474, 4.186089 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_hito_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_hito_l"
+								m_vMinBounds = [ -2.044495, -7.126059, -4.186073 ]
+								m_vMaxBounds = [ 14.83572, 7.594767, 5.325188 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_kusu_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_kusu_l"
+								m_vMinBounds = [ -2.506208, -7.15679, -4.885544 ]
+								m_vMaxBounds = [ 12.962734, 4.579568, 4.746475 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "j_asi_naka_l"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "j_asi_naka_l"
+								m_vMinBounds = [ -1.691059, -7.227076, -4.636436 ]
+								m_vMaxBounds = [ 16.196695, 7.65728, 4.493973 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "j_ago_l"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_origin"
+						m_influences = 
+						[
+							{
+								m_influenceName = "j_ke_a_l"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "R_j_asi_d"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "j_ago_r"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
+	m_pAnimGroup = 
+	{
+		m_pObject = 
+		{
+			m_Name = ""
+			m_pReferenceSkeleton = 
+			{
+				m_pObject = null
+			}
+			m_pBoneFlagList = 
+			{
+				m_pObject = null
+			}
+			m_pSeqGroup = 
+			{
+				m_pObject = null
+			}
+			m_pAnimGroups = [  ]
+			m_Vanim = 
+			[
+				{
+					m_Animationname = "idle"
+					m_Filepath = "models/chimera/animations/idle.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "attack1"
+					m_Filepath = "models/chimera/animations/attack1.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "die"
+					m_Filepath = "models/chimera/animations/die.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "flail"
+					m_Filepath = "models/chimera/animations/flail.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FLAIL"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "running"
+					m_Filepath = "models/chimera/animations/running.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "spawn"
+					m_Filepath = "models/chimera/animations/spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "roar"
+					m_Filepath = "models/chimera/animations/spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_2"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "spit"
+					m_Filepath = "models/chimera/animations/spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_1"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "fly"
+					m_Filepath = "models/chimera/animations/flail.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_3"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "tornado"
+					m_Filepath = "models/chimera/animations/attack1.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_6"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
+		}
+	}
+	m_pMaterialGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pMeshGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pLodGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pPropBreakableList = 
+	{
+		m_pObject = null
+	}
+	m_pPropDataList = 
+	{
+		m_pObject = null
+	}
+	m_pConstraintLists = [  ]
+	m_collision = ""
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
+	{
+		m_vMaterialRemapList = 
+		[
+			{
+				m_sSearchMaterial = "ml3801_alpha.vmat"
+				m_sReplaceMaterial = "materials/chimeraresttwo.vmat"
+			},
+			{
+				m_sSearchMaterial = "ml3801_body.vmat"
+				m_sReplaceMaterial = "materials/chimerabodytwo.vmat"
+			},
+		]
+	}
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.05
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = true
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
+}

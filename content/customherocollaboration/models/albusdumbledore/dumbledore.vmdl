@@ -1,0 +1,1481 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_meshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "dumbledore"
+				m_meshFile = "models/albusdumbledore/dumbledore.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList = 
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.05
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
+		m_nReservedInt = 0
+		m_bSoftSkinAnimation = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList = [  ]
+	}
+	m_physicsMeshList = 
+	{
+		m_meshList = [  ]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList = 
+	{
+		m_pObject = null
+	}
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "body_root"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "body_root"
+								m_vMinBounds = [ -3.358499, -22.448647, 21.2612 ]
+								m_vMaxBounds = [ 3.358505, -5.037064, 26.750832 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "body_lowerspine"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "body_lowerspine"
+								m_vMinBounds = [ -22.483143, 4.74321, -11.454986 ]
+								m_vMaxBounds = [ 22.483143, 14.671661, 23.451294 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_midSpine"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_midSpine"
+								m_vMinBounds = [ -20.526882, 1.355148, -24.792152 ]
+								m_vMaxBounds = [ 20.526897, 16.98214, 25.561081 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_topSpine"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_topSpine"
+								m_vMinBounds = [ -20.88965, -6.433014, -10.523022 ]
+								m_vMaxBounds = [ 20.889662, 14.667343, 20.574924 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_neckBase"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_neckBase"
+								m_vMinBounds = [ -8.688083, 1.080643, -20.499466 ]
+								m_vMaxBounds = [ 6.360616, 3.241776, 7.572361 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capeTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capeTop"
+								m_vMinBounds = [ -11.735458, -26.783737, -20.445196 ]
+								m_vMaxBounds = [ 11.69294, -3.592468, -8.861986 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lClav"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lClav"
+								m_vMinBounds = [ 3.217388, -6.338364, -14.534954 ]
+								m_vMaxBounds = [ 23.233398, 6.559952, 14.258793 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rClav"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rClav"
+								m_vMinBounds = [ -23.233376, -6.338318, -14.534969 ]
+								m_vMaxBounds = [ -3.217381, 9.191483, 14.258789 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_Neck"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_Neck"
+								m_vMinBounds = [ -10.86778, -2.603088, -7.685404 ]
+								m_vMaxBounds = [ 10.867801, 11.754959, 5.336676 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capeBackTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capeBackTop"
+								m_vMinBounds = [ -2.0, -2.0, -2.0 ]
+								m_vMaxBounds = [ 2.0, 2.0, 2.0 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_caperSideTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_caperSideTop"
+								m_vMinBounds = [ -3.340301, -1.390213, -2.676714 ]
+								m_vMaxBounds = [ 4.573726, -1.389832, 6.337454 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capelSideTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capelSideTop"
+								m_vMinBounds = [ -4.52752, -1.369759, -2.678253 ]
+								m_vMaxBounds = [ 3.38649, -1.369209, 6.335926 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lShoulder"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lShoulder"
+								m_vMinBounds = [ 1.181482, -21.709595, -16.224314 ]
+								m_vMaxBounds = [ 16.556513, 2.268753, 3.052954 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rShoulder"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rShoulder"
+								m_vMinBounds = [ 1.181473, -21.709717, -3.052919 ]
+								m_vMaxBounds = [ 16.556492, 2.268616, 16.224354 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_Head"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_Head"
+								m_vMinBounds = [ -18.387711, -12.590881, -15.379656 ]
+								m_vMaxBounds = [ 17.672581, 20.187454, 14.980864 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capeBackMidUpper"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capeBackMidUpper"
+								m_vMinBounds = [ -16.800583, 0.000023, -4.628393 ]
+								m_vMaxBounds = [ 16.800583, 0.000038, 0.0 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_caperSideMidUpper"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_caperSideMidUpper"
+								m_vMinBounds = [ -6.42263, 0.874954, -18.636305 ]
+								m_vMaxBounds = [ 18.854317, 0.875298, 7.405102 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capelSideMidUpper"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capelSideMidUpper"
+								m_vMinBounds = [ -6.361494, 0.863922, -18.643064 ]
+								m_vMaxBounds = [ 6.332632, 0.864365, 7.398239 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lElbow"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lElbow"
+								m_vMinBounds = [ -15.133018, -31.116852, -11.558031 ]
+								m_vMaxBounds = [ 5.522141, 1.527817, 15.879597 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rElbow"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rElbow"
+								m_vMinBounds = [ -15.132805, -31.116989, -15.879778 ]
+								m_vMaxBounds = [ 5.522387, 1.527679, 11.557842 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lKnee"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lKnee"
+								m_vMinBounds = [ -4.102811, -56.591366, -14.145689 ]
+								m_vMaxBounds = [ 4.413007, -27.302685, -0.233774 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rKnee"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rKnee"
+								m_vMinBounds = [ -6.026689, -56.584133, -14.106415 ]
+								m_vMaxBounds = [ 2.489124, -27.295452, -0.194496 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__Mouth"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__Mouth"
+								m_vMinBounds = [ -6.176823, -0.386337, 2.572918 ]
+								m_vMaxBounds = [ 6.194203, 2.773132, 10.567532 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capeBackMid"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capeBackMid"
+								m_vMinBounds = [ -29.593861, -0.030727, -0.000008 ]
+								m_vMaxBounds = [ 29.59383, 0.00005, 19.928192 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_caperSideMid"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_caperSideMid"
+								m_vMinBounds = [ -6.068949, 0.059849, -5.09133 ]
+								m_vMaxBounds = [ 21.958881, 0.059853, 7.671364 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capelSideMid"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capelSideMid"
+								m_vMinBounds = [ -7.909528, 0.210667, -5.074934 ]
+								m_vMaxBounds = [ 5.683779, 0.21067, 7.687752 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lHand"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lHand"
+								m_vMinBounds = [ -7.042065, -12.270332, -4.948084 ]
+								m_vMaxBounds = [ 8.894585, 1.637276, 11.822206 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lCuff"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lCuff"
+								m_vMinBounds = [ -7.462299, -11.040314, -7.416973 ]
+								m_vMaxBounds = [ 22.29241, 15.029938, 11.718336 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "body_rhand"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "body_rhand"
+								m_vMinBounds = [ -8.894558, -12.270477, -4.948153 ]
+								m_vMaxBounds = [ 7.042093, 1.637154, 11.822144 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rCuff"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rCuff"
+								m_vMinBounds = [ -7.462246, -11.04023, -11.718369 ]
+								m_vMaxBounds = [ 22.292469, 15.030022, 7.41695 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "body_lheel"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "body_lheel"
+								m_vMinBounds = [ -6.972849, -3.956373, 6.780869 ]
+								m_vMaxBounds = [ 9.06777, -3.223415, 17.759876 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "body_rheel"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "body_rheel"
+								m_vMinBounds = [ -9.599981, -3.956011, 6.770294 ]
+								m_vMaxBounds = [ 6.440649, -3.223054, 17.749298 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__jaw"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__jaw"
+								m_vMinBounds = [ 1.771197, -2.886734, -6.803411 ]
+								m_vMaxBounds = [ 9.575471, 2.179749, 6.820793 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__FrontalisRight"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__FrontalisRight"
+								m_vMinBounds = [ 0.467694, -1.457565, 0.164497 ]
+								m_vMaxBounds = [ 4.095677, -0.225006, 1.458786 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capeBackBot"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capeBackBot"
+								m_vMinBounds = [ -32.789642, -1.358589, -0.000008 ]
+								m_vMaxBounds = [ 32.789604, 0.000072, 21.188911 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_caperSideBot"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_caperSideBot"
+								m_vMinBounds = [ -6.964643, -0.01622, -10.599033 ]
+								m_vMaxBounds = [ 10.341444, 0.801701, 4.294689 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capelSideBot"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capelSideBot"
+								m_vMinBounds = [ -25.379993, 0.064415, -4.278309 ]
+								m_vMaxBounds = [ 9.583885, 0.882343, 10.615402 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lFingerMid"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lFingerMid"
+								m_vMinBounds = [ 0.140423, -4.589661, 0.138569 ]
+								m_vMaxBounds = [ 2.398235, -4.005714, 2.459723 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lFingerBackTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lFingerBackTop"
+								m_vMinBounds = [ -2.563309, -1.934235, -3.716663 ]
+								m_vMaxBounds = [ 3.585102, -0.592079, 1.24395 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lCuff2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lCuff2"
+								m_vMinBounds = [ -14.644749, -22.607357, -7.730194 ]
+								m_vMaxBounds = [ 10.985535, -3.8531, 12.753992 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rFingerBackTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rFingerBackTop"
+								m_vMinBounds = [ -4.212475, -3.191002, -4.732483 ]
+								m_vMaxBounds = [ 2.56329, 0.944221, 1.243879 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rFingerMidTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rFingerMidTop"
+								m_vMinBounds = [ -2.398293, -4.589752, 0.1385 ]
+								m_vMaxBounds = [ -0.140472, -4.005806, 2.459654 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rCuff2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rCuff2"
+								m_vMinBounds = [ -14.174513, -22.607464, -10.027384 ]
+								m_vMaxBounds = [ 6.938852, -3.85321, 12.116568 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lBall"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lBall"
+								m_vMinBounds = [ -6.71159, -3.020467, -0.04019 ]
+								m_vMaxBounds = [ 6.145999, 7.389106, 19.238926 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rBall"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rBall"
+								m_vMinBounds = [ -6.95847, -3.014395, -0.029762 ]
+								m_vMaxBounds = [ 5.899115, 7.39518, 19.24935 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__Tongue"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__Tongue"
+								m_vMinBounds = [ -3.037052, -0.851791, -1.885349 ]
+								m_vMaxBounds = [ 3.445789, 0.960037, 2.828476 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__OrbicularisOrisBottom"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__OrbicularisOrisBottom"
+								m_vMinBounds = [ -0.94146, -0.871735, -2.105575 ]
+								m_vMaxBounds = [ 0.148582, 0.847336, 2.011469 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__TriangularisRight"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__TriangularisRight"
+								m_vMinBounds = [ -0.01823, -0.746124, -0.522664 ]
+								m_vMaxBounds = [ 0.783703, 0.549728, -0.302832 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__TriangularisLeft"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__TriangularisLeft"
+								m_vMinBounds = [ -0.687633, -0.54982, -0.716976 ]
+								m_vMaxBounds = [ -0.430953, 0.746033, 0.060226 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__ZygomaticRight"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__ZygomaticRight"
+								m_vMinBounds = [ -1.901016, -1.112259, -0.619164 ]
+								m_vMaxBounds = [ 1.320351, 1.463272, 1.062187 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__OrbicularisOrisTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__OrbicularisOrisTop"
+								m_vMinBounds = [ -1.452577, -0.722, -0.839745 ]
+								m_vMaxBounds = [ 1.661004, 0.267197, 0.284409 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__ZygomaticLeft"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__ZygomaticLeft"
+								m_vMinBounds = [ -1.350591, -1.463013, -1.062225 ]
+								m_vMaxBounds = [ 1.870777, 1.112518, 0.619122 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__EyeRight"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__EyeRight"
+								m_vMinBounds = [ -2.140333, -1.985489, -0.930027 ]
+								m_vMaxBounds = [ 2.140751, 1.98349, 1.764057 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__EyeLidRightBottom"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__EyeLidRightBottom"
+								m_vMinBounds = [ -2.0, -2.0, -2.0 ]
+								m_vMaxBounds = [ 2.0, 2.0, 2.0 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__EyeLidRightTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__EyeLidRightTop"
+								m_vMinBounds = [ -1.710406, -0.510757, 0.94194 ]
+								m_vMaxBounds = [ 1.198024, -0.103516, 1.889626 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__EyeLidLeftBottom"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__EyeLidLeftBottom"
+								m_vMinBounds = [ -2.0, -2.0, -2.0 ]
+								m_vMaxBounds = [ 2.0, 2.0, 2.0 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__EyeLeft"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__EyeLeft"
+								m_vMinBounds = [ -2.141612, -1.985687, -0.930035 ]
+								m_vMaxBounds = [ 2.139472, 1.983276, 1.764046 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__EyeLidLeftTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__EyeLidLeftTop"
+								m_vMinBounds = [ -1.198887, 0.107483, -1.887833 ]
+								m_vMaxBounds = [ 1.709544, 0.514374, -0.940151 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__CorrugatorRight"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__CorrugatorRight"
+								m_vMinBounds = [ -2.0, -2.0, -2.0 ]
+								m_vMaxBounds = [ 2.0, 2.0, 2.0 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body__FrontalisLeft"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body__FrontalisLeft"
+								m_vMinBounds = [ -3.760906, 0.224945, -1.458797 ]
+								m_vMaxBounds = [ -0.132921, 1.457489, -0.164516 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capeBackEnd"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capeBackEnd"
+								m_vMinBounds = [ -40.196243, 0.000086, 0.000179 ]
+								m_vMaxBounds = [ 40.196198, 0.000104, 24.392616 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_caperSideEnd"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_caperSideEnd"
+								m_vMinBounds = [ -9.463332, 1.078753, -5.719624 ]
+								m_vMaxBounds = [ 29.684402, 2.51898, 15.280003 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_capelSideEnd"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_capelSideEnd"
+								m_vMinBounds = [ -10.491516, 1.098959, -6.176083 ]
+								m_vMaxBounds = [ 8.198786, 1.098962, 14.823521 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lThumbTop"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lThumbTop"
+								m_vMinBounds = [ -4.10812, -7.081207, 0.183554 ]
+								m_vMaxBounds = [ 0.781288, -0.67791, 4.465176 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lFingerMidMid"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lFingerMidMid"
+								m_vMinBounds = [ -0.58662, -5.269287, -0.25214 ]
+								m_vMaxBounds = [ 1.383949, -4.518425, 1.738077 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lFingerBackMid"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lFingerBackMid"
+								m_vMinBounds = [ -2.115963, -6.065659, -4.510504 ]
+								m_vMaxBounds = [ 3.400631, 1.726837, 4.031561 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_lCuffBot1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_lCuffBot1"
+								m_vMinBounds = [ -1.170292, -4.027853, -6.271498 ]
+								m_vMaxBounds = [ 5.460255, 3.654909, 2.37911 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rThumb"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rThumb"
+								m_vMinBounds = [ -0.781254, -7.081329, 0.183485 ]
+								m_vMaxBounds = [ 4.108131, -0.678032, 4.465107 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rFingerBackMid"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rFingerBackMid"
+								m_vMinBounds = [ -3.40062, -6.065765, -4.510571 ]
+								m_vMaxBounds = [ 2.115978, 1.726723, 4.031496 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rFingerMidMid"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rFingerMidMid"
+								m_vMinBounds = [ -0.586636, -5.269478, -1.738049 ]
+								m_vMaxBounds = [ 1.383934, -4.518616, 0.252169 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Body_rCuffBot"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Body_rCuffBot"
+								m_vMinBounds = [ -1.74115, -4.028023, -2.363686 ]
+								m_vMaxBounds = [ 1.201027, 3.654737, 8.131111 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_origin"
+						m_influences = 
+						[
+							{
+								m_influenceName = "Body_capeBackMid"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "Body_lFingerBackTop"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "Body_lThumbTop"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "Body_rThumb"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
+	m_pAnimGroup = 
+	{
+		m_pObject = 
+		{
+			m_Name = ""
+			m_pReferenceSkeleton = 
+			{
+				m_pObject = null
+			}
+			m_pBoneFlagList = 
+			{
+				m_pObject = null
+			}
+			m_pSeqGroup = 
+			{
+				m_pObject = null
+			}
+			m_pAnimGroups = [  ]
+			m_Vanim = 
+			[
+				{
+					m_Animationname = "running"
+					m_Filepath = "models/albusdumbledore/animations/running.smd"
+					m_nStartframe = 47
+					m_nEndframe = 80
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "attack"
+					m_Filepath = "models/albusdumbledore/animations/attack.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "flail"
+					m_Filepath = "models/albusdumbledore/animations/flail.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FLAIL"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "idle"
+					m_Filepath = "models/albusdumbledore/animations/idle.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "die"
+					m_Filepath = "models/albusdumbledore/animations/die.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "lumos"
+					m_Filepath = "models/albusdumbledore/animations/attack.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_3"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "bombarda"
+					m_Filepath = "models/albusdumbledore/animations/attack.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_6"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "petrificus"
+					m_Filepath = "models/albusdumbledore/animations/attack.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK2"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "wingardium"
+					m_Filepath = "models/albusdumbledore/animations/attack.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_1"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
+		}
+	}
+	m_pMaterialGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pMeshGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pLodGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pPropBreakableList = 
+	{
+		m_pObject = null
+	}
+	m_pPropDataList = 
+	{
+		m_pObject = null
+	}
+	m_pConstraintLists = [  ]
+	m_collision = ""
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
+	{
+		m_vMaterialRemapList = 
+		[
+			{
+				m_sSearchMaterial = "material_0.vmat"
+				m_sReplaceMaterial = "materials/dumbledorerobe.vmat"
+			},
+			{
+				m_sSearchMaterial = "material_1.vmat"
+				m_sReplaceMaterial = "materials/dumbledoreextra.vmat"
+			},
+			{
+				m_sSearchMaterial = "material_2.vmat"
+				m_sReplaceMaterial = "materials/dumbledoreface.vmat"
+			},
+			{
+				m_sSearchMaterial = "material_3.vmat"
+				m_sReplaceMaterial = "materials/dumbledoreeye.vmat"
+			},
+			{
+				m_sSearchMaterial = "material_4.vmat"
+				m_sReplaceMaterial = "materials/dumbledoreextra.vmat"
+			},
+			{
+				m_sSearchMaterial = "none.vmat"
+				m_sReplaceMaterial = "materials/dumbledorehair.vmat"
+			},
+			{
+				m_sSearchMaterial = "material_6.vmat"
+				m_sReplaceMaterial = "materials/dumbledorehair.vmat"
+			},
+			{
+				m_sSearchMaterial = "material_7.vmat"
+				m_sReplaceMaterial = "materials/dumbledoreglasses.vmat"
+			},
+		]
+	}
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.05
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = false
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
+}

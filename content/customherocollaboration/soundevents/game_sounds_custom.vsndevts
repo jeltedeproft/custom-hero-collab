@@ -177,3 +177,4541 @@
 		}
 	}
 }
+
+"goofydropper"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/goofydrop.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                    	"value"		"5.000000"
+                    }
+                    "pitch_min"
+                    {
+                    	"value"		"1.000000"
+                    }
+                    "pitch_max"
+                    {
+                    	"value"		"1.000000"
+                    }
+                    "chan_type"
+                    {
+                    	"value"		"6"
+                    }
+                    "memory_type"
+                    {
+                    	"value"		"0"
+                    }
+                    "soundlevel_min"
+                    {
+                    	"value"		"81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                    	"value"		"81.000000"
+                    }
+                    "mixgroup"
+                    {
+                    	"value"		"Weapons"
+                    }
+                    "spread_radius"
+                    {
+                    	"value"		"600.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"goofyscream"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/goofyscream.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                    	"value"		"1.000000"
+                    }
+                    "pitch_max"
+                    {
+                    	"value"		"1.000000"
+                    }
+                    "chan_type"
+                    {
+                    	"value"		"6"
+                    }
+                    "memory_type"
+                    {
+                    	"value"		"0"
+                    }
+                    "soundlevel_min"
+                    {
+                    	"value"		"81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                    	"value"		"81.000000"
+                    }
+                    "mixgroup"
+                    {
+                    	"value"		"Weapons"
+                    }
+                    "spread_radius"
+                    {
+                    	"value"		"600.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"goofylaugh"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/goofylaugh.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                    	"value"		"1.000000"
+                    }
+                    "pitch_max"
+                    {
+                    	"value"		"1.000000"
+                    }
+                    "chan_type"
+                    {
+                    	"value"		"6"
+                    }
+                    "memory_type"
+                    {
+                    	"value"		"0"
+                    }
+                    "soundlevel_min"
+                    {
+                    	"value"		"81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                    	"value"		"81.000000"
+                    }
+                    "mixgroup"
+                    {
+                    	"value"		"Weapons"
+                    }
+                    "spread_radius"
+                    {
+                    	"value"		"600.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"cartoonfall"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/cartoonfall.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "600.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"goofylaughlong"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/goofylaughlong.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"goofyselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/goofyselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"mariodash"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/mariodash.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"mariopick"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/mariopick.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"marioban"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/marioban.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"mushroom"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/mushroom.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"pipe"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/pipe.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"suckin"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/suckin.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"mushroomy"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/mushroomy.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"dekupick"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/dekupick.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"dekumotivate"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/dekumotivate.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"dekupunch"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/dekupunch.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"dekuteleport"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/dekuteleport.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"dekukick"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/dekukick.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"yagamiselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/yagamiselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"yagamideathnote"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/yagamideathnote.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"yagamifool"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/yagamifool.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"chimeraselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/chimeraselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"chimeraroar"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/chimeraroar.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"chimerawings"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/chimerawings.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"chimeratornado"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/chimeratornado.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"edwardselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/edwardselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"edwardtransmute"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/edwardtransmute.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"edwardstonearmor"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/edwardstonearmor.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"edwardequivalentexchange"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/edwardequivalentexchange.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"edwardhumantransmutation"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/edwardhumantransmutation.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"albusselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/albusselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "25.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"albuswingardiumleviosa"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/albuswingardiumleviosa.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "10.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"albuspetrificustotalus"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/albuspetrificustotalus.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+"albuslumosmaxima"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/albuslumosmaxima.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"albusbombardamaxima"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/albusbombardamaxima.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "5.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+"pikachushock"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/pikachushock.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+"pikachuelectric"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/pikachuelectric.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"pikachuselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/pikachuselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"golemselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/golemselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"golemslam"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/golemslam.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"golemtaunt"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/golemtaunt.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"golemsolitude"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/golemsolitude.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"alakazamselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/alakazamselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"alakazamshockwave"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/alakazamshockwave.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"alakazamblast"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/alakazamblast.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"alakazamlink"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/alakazamlink.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"alakazamteleport"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/alakazamteleport.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"pikachuthunder"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/pikachuthunder.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"albusbombarda"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/albusbombarda.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+"dekupunchwoosh"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/dekupunchwoosh.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"ntropyrewind"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/ntropyrewind.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"ntropyselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/ntropyselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"ntropywave"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/ntropywave.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"ntropybell"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/ntropybell.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"ntropyreset"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/ntropyreset.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"r2d2select"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/r2d2select.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"r2d2scream"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/r2d2scream.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"r2d2item"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/r2d2item.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"r2d2trooper"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/r2d2trooper.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"gokuselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/gokuselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+"gokukamehameha"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/gokukamehameha.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"spiritbombloop"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/spiritbombloop.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"spiritbombimpact"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/spiritbombimpact.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"gokublink"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/gokublink.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"supersaiyanloop"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/supersaiyanloop.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"haunterselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/haunterselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"hauntermist"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/hauntermist.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+"haunterharbinger"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/haunterharbinger.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"haunterbeckoning"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/haunterbeckoning.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+"haunterdeathwings"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/haunterdeathwings.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"spawnghost"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/spawnghost.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+"hauntergatesofhell"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/hauntergatesofhell.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"haunterdie"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/haunterdie.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"cyborgselect"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_update_default"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/cyborgselect.vsnd"
+                        }
+                    }
+                    "volume"
+                    {
+                        "value"     "3.000000"
+                    }
+                    "pitch_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "pitch_max"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "chan_type"
+                    {
+                        "value"     "6"
+                    }
+                    "memory_type"
+                    {
+                        "value"     "0"
+                    }
+                    "soundlevel_min"
+                    {
+                        "value"     "1.000000"
+                    }
+                    "soundlevel_max"
+                    {
+                        "value"     "81.000000"
+                    }
+                    "mixgroup"
+                    {
+                        "value"     "Weapons"
+                    }
+                    "spread_radius"
+                    {
+                        "value"     "800.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

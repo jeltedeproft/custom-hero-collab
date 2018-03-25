@@ -100,19 +100,12 @@ end
 function GameMode:OnHeroInGame(hero)
   DebugPrint("[BAREBONES] Hero spawned in game for first time -- " .. hero:GetUnitName())
 
-  -- This line for example will set the starting gold of every hero to 500 unreliable gold
-  --hero:SetGold(500, false)
+  --collect all heroes
+  GameRules.Heroes[hero:GetPlayerID()] = hero
+  hero.positions = {}
 
-  -- These lines will create an item and add it to the player, effectively ensuring they start with the item
-  local item = CreateItem("item_example_item", hero, hero)
-  hero:AddItem(item)
+  hero:MoveToPosition( hero:GetAbsOrigin() )
 
-  --[[ --These lines if uncommented will replace the W ability of any hero that loads into the game
-    --with the "example_ability" ability
-
-  local abil = hero:GetAbilityByIndex(1)
-  hero:RemoveAbility(abil:GetAbilityName())
-  hero:AddAbility("example_ability")]]
 end
 
 --[[
@@ -138,23 +131,28 @@ function GameMode:InitGameMode()
   GameMode = self
   DebugPrint('[BAREBONES] Starting to load Barebones gamemode...')
 
-  -- Commands can be registered for debugging purposes or as functions that can be called by the custom Scaleform UI
-  Convars:RegisterCommand( "command_example", Dynamic_Wrap(GameMode, 'ExampleConsoleCommand'), "A console command example", FCVAR_CHEAT )
+  --remember positions of heroes for ntropy rewind spell
+  GameRules.Heroes = {}
+  GameRules.Think = Timers:CreateTimer(function() Think() return .1 end)
 
   DebugPrint('[BAREBONES] Done loading Barebones gamemode!\n\n')
 end
 
--- This is an example console command
-function GameMode:ExampleConsoleCommand()
-  print( '******* Example Console Command ***************' )
-  local cmdPlayer = Convars:GetCommandClient()
-  if cmdPlayer then
-    local playerID = cmdPlayer:GetPlayerID()
-    if playerID ~= nil and playerID ~= -1 then
-      -- Do something here for the player who called this command
-      PlayerResource:ReplaceHeroWith(playerID, "npc_dota_hero_viper", 1000, 1000)
+--ntropy rewind think function
+function Think( )
+  local currTime = GameRules:GetGameTime()
+
+  for pID, hero in pairs(GameRules.Heroes) do
+    if not hero.positions[math.floor(currTime)] then
+      hero.positions[math.floor(currTime)] = hero:GetAbsOrigin()
+    end
+
+    for t, pos in pairs(hero.positions) do
+      if (currTime-t) > 10 then
+        hero.positions[t] = nil
+      else -- the rest of the times in the table are <= 4.
+        break
+      end
     end
   end
-
-  print( '*********************************************' )
 end

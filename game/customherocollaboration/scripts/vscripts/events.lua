@@ -25,6 +25,14 @@ function GameMode:OnNPCSpawned(keys)
   DebugPrintTable(keys)
 
   local npc = EntIndexToHScript(keys.entindex)
+  if npc:IsRealHero() then
+    -- Destroys the last hit effects
+    local deathEffects = npc:Attribute_GetIntValue( "effectsID", -1 )
+    if deathEffects ~= -1 then
+      ParticleManager:DestroyParticle( deathEffects, true )
+      npc:DeleteAttribute( "effectsID" )
+    end
+  end
 end
 
 -- An entity somewhere has been hurt.  This event fires very often with many units so don't do too many expensive
@@ -62,6 +70,22 @@ function GameMode:OnItemPickedUp(keys)
   local itemEntity = EntIndexToHScript(keys.ItemEntityIndex)
   local player = PlayerResource:GetPlayer(keys.PlayerID)
   local itemname = keys.itemname
+
+  r = 100
+
+  if itemname == "item_bag_of_gold" then
+    PlayerResource:ModifyGold( player:GetPlayerID(), r, true, 0 )
+    UTIL_Remove( item ) -- otherwise it pollutes the player inventory
+    player:EmitSound("General.Coins")
+  elseif itemname == "item_bag_of_gold_goofy" then
+    PlayerResource:ModifyGold( player:GetPlayerID(), 100, true, 0 )
+    UTIL_Remove( item ) -- otherwise it pollutes the player inventory
+    player:EmitSound("General.Coins")
+  elseif itemname == "item_treasure_chest" then
+    DoEntFire( "item_spawn_particle_" .. self.itemSpawnIndex, "Stop", "0", 0, self, self )
+    GameMode:SpecialItemAdd( keys )
+    UTIL_Remove( itemEntity ) -- otherwise it pollutes the player inventory
+  end
 end
 
 -- A player has reconnected to the game.  This function can be used to repaint Player-based particles or change
@@ -202,6 +226,13 @@ function GameMode:OnPlayerPickHero(keys)
   local heroClass = keys.hero
   local heroEntity = EntIndexToHScript(keys.heroindex)
   local player = EntIndexToHScript(keys.player)
+
+  local children = heroEntity:GetChildren()
+  for k,child in pairs(children) do
+     if child:GetClassname() == "dota_item_wearable" then
+         child:RemoveSelf()
+     end
+  end
 end
 
 -- A player killed another player in a multi-team context
@@ -240,6 +271,15 @@ function GameMode:OnEntityKilled( keys )
   local damagebits = keys.damagebits -- This might always be 0 and therefore useless
 
   -- Put code here to handle when an entity gets killed
+end
+
+function GameMode:SetRespawnTime( killedTeam, killedUnit, extraTime )
+  --print("Setting time for respawn")
+  if killedTeam == self.leadingTeam and self.isGameTied == false then
+    killedUnit:SetTimeUntilRespawn( 20 + extraTime )
+  else
+    killedUnit:SetTimeUntilRespawn( 10 + extraTime )
+  end
 end
 
 

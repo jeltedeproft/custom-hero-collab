@@ -1,0 +1,1195 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_meshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "goku"
+				m_meshFile = "models/goku/baked/goku.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList = 
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.05
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
+		m_nReservedInt = 0
+		m_bSoftSkinAnimation = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList = [  ]
+	}
+	m_physicsMeshList = 
+	{
+		m_meshList = [  ]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList = 
+	{
+		m_pObject = null
+	}
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "mixamorig:Hips"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Hips"
+								m_vMinBounds = [ -19.926651, -34.709206, -9.868395 ]
+								m_vMaxBounds = [ 24.533512, 11.432022, 16.018541 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Spine"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Spine"
+								m_vMinBounds = [ -15.262312, -5.47113, -8.884722 ]
+								m_vMaxBounds = [ 16.236073, 13.199692, 15.993999 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Spine1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Spine1"
+								m_vMinBounds = [ -17.06843, -7.971397, -8.933435 ]
+								m_vMaxBounds = [ 14.707806, 8.136551, 15.993999 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Spine2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Spine2"
+								m_vMinBounds = [ -18.76836, -14.279137, -9.808814 ]
+								m_vMaxBounds = [ 20.572292, 13.919098, 15.994 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftShoulder"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftShoulder"
+								m_vMinBounds = [ -10.684538, -0.418036, -6.684151 ]
+								m_vMaxBounds = [ 7.284821, 29.889936, 12.893723 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightShoulder"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightShoulder"
+								m_vMinBounds = [ -9.478712, -1.692062, -6.692131 ]
+								m_vMaxBounds = [ 13.819872, 29.899912, 13.278358 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftArm"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftArm"
+								m_vMinBounds = [ -9.685957, -8.469528, -6.785927 ]
+								m_vMaxBounds = [ 7.149902, 32.299503, 10.167145 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightArm"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightArm"
+								m_vMinBounds = [ -8.475879, -8.480609, -6.774376 ]
+								m_vMaxBounds = [ 10.31317, 32.323948, 12.685898 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftForeArm"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftForeArm"
+								m_vMinBounds = [ -6.041555, -9.821136, -5.504196 ]
+								m_vMaxBounds = [ 5.275797, 19.239441, 5.125694 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightForeArm"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightForeArm"
+								m_vMinBounds = [ -5.265116, -8.192577, -5.502785 ]
+								m_vMaxBounds = [ 6.071321, 19.237411, 5.123192 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHand"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHand"
+								m_vMinBounds = [ -5.988377, -4.658867, -4.265129 ]
+								m_vMaxBounds = [ 5.141863, 14.238441, 4.076744 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHand"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHand"
+								m_vMinBounds = [ -5.137605, -4.66346, -4.302933 ]
+								m_vMaxBounds = [ 5.947343, 14.110008, 4.102676 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftUpLeg"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftUpLeg"
+								m_vMinBounds = [ -14.71281, -6.111977, -13.388331 ]
+								m_vMaxBounds = [ 21.577045, 43.530388, 15.475583 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightUpLeg"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightUpLeg"
+								m_vMinBounds = [ -31.511143, -6.171417, -13.528028 ]
+								m_vMaxBounds = [ 15.349537, 48.259064, 15.529646 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandThumb1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandThumb1"
+								m_vMinBounds = [ -3.584099, -5.805014, -3.975716 ]
+								m_vMaxBounds = [ 6.055592, 6.400463, 2.776993 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandIndex1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandIndex1"
+								m_vMinBounds = [ -0.984507, -2.116518, -1.557755 ]
+								m_vMaxBounds = [ 1.195757, 2.392153, 0.948891 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandMiddle1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandMiddle1"
+								m_vMinBounds = [ -0.959261, 1.484051, -1.497429 ]
+								m_vMaxBounds = [ 1.036735, 2.222961, 0.691025 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandRing1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandRing1"
+								m_vMinBounds = [ -0.927155, -2.164421, -2.113167 ]
+								m_vMaxBounds = [ 1.167614, 1.820427, 0.602455 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandPinky1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandPinky1"
+								m_vMinBounds = [ -6.210466, -5.856686, -3.104019 ]
+								m_vMaxBounds = [ 1.270226, 3.950695, 2.963509 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandThumb1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandThumb1"
+								m_vMinBounds = [ -2.797485, -2.920937, -3.998901 ]
+								m_vMaxBounds = [ 2.834568, 6.457235, 2.62072 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandIndex1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandIndex1"
+								m_vMinBounds = [ -1.16684, -2.419361, -1.233383 ]
+								m_vMaxBounds = [ 0.973525, 2.100723, 1.288208 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandMiddle1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandMiddle1"
+								m_vMinBounds = [ -1.135159, 1.090923, -1.396011 ]
+								m_vMaxBounds = [ 1.104812, 2.05328, 0.731361 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandRing1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandRing1"
+								m_vMinBounds = [ -1.190912, -1.80545, -1.452316 ]
+								m_vMaxBounds = [ 1.032316, 1.74258, 0.487411 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandPinky1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandPinky1"
+								m_vMinBounds = [ -1.315474, -5.590542, -2.821106 ]
+								m_vMaxBounds = [ 6.570253, 4.345318, 5.3423 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftLeg"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftLeg"
+								m_vMinBounds = [ -16.622446, -8.430119, -11.999256 ]
+								m_vMaxBounds = [ 10.504499, 43.946571, 12.07888 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightLeg"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightLeg"
+								m_vMinBounds = [ -12.018312, -9.670246, -12.179296 ]
+								m_vMaxBounds = [ 14.305483, 43.975647, 11.217844 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Neck"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Neck"
+								m_vMinBounds = [ -6.142269, -1.277954, -5.483675 ]
+								m_vMaxBounds = [ 6.142269, 8.793724, 12.266737 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandThumb2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandThumb2"
+								m_vMinBounds = [ -2.018551, -2.289286, -1.96891 ]
+								m_vMaxBounds = [ 1.341011, 5.240046, 1.726395 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandIndex2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandIndex2"
+								m_vMinBounds = [ -1.062299, -0.414314, -1.184509 ]
+								m_vMaxBounds = [ 0.733711, 0.25491, 0.809845 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandMiddle2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandMiddle2"
+								m_vMinBounds = [ -1.22083, -0.858177, -1.347855 ]
+								m_vMaxBounds = [ 1.019735, 3.359776, 0.7798 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandRing2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandRing2"
+								m_vMinBounds = [ -0.766865, -0.827801, -1.144318 ]
+								m_vMaxBounds = [ 1.098906, 3.005051, 0.997444 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandPinky2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandPinky2"
+								m_vMinBounds = [ -1.061375, -3.015316, -1.079567 ]
+								m_vMaxBounds = [ 1.111176, 3.875103, 1.918785 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandThumb2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandThumb2"
+								m_vMinBounds = [ -1.474491, -2.212238, -2.01577 ]
+								m_vMaxBounds = [ 2.062973, 4.980364, 1.678444 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandIndex2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandIndex2"
+								m_vMinBounds = [ -0.785317, -0.573627, -1.069099 ]
+								m_vMaxBounds = [ 1.123664, 2.975216, 0.901947 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandMiddle2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandMiddle2"
+								m_vMinBounds = [ -1.351862, -4.286938, -1.312805 ]
+								m_vMaxBounds = [ 1.323782, 3.466953, 0.747421 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandRing2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandRing2"
+								m_vMinBounds = [ -1.063246, -1.082306, -1.242523 ]
+								m_vMaxBounds = [ 0.815336, 2.786865, 1.108826 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandPinky2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandPinky2"
+								m_vMinBounds = [ -1.108105, -2.883827, -1.280884 ]
+								m_vMaxBounds = [ 1.139347, 3.957886, 1.839233 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftFoot"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftFoot"
+								m_vMinBounds = [ -9.443853, -13.042582, -9.055779 ]
+								m_vMaxBounds = [ 10.195387, 17.259447, 22.139864 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightFoot"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightFoot"
+								m_vMinBounds = [ -9.859196, -12.800919, -9.073957 ]
+								m_vMaxBounds = [ 6.505861, 17.320213, 20.628723 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Head"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Head"
+								m_vMinBounds = [ -23.578697, -2.138641, -17.77639 ]
+								m_vMaxBounds = [ 18.092674, 27.521744, 22.382057 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandThumb3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandThumb3"
+								m_vMinBounds = [ -1.286934, -2.226395, -0.97625 ]
+								m_vMaxBounds = [ 1.371819, 2.202908, 1.646217 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandIndex3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandIndex3"
+								m_vMinBounds = [ -1.097463, 0.836998, -0.460327 ]
+								m_vMaxBounds = [ 0.463219, 1.302299, 0.921417 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandMiddle3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandMiddle3"
+								m_vMinBounds = [ -1.089902, 0.475838, -0.136147 ]
+								m_vMaxBounds = [ 0.471101, 1.390244, 1.055023 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandRing3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandRing3"
+								m_vMinBounds = [ -0.543203, 0.4674, 0.010544 ]
+								m_vMaxBounds = [ 0.956894, 1.347706, 1.296692 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandPinky3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandPinky3"
+								m_vMinBounds = [ -0.702282, -1.349537, -1.21788 ]
+								m_vMaxBounds = [ 1.251766, 1.759075, 1.192619 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandThumb3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandThumb3"
+								m_vMinBounds = [ -1.379395, -2.093235, -1.791229 ]
+								m_vMaxBounds = [ 1.798485, 2.292648, 1.341339 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandIndex3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandIndex3"
+								m_vMinBounds = [ -0.568114, 0.473282, -0.038345 ]
+								m_vMaxBounds = [ 0.975738, 1.245602, 1.157562 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandMiddle3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandMiddle3"
+								m_vMinBounds = [ -0.994476, -2.352238, -2.332306 ]
+								m_vMaxBounds = [ 1.207399, 1.46703, 1.025002 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandRing3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandRing3"
+								m_vMinBounds = [ -1.102238, -2.041256, -0.928894 ]
+								m_vMaxBounds = [ 0.544716, 1.160553, 1.115829 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandPinky3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandPinky3"
+								m_vMinBounds = [ -1.09214, -1.053181, -1.041824 ]
+								m_vMaxBounds = [ 0.754845, 1.765202, 1.022606 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftToeBase"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftToeBase"
+								m_vMinBounds = [ -5.730708, -17.123119, -1.45495 ]
+								m_vMaxBounds = [ 7.159503, 5.642951, 20.387615 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightToeBase"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightToeBase"
+								m_vMinBounds = [ -10.670469, -17.367645, -1.454788 ]
+								m_vMaxBounds = [ 6.14385, 5.570063, 20.469543 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "mixamorig:Head"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_origin"
+						m_influences = 
+						[
+							{
+								m_influenceName = "mixamorig:Head"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "mixamorig:LeftHand"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "mixamorig:RightHand"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
+	m_pAnimGroup = 
+	{
+		m_pObject = 
+		{
+			m_Name = ""
+			m_pReferenceSkeleton = 
+			{
+				m_pObject = null
+			}
+			m_pBoneFlagList = 
+			{
+				m_pObject = null
+			}
+			m_pSeqGroup = 
+			{
+				m_pObject = null
+			}
+			m_pAnimGroups = [  ]
+			m_Vanim = 
+			[
+				{
+					m_Animationname = "attackone"
+					m_Filepath = "models/goku/baked/animations/attackone.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "die.001"
+					m_Filepath = "models/goku/baked/animations/die.001.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "flail.001"
+					m_Filepath = "models/goku/baked/animations/flail.001.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FLAIL"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "idle.001"
+					m_Filepath = "models/goku/baked/animations/idle.001.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "running"
+					m_Filepath = "models/goku/baked/animations/running.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "kamehameha"
+					m_Filepath = "models/goku/baked/animations/kamehameha.smd"
+					m_nStartframe = 6
+					m_nEndframe = 32
+					m_flFps = 3.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_1"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "spiritbomb"
+					m_Filepath = "models/goku/baked/animations/spiritbomb.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 8.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_2"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "teleport"
+					m_Filepath = "models/goku/baked/animations/teleport.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_3"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "supersaiyan"
+					m_Filepath = "models/goku/baked/animations/supersaiyan.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_6"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
+		}
+	}
+	m_pMaterialGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pMeshGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pLodGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pPropBreakableList = 
+	{
+		m_pObject = null
+	}
+	m_pPropDataList = 
+	{
+		m_pObject = null
+	}
+	m_pConstraintLists = [  ]
+	m_collision = ""
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
+	{
+		m_vMaterialRemapList = 
+		[
+			{
+				m_sSearchMaterial = "refrep.vmat"
+				m_sReplaceMaterial = "materials/gokuall.vmat"
+			},
+		]
+	}
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.05
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = false
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
+}

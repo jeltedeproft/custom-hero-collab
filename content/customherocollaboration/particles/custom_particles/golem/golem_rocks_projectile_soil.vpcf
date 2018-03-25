@@ -1,0 +1,147 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf1:version{d47d07e6-072c-49cb-9718-5bfd8d6c3d21} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 3
+	m_flConstantRadius = 1.0
+	m_nConstantSequenceNumber1 = 2
+	m_bShouldSort = false
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderModels"
+			m_bOrientZ = true
+			m_flAnimationRate = 40.0
+			m_ModelList = 
+			[
+				{
+					m_model = resource:"models/effects/ground_crack_molten.vmdl"
+				},
+			]
+			m_bAnimated = true
+			m_nLOD = 1
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_BasicMovement"
+			m_Gravity = [ 0.0, 0.0, -250.0 ]
+			m_flOpStartFadeInTime = 1.9
+			m_fDrag = 0.05
+		},
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flBias = 0.35
+			m_flEndScale = 0.5
+			m_flStartTime = 0.8
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_FadeOutSimple"
+		},
+		{
+			_class = "C_OP_RemapNamedModelSequenceOnceTimed"
+			m_flRemapTime = 0.33
+			m_bModelFromRenderer = true
+			m_inNames = 
+			[
+				"tiny_projectile1",
+				"tiny_projectile2",
+				"tiny_projectile3",
+			]
+			m_outNames = 
+			[
+				"tiny_projectile1",
+				"tiny_projectile2",
+				"tiny_projectile3",
+			]
+			m_nFieldInput = 13
+			m_nFieldOutput = 13
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_CreateWithinSphere"
+		},
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMax = 3.0
+			m_fLifetimeMin = 3.0
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMin = 13.5
+			m_flRadiusMax = 13.5
+		},
+		{
+			_class = "C_INIT_RemapInitialCPDirectionToRotation"
+			m_nFieldOutput = 12
+		},
+		{
+			_class = "C_INIT_PositionOffset"
+			m_OffsetMin = [ 100.0, 0.0, 0.0 ]
+			m_OffsetMax = [ 100.0, 0.0, 0.0 ]
+			m_bLocalCoords = true
+		},
+		{
+			_class = "C_INIT_PositionWarp"
+			m_vecWarpMin = [ 0.65, 0.65, 0.65 ]
+			m_flWarpTime = 3.0
+			m_bUseCount = true
+		},
+		{
+			_class = "C_INIT_PositionPlaceOnGround"
+			m_CollisionGroupName = "DEBRIS"
+			m_flMaxTraceLength = 2048.0
+			m_bSetNormal = true
+			m_flOffset = -0.25
+		},
+		{
+			_class = "C_INIT_RemapParticleCountToNamedModelSequenceScalar"
+			m_nInputMax = 2
+			m_nFieldOutput = 13
+			m_bActiveRange = true
+			m_flOutputMin = 1.0
+			m_flOutputMax = 3.0
+			m_bModelFromRenderer = true
+			m_nInputMin = 1
+			m_outputMinName = "tiny_projectile2"
+			m_outputMaxName = "tiny_projectile3"
+		},
+		{
+			_class = "C_INIT_RemapParticleCountToScalar"
+			m_nInputMax = 2
+			m_flOutputMin = 1.0
+			m_flOutputMax = 1.5
+			m_bScaleInitialRange = true
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_ContinuousEmitter"
+			m_flEmissionDuration = 1.0
+			m_flEmitRate = 9.0
+		},
+	]
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ null, null, null ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+}
