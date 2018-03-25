@@ -30,6 +30,13 @@ function Precache( context )
   PrecacheResource( "particle", "particles/units/heroes/hero_skywrath_mage/skywrath_mage_base_attack.vpcf", context )
   PrecacheResource( "particle", "particles/custom_particles/goku/goku_spiritbomb.vpcf", context )
   PrecacheResource( "particle", "particles/custom_particles/goku/goku_kamehameha_cast.vpcf", context )
+  PrecacheModel( "npc_dota_hero_pugna", context )
+  PrecacheModel( "npc_dota_hero_omniknight", context )
+  PrecacheModel( "npc_dota_hero_rattletrap", context )
+  PrecacheModel( "npc_dota_hero_razor", context )
+  PrecacheModel( "npc_dota_hero_sand_king", context )
+  PrecacheModel( "npc_dota_hero_shadow_shaman", context )
+  PrecacheModel( "npc_dota_hero_storm_spirit", context )
 
   --BLEACH VS ONCE PIECE STUFF
   for k, v in pairs( model_lookup ) do
