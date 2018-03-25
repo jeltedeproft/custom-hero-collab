@@ -233,6 +233,11 @@ function GameMode:OnPlayerPickHero(keys)
          child:RemoveSelf()
      end
   end
+  
+  --Wait a bit for illusions to become real illusions
+  Timers:CreateTimer(0.2, function ()
+    InitHeroSetup(event)
+  end)
 end
 
 -- A player killed another player in a multi-team context

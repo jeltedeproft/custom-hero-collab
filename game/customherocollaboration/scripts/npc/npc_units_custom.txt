@@ -94,6 +94,85 @@
     "AttackDesire"        "1.5"   // How much bots want to attack them vs other non-hero things
   }
 
+  "npc_dummy_corpse"
+  {
+    // General
+    //
+    "BaseClass" "npc_dota_base_additive" // Class of entity of link to.
+    "Model" "models/development/invisiblebox.vmdl" // Model.
+    "SoundSet" "Creep_Good_Range" // Name of sound set.
+    "Level" "0"
+    "UnitLabel" "healing_ward"
+    // Abilities
+    //----------------------------------------------------------------
+    "Ability1" "" // Ability 1.
+    "Ability2" "" // Ability 2.
+    "Ability3" "" // Ability 3.
+    "Ability4" "" // Ability 4.
+    "Ability5" "" // Ability 5.
+    "Ability6" "" // Ability 6 - Extra.
+    "Ability7" "" // Ability 7 - Extra.
+    "Ability8" "" // Ability 8 - Extra.
+    // Armor
+    //----------------------------------------------------------------
+    "ArmorPhysical" "0" // Physical protection.
+    "MagicalResistance" "0" // Magical protection.
+    // Attack
+    //----------------------------------------------------------------
+    "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK" // Type of attack - melee, ranged, etc.
+    "AttackDamageMin" "0" // Damage range min.
+    "AttackDamageMax" "0" // Damage range max.
+    "AttackDamageType" "DAMAGE_TYPE_ArmorPhysical"
+    "AttackRate" "1" // Speed of attack.
+    "AttackAnimationPoint" "0.5" // Normalized time in animation cycle to attack.
+    "AttackAcquisitionRange" "800" // Range within a target can be acquired.
+    "AttackRange" "500" // Range within a target can be attacked.
+    "ProjectileModel" "" // Particle system model for projectile.
+    "ProjectileSpeed" "900" // Speed of projectile.
+    // Attributes
+    //----------------------------------------------------------------
+    "AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength" "0" // Base strength
+    "AttributeStrengthGain" "0" // Strength bonus per level.
+    "AttributeBaseIntelligence" "0" // Base intelligence
+    "AttributeIntelligenceGain" "0" // Intelligence bonus per level.
+    "AttributeBaseAgility" "0" // Base agility
+    "AttributeAgilityGain" "0" // Agility bonus per level.
+    // Bounty
+    //----------------------------------------------------------------
+    "BountyXP" "0" // Experience earn.
+    "BountyGoldMin" "0" // Gold earned min.
+    "BountyGoldMax" "0" // Gold earned max.
+    // Bounds
+    //----------------------------------------------------------------
+    "BoundsHullName" "DOTA_HULL_SIZE_SMALL" // Hull type used for navigation/locomotion.
+    // Movement
+    //----------------------------------------------------------------
+    "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" // Type of locomotion - ground, air
+    "MovementSpeed" "450" // Speed
+    "MovementTurnRate" "10" // Turning rate.
+    "FollowRange" "250" // Distance to keep when following
+    // Status
+    //----------------------------------------------------------------
+    "StatusHealth" "1" // Base health.
+    "StatusHealthRegen" "0" // Health regeneration rate.
+    "StatusMana" "0" // Base mana.
+    "StatusManaRegen" "0" // Mana regeneration rate.
+    // Team
+    //----------------------------------------------------------------
+    "TeamName" "DOTA_TEAM_GOODGUYS" // Team name.
+    "CombatClassAttack" "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+    "CombatClassDefend" "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+    "UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
+    // Vision
+    //----------------------------------------------------------------
+    "VisionDaytimeRange" "0" // Range of vision during day light.
+    "VisionNighttimeRange" "0" // Range of vision at night time.
+    // Bots
+    //----------------------------------------------------------------
+    "AttackDesire" "1.5" // How much bots want to attack them vs other non-hero things
+  }
+
   "mario_pipe"
   {
     // General
@@ -603,5 +682,260 @@
 
       "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
       "VisionNighttimeRange"    "1800"                  // Range of vision at night time.
+    }
+
+    //SKILL DUMMY
+    "npc_dota_bvo_law_skill_4_split" 
+    {
+        "BaseClass" "npc_dota_creep_neutral" 
+        "Model" "models/development/invisiblebox.vmdl"
+
+        "ModelScale" "1.0"
+        "Level" "1"
+        "IsNeutralUnitType"            "1"
+        
+        "CanBeDominated" "0" 
+    
+        "Ability1" "neutral_spell_immunity" 
+        "Ability2" "" 
+        "Ability3" "" 
+        "Ability4" "" 
+        "Ability5" "" 
+        "Ability6" "" 
+        "Ability7" "" 
+        "Ability8" "" 
+         
+        "ArmorPhysical" "0" 
+        "MagicalResistance" "0" 
+         
+        "AttackCapabilities" "DOTA_UNIT_CAP_NO_ATTACK"
+        "AttackDamageMin" "0" 
+        "AttackDamageMax" "0" 
+        "AttackRate" "1.0" 
+        "AttackAnimationPoint" "0.1" 
+        "AttackAcquisitionRange" "100" 
+        "AttackRange" "100" 
+         
+        "BountyXP" "0" 
+        "BountyGoldMin" "0" 
+        "BountyGoldMax" "0" 
+         
+        "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed" "300"
+        "MovementTurnRate" "0.8"
+         
+        "StatusHealth" "1" 
+        "StatusHealthRegen" "0" 
+        "StatusMana" "0" 
+        "StatusManaRegen" "0" 
+         
+        "TeamName"                  "DOTA_TEAM_NEUTRALS"
+        "CombatClassAttack"         "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+        "CombatClassDefend"         "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+        
+        "VisionDaytimeRange" "1800" 
+        "VisionNighttimeRange" "1800" 
+         
+        "HasInventory" "0"
+    }
+
+    // Perona
+    "npc_dota_perona_ghost_explode" 
+    {
+        "BaseClass" "npc_dota_creep_neutral" 
+        "Model" "models\creeps\neutral_creeps\n_creep_ghost_b\n_creep_ghost_red"
+        "SoundSet" "n_creep_Melee" 
+        "GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+
+        "ModelScale" "1.0" 
+        "Level" "1" 
+        "IsNeutralUnitType"            "1"
+        
+        "CanBeDominated" "1" 
+    
+        "Ability1" "bvo_perona_skill_ghost_phase"
+        "Ability2" "bvo_perona_skill_1_ghost" 
+        "Ability3" "" 
+        "Ability4" "" 
+        "Ability5" "" 
+        "Ability6" "" 
+        "Ability7" "" 
+        "Ability8" "" 
+         
+        "ArmorPhysical" "1" 
+        "MagicalResistance" "25" 
+         
+        "AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin" "15" 
+        "AttackDamageMax" "15" 
+        "AttackRate" "1.0" 
+        "AttackAnimationPoint" "0.3" 
+        "AttackAcquisitionRange" "800"
+        "AttackRange" "128" 
+        "AttackRangeBuffer" "200"   
+        "ProjectileModel" "" 
+        "ProjectileSpeed" "" 
+
+        "BountyXP" "0" 
+        "BountyGoldMin" "0" 
+        "BountyGoldMax" "0" 
+         
+        "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+        "MovementSpeed" "300" 
+        "MovementTurnRate" "0.8" 
+         
+        "StatusHealth" "400" 
+        "StatusHealthRegen" "1" 
+        "StatusMana" "0" 
+        "StatusManaRegen" "0" 
+         
+        "TeamName"                  "DOTA_TEAM_NEUTRALS"                            // Team name.
+        "CombatClassAttack"         "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+        "CombatClassDefend"         "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+        
+        "VisionDaytimeRange" "1800" 
+        "VisionNighttimeRange" "1800" 
+         
+        "HasInventory" "0" 
+    
+        "precache"
+        {
+            "model" "models\creeps\neutral_creeps\n_creep_ghost_b\n_creep_ghost_red"
+    
+        }
+    }
+
+    "npc_dota_perona_ghost_normal" 
+    {
+        "BaseClass" "npc_dota_creep_neutral" 
+        "Model" "models\creeps\neutral_creeps\n_creep_ghost_b\n_creep_ghost_b"
+        "SoundSet" "n_creep_Melee" 
+        "GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+
+        "ModelScale" "1.0" 
+        "Level" "1" 
+        "IsNeutralUnitType"            "1"
+        
+        "CanBeDominated" "1" 
+    
+        "Ability1" "bvo_perona_skill_ghost_phase"
+        "Ability2" "bvo_perona_skill_2_ghost" 
+        "Ability3" "" 
+        "Ability4" "" 
+        "Ability5" "" 
+        "Ability6" "" 
+        "Ability7" "" 
+        "Ability8" "" 
+         
+        "ArmorPhysical" "1" 
+        "MagicalResistance" "25" 
+         
+        "AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin" "100" 
+        "AttackDamageMax" "100" 
+        "AttackRate" "1.0" 
+        "AttackAnimationPoint" "0.3" 
+        "AttackAcquisitionRange" "800"
+        "AttackRange" "128" 
+        "AttackRangeBuffer" "200"   
+        "ProjectileModel" "" 
+        "ProjectileSpeed" "" 
+
+        "BountyXP" "0" 
+        "BountyGoldMin" "0" 
+        "BountyGoldMax" "0" 
+         
+        "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+        "MovementSpeed" "350" 
+        "MovementTurnRate" "0.8" 
+         
+        "StatusHealth" "1000" 
+        "StatusHealthRegen" "1" 
+        "StatusMana" "0" 
+        "StatusManaRegen" "0" 
+         
+        "TeamName"                  "DOTA_TEAM_NEUTRALS"                            // Team name.
+        "CombatClassAttack"         "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+        "CombatClassDefend"         "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+        
+        "VisionDaytimeRange" "1800" 
+        "VisionNighttimeRange" "1800" 
+         
+        "HasInventory" "0" 
+    
+        "precache"
+        {
+            "model" "models\creeps\neutral_creeps\n_creep_ghost_b\n_creep_ghost_b"
+    
+        }
+    }
+
+    "npc_dota_perona_ghost_big" 
+    {
+        "BaseClass" "npc_dota_creep_neutral" 
+        "Model" "models\creeps\neutral_creeps\n_creep_ghost_a\n_creep_ghost_a"
+        "SoundSet" "n_creep_Melee" 
+        "GameSoundsFile"  "soundevents/game_sounds_creeps.vsndevts" 
+
+        "ModelScale" "1.5" 
+        "Level" "1" 
+        "IsNeutralUnitType"            "1"
+        
+        "CanBeDominated" "0" 
+    
+        "Ability1" "bvo_perona_skill_ghost_phase"
+        "Ability2" "bvo_perona_skill_5_ghost" 
+        "Ability3" "" 
+        "Ability4" "" 
+        "Ability5" "" 
+        "Ability6" "" 
+        "Ability7" "" 
+        "Ability8" "" 
+         
+        "ArmorPhysical" "20" 
+        "MagicalResistance" "25" 
+         
+        "AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin" "140" 
+        "AttackDamageMax" "180" 
+        "AttackRate" "2.2" 
+        "AttackAnimationPoint" "0.3" 
+        "AttackAcquisitionRange" "800"
+        "AttackRange" "128" 
+        "AttackRangeBuffer" "200"   
+        "ProjectileModel" "" 
+        "ProjectileSpeed" "" 
+
+        "BountyXP" "0" 
+        "BountyGoldMin" "0" 
+        "BountyGoldMax" "0" 
+         
+        "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND" 
+        "MovementSpeed" "350" 
+        "MovementTurnRate" "0.8" 
+         
+        "StatusHealth" "4000" 
+        "StatusHealthRegen" "20" 
+        "StatusMana" "0" 
+        "StatusManaRegen" "0" 
+         
+        "TeamName"                  "DOTA_TEAM_NEUTRALS"                            // Team name.
+        "CombatClassAttack"         "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+        "CombatClassDefend"         "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+        
+        "VisionDaytimeRange" "1800" 
+        "VisionNighttimeRange" "1800" 
+         
+        "HasInventory" "0" 
+    
+        "precache"
+        {
+            "model" "models\creeps\neutral_creeps\n_creep_ghost_a\n_creep_ghost_a"
+    
+        }
     } 
 }

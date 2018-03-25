@@ -2,6 +2,9 @@
 
 require('internal/util')
 require('gamemode')
+require('precache')
+require('constants')
+require('lib/teleport')
 
 function Precache( context )
 --[[
@@ -27,6 +30,21 @@ function Precache( context )
   PrecacheResource( "particle", "particles/units/heroes/hero_skywrath_mage/skywrath_mage_base_attack.vpcf", context )
   PrecacheResource( "particle", "particles/custom_particles/goku/goku_spiritbomb.vpcf", context )
   PrecacheResource( "particle", "particles/custom_particles/goku/goku_kamehameha_cast.vpcf", context )
+
+  --BLEACH VS ONCE PIECE STUFF
+  for k, v in pairs( model_lookup ) do
+    PrecacheModel( v, context )
+    PrecacheUnitByNameSync(k, context)
+  end
+  for k, v in pairs( particle_precache ) do
+    PrecacheResource( "particle", v, context )
+  end
+  for k, v in pairs( soundfile_precache ) do
+    PrecacheResource( "soundfile", v, context )
+  end
+  for k, v in pairs( model_precache ) do
+    PrecacheResource( "model", v, context )
+  end
 end
 
 -- Create the game mode when we activate
