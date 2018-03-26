@@ -1,0 +1,163 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 4
+	m_Renderers =
+	[
+		{
+			_class = "C_OP_RenderModels"
+			m_bSuppressTint = true
+			m_ModelList =
+			[
+				{
+					m_model = resource:"models/items/brewmaster/barrel_dragon_1/barrel_dragon_1.vmdl"
+				},
+			]
+			m_bAnimated = true
+			m_bForceDrawInterlevedWithSiblings = true
+			m_nLOD = 1
+		},
+	]
+	m_Operators =
+	[
+		{
+			_class = "C_OP_BasicMovement"
+		},
+		{
+			_class = "C_OP_RemapDirectionToCPToVector"
+			m_nFieldOutput = 21
+			m_bNormalize = true
+			m_nCP = 1
+			m_flOffsetRot = 180.000000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_PositionLock"
+			m_nControlPointNumber = 3
+		},
+		{
+			_class = "C_OP_AlphaDecay"
+		},
+		{
+			_class = "C_OP_RampScalarLinearSimple"
+			m_nOpEndCapState = 1
+			m_nField = 16
+			m_Rate = -5.000000
+			m_flEndTime = 100000000.000000
+		},
+		{
+			_class = "C_OP_RampScalarLinearSimple"
+			m_nOpEndCapState = 1
+			m_Rate = -10.000000
+			m_flEndTime = 99999.000000
+		},
+		{
+			_class = "C_OP_SetCPOrientationToDirection"
+			m_nOutputControlPoint = 5
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_Orient2DRelToCP"
+			m_flRotOffset = 270.000000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_SpinUpdate"
+		},
+		{
+			_class = "C_OP_SpinYaw"
+			m_nSpinRateDegrees = 50
+			m_nSpinRateMinDegrees = 25
+		},
+		{
+			_class = "C_OP_Spin"
+			m_nSpinRateDegrees = 50
+			m_nSpinRateMinDegrees = 25
+		},
+		{
+			_class = "C_OP_RemapCPOrientationToYaw"
+			m_nCP = 3
+			m_flRotOffset = 50.000000
+			m_bDisableOperator = true
+			m_flSpinStrength = 0.100000
+		},
+		{
+			_class = "C_OP_SetControlPointRotation"
+			m_vecRotAxis =
+			[
+				5.000000,
+				5.000000,
+				5.000000,
+			]
+			m_nCP = 3
+			m_bDisableOperator = true
+		},
+	]
+	m_Initializers =
+	[
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMax = 0.500000
+			m_fLifetimeMin = 0.500000
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMax = 1.100000
+			m_flRadiusMin = 0.900000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_CreateWithinSphere"
+			m_nControlPointNumber = 3
+			m_vecDistanceBias =
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+		},
+		{
+			_class = "C_INIT_RemapScalar"
+			m_flInputMax = 0.020000
+			m_flOutputMin = 1.750000
+			m_flOutputMax = 0.600000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_RandomAlpha"
+		},
+		{
+			_class = "C_INIT_PositionOffset"
+			m_OffsetMin =
+			[
+				35.000000,
+				-70.000000,
+				20.000000,
+			]
+			m_OffsetMax =
+			[
+				35.000000,
+				-70.000000,
+				20.000000,
+			]
+			m_nControlPointNumber = 3
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+			m_nFieldOutput = 12
+		},
+	]
+	m_Emitters =
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 1
+		},
+	]
+	m_flConstantRadius = 1.200000
+}

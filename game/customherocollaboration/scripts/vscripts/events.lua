@@ -381,3 +381,50 @@ function GameMode:OnPlayerChat(keys)
 
   local text = keys.text
 end
+
+function SpawnIllusion( unit, ability, duration, damage_in, damage_out )
+  --Make illusion
+  damage_in = damage_in - 100
+  damage_out = damage_out - 100
+  local illu = CreateUnitByName( unit:GetName(), unit:GetAbsOrigin(), true, unit, unit:GetPlayerOwner(), unit:GetTeam() )
+  illu:MakeIllusion()
+  illu:SetHealth( unit:GetHealth() )
+  illu:SetMana(unit:GetMana() )
+  illu:AddNewModifier( unit, ability, 'modifier_illusion', 
+    { duration = duration, outgoing_damage = damage_out, incoming_damage = damage_in } )
+  illu:SetPlayerID( unit:GetPlayerOwnerID() )
+  illu:SetControllableByPlayer( unit:GetPlayerOwnerID(), true )
+
+  --Level illusion to the caster's level
+  for i=2, unit:GetLevel() do
+    illu:HeroLevelUp(false)
+  end
+
+  --Set illusion model
+  illu:SetModel( unit:GetModelName() )
+  illu:SetOriginalModel( unit:GetModelName() )
+
+  --Copy abilities
+  if unit:HasAbility("cloning") then
+    illu:RemoveAbility("barebones_empty1")
+    illu:AddAbility("cloning")
+  end
+  --Skill abilities
+  for i=0,6 do
+    if illu:GetAbilityByIndex(i) ~= nil then
+      illu:GetAbilityByIndex(i):SetLevel(1)
+    end
+  end
+
+
+  return illu
+end
+
+function DestroyRocksAroundPoint(point, radius)
+  local units = FindUnitsInRadius(DOTA_TEAM_BADGUYS, point, nil, radius, DOTA_UNIT_TARGET_TEAM_BOTH, DOTA_UNIT_TARGET_ALL , DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES, FIND_ANY_ORDER, false)
+  for k,v in pairs(units) do
+    if v:GetUnitName() == "npc_rock" then
+      v:ForceKill(false)
+    end
+  end
+end
