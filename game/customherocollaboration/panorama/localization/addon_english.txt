@@ -37,4 +37,5 @@
 	"npc_dota_hero_invoker_hype"  "The Survivor is a troublesome foe, he is very unpredictable which makes him very hard to predict correctly in battle. Be aware!"
 	"npc_dota_hero_tidehunter_hype"  "Berserker is an unstopable raging monster. He lacks the intelligence to formulate plans, but often times this isnt necessary to win the battle"
 	"npc_dota_hero_witch_doctor"     "The assassin is a character to be watched out for. With his sneaky tactics and cunning movement he is capable of performing cruel acts form the shadows."
+	"npc_dota_hero_weaver"            "The Demon is an incarnate originating from hell. Its firy aura is capable of burning even the toughest foes"
 }
