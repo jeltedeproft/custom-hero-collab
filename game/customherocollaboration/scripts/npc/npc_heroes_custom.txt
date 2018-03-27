@@ -3921,6 +3921,7 @@
     {
         "AbilityLayout"         "5"
         "override_hero"         "npc_dota_hero_invoker"
+        "Model"                 "models/joker/joker.vmdl"
         "Ability1"              "pulse_bullet" 
         "Ability2"              "survivor_blink" 
         "Ability3"              "tree_defense" 
@@ -3941,7 +3942,7 @@
         "ArmorPhysical"             "0"                                 // Physical protection.
         "MagicalResistance"             "0"                                 // Magical protection (percentage).
         
-        "ModelScale"                "0.5"
+        "ModelScale"                "1.0"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
         "AttackDamageMin"                       "1"                                                                             // Damage range min.
