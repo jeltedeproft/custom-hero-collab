@@ -3502,6 +3502,7 @@
       "AbilityLayout"     "4"
       "override_hero"     "npc_dota_hero_omniknight"
       "SoundSet"          "0"
+      "Model"            "models/ailil/iceman.vmdl"
       "Ability1"        "ailil_winters_arrow"
       "Ability2"        "ailil_rime_breath"
       "Ability3"        "ailil_armor"
@@ -3529,7 +3530,7 @@
       "ProjectileModel"            "particles/units/heroes/hero_drow/drow_base_attack.vpcf"
       "ProjectileSpeed"            "1400"
   
-      "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+      "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
       "AttributeBaseStrength"   "19"                   // Base strength
       "AttributeStrengthGain"   "2.5"                   // Strength bonus per level.
       "AttributeBaseIntelligence" "19"                   // Base intelligence
