@@ -36,6 +36,7 @@
 	"npc_dota_hero_omniknight_hype"    "Ailil is an ice elemental. He is a master of the effects of frost, capable of constricting enemy movement, while also using the cold beneficially for his allies."
 	"npc_dota_hero_invoker_hype"  "The Survivor is a troublesome foe, he is very unpredictable which makes him very hard to predict correctly in battle. Be aware!"
 	"npc_dota_hero_tidehunter_hype"  "Berserker is an unstopable raging monster. He lacks the intelligence to formulate plans, but often times this isnt necessary to win the battle"
-	"npc_dota_hero_witch_doctor"     "The assassin is a character to be watched out for. With his sneaky tactics and cunning movement he is capable of performing cruel acts form the shadows."
-	"npc_dota_hero_weaver"            "The Demon is an incarnate originating from hell. Its firy aura is capable of burning even the toughest foes"
+	"npc_dota_hero_witch_doctor_hype"     "The assassin is a character to be watched out for. With his sneaky tactics and cunning movement he is capable of performing cruel acts form the shadows."
+	"npc_dota_hero_weaver_hype"            "The Demon is an incarnate originating from hell. Its firy aura is capable of burning even the toughest foes"
+	"npc_dota_hero_viper_hype"             "The keen hunter has lived his whole live in the woods, he learned to survive on his own and has met the cycle of life many times. He grieves for those who have given his life to support his and he shall not let it go to waste!"
 }

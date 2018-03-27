@@ -4176,6 +4176,7 @@
     {
         "AbilityLayout"         "5"
         "override_hero"         "npc_dota_hero_viper"
+        "Model"                 "models/hunter/hunter.vmdl"
         "Ability1"              "hunting_nets" 
         "Ability2"              "hunting_axes" 
         "Ability3"              "call_pet" 
