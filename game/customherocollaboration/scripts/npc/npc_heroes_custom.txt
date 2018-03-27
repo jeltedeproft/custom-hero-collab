@@ -3986,6 +3986,7 @@
     {
         "AbilityLayout"         "4"
         "override_hero"         "npc_dota_hero_tidehunter"
+        "Model"                 "models/berserker/berserker.vmdl"
         "Ability1"              "berserkers_rush" 
         "Ability2"              "soaring_anger" 
         "Ability3"              "raged_spirit" 
@@ -4049,6 +4050,7 @@
     {
         "AbilityLayout"         "4"
         "override_hero"         "npc_dota_hero_witch_doctor"
+        "Model"                 "models/berserker/berserker.vmdl"
         "Ability1"              "poison_dagger" 
         "Ability2"              "dash" 
         "Ability3"              "arcane_speed" 
