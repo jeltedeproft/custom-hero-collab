@@ -4050,7 +4050,7 @@
     {
         "AbilityLayout"         "4"
         "override_hero"         "npc_dota_hero_witch_doctor"
-        "Model"                 "models/berserker/berserker.vmdl"
+        "Model"                 "models/assassin/assassin.vmdl"
         "Ability1"              "poison_dagger" 
         "Ability2"              "dash" 
         "Ability3"              "arcane_speed" 
