@@ -4239,6 +4239,7 @@
     {
         "AbilityLayout"         "4"
         "override_hero"         "npc_dota_hero_venomancer"
+        "Model"                 "models/lich/lich.vmdl"
         "Ability1"              "frost_burst" 
         "Ability2"              "frozen_prison" 
         "Ability3"              "magic_flight" 

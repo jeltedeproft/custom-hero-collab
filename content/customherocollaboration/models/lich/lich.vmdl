@@ -1,0 +1,1677 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_meshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "lich"
+				m_meshFile = "models/lich/lich.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList = 
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.05
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
+		m_nReservedInt = 0
+		m_bSoftSkinAnimation = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList = [  ]
+	}
+	m_physicsMeshList = 
+	{
+		m_meshList = [  ]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList = 
+	{
+		m_pObject = null
+	}
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "joint1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint1"
+								m_vMinBounds = [ -24.922913, -0.93602, 15.666862 ]
+								m_vMaxBounds = [ 24.5532, 31.351952, 47.284908 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint2"
+								m_vMinBounds = [ -8.313765, 21.989693, 28.725197 ]
+								m_vMaxBounds = [ -2.390384, 22.987297, 34.566536 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint78"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint78"
+								m_vMinBounds = [ 38.469952, 62.815002, -36.41301 ]
+								m_vMaxBounds = [ 91.113907, 83.986618, -18.327095 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint85"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint85"
+								m_vMinBounds = [ 39.021946, 60.525238, 16.37635 ]
+								m_vMaxBounds = [ 91.108917, 82.788803, 35.502499 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint92"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint92"
+								m_vMinBounds = [ 2.933849, 11.402168, 42.137627 ]
+								m_vMaxBounds = [ 53.694832, 35.715065, 63.933296 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint99"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint99"
+								m_vMinBounds = [ -7.821109, 4.50473, -69.305237 ]
+								m_vMaxBounds = [ 37.451351, 35.58403, -41.283913 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint106"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint106"
+								m_vMinBounds = [ 24.126472, 30.138962, -68.83297 ]
+								m_vMaxBounds = [ 75.086929, 57.328323, -45.186203 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint113"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint113"
+								m_vMinBounds = [ 30.930008, 29.132111, 43.299892 ]
+								m_vMaxBounds = [ 84.109375, 52.92337, 63.938457 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint3"
+								m_vMinBounds = [ -50.030045, 19.483894, 8.847752 ]
+								m_vMaxBounds = [ 39.406937, 101.325447, 42.994633 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint79"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint79"
+								m_vMinBounds = [ 65.62326, 69.313278, -27.154442 ]
+								m_vMaxBounds = [ 103.211014, 100.533096, -0.829227 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint86"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint86"
+								m_vMinBounds = [ 76.181183, 75.325562, 1.776897 ]
+								m_vMaxBounds = [ 103.680862, 98.585709, 22.590588 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint93"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint93"
+								m_vMinBounds = [ 25.452385, -2.921913, 62.433823 ]
+								m_vMaxBounds = [ 81.707977, 22.095772, 79.927444 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint100"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint100"
+								m_vMinBounds = [ 10.176636, -14.091469, -83.136444 ]
+								m_vMaxBounds = [ 74.209091, 23.26786, -57.504898 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint107"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint107"
+								m_vMinBounds = [ 48.969193, 28.79097, -70.855881 ]
+								m_vMaxBounds = [ 96.082825, 48.598892, -58.665543 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint114"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint114"
+								m_vMinBounds = [ 55.941494, 28.611435, 56.667953 ]
+								m_vMaxBounds = [ 103.643311, 46.43985, 66.345901 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint8"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint8"
+								m_vMinBounds = [ 17.655743, 17.016266, -43.743454 ]
+								m_vMaxBounds = [ 42.936466, 40.218536, -24.102705 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint22"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint22"
+								m_vMinBounds = [ -57.315239, 17.596176, -17.23756 ]
+								m_vMaxBounds = [ -31.83432, 40.224854, 5.355309 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint80"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint80"
+								m_vMinBounds = [ 84.192429, 81.28804, -9.660473 ]
+								m_vMaxBounds = [ 140.494766, 139.394455, 44.24049 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint87"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint87"
+								m_vMinBounds = [ 93.759735, 88.034958, -43.758045 ]
+								m_vMaxBounds = [ 140.622437, 137.902252, 4.064243 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint94"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint94"
+								m_vMinBounds = [ 21.471466, -9.733597, 78.663734 ]
+								m_vMaxBounds = [ 94.356949, 15.338043, 99.103691 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint101"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint101"
+								m_vMinBounds = [ 17.696014, -16.64035, -95.289185 ]
+								m_vMaxBounds = [ 103.299026, 12.742317, -73.512024 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint108"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint108"
+								m_vMinBounds = [ 70.275497, 29.806335, -67.430237 ]
+								m_vMaxBounds = [ 157.891373, 47.915344, -57.874252 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint115"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint115"
+								m_vMinBounds = [ 74.311066, 29.682831, 56.374054 ]
+								m_vMaxBounds = [ 161.789459, 49.078873, 67.33416 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint9"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint9"
+								m_vMinBounds = [ -38.54295, 8.785782, -45.22052 ]
+								m_vMaxBounds = [ 25.432095, 31.324768, -24.03334 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint23"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint23"
+								m_vMinBounds = [ -16.432617, 17.385025, 22.245743 ]
+								m_vMaxBounds = [ 43.896034, 41.90683, 49.812752 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint81"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint81"
+								m_vMinBounds = [ 114.633476, 111.279907, 23.544655 ]
+								m_vMaxBounds = [ 173.53302, 180.424652, 87.155579 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint88"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint88"
+								m_vMinBounds = [ 123.517441, 118.350906, -87.290375 ]
+								m_vMaxBounds = [ 175.02562, 179.76384, -29.585449 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint95"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint95"
+								m_vMinBounds = [ 43.446503, -14.88456, 103.174896 ]
+								m_vMaxBounds = [ 133.280426, 4.802986, 115.282104 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint102"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint102"
+								m_vMinBounds = [ 36.340347, -11.371826, -107.929375 ]
+								m_vMaxBounds = [ 137.68161, 0.15255, -103.418434 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint109"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint109"
+								m_vMinBounds = [ 126.33448, 31.555649, -49.844933 ]
+								m_vMaxBounds = [ 203.914246, 81.66098, 18.828226 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint116"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint116"
+								m_vMinBounds = [ 130.140137, 33.078918, -24.719681 ]
+								m_vMaxBounds = [ 205.914612, 83.631927, 45.636086 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint10"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint10"
+								m_vMinBounds = [ -25.685272, 19.157486, -52.290115 ]
+								m_vMaxBounds = [ -6.616795, 34.494995, -28.986254 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint24"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint24"
+								m_vMinBounds = [ 37.275703, 24.978554, 9.597878 ]
+								m_vMaxBounds = [ 60.435501, 42.082664, 26.360916 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint37"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint37"
+								m_vMinBounds = [ 3.126606, 14.852104, -22.184723 ]
+								m_vMaxBounds = [ 11.803263, 15.526756, -21.560551 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint40"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint40"
+								m_vMinBounds = [ -20.390051, 15.42691, -15.348802 ]
+								m_vMaxBounds = [ -12.411558, 17.383102, -12.408423 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint43"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint43"
+								m_vMinBounds = [ -9.909355, 52.045059, 29.549616 ]
+								m_vMaxBounds = [ 69.539276, 133.262192, 45.368568 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint46"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint46"
+								m_vMinBounds = [ -72.255203, 52.044312, -26.598602 ]
+								m_vMaxBounds = [ -22.997803, 133.261871, 36.356186 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint49"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint49"
+								m_vMinBounds = [ -47.462875, 43.913986, 20.178818 ]
+								m_vMaxBounds = [ 14.26511, 78.39328, 106.992996 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint52"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint52"
+								m_vMinBounds = [ -5.579018, 43.912949, -53.701847 ]
+								m_vMaxBounds = [ 97.251266, 78.392059, -39.92223 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint55"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint55"
+								m_vMinBounds = [ 5.178535, -3.194504, 51.909714 ]
+								m_vMaxBounds = [ 104.14196, 48.243256, 65.744492 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint58"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint58"
+								m_vMinBounds = [ 24.486938, -3.195984, 23.144863 ]
+								m_vMaxBounds = [ 51.220154, 48.241913, 118.608795 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint62"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint62"
+								m_vMinBounds = [ 15.508986, -14.537979, -44.562408 ]
+								m_vMaxBounds = [ 17.879854, 4.380745, -38.677826 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint65"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint65"
+								m_vMinBounds = [ -40.623581, -18.021957, -33.347813 ]
+								m_vMaxBounds = [ -14.004364, 2.628227, -13.219368 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint68"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint68"
+								m_vMinBounds = [ 23.518217, -15.700012, -10.450592 ]
+								m_vMaxBounds = [ 52.507248, 3.828331, 11.758339 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint71"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint71"
+								m_vMinBounds = [ -18.383297, -33.478058, -26.28248 ]
+								m_vMaxBounds = [ 3.368124, 5.100471, -12.374449 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint82"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint82"
+								m_vMinBounds = [ 144.298401, 149.261414, 69.796478 ]
+								m_vMaxBounds = [ 181.392578, 219.061676, 138.343353 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint89"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint89"
+								m_vMinBounds = [ 144.785156, 147.895523, -137.376892 ]
+								m_vMaxBounds = [ 182.587524, 217.496597, -69.027405 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint96"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint96"
+								m_vMinBounds = [ 57.449036, -8.977737, 123.600189 ]
+								m_vMaxBounds = [ 154.038406, 5.431892, 133.153992 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint103"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint103"
+								m_vMinBounds = [ 59.971375, -9.958099, -133.051514 ]
+								m_vMaxBounds = [ 156.473221, 5.583458, -122.56369 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint110"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint110"
+								m_vMinBounds = [ 159.54425, 58.295471, 59.706772 ]
+								m_vMaxBounds = [ 188.566559, 107.187805, 134.753052 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint117"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint117"
+								m_vMinBounds = [ 159.457367, 60.338409, -141.586426 ]
+								m_vMaxBounds = [ 187.103516, 109.490341, -66.15242 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint4"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint4"
+								m_vMinBounds = [ -25.889244, 43.26503, 4.360981 ]
+								m_vMaxBounds = [ 23.117325, 92.592987, 35.354233 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint11"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint11"
+								m_vMinBounds = [ -19.355864, 25.361122, -33.309692 ]
+								m_vMaxBounds = [ -11.667114, 34.367485, -24.296402 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint13"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint13"
+								m_vMinBounds = [ -23.043472, 27.00985, -44.254799 ]
+								m_vMaxBounds = [ -11.409794, 37.135338, -32.568565 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint15"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint15"
+								m_vMinBounds = [ 11.16923, 29.94268, -50.822609 ]
+								m_vMaxBounds = [ 12.639448, 32.255638, -46.55619 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint17"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint17"
+								m_vMinBounds = [ 44.886719, 18.776299, -13.800088 ]
+								m_vMaxBounds = [ 52.907394, 28.274879, -4.405557 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint19"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint19"
+								m_vMinBounds = [ 38.218094, -7.731346, -51.004059 ]
+								m_vMaxBounds = [ 71.55426, 21.667732, -14.873167 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint25"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint25"
+								m_vMinBounds = [ 22.547485, 33.21254, 27.121128 ]
+								m_vMaxBounds = [ 32.432655, 41.436234, 34.140388 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint27"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint27"
+								m_vMinBounds = [ 38.309135, 34.268661, 20.483345 ]
+								m_vMaxBounds = [ 51.120384, 44.984131, 29.855984 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint29"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint29"
+								m_vMinBounds = [ 47.314034, 37.217133, 33.422943 ]
+								m_vMaxBounds = [ 48.817802, 39.633316, 37.446846 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint31"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint31"
+								m_vMinBounds = [ 21.612713, 25.453934, 49.674217 ]
+								m_vMaxBounds = [ 32.427158, 34.154343, 53.574913 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint34"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint34"
+								m_vMinBounds = [ -82.510818, -4.346878, -14.859407 ]
+								m_vMaxBounds = [ -51.903076, 23.573898, 17.270998 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint38"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint38"
+								m_vMinBounds = [ -4.832495, 7.570328, -21.611462 ]
+								m_vMaxBounds = [ 3.690614, 8.031326, -17.962711 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint41"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint41"
+								m_vMinBounds = [ -22.652336, 9.271095, -0.251686 ]
+								m_vMaxBounds = [ -16.583775, 13.579262, 5.296442 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint44"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint44"
+								m_vMinBounds = [ 63.116531, 122.522369, 23.935593 ]
+								m_vMaxBounds = [ 116.392151, 149.32724, 45.272095 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint47"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint47"
+								m_vMinBounds = [ -19.820709, 122.51532, -119.976433 ]
+								m_vMaxBounds = [ 12.874092, 149.320404, -70.58651 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint50"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint50"
+								m_vMinBounds = [ 46.450783, 63.889496, 93.307137 ]
+								m_vMaxBounds = [ 93.851128, 80.817902, 113.969109 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint53"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint53"
+								m_vMinBounds = [ 75.815903, 63.883804, -77.632629 ]
+								m_vMaxBounds = [ 127.435623, 80.812363, -66.951508 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint56"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint56"
+								m_vMinBounds = [ 104.70108, -8.116928, 68.866676 ]
+								m_vMaxBounds = [ 152.900513, 18.219383, 77.132988 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint59"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint59"
+								m_vMinBounds = [ 75.928589, -8.12204, 100.985962 ]
+								m_vMaxBounds = [ 81.937515, 18.214188, 149.518448 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint63"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint63"
+								m_vMinBounds = [ -2.0, -2.0, -2.0 ]
+								m_vMaxBounds = [ 2.0, 2.0, 2.0 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint66"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint66"
+								m_vMinBounds = [ -33.529945, -26.761093, -46.330441 ]
+								m_vMaxBounds = [ -3.555016, -21.507439, -25.041965 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint69"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint69"
+								m_vMinBounds = [ 28.100227, -23.340424, -7.692287 ]
+								m_vMaxBounds = [ 56.756516, -17.582436, 15.302273 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint72"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint72"
+								m_vMinBounds = [ -25.632782, -54.100647, -3.819302 ]
+								m_vMaxBounds = [ 5.924868, -46.097214, 14.795185 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint83"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint83"
+								m_vMinBounds = [ 155.43457, 187.655853, 119.375031 ]
+								m_vMaxBounds = [ 181.53476, 255.128693, 184.608307 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint90"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint90"
+								m_vMinBounds = [ 160.727966, 195.350494, -183.981506 ]
+								m_vMaxBounds = [ 182.992615, 253.677277, -126.93158 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint97"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint97"
+								m_vMinBounds = [ 163.595459, 0.375717, -132.712463 ]
+								m_vMaxBounds = [ 188.240204, 32.208603, -62.511169 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint104"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint104"
+								m_vMinBounds = [ 153.421173, -2.753616, 71.165512 ]
+								m_vMaxBounds = [ 174.275238, 33.932533, 153.97583 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint111"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint111"
+								m_vMinBounds = [ 16.326729, 82.022705, 189.7276 ]
+								m_vMaxBounds = [ 68.917419, 151.54245, 267.720917 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint118"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint118"
+								m_vMinBounds = [ 9.44022, 84.509094, -270.622253 ]
+								m_vMaxBounds = [ 63.394588, 154.239914, -193.78006 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint5"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint5"
+								m_vMinBounds = [ -16.351122, 38.057922, -18.978992 ]
+								m_vMaxBounds = [ -7.161541, 45.339294, -11.212227 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint12"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint12"
+								m_vMinBounds = [ 2.854619, 26.821167, -35.125137 ]
+								m_vMaxBounds = [ 16.24651, 30.73613, -31.736053 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint14"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint14"
+								m_vMinBounds = [ -8.686989, 33.580566, -49.112663 ]
+								m_vMaxBounds = [ 18.975441, 39.099426, -38.988991 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint16"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint16"
+								m_vMinBounds = [ 27.235382, 23.810097, -37.986538 ]
+								m_vMaxBounds = [ 50.491562, 36.253975, -23.0383 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint18"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint18"
+								m_vMinBounds = [ 19.414734, 7.23233, 40.074753 ]
+								m_vMaxBounds = [ 32.710396, 30.731766, 46.668701 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint20"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint20"
+								m_vMinBounds = [ 95.732246, 3.580696, 7.798958 ]
+								m_vMaxBounds = [ 107.532051, 8.932831, 13.823891 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint21"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint21"
+								m_vMinBounds = [ 17.097755, 19.929688, -38.920685 ]
+								m_vMaxBounds = [ 84.975693, 86.72226, 11.871346 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint26"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint26"
+								m_vMinBounds = [ 13.425741, 34.672516, 38.348167 ]
+								m_vMaxBounds = [ 26.873819, 38.5728, 42.309555 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint28"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint28"
+								m_vMinBounds = [ -0.806732, 38.381424, 49.130173 ]
+								m_vMaxBounds = [ 27.868565, 45.822876, 54.106606 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint30"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint30"
+								m_vMinBounds = [ -22.799721, 26.138168, 54.696449 ]
+								m_vMaxBounds = [ 0.228699, 45.57518, 59.769989 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint32"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint32"
+								m_vMinBounds = [ -61.639584, 16.993935, 21.41827 ]
+								m_vMaxBounds = [ -41.426189, 34.308342, 28.513577 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint35"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint35"
+								m_vMinBounds = [ -60.877125, -24.87323, 48.465767 ]
+								m_vMaxBounds = [ -56.103848, -13.977921, 55.63549 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint36"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint36"
+								m_vMinBounds = [ -5.4991, 19.371674, 18.869202 ]
+								m_vMaxBounds = [ 73.719551, 81.421555, 62.460732 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint39"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint39"
+								m_vMinBounds = [ -6.760492, -5.38385, -19.332909 ]
+								m_vMaxBounds = [ 13.53124, 2.644356, -4.893456 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint42"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint42"
+								m_vMinBounds = [ -23.372562, -10.814903, 1.566805 ]
+								m_vMaxBounds = [ -15.486821, 7.753098, 17.502407 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint45"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint45"
+								m_vMinBounds = [ 102.557152, 109.936584, 53.494663 ]
+								m_vMaxBounds = [ 236.39328, 136.542206, 96.506927 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint48"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint48"
+								m_vMinBounds = [ 111.853851, 112.569122, -41.871922 ]
+								m_vMaxBounds = [ 247.158447, 139.175079, -16.680069 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint51"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint51"
+								m_vMinBounds = [ 102.340195, 62.412521, 97.96817 ]
+								m_vMaxBounds = [ 228.591385, 95.881744, 158.568451 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint54"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint54"
+								m_vMinBounds = [ 122.676514, 62.406189, -107.625031 ]
+								m_vMaxBounds = [ 254.402344, 95.87558, -73.850571 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint57"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint57"
+								m_vMinBounds = [ 119.723434, -67.168671, 104.660065 ]
+								m_vMaxBounds = [ 250.489212, 5.185448, 127.818802 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint60"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint60"
+								m_vMinBounds = [ -60.090858, -67.180656, 161.5047 ]
+								m_vMaxBounds = [ 10.078629, 5.173538, 272.848816 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint64"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint64"
+								m_vMinBounds = [ 60.215771, -69.898674, -70.408844 ]
+								m_vMaxBounds = [ 86.243149, -42.394112, -46.969025 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint67"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint67"
+								m_vMinBounds = [ -26.840992, -73.916428, -100.967796 ]
+								m_vMaxBounds = [ 43.686527, -40.146545, -25.591537 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint70"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint70"
+								m_vMinBounds = [ 36.530964, -67.216606, -43.932114 ]
+								m_vMaxBounds = [ 101.891159, -33.366371, 39.937592 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint73"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint73"
+								m_vMinBounds = [ -9.481564, -71.463669, 6.815608 ]
+								m_vMaxBounds = [ -6.027662, -51.721985, 21.159029 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint74"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint74"
+								m_vMinBounds = [ -47.400063, 1.810349, -70.340378 ]
+								m_vMaxBounds = [ -43.110107, 133.409164, 73.048294 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint76"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint76"
+								m_vMinBounds = [ 41.496162, 17.268265, 1.314138 ]
+								m_vMaxBounds = [ 63.604752, 28.610504, 6.384748 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint77"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint77"
+								m_vMinBounds = [ 29.418646, 14.536705, -39.479576 ]
+								m_vMaxBounds = [ 47.573235, 28.971199, -30.19697 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint84"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint84"
+								m_vMinBounds = [ 164.321991, 222.194443, 156.720032 ]
+								m_vMaxBounds = [ 191.794586, 299.154297, 230.539429 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint91"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint91"
+								m_vMinBounds = [ 168.667206, 229.914932, -230.431213 ]
+								m_vMaxBounds = [ 192.2901, 297.76123, -164.849396 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint98"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint98"
+								m_vMinBounds = [ -144.403412, 20.367348, -221.134689 ]
+								m_vMaxBounds = [ -76.183594, 76.292152, -189.5746 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint105"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint105"
+								m_vMinBounds = [ -162.047226, 15.142204, 180.399612 ]
+								m_vMaxBounds = [ -82.898468, 78.572548, 209.156418 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint112"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint112"
+								m_vMinBounds = [ -150.177399, 124.283356, 221.076569 ]
+								m_vMaxBounds = [ -79.918549, 191.727997, 258.037323 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "joint119"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "joint119"
+								m_vMinBounds = [ -153.396667, 127.040543, -259.175964 ]
+								m_vMaxBounds = [ -83.120544, 194.485245, -222.29541 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_origin"
+						m_influences = 
+						[
+							{
+								m_influenceName = "blender_implicit"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "blender_implicit"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "joint11"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "joint116"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
+	m_pAnimGroup = 
+	{
+		m_pObject = 
+		{
+			m_Name = ""
+			m_pReferenceSkeleton = 
+			{
+				m_pObject = null
+			}
+			m_pBoneFlagList = 
+			{
+				m_pObject = null
+			}
+			m_pSeqGroup = 
+			{
+				m_pObject = null
+			}
+			m_pAnimGroups = [  ]
+			m_Vanim = 
+			[
+				{
+					m_Animationname = "attackone"
+					m_Filepath = "models/lich/anims/attackone.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "die"
+					m_Filepath = "models/lich/anims/die.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "flail"
+					m_Filepath = "models/lich/anims/flail.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FLAIL"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "idle"
+					m_Filepath = "models/lich/anims/idle.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 5.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "running"
+					m_Filepath = "models/lich/anims/running.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 10.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "spawn"
+					m_Filepath = "models/lich/anims/spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
+		}
+	}
+	m_pMaterialGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pMeshGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pLodGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pPropBreakableList = 
+	{
+		m_pObject = null
+	}
+	m_pPropDataList = 
+	{
+		m_pObject = null
+	}
+	m_pConstraintLists = [  ]
+	m_collision = ""
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
+	{
+		m_vMaterialRemapList = 
+		[
+			{
+				m_sSearchMaterial = "undead_king-water-material.vmat"
+				m_sReplaceMaterial = "materials/hero_lich/lich.vmat"
+			},
+		]
+	}
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.05
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = false
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
+}
