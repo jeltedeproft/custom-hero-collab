@@ -4556,7 +4556,7 @@
     {
         "AbilityLayout"         "5"
         "override_hero"         "npc_dota_hero_brewmaster"
-        "Model"                 "models/mechanic/mechanic.vmdl"
+        "Model"                 "models/brawler/brawler.vmdl"
         "Ability1"              "barrel_slam" 
         "Ability2"              "drunken_charge" 
         "Ability3"              "offer_drink" 
@@ -4577,7 +4577,7 @@
         "ArmorPhysical"             "0"                                 // Physical protection.
         "MagicalResistance"             "0"                                 // Magical protection (percentage).
         
-        "ModelScale"                "0.75"
+        "ModelScale"                "1.0"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
         "AttackDamageMin"                       "2"                                                                             // Damage range min.
