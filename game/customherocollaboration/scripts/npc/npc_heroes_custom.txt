@@ -4619,6 +4619,7 @@
     {
         "AbilityLayout"         "5"
         "override_hero"         "npc_dota_hero_medusa"
+        "Model"                 "models/gorgon/gorgon.vmdl"
         "Ability1"              "scatter_arrows" 
         "Ability2"              "stone_gaze" 
         "Ability3"              "water_clones" 

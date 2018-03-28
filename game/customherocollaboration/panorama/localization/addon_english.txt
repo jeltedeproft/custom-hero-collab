@@ -44,4 +44,5 @@
 	"npc_dota_hero_tiny_hype"               "After years of slumbering, the vampire has awoken from his sleep. He hungers for blood. A foe to be feared at night"
 	"npc_dota_hero_tinker_hype"              "Machinist is a renowned engineer in this world. He uses his scientific analysis and rational mind to problem solve his way safely out of battle"
 	"npc_dota_hero_brewmaster_hype"          "The Brawler has been in countless bar figths. Sober or drunk, she packs a punch!"
+	"npc_dota_hero_medusa"                   "The gorgon is a mythological creature capable of using unhuman powers to destroy their enemies"
 }
