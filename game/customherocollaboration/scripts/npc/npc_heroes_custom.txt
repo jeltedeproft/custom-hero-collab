@@ -4430,6 +4430,7 @@
     {
         "AbilityLayout"         "5"
         "override_hero"         "npc_dota_hero_tiny"
+        "Model"                 "models/vampire/vampire.vmdl"
         "Ability1"              "bat_form" 
         "Ability2"              "call_of_the_unliving" 
         "Ability3"              "infernal_guard" 
