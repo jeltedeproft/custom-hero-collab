@@ -40,4 +40,5 @@
 	"npc_dota_hero_weaver_hype"            "The Demon is an incarnate originating from hell. Its firy aura is capable of burning even the toughest foes"
 	"npc_dota_hero_viper_hype"             "The keen hunter has lived his whole live in the woods, he learned to survive on his own and has met the cycle of life many times. He grieves for those who have given his life to support his and he shall not let it go to waste!"
 	"npc_dota_hero_venomancer_hype"        "FrostNight is an icemage returned from the dead. When he was alive he was an extremely powerfll wizard. His soul was resting in peace untill the day one foolish man decided to resurect him"
+	"npc-dota_hero_oracle_hype"             "The sage has been living in seclusion for decades. He has cultivateda strong and independant spirit. Many books of wisdom help him guide his way into battle"
 }
