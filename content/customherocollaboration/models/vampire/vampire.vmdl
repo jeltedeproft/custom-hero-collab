@@ -1059,7 +1059,7 @@
 					m_Filepath = "models/vampire/anims/flail.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 30.0
+					m_flFps = 10.0
 					m_Loop = 
 					{
 						m_bLoop = true
@@ -1105,7 +1105,7 @@
 					m_Filepath = "models/vampire/anims/run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 30.0
+					m_flFps = 15.0
 					m_Loop = 
 					{
 						m_bLoop = true
@@ -1214,7 +1214,7 @@
 					m_Filepath = "models/vampire/anims/idle.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 30.0
+					m_flFps = 10.0
 					m_Loop = 
 					{
 						m_bLoop = true

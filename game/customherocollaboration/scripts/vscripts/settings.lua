@@ -143,3 +143,18 @@ CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_5] = 1
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_6] = 1
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_7] = 1
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_8] = 1
+
+GameRules.UNIQUE_SPELLS = {
+	[1] = "wind_walk",
+	[2] = "mana_burn",
+	[3] = "healing_wave",
+	[4] = "jump",
+	[5] = "spirit_swap",
+	[6] = "war_stomp",
+	[7] = "ultimate_tree_defense",
+	[8] = "lightning_burst",
+	[9] = "blessing_of_nature",
+	[10] = "refresh",
+	[11] = "cloning",
+	[12] = "dragon_escort"
+}

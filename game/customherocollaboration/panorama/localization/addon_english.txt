@@ -42,4 +42,5 @@
 	"npc_dota_hero_venomancer_hype"        "FrostNight is an icemage returned from the dead. When he was alive he was an extremely powerfll wizard. His soul was resting in peace untill the day one foolish man decided to resurect him"
 	"npc_dota_hero_oracle_hype"             "The sage has been living in seclusion for decades. He has cultivateda strong and independant spirit. Many books of wisdom help him guide his way into battle"
 	"npc_dota_hero_tiny_hype"               "After years of slumbering, the vampire has awoken from his sleep. He hungers for blood. A foe to be feared at night"
+	"npc_dota_hero_tinker_hype"              "Machinist is a renowned engineer in this world. He uses his scientific analysis and rational mind to problem solve his way safely out of battle"
 }

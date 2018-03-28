@@ -106,6 +106,21 @@ function GameMode:OnHeroInGame(hero)
 
   hero:MoveToPosition( hero:GetAbsOrigin() )
 
+  if hero:GetUnitName() ~= "npc_dota_hero_invoker" then
+    local empty = hero:FindAbilityByName("barebones_empty1")
+    if empty ~= nil then
+      hero:RemoveAbility("barebones_empty1")
+    end
+    for k,uspell in pairs(GameRules.UNIQUE_SPELLS) do
+      local spell = hero:FindAbilityByName(uspell)
+      if spell ~= nil then
+        hero:RemoveAbility(uspell)
+      end
+    end
+    local random = RandomInt(1, #GameRules.UNIQUE_SPELLS) 
+    local spell = hero:AddAbility(GameRules.UNIQUE_SPELLS[random])
+    spell:SetLevel(1) 
+  end
 end
 
 --[[

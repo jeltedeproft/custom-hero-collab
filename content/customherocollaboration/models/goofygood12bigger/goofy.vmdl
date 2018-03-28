@@ -1241,7 +1241,7 @@
 		[
 			{
 				m_sSearchMaterial = "no_material.vmat"
-				m_sReplaceMaterial = "materials/goofy.vmat"
+				m_sReplaceMaterial = "materials/models/heroes/pangolier/pangolier_head_item_showcase.vmat"
 			},
 		]
 	}

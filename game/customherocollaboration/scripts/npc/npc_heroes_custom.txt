@@ -4493,6 +4493,7 @@
     {
         "AbilityLayout"         "5"
         "override_hero"         "npc_dota_hero_tinker"
+        "Model"                 "models/mechanic/mechanic.vmdl"
         "Ability1"              "heat_seekers" 
         "Ability2"              "zeppelin_bombing" 
         "Ability3"              "mgbt" 
@@ -4555,6 +4556,7 @@
     {
         "AbilityLayout"         "5"
         "override_hero"         "npc_dota_hero_brewmaster"
+        "Model"                 "models/mechanic/mechanic.vmdl"
         "Ability1"              "barrel_slam" 
         "Ability2"              "drunken_charge" 
         "Ability3"              "offer_drink" 
