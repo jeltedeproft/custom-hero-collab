@@ -3802,6 +3802,7 @@
     {
       "AbilityLayout"     "4"
       "override_hero"     "npc_dota_hero_shadow_shaman"
+      "ModelScale"                "1.0"
       "SoundSet"          "0" 
       "Ability1"        "soldier_shrapnel_shot" 
       "Ability2"        "" 
@@ -3863,6 +3864,7 @@
       "AbilityLayout"     "4"
       "override_hero"     "npc_dota_hero_storm_spirit"
       "Model"                 "models/valkyrie/valkyrie.vmdl"
+      "ModelScale"                "1.0"
       "SoundSet"          "0" 
       "Ability1"        "valkyrie_soul_rip"
       "Ability2"        "valkyrie_judgment" 

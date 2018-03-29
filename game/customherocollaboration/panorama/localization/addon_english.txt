@@ -46,4 +46,5 @@
 	"npc_dota_hero_brewmaster_hype"          "The Brawler has been in countless bar figths. Sober or drunk, she packs a punch!"
 	"npc_dota_hero_medusa"                   "The gorgon is a mythological creature capable of using unhuman powers to destroy their enemies"
 	"npc_dota_hero_rubick_hype"              "don't let the comical Joker looks fool u, he has many tricks up his sleeve to deceive and manipulate the enemy"
+	"npc_dota_hero_storm_spirit_hype"        "The valkyrie are a mighty race of flying warrior women. They often use their flying movement to their dvantage in battle, navigating fast and swift trough the air"
 }
