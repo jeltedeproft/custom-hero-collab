@@ -3862,6 +3862,7 @@
     {
       "AbilityLayout"     "4"
       "override_hero"     "npc_dota_hero_storm_spirit"
+      "Model"                 "models/valkyrie/valkyrie.vmdl"
       "SoundSet"          "0" 
       "Ability1"        "valkyrie_soul_rip"
       "Ability2"        "valkyrie_judgment" 
@@ -4366,6 +4367,7 @@
     {
         "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_rubick"
+        "Model"                 "models/jokerjoker/joker.vmdl"
         "Ability1"              "joker_pulse_bullet" 
         "Ability2"              "joker_blink" 
         "Ability3"              "joker_tree_defense" 
