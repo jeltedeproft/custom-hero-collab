@@ -50,4 +50,5 @@
 	"npc_dota_hero_shadow_shaman_hype"            "Soldier has fought many battles in war. He is a veteran with an immense amount of stamina. He is used to the horrors of a true war, having had experiences which no man should have had."
 	"npc_dota_hero_sand_king_hype"                "Shielder is a valiant knight specializing with the shield. He has strong defensive capabilities and is able to sacrifice for his allies"
 	"npc_dota_hero_razor_hype"                    "Flicker is a sly devil, who uses his quick agility moves to deceive oppponents"
+	"npc_dota_hero_rattletrap_hype"               "Djinn is a fire spirit, originating from the deserts. "
 }
