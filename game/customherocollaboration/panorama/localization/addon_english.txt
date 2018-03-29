@@ -47,4 +47,7 @@
 	"npc_dota_hero_medusa"                   "The gorgon is a mythological creature capable of using unhuman powers to destroy their enemies"
 	"npc_dota_hero_rubick_hype"              "don't let the comical Joker looks fool u, he has many tricks up his sleeve to deceive and manipulate the enemy"
 	"npc_dota_hero_storm_spirit_hype"        "The valkyrie are a mighty race of flying warrior women. They often use their flying movement to their dvantage in battle, navigating fast and swift trough the air"
+	"npc_dota_hero_shadow_shaman_hype"            "Soldier has fought many battles in war. He is a veteran with an immense amount of stamina. He is used to the horrors of a true war, having had experiences which no man should have had."
+	"npc_dota_hero_sand_king_hype"                "Shielder is a valiant knight specializing with the shield. He has strong defensive capabilities and is able to sacrifice for his allies"
+	"npc_dota_hero_razor_hype"                    "Flicker is a sly devil, who uses his quick agility moves to deceive oppponents"
 }

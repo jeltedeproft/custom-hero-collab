@@ -3562,6 +3562,8 @@
     {
       "AbilityLayout"     "4"
       "override_hero"     "npc_dota_hero_pugna"
+      "ModelScale"                "1.0"
+      "Model"                 "models/valkyrie/valkyrie.vmdl"
       "SoundSet"          "0" 
       "Ability1"        "deadeye_lightning_arrow" 
       "Ability2"        "deadeye_blink_arrow" 
@@ -3622,6 +3624,8 @@
   {
           "AbilityLayout"     "6"
           "override_hero"     "npc_dota_hero_rattletrap"
+          "ModelScale"                "1.0"
+          "Model"                 "models/djinn/djinn.vmdl"
           "SoundSet"          "0"
           "Ability1"        "djinn_flame_path"
           "Ability2"        "djinn_intense_heat"
@@ -3683,6 +3687,8 @@
     {
       "AbilityLayout"     "5"
       "override_hero"     "npc_dota_hero_razor"
+      "ModelScale"                "1.0"
+      "Model"                 "models/flickerfox/flickerfox.vmdl"
       "SoundSet"          "0" 
       "Ability1"        "flicker_flash_step" 
       "Ability2"        "flicker_stabilize" 
@@ -3742,6 +3748,8 @@
     {
       "AbilityLayout"     "6"
       "override_hero"     "npc_dota_hero_sand_king"
+      "ModelScale"                "1.0"
+      "Model"                 "models/shielder/shielder.vmdl"
       "SoundSet"          "0" 
       "Ability1"        "shielder_essence_drain" 
       "Ability2"        "shielder_ghost_reaver_mana" 
@@ -3803,6 +3811,7 @@
       "AbilityLayout"     "4"
       "override_hero"     "npc_dota_hero_shadow_shaman"
       "ModelScale"                "1.0"
+      "Model"                 "models/soldier/soldier.vmdl"
       "SoundSet"          "0" 
       "Ability1"        "soldier_shrapnel_shot" 
       "Ability2"        "" 
