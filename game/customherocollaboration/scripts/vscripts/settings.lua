@@ -144,6 +144,53 @@ CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_6] = 1
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_7] = 1
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_CUSTOM_8] = 1
 
+GameRules.PREDATOR_COLOURED_NAMES = {}
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_viper"] = "<font color='#FF8C00'>Hunter</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_oracle"] = "<font color='#3CB371'>Sage</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_tinker"] = "<font color='#C0C0C0'>Machinist</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_tiny"] = "<font color='#5000DC'>Vampire</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_venomancer"] = "<font color='#1E90FF'>Lich</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_tidehunter"] = "<font color='#FF4500'>Berserker</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_weaver"] = "<font color='#B22222'>Demon</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_witch_doctor"] = "<font color='#DAB24D'>Assassin</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_brewmaster"] = "<font color='#DEB887'>Brawler</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_medusa"] = "<font color='#98FB98'>Gorgon</font>"
+GameRules.PREDATOR_COLOURED_NAMES["npc_dota_hero_rubick"] = "<font color='#DCDCDC'>J</font><font color='#C0C0C0'>o</font><font color='#A9A9A9'>k</font><font color='#808080'>e</font><font color='#696969'>r</font>"
+
+GameRules.COLOURED_NAMES = {}
+
+GameRules.CURRENT_PLAYERS = {}
+
+GameRules.PLAYER_ID_TO_HERO = {}
+
+GameRules.PLAYER_ID_TO_TEAM = {}
+
+GameRules.PLAYER_COLOR_BY_ID = {
+        [0] = "#3375FF",
+        [1] = "#66FFBF",
+        [2] = "#BF00BF",
+        [3] = "#F3F00B",
+        [4] = "#FF6B00",
+        [5] = "#FE86C2",
+        [6] = "#A1B447",
+        [7] = "#65D9F7",
+        [8] = "#008321",
+        [9] = "#A46900"
+}
+
+GameRules.RGB_PLAYER_COLORS = {}
+GameRules.RGB_PLAYER_COLORS[0] = { 51, 117, 255 }  
+GameRules.RGB_PLAYER_COLORS[1]  = { 102, 255, 191 }    
+GameRules.RGB_PLAYER_COLORS[2] = { 191, 0, 191 }   
+GameRules.RGB_PLAYER_COLORS[3] = { 243, 240, 11 }      
+GameRules.RGB_PLAYER_COLORS[4] = { 255, 107, 0 }    
+GameRules.RGB_PLAYER_COLORS[5] = { 254, 134, 194 }    
+GameRules.RGB_PLAYER_COLORS[6] = { 161, 180, 71 }  
+GameRules.RGB_PLAYER_COLORS[7] = { 101, 217, 247 }
+GameRules.RGB_PLAYER_COLORS[8] = { 0, 131, 33 }
+GameRules.RGB_PLAYER_COLORS[9] = { 164, 105, 0 } 
+
+
 GameRules.UNIQUE_SPELLS = {
 	[1] = "wind_walk",
 	[2] = "mana_burn",

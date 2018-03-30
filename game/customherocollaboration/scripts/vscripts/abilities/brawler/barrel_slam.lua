@@ -34,6 +34,7 @@ function BarrelSlam(event)
       local targetPos = v:GetAbsOrigin()
   	  local vdiff = targetPos - point
   	  vdiffNormalized = vdiff:Normalized()
+      Physics:Unit(v)
   	  v:AddPhysicsVelocity(vdiffNormalized * knockback_force)
       ApplyDamage({ victim = v, attacker = caster, damage = damage, damage_type = DAMAGE_TYPE_MAGICAL })
     end

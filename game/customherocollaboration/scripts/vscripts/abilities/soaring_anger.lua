@@ -25,6 +25,7 @@ function SoaringAnger ( event )
   local ndiff = -diff
   ndiff = ndiff
   ProjectileManager:ProjectileDodge(hero)
+  Physics:Unit(hero)
   hero:SetPhysicsFriction(0)
   hero:SetPhysicsVelocity(Vector(ndiff.x/duration,ndiff.y/duration,  900 * duration/2) + offsetVector)
   hero:SetPhysicsAcceleration(Vector(0,0, -900))

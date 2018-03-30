@@ -28,6 +28,8 @@ function CycloneCross(event)
 		local destination = point + pos
 
 		local blade = CreateUnitByName("dummy_unit", destination , true, nil, nil, casterTeam)
+		local dummy_modifier = blade:FindAbilityByName("dummy_passive")
+		dummy_modifier:SetLevel(1)
 		blade:SetAbsOrigin(destination)
 		local particle = ParticleManager:CreateParticle("particles/units/heroes/hero_drow/drow_silence_wave_ground_dust.vpcf", PATTACH_ABSORIGIN, blade)
 		ParticleManager:SetParticleControl( particle, 0, destination)
@@ -53,6 +55,8 @@ function CycloneCross(event)
 	local blade_delay = blade_distance / blade_speed
 	Timers:CreateTimer(delay + blade_delay,function()
 		local cyclone = CreateUnitByName("dummy_unit", point , true, nil, nil, casterTeam)
+		local dummy_modifier = cyclone:FindAbilityByName("dummy_passive")
+		dummy_modifier:SetLevel(1)
 		cyclone:SetAbsOrigin(point)
 		ability:ApplyDataDrivenModifier(caster, cyclone, "modifier_cyclone", {duration = cyclone_duration})
 		ParticleManager:CreateParticle("particles/items_fx/cyclone.vpcf", PATTACH_ABSORIGIN_FOLLOW, cyclone)

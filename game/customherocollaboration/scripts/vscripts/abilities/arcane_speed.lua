@@ -31,6 +31,8 @@ function ArcaneSpeedAttack(event)
 	StartAnimation(caster, {duration=0.1, activity=ACT_DOTA_ATTACK, rate=2.0})
 	EmitSoundOn("Hero_PhantomAssassin.PreAttack", caster)
 	local dummy = CreateUnitByName("dummy_unit", caster:GetAbsOrigin(), false, nil, nil, caster:GetTeam())
+	local dummy_modifier = dummy:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	dummy.hit = {}
 	ability:ApplyDataDrivenModifier(caster, dummy, "modifier_arcane_speed_attack_move", {duration=attack_duration})
 	dummy.particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/arcane_speed/assassin_arcane_speed.vpcf", PATTACH_ABSORIGIN, caster)

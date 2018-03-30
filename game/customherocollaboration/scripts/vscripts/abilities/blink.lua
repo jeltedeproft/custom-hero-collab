@@ -17,7 +17,7 @@ function CheckBlink ( event )
   -- end
 
 
-  hero:Interrupt()
+  --hero:Interrupt()
 end
 
 function Blink ( event )

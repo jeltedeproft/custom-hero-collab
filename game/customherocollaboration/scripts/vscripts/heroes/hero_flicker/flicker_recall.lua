@@ -44,16 +44,9 @@ end
 
 function flicker_recall:CastFilterResult()
     local caster = self:GetCaster()
-    local allies = FindUnitsInRadius( caster:GetTeamNumber(),
-                                      caster:GetAbsOrigin(),
-                                      nil,
-                                      FIND_UNITS_EVERYWHERE,
-                                      DOTA_UNIT_TARGET_TEAM_FRIENDLY,
-                                      DOTA_UNIT_TARGET_HERO,
-                                      DOTA_UNIT_TARGET_FLAG_INVULNERABLE,
-                                      FIND_ANY_ORDER,
-                                      false )
-    for _, v in pairs(allies) do
+    local allies = FindUnitsInRadius(caster:GetTeamNumber(), caster:GetAbsOrigin(), nil, 25000, DOTA_UNIT_TARGET_TEAM_FRIENDLY, DOTA_UNIT_TARGET_HERO, DOTA_UNIT_TARGET_FLAG_INVULNERABLE, FIND_ANY_ORDER, false)
+    
+    for _,v in pairs(allies) do
         if v:HasModifier("modifier_flash_step_trace") and (v.owner == caster) and (v.time_created ~= nil) then
             return UF_SUCCESS
         end

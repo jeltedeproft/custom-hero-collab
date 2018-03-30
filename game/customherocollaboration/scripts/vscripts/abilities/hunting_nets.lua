@@ -18,14 +18,20 @@ function HuntingNets(event)
 	local net3Fv = RotatePosition(Vector(0,0,0), QAngle(0,offset,0), casterFv)
 
 	local net1 = CreateUnitByName("dummy_unit", casterPos, false, nil, nil, casterTeam)
+	local dummy_modifier = net1:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	net1.particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/hunting_nets/hunting_nets.vpcf", PATTACH_ABSORIGIN_FOLLOW, net1)
 	ability:ApplyDataDrivenModifier(caster, net1, "modifier_hunting_net", {duration = distance/speed})
 	
 	local net2 = CreateUnitByName("dummy_unit", casterPos, false, nil, nil, casterTeam)
+	local dummy_modifier = net2:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	net2.particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/hunting_nets/hunting_nets.vpcf", PATTACH_ABSORIGIN_FOLLOW, net2)
 	ability:ApplyDataDrivenModifier(caster, net2, "modifier_hunting_net", {duration = distance/speed})
 
 	local net3 = CreateUnitByName("dummy_unit", casterPos, false, nil, nil, casterTeam)
+	local dummy_modifier = net3:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	net3.particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/hunting_nets/hunting_nets.vpcf", PATTACH_ABSORIGIN_FOLLOW, net3)
 	ability:ApplyDataDrivenModifier(caster, net3, "modifier_hunting_net", {duration = distance/speed})
 

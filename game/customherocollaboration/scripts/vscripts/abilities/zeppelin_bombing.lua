@@ -16,11 +16,15 @@ function ZeppelinBombing(event)
 	bombing_interval = bombing_interval
 
 	local dummy = CreateUnitByName("dummy_unit", point, false, nil, nil, caster:GetTeam())
+	local dummy_modifier = dummy:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	local dir = point - caster:GetAbsOrigin()
 	dir.z = 0
 	dir = dir:Normalized()
 	local particle = nil
 	local zeppelin = CreateUnitByName("dummy_unit", caster:GetAbsOrigin(), false, nil, nil, caster:GetTeam())
+	local dummy_modifier = zeppelin:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	EmitSoundOn("Hero_Phoenix.IcarusDive.Cast", zeppelin) 
 	Timers:CreateTimer(function()
 		zeppelin:SetForwardVector(dir)
@@ -45,6 +49,8 @@ function ZeppelinBombing(event)
 		explosives = explosives - 1
 		local zepPos = zeppelin:GetAbsOrigin()
 		local barrel = CreateUnitByName("dummy_unit", zepPos, false, nil, nil, zeppelin:GetTeam())
+		local dummy_modifier = barrel:FindAbilityByName("dummy_passive")
+		dummy_modifier:SetLevel(1)
 		EmitSoundOn("Hero_Techies.RemoteMine.Toss", barrel)
 		ability:ApplyDataDrivenModifier(zeppelin, barrel, "modifier_barrel", {duration = 10})
 		barrel:SetAbsOrigin(zepPos + Vector(0,0,-50))

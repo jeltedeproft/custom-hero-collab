@@ -37,6 +37,7 @@ function TossPet(event)
   	bear:Interrupt()
 
   	ProjectileManager:ProjectileDodge(bear)
+    Physics:Unit(bear)
   	bear:SetPhysicsFriction(0)
   	bear:SetPhysicsVelocity(Vector(destination.x/toss_duration,destination.y/toss_duration,  1350 * toss_duration/2))
   	bear:SetPhysicsAcceleration(Vector(0,0, -1350))

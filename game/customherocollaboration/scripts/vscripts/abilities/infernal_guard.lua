@@ -31,6 +31,8 @@ function InfernalGuard(event)
 	local pos2 = casterPos + RotatePosition(Vector(0,0,0), QAngle(0,-90,0), fv) * second_distance
 
 	local dummy1 = CreateUnitByName("dummy_unit", pos1, false, nil, nil, caster:GetTeam())
+	local dummy_modifier = dummy1:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	ability:ApplyDataDrivenModifier(caster, dummy1, "modifier_infernal_guard_damage", {duration = duration})
 	ability:ApplyDataDrivenModifier(caster, dummy1, "modifier_infernal_guard", {duration = duration})
 	ParticleManager:CreateParticle("particles/units/heroes/hero_oracle/oracle_purifyingflames.vpcf", PATTACH_ABSORIGIN_FOLLOW, dummy1)
@@ -39,6 +41,8 @@ function InfernalGuard(event)
 	dummy1.lastpos = dummy1:GetAbsOrigin()
 
 	local dummy2 = CreateUnitByName("dummy_unit", pos2, false, nil, nil, caster:GetTeam())
+	local dummy_modifier = dummy2:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	ability:ApplyDataDrivenModifier(caster, dummy2, "modifier_infernal_guard_damage", {duration = duration})
 	ability:ApplyDataDrivenModifier(caster, dummy2, "modifier_infernal_guard", {duration = duration})
 	ParticleManager:CreateParticle("particles/units/heroes/hero_oracle/oracle_purifyingflames.vpcf", PATTACH_ABSORIGIN_FOLLOW, dummy2)

@@ -101,25 +101,32 @@ function GameMode:OnHeroInGame(hero)
   DebugPrint("[BAREBONES] Hero spawned in game for first time -- " .. hero:GetUnitName())
 
   --collect all heroes
-  GameRules.Heroes[hero:GetPlayerID()] = hero
-  hero.positions = {}
+  if hero:GetOwnerEntity() ~= nil then
+    GameRules.Heroes[hero:GetPlayerID()] = hero
+    hero.positions = {}
 
-  hero:MoveToPosition( hero:GetAbsOrigin() )
+    hero:MoveToPosition( hero:GetAbsOrigin() )
 
-  if hero:GetUnitName() == "npc_dota_hero_invoker" then
-    local empty = hero:FindAbilityByName("barebones_empty1")
-    if empty ~= nil then
-      hero:RemoveAbility("barebones_empty1")
-    end
-    for k,uspell in pairs(GameRules.UNIQUE_SPELLS) do
-      local spell = hero:FindAbilityByName(uspell)
-      if spell ~= nil then
-        hero:RemoveAbility(uspell)
+    if hero:GetUnitName() == "npc_dota_hero_invoker" then
+      local empty = hero:FindAbilityByName("barebones_empty1")
+      if empty ~= nil then
+        hero:RemoveAbility("barebones_empty1")
       end
+      for k,uspell in pairs(GameRules.UNIQUE_SPELLS) do
+        local spell = hero:FindAbilityByName(uspell)
+        if spell ~= nil then
+          hero:RemoveAbility(uspell)
+        end
+      end
+      local random = RandomInt(1, #GameRules.UNIQUE_SPELLS) 
+      local spell = hero:AddAbility(GameRules.UNIQUE_SPELLS[random])
+      spell:SetLevel(1) 
     end
-    local random = RandomInt(1, #GameRules.UNIQUE_SPELLS) 
-    local spell = hero:AddAbility(GameRules.UNIQUE_SPELLS[random])
-    spell:SetLevel(1) 
+
+    if hero:GetUnitName() == "npc_dota_hero_sand_king" then
+      local energy_shield = hero:FindAbilityByName("shielder_energy_shield")
+      if energy_shield then energy_shield:SetLevel(1) end
+    end
   end
 end
 
@@ -673,14 +680,40 @@ function attachCosmetic( keys )
   hat:SetParent(unit, attachPoint)
 end
 
+--recheck position if hero was out of game or something
+function Recheck_position(hero)
+  if hero:GetAbsOrigin() then
+    hero.positions[math.floor(currTime)] = hero:GetAbsOrigin()
+  else
+    Timers:CreateTimer(1, 
+      function()
+        Recheck_position(hero) 
+    end)
+  end
+end
 
---ntropy rewind think function
-function Think( )
+
+--ntropy rewind think function, this is kind of ugly, sometimes heroes disapear, it can cause an error, so if a hero isnt in the game for this moment, we just wait a seocnd and try gaain
+function Think()
   local currTime = GameRules:GetGameTime()
 
   for pID, hero in pairs(GameRules.Heroes) do
     if not hero.positions[math.floor(currTime)] then
-      hero.positions[math.floor(currTime)] = hero:GetAbsOrigin()
+      if not hero:IsNull() then
+        if hero:GetAbsOrigin() then
+          hero.positions[math.floor(currTime)] = hero:GetAbsOrigin()
+        else
+          Timers:CreateTimer(1, 
+            function()
+              Recheck_position(hero)  
+          end)
+        end 
+      else
+        Timers:CreateTimer(1, 
+          function()
+            Recheck_position(hero)  
+        end)
+      end
     end
 
     for t, pos in pairs(hero.positions) do

@@ -769,7 +769,13 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = [  ]
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = 
 					[
@@ -826,7 +832,13 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = [  ]
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = 
 					[
@@ -867,7 +879,7 @@
 					m_Filepath = "models/sage/anims/flail.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 30.0
+					m_flFps = 10.0
 					m_Loop = 
 					{
 						m_bLoop = true
@@ -883,7 +895,13 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = [  ]
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FLAIL"
+							m_nWeight = 1
+						},
+					]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = [  ]
 					m_pIkRules = [  ]
@@ -907,7 +925,7 @@
 					m_Filepath = "models/sage/anims/idle.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 15.0
+					m_flFps = 10.0
 					m_Loop = 
 					{
 						m_bLoop = true
@@ -923,7 +941,13 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = [  ]
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE"
+							m_nWeight = 1
+						},
+					]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = [  ]
 					m_pIkRules = [  ]
@@ -947,7 +971,7 @@
 					m_Filepath = "models/sage/anims/run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 25.0
+					m_flFps = 15.0
 					m_Loop = 
 					{
 						m_bLoop = true
@@ -963,7 +987,13 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = [  ]
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+					]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = 
 					[
@@ -1020,7 +1050,13 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = [  ]
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+					]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = [  ]
 					m_pIkRules = [  ]

@@ -4,6 +4,8 @@ function WellOfEvilCreate(event)
 	local point = event.target_points[1]
 	local duration = ability:GetLevelSpecialValueFor( "duration", ability:GetLevel() - 1 )
 	local dummy = CreateUnitByName("dummy_unit", point, false, nil, nil, caster:GetTeam())
+	local dummy_modifier = dummy:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	EmitSoundOn("Hero_ShadowDemon.ShadowPoison", dummy)
 	ability:ApplyDataDrivenModifier(caster, dummy, "modifier_well_of_evil", {duration = duration+5/30})
 	local particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/well_of_evil/joker_purifyingflames.vpcf", PATTACH_ABSORIGIN_FOLLOW, dummy)

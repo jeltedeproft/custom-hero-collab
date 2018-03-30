@@ -1,7 +1,7 @@
 modifier_rapid_strike_target = class({})
 
 function modifier_rapid_strike_target:OnDestroy()
-    local caster = self:GetAbility():GetCaster()
+    local caster = self:GetCaster()
     caster:RemoveModifierByName("modifier_rapid_strike")
 end
 

@@ -238,6 +238,20 @@ function GameMode:OnPlayerPickHero(keys)
   Timers:CreateTimer(0.2, function ()
     InitHeroSetup(keys)
   end)
+
+  if heroEntity:GetOwnerEntity() ~= nil then
+    --color stuff from the predator mod
+    local pID = heroEntity:GetPlayerID()
+    local playername = PlayerResource:GetPlayerName(pID)
+    if playername == "" then
+      playername = "NoNicknameFound"
+    end
+    local color = GameRules.RGB_PLAYER_COLORS[pID]
+    PlayerResource:SetCustomPlayerColor(pID, color[1],color[2],color[3]) 
+    GameRules.COLOURED_NAMES[pID] = "<font color='"..GameRules.PLAYER_COLOR_BY_ID[pID].."'>"..playername.."</font>"
+    GameRules.PLAYER_ID_TO_HERO[pID] = heroEntity
+    GameRules.CURRENT_PLAYERS[pID] = pID
+  end
 end
 
 -- A player killed another player in a multi-team context
@@ -426,5 +440,34 @@ function DestroyRocksAroundPoint(point, radius)
     if v:GetUnitName() == "npc_rock" then
       v:ForceKill(false)
     end
+  end
+end
+
+function IsOutOfBounds(pos)
+    if pos.x > GetWorldMaxX() then
+      return true
+    end
+
+    if pos.x < GetWorldMinX() then
+      return true
+    end
+
+    if pos.y > GetWorldMaxY() then
+      return true
+    end
+
+    if pos.y > GetWorldMaxY() then
+      return true
+    end
+
+    return false
+end
+
+function RestoreColors()
+  for k,v in pairs(GameRules.CURRENT_PLAYERS) do
+    local color = GameRules.RGB_PLAYER_COLORS[v]
+    PlayerResource:SetCustomPlayerColor(v, color[1],color[2],color[3]) 
+    local teamcolor = TEAM_COLORS[GameRules.PLAYER_ID_TO_HERO[v]:GetTeam()]
+    SetTeamCustomHealthbarColor(GameRules.PLAYER_ID_TO_HERO[v]:GetTeam(),teamcolor[1],teamcolor[2],teamcolor[3]) 
   end
 end

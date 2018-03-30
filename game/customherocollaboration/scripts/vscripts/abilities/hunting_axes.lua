@@ -17,12 +17,16 @@ function HuntingAxes(event)
 	local diffNormalized = diff:Normalized()
 
 	local axe1 = CreateUnitByName("dummy_unit", casterPos, false, nil, nil, casterTeam)
+	local dummy_modifier = axe1:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	axe1.hit = {}
 	axe1.rotation = rotation
 	ParticleManager:CreateParticle("particles/units/heroes/hero_beastmaster/beastmaster_wildaxe.vpcf", PATTACH_ABSORIGIN_FOLLOW, axe1)
 	ability:ApplyDataDrivenModifier(caster, axe1, "modifier_hunting_axe", {})
 
 	local axe2 = CreateUnitByName("dummy_unit", casterPos, false, nil, nil, casterTeam)
+	local dummy_modifier = axe2:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	ParticleManager:CreateParticle("particles/units/heroes/hero_beastmaster/beastmaster_wildaxe.vpcf", PATTACH_ABSORIGIN_FOLLOW, axe2)
 	axe2.hit = {}
 	axe2.rotation = rotation

@@ -39,6 +39,8 @@ function MGBT(event)
 	local ability = event.ability
 	local point = event.target_points[1]
 	local checker = CreateUnitByName("mgbt_dummy_unit", point, true, caster, caster, casterTeam)
+	local dummy_modifier = checker:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	point = checker:GetAbsOrigin()
 	Timers:CreateTimer(0.2,function()
 		checker:RemoveSelf()

@@ -7,6 +7,9 @@ function JokerPulseBullet(event)
 	dir = dir:Normalized()
 	local particle = nil
 	local bullet = CreateUnitByName("dummy_unit", caster:GetAbsOrigin(), false, nil, nil, caster:GetTeam())
+	local dummy_modifier = bullet:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
+
 	Timers:CreateTimer(function()
 		bullet:SetForwardVector(dir)
 		particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/joker_pulse_bullet/joker_fire_ambient.vpcf", PATTACH_ABSORIGIN_FOLLOW, bullet)
@@ -34,13 +37,13 @@ function JokerTick(event)
 	local fv = caster:GetForwardVector()
 	local origin = caster:GetAbsOrigin()
 
-	if IsOutOfBounds(caster:GetAbsOrigin()) == true then
-		local pos = Entities:FindByName(nil, "target_predator_spawn"):GetAbsOrigin()
-		caster:SetAbsOrigin(pos)
-		origin = pos
-		local particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/joker_blink/joker_spell_blink.vpcf", PATTACH_ABSORIGIN, caster)
-		ParticleManager:SetParticleControl( particle, 0, pos + Vector(0,0,50))
-	end
+	-- if IsOutOfBounds(caster:GetAbsOrigin()) == true then
+	-- 	local pos = Entities:FindByName(nil, "target_predator_spawn"):GetAbsOrigin()
+	-- 	caster:SetAbsOrigin(pos)
+	-- 	origin = pos
+	-- 	local particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/joker_blink/joker_spell_blink.vpcf", PATTACH_ABSORIGIN, caster)
+	-- 	ParticleManager:SetParticleControl( particle, 0, pos + Vector(0,0,50))
+	-- end
 
 
 	local front_position = origin + fv * 30

@@ -41634,6 +41634,7 @@
       "precache"
       {
           "particle"  "particles/dev/empty_particle.vpcf"
+          "particle"  "particles/econ/items/drow/drow_ti6/drow_ti6_silence_wave.vpcf"
           "soundfile" "soundevents/game_sounds_heroes/game_sounds_antimage.vsndevts"
       }
   
@@ -44710,7 +44711,6 @@
   
   "dummy_passive"
   {
-    "ID"              "1851"
     "BaseClass"       "ability_datadriven"
     "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "Modifiers"
@@ -44737,7 +44737,6 @@
   
   "rock_passive"
   {
-    "ID"              "1851"
     "BaseClass"       "ability_datadriven"
     "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "AbilityTextureName"            "granite_golem_hp_aura"
@@ -44799,7 +44798,6 @@
   
   "rock_golem_passive"
   {
-    "ID"              "1851"
     "BaseClass"       "ability_datadriven"
     "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "AbilityTextureName"            "granite_golem_hp_aura"
@@ -44840,7 +44838,6 @@
   
   "particle_dummy_passive"
   {
-    "ID"              "1851"
     "BaseClass"       "ability_datadriven"
     "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "Modifiers"
@@ -44876,7 +44873,6 @@
   
   "ward_passive"
   {
-    "ID"              "1851"
     "BaseClass"       "ability_datadriven"
     "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
     "Modifiers"
@@ -44919,6 +44915,7 @@
     {
       "dummy_pulse_bullet_passive_modifier"
       {
+
         "OnDestroy"
         {
           "RunScript"
@@ -44939,7 +44936,7 @@
       }
     }
     "OnSpellStart"
-        {
+    {
       "FireSound"
       {
         "Target"      "CASTER"
@@ -45182,7 +45179,7 @@
       }
     }
     "OnSpellStart"
-        {
+    {
       "FireSound"
       {
         "EffectName"    "Hero_Antimage.Blink_out"
@@ -46370,7 +46367,6 @@
   
   "berserkers_rush"
   {
-    "ID"              "1957"
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
     "MaxLevel"            "1"
     "AbilityCooldown"             "22"
@@ -46456,7 +46452,6 @@
   
   "raged_spirit"
   {
-    "ID"              "1979"
     "AbilityTextureName"      "brewmaster_fire_permanent_immolation"
     "BaseClass"                   "ability_datadriven"
     "AbilityBehavior"             "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_ATTACK"
@@ -47031,15 +47026,15 @@
             "Function"        "Down"
           }
         }
-        "ThinkInterval" "1/30"
-        "OnIntervalThink"
-        {
-          "RunScript"
-          {
-            "ScriptFile"      "abilities\magic_flight.lua"        
-            "Function"        "Unstuck"
-          }
-        }
+//        "ThinkInterval" "1/30"
+//        "OnIntervalThink"
+//        {
+//          "RunScript"
+//          {
+//            "ScriptFile"      "abilities\magic_flight.lua"        
+//            "Function"        "Unstuck"
+//          }
+//        }
         
       }
     }
@@ -47645,7 +47640,6 @@
   
   "bloodthirst"
   {
-    "ID"              "1980"
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "ursa_fury_swipes"
     "MaxLevel"            "1"
@@ -47961,7 +47955,6 @@
   
   "tower_passive"
   {
-    "ID"              "5300"
     "BaseClass"                 "ability_datadriven"
     "MaxLevel"            "1"
   

@@ -9,15 +9,19 @@ function TankMode ( event )
     ability.tank:RemoveSelf()
     caster:RemoveModifierByName("modifier_tank_mode")
     caster:RemoveGesture(ACT_DOTA_IDLE)
+    event.caster:RemoveNoDraw()
   else
     ParticleManager:CreateParticle("particles/econ/items/tinker/boots_of_travel/teleport_end_bots_ground_flash.vpcf", PATTACH_ABSORIGIN, caster )
     EmitSoundOn("Hero_Wisp.TeleportOut", caster)
     ability:ApplyDataDrivenModifier(caster, caster, "modifier_tank_mode", {})
     ability.tank = CreateUnitByName("tank_dummy_unit", caster:GetAbsOrigin(), false, nil, nil, caster:GetTeam())
+    local dummy_modifier = ability.tank:FindAbilityByName("dummy_passive")
+    dummy_modifier:SetLevel(1)
     ability.tank:SetAbsOrigin(caster:GetAbsOrigin())
     ability.tank:SetForwardVector(caster:GetForwardVector())
     ability.tank:SetModelScale(1.5)
     ability:ApplyDataDrivenModifier(ability.tank, ability.tank, "modifier_tank_visual", {})
+    event.caster:AddNoDraw()
   end
 end
 

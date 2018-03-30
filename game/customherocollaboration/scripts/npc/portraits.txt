@@ -2309,7 +2309,7 @@
 		{
 			"default"
 			{
-				"PortraitPosition"		"500 0 205"
+				"PortraitPosition"		"500 0 85"
 				"PortraitAngles"		"0 180 0"
 				"PortraitFOV"			"14"
 			}
@@ -2495,7 +2495,7 @@
 		{
 			"default"
 			{
-				"PortraitPosition"		"500 0 205"
+				"PortraitPosition"		"500 0 155"
 				"PortraitAngles"		"0 180 0"
 				"PortraitFOV"			"14"
 			}
@@ -2527,7 +2527,7 @@
 		{
 			"default"
 			{
-				"PortraitPosition"		"500 0 205"
+				"PortraitPosition"		"500 0 125"
 				"PortraitAngles"		"0 180 0"
 				"PortraitFOV"			"14"
 			}
@@ -2682,7 +2682,7 @@
 		{
 			"default"
 			{
-				"PortraitPosition"		"500 0 205"
+				"PortraitPosition"		"500 0 75"
 				"PortraitAngles"		"0 180 0"
 				"PortraitFOV"			"14"
 			}
@@ -2743,7 +2743,7 @@
 		{
 			"default"
 			{
-				"PortraitPosition"		"500 0 205"
+				"PortraitPosition"		"500 0 125"
 				"PortraitAngles"		"0 180 0"
 				"PortraitFOV"			"14"
 			}
@@ -2774,7 +2774,7 @@
 		{
 			"default"
 			{
-				"PortraitPosition"		"500 0 205"
+				"PortraitPosition"		"500 0 175"
 				"PortraitAngles"		"0 180 0"
 				"PortraitFOV"			"14"
 			}

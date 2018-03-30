@@ -3803,8 +3803,6 @@
       "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
       "VisionNighttimeRange"    "800"                  // Range of vision at night time.
   
-      // Just setup
-      "vscripts"          "heroes/hero_shielder/setup.lua"
     }
   "npc_custom_hero_soldier"
     {
@@ -4345,7 +4343,7 @@
         "AttackRate"                            "2.13"                                                                   // Speed of attack.
         "AttackAnimationPoint"                "0.4"                                                                  // Normalized time in animation cycle to attack.
         "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "250"                                                                   // Range within a target can be attacked.
+        "AttackRange"                           "550"                                                                   // Range within a target can be attacked.
         "ProjectileModel"                       "particles/units/heroes/hero_oracle/oracle_base_attack.vpcf"                                                   // Particle system model for projectile.
         "ProjectileSpeed"                       "900"                                                                   // Speed of projectile.
 

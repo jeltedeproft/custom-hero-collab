@@ -9,7 +9,7 @@ function BlinkArrow(event)
 
 
     ProjectileManager:CreateLinearProjectile({
-            EffectName = "particles/dev/empty_particle.vpcf",
+            EffectName = "particles/econ/items/drow/drow_ti6/drow_ti6_silence_wave.vpcf",
             Ability = ability,
             vSpawnOrigin = caster_pos,
             vVelocity = direction * proj_speed,

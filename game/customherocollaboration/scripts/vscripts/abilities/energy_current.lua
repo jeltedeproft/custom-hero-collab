@@ -19,6 +19,7 @@ function EnergyCurrent ( event )
 
 
   ProjectileManager:ProjectileDodge(hero)
+  Physics:Unit(hero)
   hero:SetPhysicsFriction(0)
   hero:SetPhysicsVelocity(Vector(ndiff.x/duration,ndiff.y/duration,  900 * duration/2))
   hero:SetPhysicsAcceleration(Vector(0,0, -900))
@@ -32,6 +33,8 @@ function EnergyCurrent ( event )
     Timers:CreateTimer(wave_release_delay,function()
       local fv = hero:GetForwardVector()
       local wave = CreateUnitByName("dummy_unit", hero:GetAbsOrigin(), false, nil, nil, hero:GetTeam())
+      local dummy_modifier = wave:FindAbilityByName("dummy_passive")
+      dummy_modifier:SetLevel(1)
       wave.hit = {}
       ability:ApplyDataDrivenModifier(hero, wave, "modifier_energy_current_wave", {duration = projectile_distance/projectile_speed})
       local particle = ParticleManager:CreateParticle("particles/custom_particles/abilities/energy_current/invoker_deafening_blast_fixed_lifetime.vpcf", PATTACH_ABSORIGIN, wave)

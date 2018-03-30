@@ -5,6 +5,8 @@ function Timebomb(event)
 	local time = ability:GetLevelSpecialValueFor( "time", ability:GetLevel() - 1 )
 	local explosion_delay = ability:GetLevelSpecialValueFor( "explosion_delay", ability:GetLevel() - 1 )
 	local dummy = CreateUnitByName("dummy_unit", point, false, nil, nil, caster:GetTeam())
+	local dummy_modifier = dummy:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	local timer = time
 
 	local random = RandomInt(1, 100)

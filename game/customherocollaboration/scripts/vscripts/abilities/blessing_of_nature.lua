@@ -16,6 +16,8 @@ function BlessingOfNature(event)
   	ParticleManager:SetParticleControl( particle1, 2, Vector(radius,0,0) )
 
   	local pdummy = CreateUnitByName("particle_dummy_unit", point, false, nil, nil, caster:GetTeam())
+  	local dummy_modifier = pdummy:FindAbilityByName("particle_dummy_passive")
+  	dummy_modifier:SetLevel(1)
   	ParticleManager:CreateParticle("particles/units/heroes/hero_treant/treant_overgrowth_vine_glow_trail.vpcf", PATTACH_ABSORIGIN_FOLLOW, pdummy )
 
   	local trees = GridNav:GetAllTreesAroundPoint(point, radius, false)

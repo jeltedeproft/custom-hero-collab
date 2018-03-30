@@ -12,6 +12,9 @@ function PulseBullet(event)
 	dir = dir:Normalized()
 	local particle = nil
 	local bullet = CreateUnitByName("dummy_unit", caster:GetAbsOrigin(), false, nil, nil, caster:GetTeam())
+	local dummy_modifier = bullet:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
+
 	Timers:CreateTimer(function()
 		bullet:SetForwardVector(dir)
 		particle = ParticleManager:CreateParticle("particles/units/heroes/hero_brewmaster/brewmaster_fire_ambient.vpcf", PATTACH_ABSORIGIN_FOLLOW, bullet)

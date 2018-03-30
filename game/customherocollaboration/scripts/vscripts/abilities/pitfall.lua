@@ -6,6 +6,8 @@ function PitfallStart(event)
 	local damage = ability:GetLevelSpecialValueFor( "damage", ability:GetLevel() - 1 )
 	local finalPos = caster:GetAbsOrigin() + caster:GetForwardVector() * 50
 	local pit = CreateUnitByName("dummy_unit", finalPos, false, nil, nil, caster:GetTeam())
+	local dummy_modifier = pit:FindAbilityByName("dummy_passive")
+	dummy_modifier:SetLevel(1)
 	ability:ApplyDataDrivenModifier(caster, pit, "modifier_pitfall", {duration = duration})
 
 	EmitSoundOn("Ability.LightStrikeArray", caster)

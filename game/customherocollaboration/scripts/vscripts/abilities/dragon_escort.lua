@@ -4,6 +4,8 @@ function DragonEscortStart(event)
   local ability = event.ability
   local dest = target:GetAbsOrigin() - target:GetForwardVector() * 600 + Vector(0,0,500)
   local dragon = CreateUnitByName("dragon_dummy_unit", dest, true, caster, caster, caster:GetTeamNumber())
+  local dummy_modifier = dragon:FindAbilityByName("dummy_passive")
+  dummy_modifier:SetLevel(1)
   dragon:StartGesture(ACT_DOTA_RUN)
   dragon.target = target
   dragon:SetAbsOrigin(dest)

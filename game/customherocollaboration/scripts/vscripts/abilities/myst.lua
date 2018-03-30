@@ -3,6 +3,8 @@ function Myst ( event )
   local ability = event.ability
   local duration = ability:GetLevelSpecialValueFor( "duration", ability:GetLevel() - 1 )
   local mist = CreateUnitByName("dummy_myst", caster:GetAbsOrigin(), false, nil, nil, caster:GetTeam())
+  local dummy_modifier = mist:FindAbilityByName("dummy_passive")
+  dummy_modifier:SetLevel(1)
   EmitSoundOn("Hero_Riki.Smoke_Screen", mist)
   ability:ApplyDataDrivenModifier(caster, mist, "modifier_myst", {duration = duration})
   Timers:CreateTimer(0,function()
