@@ -3563,7 +3563,7 @@
       "AbilityLayout"     "4"
       "override_hero"     "npc_dota_hero_pugna"
       "ModelScale"                "1.0"
-      "Model"                 "models/valkyrie/valkyrie.vmdl"
+      "Model"                 "models/deadeye/deadeye.vmdl"
       "SoundSet"          "0" 
       "Ability1"        "deadeye_lightning_arrow" 
       "Ability2"        "deadeye_blink_arrow" 

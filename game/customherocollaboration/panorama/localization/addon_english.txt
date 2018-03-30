@@ -44,11 +44,12 @@
 	"npc_dota_hero_tiny_hype"               "After years of slumbering, the vampire has awoken from his sleep. He hungers for blood. A foe to be feared at night"
 	"npc_dota_hero_tinker_hype"              "Machinist is a renowned engineer in this world. He uses his scientific analysis and rational mind to problem solve his way safely out of battle"
 	"npc_dota_hero_brewmaster_hype"          "The Brawler has been in countless bar figths. Sober or drunk, she packs a punch!"
-	"npc_dota_hero_medusa"                   "The gorgon is a mythological creature capable of using unhuman powers to destroy their enemies"
+	"npc_dota_hero_medusa_hype"                   "The gorgon is a mythological creature capable of using unhuman powers to destroy their enemies"
 	"npc_dota_hero_rubick_hype"              "don't let the comical Joker looks fool u, he has many tricks up his sleeve to deceive and manipulate the enemy"
 	"npc_dota_hero_storm_spirit_hype"        "The valkyrie are a mighty race of flying warrior women. They often use their flying movement to their dvantage in battle, navigating fast and swift trough the air"
 	"npc_dota_hero_shadow_shaman_hype"            "Soldier has fought many battles in war. He is a veteran with an immense amount of stamina. He is used to the horrors of a true war, having had experiences which no man should have had."
 	"npc_dota_hero_sand_king_hype"                "Shielder is a valiant knight specializing with the shield. He has strong defensive capabilities and is able to sacrifice for his allies"
 	"npc_dota_hero_razor_hype"                    "Flicker is a sly devil, who uses his quick agility moves to deceive oppponents"
 	"npc_dota_hero_rattletrap_hype"               "Djinn is a fire spirit, originating from the deserts. "
+	"npc_dota_hero_pugna_hype"                    "Deadeye is a night elf archer who has been defending his home in the woods for decades. No uninvited man has roamed these woods and come out unscathed" 
 }

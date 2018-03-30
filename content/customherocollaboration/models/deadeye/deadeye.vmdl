@@ -1,0 +1,847 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_meshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "deadeye"
+				m_meshFile = "models/deadeye/deadeye.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList = 
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.05
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
+		m_nReservedInt = 0
+		m_bSoftSkinAnimation = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList = [  ]
+	}
+	m_physicsMeshList = 
+	{
+		m_meshList = [  ]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList = 
+	{
+		m_pObject = null
+	}
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "b_Spine1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Spine1"
+								m_vMinBounds = [ -22.338699, -41.212048, -11.84775 ]
+								m_vMaxBounds = [ -0.117622, -2.692551, 12.101517 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Spine3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Spine3"
+								m_vMinBounds = [ -20.787392, -1.684006, -21.124971 ]
+								m_vMaxBounds = [ 20.688164, 35.688377, 22.360456 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_ClavR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_ClavR"
+								m_vMinBounds = [ -12.425674, 2.368759, -11.035652 ]
+								m_vMaxBounds = [ 13.793747, 33.102608, 12.704582 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_ShoulderR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_ShoulderR"
+								m_vMinBounds = [ -4.1819, 5.791054, -7.215862 ]
+								m_vMaxBounds = [ 9.388847, 28.068237, 9.803238 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_ClavL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_ClavL"
+								m_vMinBounds = [ -12.437935, 2.341335, -12.71875 ]
+								m_vMaxBounds = [ 13.781433, 33.07515, 11.021545 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_ElbowR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_ElbowR"
+								m_vMinBounds = [ -8.659401, -1.636848, -11.029335 ]
+								m_vMaxBounds = [ 11.344635, 28.605629, 15.900795 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Waist"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Waist"
+								m_vMinBounds = [ -18.748165, -29.733299, -15.00708 ]
+								m_vMaxBounds = [ 18.714924, 7.621094, 21.921936 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_ShoulderL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_ShoulderL"
+								m_vMinBounds = [ -4.531044, 5.83773, -9.767408 ]
+								m_vMaxBounds = [ 9.308945, 28.115005, 7.133547 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_HandR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_HandR"
+								m_vMinBounds = [ -19.598274, -9.495468, -10.448639 ]
+								m_vMaxBounds = [ -2.219872, 7.849518, 9.08884 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_HipL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_HipL"
+								m_vMinBounds = [ -15.729311, -2.978775, -17.596985 ]
+								m_vMaxBounds = [ 13.950855, 45.147217, 26.510201 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_HipR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_HipR"
+								m_vMinBounds = [ -15.764883, 1.444878, -16.706554 ]
+								m_vMaxBounds = [ 15.812315, 45.147202, 26.510166 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_ElbowL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_ElbowL"
+								m_vMinBounds = [ -8.890396, -1.592026, -14.076027 ]
+								m_vMaxBounds = [ 13.184933, 28.587582, 10.94767 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Bow"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Bow"
+								m_vMinBounds = [ -9.680992, -34.943153, -7.552198 ]
+								m_vMaxBounds = [ 9.417046, 39.84272, 8.987516 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_KneeL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_KneeL"
+								m_vMinBounds = [ -13.953074, 0.363441, -12.384241 ]
+								m_vMaxBounds = [ 11.773909, 27.340786, 17.662916 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_KneeR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_KneeR"
+								m_vMinBounds = [ -20.166798, -3.242676, -14.33532 ]
+								m_vMaxBounds = [ 14.62413, 27.341198, 19.058449 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_HandL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_HandL"
+								m_vMinBounds = [ 2.205254, -7.8797, -9.085152 ]
+								m_vMaxBounds = [ 19.583767, 9.465164, 10.45245 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Bow3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Bow3"
+								m_vMinBounds = [ -2.870575, -0.870731, -4.950216 ]
+								m_vMaxBounds = [ 2.609802, 1.954086, 2.773632 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Bow1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Bow1"
+								m_vMinBounds = [ -4.007813, -0.602646, -4.81813 ]
+								m_vMaxBounds = [ 3.541435, 15.498329, 5.427658 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_AnkleL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_AnkleL"
+								m_vMinBounds = [ -11.031813, -0.612825, -9.84591 ]
+								m_vMaxBounds = [ 14.344137, 20.080946, 22.833748 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_AnkleR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_AnkleR"
+								m_vMinBounds = [ -14.377586, -0.609968, -9.855897 ]
+								m_vMaxBounds = [ 10.998295, 20.083811, 22.823776 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Head"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Head"
+								m_vMinBounds = [ -24.133999, -8.390213, -17.223537 ]
+								m_vMaxBounds = [ 24.100834, 46.345764, 24.421947 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_FingersL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_FingersL"
+								m_vMinBounds = [ -12.924259, -8.259209, -6.753752 ]
+								m_vMaxBounds = [ 4.878757, 4.553108, 12.276361 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_ThumbL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_ThumbL"
+								m_vMinBounds = [ -3.437778, -10.907486, -6.395888 ]
+								m_vMaxBounds = [ 4.479843, 2.482155, 7.597555 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_FingersR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_FingersR"
+								m_vMinBounds = [ -4.912434, -4.553307, -12.276644 ]
+								m_vMaxBounds = [ 12.890793, 8.259117, 6.753413 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_ThumbR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_ThumbR"
+								m_vMinBounds = [ -4.513615, -2.482246, -7.598139 ]
+								m_vMaxBounds = [ 3.404312, 10.907356, 6.395468 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Bow4"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Bow4"
+								m_vMinBounds = [ -4.578094, -27.697334, -31.219707 ]
+								m_vMaxBounds = [ 4.179733, 2.567223, 5.054356 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Bow2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Bow2"
+								m_vMinBounds = [ -4.57785, -3.549118, -31.746183 ]
+								m_vMaxBounds = [ 4.17997, 26.317398, 4.528097 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_BowString"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_BowString"
+								m_vMinBounds = [ -0.760841, 0.081528, -0.870674 ]
+								m_vMaxBounds = [ 0.757988, 0.081543, 0.883781 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_Arrows"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_Arrows"
+								m_vMinBounds = [ -47.133022, -55.221741, -19.562107 ]
+								m_vMaxBounds = [ 35.375355, 40.674011, 3.932933 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_BallL"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_BallL"
+								m_vMinBounds = [ -13.523277, 1.221134, -17.031036 ]
+								m_vMaxBounds = [ 14.194321, 26.135275, 1.700081 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "b_BallR"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "b_BallR"
+								m_vMinBounds = [ -14.228605, 1.226673, -17.036112 ]
+								m_vMaxBounds = [ 13.489046, 26.140917, 1.69491 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "b_AnkleL"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_origin"
+						m_influences = 
+						[
+							{
+								m_influenceName = "b_AnkleL"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "b_ShoulderL"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "b_ShoulderR"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
+	m_pAnimGroup = 
+	{
+		m_pObject = 
+		{
+			m_Name = ""
+			m_pReferenceSkeleton = 
+			{
+				m_pObject = null
+			}
+			m_pBoneFlagList = 
+			{
+				m_pObject = null
+			}
+			m_pSeqGroup = 
+			{
+				m_pObject = null
+			}
+			m_pAnimGroups = [  ]
+			m_Vanim = 
+			[
+				{
+					m_Animationname = "attackone"
+					m_Filepath = "models/deadeye/anims/attackone.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "die"
+					m_Filepath = "models/deadeye/anims/die.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "flail"
+					m_Filepath = "models/deadeye/anims/flail.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 10.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FLAIL"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "idle"
+					m_Filepath = "models/deadeye/anims/idle.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 10.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "run"
+					m_Filepath = "models/deadeye/anims/run.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 15.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "spawn"
+					m_Filepath = "models/deadeye/anims/spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 32
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
+		}
+	}
+	m_pMaterialGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pMeshGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pLodGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pPropBreakableList = 
+	{
+		m_pObject = null
+	}
+	m_pPropDataList = 
+	{
+		m_pObject = null
+	}
+	m_pConstraintLists = [  ]
+	m_collision = ""
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
+	{
+		m_vMaterialRemapList = 
+		[
+			{
+				m_sSearchMaterial = "darkelfarcher2material_medium.vmat"
+				m_sReplaceMaterial = "materials/hero_deadeye/deadeye.vmat"
+			},
+		]
+	}
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.05
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = false
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
+}

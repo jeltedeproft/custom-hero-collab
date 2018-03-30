@@ -106,7 +106,7 @@ function GameMode:OnHeroInGame(hero)
 
   hero:MoveToPosition( hero:GetAbsOrigin() )
 
-  if hero:GetUnitName() ~= "npc_dota_hero_invoker" then
+  if hero:GetUnitName() == "npc_dota_hero_invoker" then
     local empty = hero:FindAbilityByName("barebones_empty1")
     if empty ~= nil then
       hero:RemoveAbility("barebones_empty1")
