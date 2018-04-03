@@ -228,26 +228,6 @@
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
-								m_name = "joint80"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint80"
-								m_vMinBounds = [ 84.192429, 81.28804, -9.660473 ]
-								m_vMaxBounds = [ 140.494766, 139.394455, 44.24049 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint87"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint87"
-								m_vMinBounds = [ 93.759735, 88.034958, -43.758045 ]
-								m_vMaxBounds = [ 140.622437, 137.902252, 4.064243 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
 								m_name = "joint94"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
@@ -278,16 +258,6 @@
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
-								m_name = "joint115"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint115"
-								m_vMinBounds = [ 74.311066, 29.682831, 56.374054 ]
-								m_vMaxBounds = [ 161.789459, 49.078873, 67.33416 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
 								m_name = "joint9"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
@@ -308,62 +278,12 @@
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
-								m_name = "joint81"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint81"
-								m_vMinBounds = [ 114.633476, 111.279907, 23.544655 ]
-								m_vMaxBounds = [ 173.53302, 180.424652, 87.155579 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint88"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint88"
-								m_vMinBounds = [ 123.517441, 118.350906, -87.290375 ]
-								m_vMaxBounds = [ 175.02562, 179.76384, -29.585449 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint95"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint95"
-								m_vMinBounds = [ 43.446503, -14.88456, 103.174896 ]
-								m_vMaxBounds = [ 133.280426, 4.802986, 115.282104 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
 								m_name = "joint102"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "joint102"
 								m_vMinBounds = [ 36.340347, -11.371826, -107.929375 ]
 								m_vMaxBounds = [ 137.68161, 0.15255, -103.418434 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint109"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint109"
-								m_vMinBounds = [ 126.33448, 31.555649, -49.844933 ]
-								m_vMaxBounds = [ 203.914246, 81.66098, 18.828226 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint116"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint116"
-								m_vMinBounds = [ 130.140137, 33.078918, -24.719681 ]
-								m_vMaxBounds = [ 205.914612, 83.631927, 45.636086 ]
 								m_bTranslationOnly = false
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
@@ -508,66 +428,6 @@
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
-								m_name = "joint82"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint82"
-								m_vMinBounds = [ 144.298401, 149.261414, 69.796478 ]
-								m_vMaxBounds = [ 181.392578, 219.061676, 138.343353 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint89"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint89"
-								m_vMinBounds = [ 144.785156, 147.895523, -137.376892 ]
-								m_vMaxBounds = [ 182.587524, 217.496597, -69.027405 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint96"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint96"
-								m_vMinBounds = [ 57.449036, -8.977737, 123.600189 ]
-								m_vMaxBounds = [ 154.038406, 5.431892, 133.153992 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint103"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint103"
-								m_vMinBounds = [ 59.971375, -9.958099, -133.051514 ]
-								m_vMaxBounds = [ 156.473221, 5.583458, -122.56369 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint110"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint110"
-								m_vMinBounds = [ 159.54425, 58.295471, 59.706772 ]
-								m_vMaxBounds = [ 188.566559, 107.187805, 134.753052 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint117"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint117"
-								m_vMinBounds = [ 159.457367, 60.338409, -141.586426 ]
-								m_vMaxBounds = [ 187.103516, 109.490341, -66.15242 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
 								m_name = "joint4"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
@@ -698,16 +558,6 @@
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
-								m_name = "joint44"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint44"
-								m_vMinBounds = [ 63.116531, 122.522369, 23.935593 ]
-								m_vMaxBounds = [ 116.392151, 149.32724, 45.272095 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
 								m_name = "joint47"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
@@ -718,32 +568,12 @@
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
-								m_name = "joint50"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint50"
-								m_vMinBounds = [ 46.450783, 63.889496, 93.307137 ]
-								m_vMaxBounds = [ 93.851128, 80.817902, 113.969109 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
 								m_name = "joint53"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "joint53"
 								m_vMinBounds = [ 75.815903, 63.883804, -77.632629 ]
 								m_vMaxBounds = [ 127.435623, 80.812363, -66.951508 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint56"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint56"
-								m_vMinBounds = [ 104.70108, -8.116928, 68.866676 ]
-								m_vMaxBounds = [ 152.900513, 18.219383, 77.132988 ]
 								m_bTranslationOnly = false
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
@@ -794,66 +624,6 @@
 								m_sBoneName = "joint72"
 								m_vMinBounds = [ -25.632782, -54.100647, -3.819302 ]
 								m_vMaxBounds = [ 5.924868, -46.097214, 14.795185 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint83"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint83"
-								m_vMinBounds = [ 155.43457, 187.655853, 119.375031 ]
-								m_vMaxBounds = [ 181.53476, 255.128693, 184.608307 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint90"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint90"
-								m_vMinBounds = [ 160.727966, 195.350494, -183.981506 ]
-								m_vMaxBounds = [ 182.992615, 253.677277, -126.93158 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint97"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint97"
-								m_vMinBounds = [ 163.595459, 0.375717, -132.712463 ]
-								m_vMaxBounds = [ 188.240204, 32.208603, -62.511169 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint104"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint104"
-								m_vMinBounds = [ 153.421173, -2.753616, 71.165512 ]
-								m_vMaxBounds = [ 174.275238, 33.932533, 153.97583 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint111"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint111"
-								m_vMinBounds = [ 16.326729, 82.022705, 189.7276 ]
-								m_vMaxBounds = [ 68.917419, 151.54245, 267.720917 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint118"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint118"
-								m_vMinBounds = [ 9.44022, 84.509094, -270.622253 ]
-								m_vMaxBounds = [ 63.394588, 154.239914, -193.78006 ]
 								m_bTranslationOnly = false
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
@@ -1008,62 +778,12 @@
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
-								m_name = "joint45"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint45"
-								m_vMinBounds = [ 102.557152, 109.936584, 53.494663 ]
-								m_vMaxBounds = [ 236.39328, 136.542206, 96.506927 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
 								m_name = "joint48"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "joint48"
 								m_vMinBounds = [ 111.853851, 112.569122, -41.871922 ]
 								m_vMaxBounds = [ 247.158447, 139.175079, -16.680069 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint51"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint51"
-								m_vMinBounds = [ 102.340195, 62.412521, 97.96817 ]
-								m_vMaxBounds = [ 228.591385, 95.881744, 158.568451 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint54"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint54"
-								m_vMinBounds = [ 122.676514, 62.406189, -107.625031 ]
-								m_vMaxBounds = [ 254.402344, 95.87558, -73.850571 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint57"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint57"
-								m_vMinBounds = [ 119.723434, -67.168671, 104.660065 ]
-								m_vMaxBounds = [ 250.489212, 5.185448, 127.818802 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint60"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint60"
-								m_vMinBounds = [ -60.090858, -67.180656, 161.5047 ]
-								m_vMaxBounds = [ 10.078629, 5.173538, 272.848816 ]
 								m_bTranslationOnly = false
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
@@ -1134,66 +854,6 @@
 								m_sBoneName = "joint77"
 								m_vMinBounds = [ 29.418646, 14.536705, -39.479576 ]
 								m_vMaxBounds = [ 47.573235, 28.971199, -30.19697 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint84"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint84"
-								m_vMinBounds = [ 164.321991, 222.194443, 156.720032 ]
-								m_vMaxBounds = [ 191.794586, 299.154297, 230.539429 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint91"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint91"
-								m_vMinBounds = [ 168.667206, 229.914932, -230.431213 ]
-								m_vMaxBounds = [ 192.2901, 297.76123, -164.849396 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint98"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint98"
-								m_vMinBounds = [ -144.403412, 20.367348, -221.134689 ]
-								m_vMaxBounds = [ -76.183594, 76.292152, -189.5746 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint105"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint105"
-								m_vMinBounds = [ -162.047226, 15.142204, 180.399612 ]
-								m_vMaxBounds = [ -82.898468, 78.572548, 209.156418 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint112"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint112"
-								m_vMinBounds = [ -150.177399, 124.283356, 221.076569 ]
-								m_vMaxBounds = [ -79.918549, 191.727997, 258.037323 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
-							},
-							{
-								m_name = "joint119"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "joint119"
-								m_vMinBounds = [ -153.396667, 127.040543, -259.175964 ]
-								m_vMaxBounds = [ -83.120544, 194.485245, -222.29541 ]
 								m_bTranslationOnly = false
 								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
