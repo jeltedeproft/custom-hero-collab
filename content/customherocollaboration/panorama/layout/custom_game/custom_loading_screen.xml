@@ -3,11 +3,11 @@
     <include src="file://{resources}/styles/custom_loading_screen.css" />
   </styles>
   <Panel class="AddonLoadingRoot">
-    <Panel id="CustomBg" >
-      <Image id="gamemode" class="SeqImg" src="file://{images}/custom_game/loading_screen/gamemode.png" />
-    </Panel>
+    <!--<Panel id="CustomBg" >/-->
+    <Image id="gamemode" src="file://{images}/custom_game/loading_screen/psycholoadingscreen.jpg" scaling="stretch"/>
+    <!--</Panel>/-->
     <Panel id="TitlePanel"> 
-      <!--Label id="AddonTitle" text="#addon_game_name" style="" /-->
+      <Label id="AddonTitle" text="#addon_game_name" style="" />
     </Panel>
   </Panel>
 </root>

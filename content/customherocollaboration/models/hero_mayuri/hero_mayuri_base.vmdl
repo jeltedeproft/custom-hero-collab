@@ -1,9 +1,8 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	_class = "CVModel"
-	m_meshList =
+	m_meshList = 
 	{
-		m_meshList =
+		m_meshList = 
 		[
 			{
 				m_meshName = "hero_mayuri_base"
@@ -12,393 +11,181 @@
 				m_bSkinParentedObjects = true
 				m_bLegacySkinParentedTransforms = false
 				m_bExpensiveTangents = false
-				m_bExpensiveVertices = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
 			},
 		]
 	}
-	m_clothProxyMeshList =
+	m_clothProxyMeshList = 
 	{
 		_class = "CVClothProxyMeshList"
-		m_flClothEnableThreshold = 0.050000
+		m_flClothEnableThreshold = 0.05
 		m_bCreateStaticBone = false
 		m_nMaxBonesPerVertex = 4
 		m_bRemoveUnusedBonesEnabled = false
 		m_bDriveMeshesWithBacksolvedJointsOnly = true
-		m_flMatchProxiesToMeshes = 1.000000
-		m_flReservedFloat = 0.000000
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bReservedBool1 = false
+		m_bSoftSkinAnimation = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
-		m_clothProxyMeshList =
-		[
-		]
+		m_clothProxyMeshList = [  ]
 	}
-	m_physicsMeshList =
+	m_physicsMeshList = 
 	{
-		m_meshList =
-		[
-		]
+		m_meshList = [  ]
 	}
 	m_pModelInfo = null
-	m_pBoneFlagList =
+	m_pBoneFlagList = 
 	{
-		_class = "CVBoneFlagListReference"
 		m_pObject = null
 	}
-	m_pHitBoxSetLists =
+	m_pHitBoxSetLists = 
 	[
 		{
-			_class = "CVhitBoxSetListReference"
-			m_pObject =
+			m_pObject = 
 			{
-				m_HitBoxSets =
+				m_HitBoxSets = 
 				[
 					{
 						m_name = "default"
-						m_HitBoxes =
+						m_HitBoxes = 
 						[
 							{
 								m_name = "bone03"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone03"
-								m_vMinBounds =
-								[
-									-31.202948,
-									-20.620024,
-									-90.000000,
-								]
-								m_vMaxBounds =
-								[
-									31.057476,
-									27.931831,
-									58.217422,
-								]
+								m_vMinBounds = [ -31.202948, -20.620024, -90.0 ]
+								m_vMaxBounds = [ 31.057476, 27.931831, 58.217422 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone13"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone13"
-								m_vMinBounds =
-								[
-									-16.081823,
-									-13.959164,
-									-17.120682,
-								]
-								m_vMaxBounds =
-								[
-									15.850695,
-									12.575024,
-									5.584190,
-								]
+								m_vMinBounds = [ -16.081823, -13.959164, -17.120682 ]
+								m_vMaxBounds = [ 15.850695, 12.575024, 5.58419 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone06"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone06"
-								m_vMinBounds =
-								[
-									-19.686537,
-									-6.774785,
-									-10.906609,
-								]
-								m_vMaxBounds =
-								[
-									0.621319,
-									6.834620,
-									8.100235,
-								]
+								m_vMinBounds = [ -19.686537, -6.774785, -10.906609 ]
+								m_vMaxBounds = [ 0.621319, 6.83462, 8.100235 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone09"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone09"
-								m_vMinBounds =
-								[
-									-1.068390,
-									-8.206015,
-									-11.099724,
-								]
-								m_vMaxBounds =
-								[
-									18.974670,
-									5.413930,
-									7.907135,
-								]
+								m_vMinBounds = [ -1.06839, -8.206015, -11.099724 ]
+								m_vMaxBounds = [ 18.97467, 5.41393, 7.907135 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone14"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone14"
-								m_vMinBounds =
-								[
-									-17.842480,
-									-17.385069,
-									-34.779057,
-								]
-								m_vMaxBounds =
-								[
-									11.120602,
-									17.550646,
-									7.703392,
-								]
+								m_vMinBounds = [ -17.84248, -17.385069, -34.779057 ]
+								m_vMaxBounds = [ 11.120602, 17.550646, 7.703392 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone17"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone17"
-								m_vMinBounds =
-								[
-									-12.727844,
-									-16.755417,
-									-31.259678,
-								]
-								m_vMaxBounds =
-								[
-									14.817341,
-									17.841812,
-									7.703377,
-								]
+								m_vMinBounds = [ -12.727844, -16.755417, -31.259678 ]
+								m_vMaxBounds = [ 14.817341, 17.841812, 7.703377 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone15"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone15"
-								m_vMinBounds =
-								[
-									-22.825054,
-									-21.236149,
-									-36.580475,
-								]
-								m_vMaxBounds =
-								[
-									17.025211,
-									32.891174,
-									1.068592,
-								]
+								m_vMinBounds = [ -22.825054, -21.236149, -36.580475 ]
+								m_vMaxBounds = [ 17.025211, 32.891174, 1.068592 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone18"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone18"
-								m_vMinBounds =
-								[
-									-19.919144,
-									-20.508133,
-									-36.580475,
-								]
-								m_vMaxBounds =
-								[
-									19.982010,
-									33.170258,
-									1.068592,
-								]
+								m_vMinBounds = [ -19.919144, -20.508133, -36.580475 ]
+								m_vMaxBounds = [ 19.98201, 33.170258, 1.068592 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone04"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone04"
-								m_vMinBounds =
-								[
-									-18.476965,
-									-18.594288,
-									-44.258511,
-								]
-								m_vMaxBounds =
-								[
-									11.572706,
-									22.765266,
-									2.647102,
-								]
+								m_vMinBounds = [ -18.476965, -18.594288, -44.258511 ]
+								m_vMaxBounds = [ 11.572706, 22.765266, 2.647102 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone05"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone05"
-								m_vMinBounds =
-								[
-									-11.843990,
-									-17.375488,
-									-42.749630,
-								]
-								m_vMaxBounds =
-								[
-									18.913973,
-									22.919220,
-									4.155991,
-								]
+								m_vMinBounds = [ -11.84399, -17.375488, -42.74963 ]
+								m_vMaxBounds = [ 18.913973, 22.91922, 4.155991 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone12"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone12"
-								m_vMinBounds =
-								[
-									-12.092414,
-									-11.735449,
-									-9.164917,
-								]
-								m_vMaxBounds =
-								[
-									12.810197,
-									11.338417,
-									19.683533,
-								]
+								m_vMinBounds = [ -12.092414, -11.735449, -9.164917 ]
+								m_vMaxBounds = [ 12.810197, 11.338417, 19.683533 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone16"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone16"
-								m_vMinBounds =
-								[
-									-5.298733,
-									-15.582632,
-									-22.433239,
-								]
-								m_vMaxBounds =
-								[
-									5.306293,
-									5.954086,
-									7.803326,
-								]
+								m_vMinBounds = [ -5.298733, -15.582632, -22.433239 ]
+								m_vMaxBounds = [ 5.306293, 5.954086, 7.803326 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 							{
 								m_name = "bone19"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bone19"
-								m_vMinBounds =
-								[
-									-6.112671,
-									-15.258338,
-									-22.144358,
-								]
-								m_vMaxBounds =
-								[
-									4.489235,
-									6.584828,
-									7.881500,
-								]
+								m_vMinBounds = [ -6.112671, -15.258338, -22.144358 ]
+								m_vMaxBounds = [ 4.489235, 6.584828, 7.8815 ]
 								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								m_cRenderColor = [ 0, 0, 0, 0 ]
 							},
 						]
 					},
@@ -407,195 +194,114 @@
 			}
 		},
 	]
-	m_pAttachmentLists =
+	m_pAttachmentLists = 
 	[
 		{
-			_class = "CVattachmentListReference"
-			m_pObject =
+			m_pObject = 
 			{
 				m_name = ""
-				m_attachments =
+				m_attachments = 
 				[
 					{
 						m_name = "attach_head"
-						m_influences =
+						m_influences = 
 						[
 							{
 								m_influenceName = "bone12"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
 								m_bRoot = false
 							},
 						]
 					},
 					{
 						m_name = "follow_overhead"
-						m_influences =
+						m_influences = 
 						[
 							{
 								m_influenceName = "bone12"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
 								m_bRoot = false
 							},
 						]
 					},
 					{
 						m_name = "follow_origin"
-						m_influences =
+						m_influences = 
 						[
 							{
 								m_influenceName = "bone03"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
 								m_bRoot = false
 							},
 						]
 					},
 					{
 						m_name = "attach_origin"
-						m_influences =
+						m_influences = 
 						[
 							{
 								m_influenceName = "bone03"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
 								m_bRoot = false
 							},
 						]
 					},
 					{
 						m_name = "attach_hitloc"
-						m_influences =
+						m_influences = 
 						[
 							{
 								m_influenceName = "bone08"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
 								m_bRoot = false
 							},
 						]
 					},
 					{
 						m_name = "attach_hitloc"
-						m_influences =
+						m_influences = 
 						[
 							{
 								m_influenceName = "bone11"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
 								m_bRoot = false
 							},
 						]
 					},
 					{
 						m_name = "attach_attack1"
-						m_influences =
+						m_influences = 
 						[
 							{
 								m_influenceName = "bone08"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
 								m_bRoot = false
 							},
 						]
 					},
 					{
 						m_name = "attach_attack2"
-						m_influences =
+						m_influences = 
 						[
 							{
 								m_influenceName = "bone08"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
 								m_bRoot = false
 							},
 						]
@@ -604,45 +310,39 @@
 			}
 		},
 	]
-	m_pAnimGroup =
+	m_pAnimGroup = 
 	{
-		_class = "CVanimGroupReference"
-		m_pObject =
+		m_pObject = 
 		{
 			m_Name = ""
-			m_pReferenceSkeleton =
+			m_pReferenceSkeleton = 
 			{
-				_class = "CVReferenceSkeletonReference"
 				m_pObject = null
 			}
-			m_pBoneFlagList =
+			m_pBoneFlagList = 
 			{
-				_class = "CVBoneFlagListReference"
 				m_pObject = null
 			}
-			m_pSeqGroup =
+			m_pSeqGroup = 
 			{
-				_class = "CVseqGroupReference"
 				m_pObject = null
 			}
-			m_pAnimGroups =
-			[
-			]
-			m_Vanim =
+			m_pAnimGroups = [  ]
+			m_Vanim = 
 			[
 				{
 					m_Animationname = "hero_mayuri_attack"
 					m_Filepath = "models/hero_mayuri/hero_mayuri_animation.fbx"
 					m_nStartframe = 125
 					m_nEndframe = 147
-					m_flFps = 30.000000
-					m_Loop =
+					m_flFps = 30.0
+					m_Loop = 
 					{
 						m_bLoop = false
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop =
+						m_StartLoop = 
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -651,45 +351,27 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities =
+					m_Activities = 
 					[
 						{
 							m_Name = "ACT_DOTA_ATTACK"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
 					m_pAlignAnimation = null
-					m_adjustAnimation =
+					m_adjustAnimation = 
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
 					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+					m_Keywords = [  ]
+					m_sequenceParams = 
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
@@ -699,14 +381,14 @@
 					m_Filepath = "models/hero_mayuri/hero_mayuri_animation.fbx"
 					m_nStartframe = 156
 					m_nEndframe = 178
-					m_flFps = 30.000000
-					m_Loop =
+					m_flFps = 30.0
+					m_Loop = 
 					{
 						m_bLoop = false
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop =
+						m_StartLoop = 
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -715,45 +397,27 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities =
+					m_Activities = 
 					[
 						{
 							m_Name = "ACT_DOTA_ATTACK2"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
 					m_pAlignAnimation = null
-					m_adjustAnimation =
+					m_adjustAnimation = 
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
 					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+					m_Keywords = [  ]
+					m_sequenceParams = 
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
@@ -763,14 +427,14 @@
 					m_Filepath = "models/hero_mayuri/hero_mayuri_animation.fbx"
 					m_nStartframe = 32
 					m_nEndframe = 62
-					m_flFps = 30.000000
-					m_Loop =
+					m_flFps = 30.0
+					m_Loop = 
 					{
 						m_bLoop = true
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop =
+						m_StartLoop = 
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -779,45 +443,27 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities =
+					m_Activities = 
 					[
 						{
 							m_Name = "ACT_DOTA_IDLE"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
 					m_pAlignAnimation = null
-					m_adjustAnimation =
+					m_adjustAnimation = 
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
 					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+					m_Keywords = [  ]
+					m_sequenceParams = 
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
@@ -827,14 +473,14 @@
 					m_Filepath = "models/hero_mayuri/hero_mayuri_animation.fbx"
 					m_nStartframe = 187
 					m_nEndframe = 215
-					m_flFps = 30.000000
-					m_Loop =
+					m_flFps = 30.0
+					m_Loop = 
 					{
 						m_bLoop = true
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop =
+						m_StartLoop = 
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -843,45 +489,27 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities =
+					m_Activities = 
 					[
 						{
 							m_Name = "ACT_DOTA_RUN"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
 					m_pAlignAnimation = null
-					m_adjustAnimation =
+					m_adjustAnimation = 
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
 					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+					m_Keywords = [  ]
+					m_sequenceParams = 
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
@@ -891,14 +519,14 @@
 					m_Filepath = "models/hero_mayuri/hero_mayuri_animation.fbx"
 					m_nStartframe = 219
 					m_nEndframe = 240
-					m_flFps = 30.000000
-					m_Loop =
+					m_flFps = 30.0
+					m_Loop = 
 					{
 						m_bLoop = false
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop =
+						m_StartLoop = 
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -907,45 +535,27 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities =
+					m_Activities = 
 					[
 						{
 							m_Name = "ACT_DOTA_CAST_ABILITY_1"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
 					m_pAlignAnimation = null
-					m_adjustAnimation =
+					m_adjustAnimation = 
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
 					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+					m_Keywords = [  ]
+					m_sequenceParams = 
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
@@ -955,14 +565,14 @@
 					m_Filepath = "models/hero_mayuri/hero_mayuri_animation.fbx"
 					m_nStartframe = 250
 					m_nEndframe = 287
-					m_flFps = 30.000000
-					m_Loop =
+					m_flFps = 30.0
+					m_Loop = 
 					{
 						m_bLoop = false
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop =
+						m_StartLoop = 
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -971,131 +581,88 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities =
+					m_Activities = 
 					[
 						{
 							m_Name = "ACT_DOTA_DIE"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
 					m_pAlignAnimation = null
-					m_adjustAnimation =
+					m_adjustAnimation = 
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
 					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+					m_Keywords = [  ]
+					m_sequenceParams = 
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 			]
-			m_sScripts =
-			[
-			]
-			m_folderNames =
-			[
-			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
 		}
 	}
-	m_pMaterialGroupList =
+	m_pMaterialGroupList = 
 	{
-		_class = "CVNodeMaterialGroupListReference"
 		m_pObject = null
 	}
-	m_pMeshGroupList =
+	m_pMeshGroupList = 
 	{
-		_class = "CVMeshGroupListReference"
 		m_pObject = null
 	}
-	m_pLodGroupList =
+	m_pLodGroupList = 
 	{
-		_class = "CVLODGroupListReference"
 		m_pObject = null
 	}
-	m_pPropBreakableList =
+	m_pPropBreakableList = 
 	{
-		_class = "CVpropBreakableListReference"
 		m_pObject = null
 	}
-	m_pPropDataList =
+	m_pPropDataList = 
 	{
-		_class = "CVpropDataListReference"
 		m_pObject = null
 	}
-	m_pConstraintLists =
-	[
-	]
+	m_pConstraintLists = [  ]
 	m_collision = ""
 	m_softbody = ""
 	m_sMDLFilename = ""
-	m_sOffsetHitboxSets =
-	[
-	]
-	m_vHitboxSetOffset =
-	[
-		0.000000,
-		0.000000,
-		0.000000,
-	]
-	m_scriptFiles =
-	[
-	]
-	m_pMaterialRemapList =
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
 	{
-		m_vMaterialRemapList =
+		m_vMaterialRemapList = 
 		[
 			{
-				m_sSearchMaterial = "milkshapeexported1.vmat"
+				m_sSearchMaterial = "*"
 				m_sReplaceMaterial = "materials/hero_mayuri/mayuri_main.vmat"
 			},
 		]
 	}
-	m_flFbxScale = 1.000000
-	m_flQCScale = 1.000000
-	m_vOrigin =
-	[
-		0.000000,
-		0.000000,
-		0.000000,
-	]
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
 	m_pPsfList = null
 	m_keyValueText = ""
 	m_bStaticProp = false
 	m_bEnableClothProcessing = true
-	m_flClothEnableThreshold = 0.050000
+	m_flClothEnableThreshold = 0.05
 	m_nMaxClothVertsPerMesh = 2048
 	m_bBuildClothBoneHierarchy = false
 	m_nNavType = "AUTH_NAV_MESH"
 	m_bMakeUniqueVMeshes = false
 	m_bMakeImplicitBindPoseSequence = false
 	m_bAdjustSkeletonFromBoneFlags = false
-	m_pAnimGroups =
-	[
-	]
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
 }

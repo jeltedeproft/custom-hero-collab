@@ -1,13 +1,13 @@
 "AddonInfo"
 {
   "TeamCount" "10"
-  "maps"      "template_map playground"
+  "maps"      "testmap dota"
   "IsPlayable"  "1"
-  "template_map"
+  "testmap"
   {
           "MaxPlayers"                    "10"
   }
-  "playground"
+  "dota"
   {
           "MaxPlayers"                    "10"
   }

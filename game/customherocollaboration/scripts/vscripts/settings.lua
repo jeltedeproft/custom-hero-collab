@@ -5,13 +5,13 @@ ENABLE_HERO_RESPAWN = true              -- Should the heroes automatically respa
 UNIVERSAL_SHOP_MODE = true             -- Should the main shop contain Secret Shop items as well as regular items
 ALLOW_SAME_HERO_SELECTION = true        -- Should we let people select the same hero as each other
 
-HERO_SELECTION_TIME = 30.0              -- How long should we let people select their hero?
-PRE_GAME_TIME = 5.0                    -- How long after people select their heroes should the horn blow and the game start?
+HERO_SELECTION_TIME = 70.0              -- How long should we let people select their hero?
+PRE_GAME_TIME = 75.0                    -- How long after people select their heroes should the horn blow and the game start?
 POST_GAME_TIME = 60.0                   -- How long should we let people look at the scoreboard before closing the server automatically?
 TREE_REGROW_TIME = 60.0                 -- How long should it take individual trees to respawn after being cut down/destroyed?
 
-GOLD_PER_TICK = 10                     -- How much gold should players get per tick?
-GOLD_TICK_TIME = 5                      -- How long should we wait in seconds between gold ticks?
+GOLD_PER_TICK = 1.5                     -- How much gold should players get per tick?
+GOLD_TICK_TIME = 0.66                      -- How long should we wait in seconds between gold ticks?
 
 RECOMMENDED_BUILDS_DISABLED = true     -- Should we disable the recommened builds for heroes
 CAMERA_DISTANCE_OVERRIDE = -1           -- How far out should we allow the camera to go?  Use -1 for the default (1134) while still allowing for panorama camera distance changes

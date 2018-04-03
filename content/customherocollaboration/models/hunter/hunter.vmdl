@@ -46,8 +46,368 @@
 	{
 		m_pObject = null
 	}
-	m_pHitBoxSetLists = [  ]
-	m_pAttachmentLists = [  ]
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "mixamorig:Hips"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Hips"
+								m_vMinBounds = [ -33.574249, -46.52269, -74.843758 ]
+								m_vMaxBounds = [ 50.748688, 47.161804, 40.262001 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Spine"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Spine"
+								m_vMinBounds = [ -21.188215, -16.435364, -78.50148 ]
+								m_vMaxBounds = [ 50.748688, 31.276733, 35.163437 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Spine1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Spine1"
+								m_vMinBounds = [ -21.188213, -19.472679, -72.458778 ]
+								m_vMaxBounds = [ 36.808498, 59.603012, 41.825691 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Spine2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Spine2"
+								m_vMinBounds = [ -47.131622, -21.704727, -69.427429 ]
+								m_vMaxBounds = [ 48.503616, 45.722809, 41.825691 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftShoulder"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftShoulder"
+								m_vMinBounds = [ -36.534008, -4.974972, -18.730988 ]
+								m_vMaxBounds = [ 28.53352, 41.548691, 21.396011 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightShoulder"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightShoulder"
+								m_vMinBounds = [ -50.296082, -4.424133, -50.701721 ]
+								m_vMaxBounds = [ 32.170013, 62.692589, 21.876328 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftArm"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftArm"
+								m_vMinBounds = [ -23.838316, -18.739243, -20.490646 ]
+								m_vMaxBounds = [ 51.906479, 89.862427, 18.3759 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightArm"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightArm"
+								m_vMinBounds = [ -61.624641, -36.768188, -57.518005 ]
+								m_vMaxBounds = [ 29.630188, 86.040733, 24.745911 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftForeArm"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftForeArm"
+								m_vMinBounds = [ -23.474638, -26.730736, -50.187576 ]
+								m_vMaxBounds = [ 70.521713, 46.068153, 15.513039 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightForeArm"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightForeArm"
+								m_vMinBounds = [ -15.771183, -21.83181, -15.727203 ]
+								m_vMaxBounds = [ 29.892887, 33.887482, 16.643707 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHand"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHand"
+								m_vMinBounds = [ -4.428631, -14.500267, -23.875893 ]
+								m_vMaxBounds = [ 37.227013, 29.293346, 14.549656 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHand"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHand"
+								m_vMinBounds = [ -9.805016, -8.550636, -9.043926 ]
+								m_vMaxBounds = [ 12.977234, 27.132793, 19.520309 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftUpLeg"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftUpLeg"
+								m_vMinBounds = [ -20.998356, -13.542747, -37.81321 ]
+								m_vMaxBounds = [ 38.065807, 53.57988, 28.314505 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightUpLeg"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightUpLeg"
+								m_vMinBounds = [ -27.78651, -6.905991, -29.954666 ]
+								m_vMaxBounds = [ 14.316597, 49.053234, 25.395947 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandIndex1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandIndex1"
+								m_vMinBounds = [ -10.739315, -8.735138, -11.573792 ]
+								m_vMaxBounds = [ 7.041281, 29.424412, 5.571457 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandIndex1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandIndex1"
+								m_vMinBounds = [ -5.095108, -1.367523, -5.576424 ]
+								m_vMaxBounds = [ 8.748692, 6.69912, 9.332975 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftLeg"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftLeg"
+								m_vMinBounds = [ -15.224148, -5.093174, -16.087559 ]
+								m_vMaxBounds = [ 12.024502, 39.704796, 10.796951 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightLeg"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightLeg"
+								m_vMinBounds = [ -17.306461, -15.841953, -20.183065 ]
+								m_vMaxBounds = [ 13.28709, 45.769112, 13.89966 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Neck"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Neck"
+								m_vMinBounds = [ -29.897022, -11.166336, -28.877647 ]
+								m_vMaxBounds = [ 33.070267, 38.031601, 43.329201 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandIndex2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandIndex2"
+								m_vMinBounds = [ -4.97525, -1.017063, -3.113518 ]
+								m_vMaxBounds = [ 5.884907, 4.312851, 4.060555 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandIndex2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandIndex2"
+								m_vMinBounds = [ -5.742733, -10.584446, -5.576424 ]
+								m_vMaxBounds = [ 8.748684, 6.060703, 10.854618 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftFoot"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftFoot"
+								m_vMinBounds = [ -11.227043, -8.765594, -13.510059 ]
+								m_vMaxBounds = [ 6.403656, 17.383877, 15.106976 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightFoot"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightFoot"
+								m_vMinBounds = [ -14.298216, -13.170835, -12.136784 ]
+								m_vMaxBounds = [ 7.885277, 15.624442, 29.160137 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:Head"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:Head"
+								m_vMinBounds = [ -29.897022, -9.660904, -30.683764 ]
+								m_vMaxBounds = [ 33.070267, 35.242081, 41.523087 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftHandIndex3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftHandIndex3"
+								m_vMinBounds = [ -3.107462, 3.621452, -0.968826 ]
+								m_vMaxBounds = [ 5.90741, 32.577538, 11.78038 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightHandIndex3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightHandIndex3"
+								m_vMinBounds = [ -1.547665, 0.754963, -6.175972 ]
+								m_vMaxBounds = [ 7.579868, 2.494522, 1.579777 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:LeftToeBase"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:LeftToeBase"
+								m_vMinBounds = [ -12.173599, -28.965828, -1.739368 ]
+								m_vMaxBounds = [ 6.945467, 9.085533, 37.276337 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mixamorig:RightToeBase"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mixamorig:RightToeBase"
+								m_vMinBounds = [ -16.180199, -25.93515, -1.435375 ]
+								m_vMaxBounds = [ 7.139587, 7.495881, 25.163927 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_origin"
+						m_influences = 
+						[
+							{
+								m_influenceName = "blender_implicit"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "blender_implicit"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "mixamorig:LeftHand"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "mixamorig:RightHand"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
 	m_pAnimGroup = 
 	{
 		m_pObject = 
@@ -199,10 +559,10 @@
 					m_Filepath = "models/hunter/anims/flail.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 30.0
+					m_flFps = 10.0
 					m_Loop = 
 					{
-						m_bLoop = false
+						m_bLoop = true
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
@@ -245,7 +605,7 @@
 					m_Filepath = "models/hunter/anims/run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 30.0
+					m_flFps = 15.0
 					m_Loop = 
 					{
 						m_bLoop = true
@@ -354,7 +714,7 @@
 					m_Filepath = "models/hunter/anims/idle.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
-					m_flFps = 30.0
+					m_flFps = 10.0
 					m_Loop = 
 					{
 						m_bLoop = true

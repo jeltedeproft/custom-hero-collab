@@ -41133,7 +41133,7 @@
   {
           "BaseClass"     "ability_lua"
           "ScriptFile"    "heroes/hero_ailil/ailil_armor.lua"
-          "AbilityTextureName"    "visage_gravekeepers_cloak"
+          "AbilityTextureName"    "ailil_armor"
           "MaxLevel"              "4"
   
           "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
@@ -41169,7 +41169,7 @@
   "ailil_deep_freeze"
   {
           "BaseClass"       "ability_datadriven"
-          "AbilityTextureName"      "winter_wyvern_cold_embrace"
+          "AbilityTextureName"      "ailil_deep_freeze"
           "MaxLevel"                      "3"
   
           "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
@@ -41433,7 +41433,7 @@
           "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
         "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
         "SpellImmunityType"       "SPELL_IMMUNITY_ENEMIES_NO"
-        "AbilityTextureName"      "drow_ranger_frost_arrows"
+        "AbilityTextureName"      "ailil_winters_arrow"
   
         "AbilityCastRange"        "600"
         "AbilityCastPoint"        "0.0"
@@ -42600,7 +42600,7 @@
       "BaseClass"             "ability_lua"
       "ScriptFile"            "heroes/hero_djinn/djinn_caldera.lua"
       "MaxLevel"              "3"
-      "AbilityTextureName"    "arc_warden_magnetic_field"
+      "AbilityTextureName"    "djinn_caldera"
   
       "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
       "AbilityUnitTargetTeam"            "DOTA_UNIT_TARGET_TEAM_BOTH"
@@ -42658,7 +42658,7 @@
   "djinn_deflagration"
   {
       "BaseClass"               "ability_datadriven"
-      "AbilityTextureName"      "invoker_sun_strike"
+      "AbilityTextureName"      "djinn_deflagration"
       "MaxLevel"                      "4"
   
       "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
@@ -42780,7 +42780,7 @@
   {
       "BaseClass"     "ability_lua"
       "ScriptFile"    "heroes/hero_djinn/djinn_ember_might.lua"
-      "AbilityTextureName"    "ember_spirit_sleight_of_fist"
+      "AbilityTextureName"    "djinn_ember_might"
       "MaxLevel"          "4"
   
       "AbilityBehavior"   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
@@ -42803,7 +42803,7 @@
   {
       "BaseClass"     "ability_lua"
       "ScriptFile"    "heroes/hero_djinn/djinn_flame_path.lua"
-      "AbilityTextureName"    "doom_bringer_scorched_earth"
+      "AbilityTextureName"    "djinn_flame_path"
   
       "MaxLevel"      "4"
   
@@ -42865,7 +42865,7 @@
   
       "MaxLevel"      "1"
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
-      "AbilityTextureName"    "phoenix_sun_ray"
+      "AbilityTextureName"    "djinn_inner_flame"
   
   
       "AbilitySpecial"
@@ -42896,7 +42896,7 @@
   "djinn_intense_heat"
   {
       "BaseClass"               "ability_datadriven"
-      "AbilityTextureName"      "ember_spirit_flame_guard"
+      "AbilityTextureName"      "djinn_intense_heat"
       "MaxLevel"                      "4"
   
       "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
@@ -43047,7 +43047,7 @@
   "flicker_ascension"
   {
       "BaseClass"                     "ability_datadriven"
-      "AbilityTextureName"            "skywrath_mage_mystic_flare"
+      "AbilityTextureName"            "flicker_ascension"
       "MaxLevel"                         "3"
   
       "AbilityType"                       "DOTA_ABILITY_TYPE_ULTIMATE"
@@ -43121,7 +43121,7 @@
   {
       "BaseClass"                     "ability_lua"
       "ScriptFile"                    "heroes/hero_flicker/flicker_flash_step.lua"
-      "AbilityTextureName"            "phantom_assassin_phantom_strike"
+      "AbilityTextureName"            "flicker_flash_step"
       "MaxLevel"                         "4"
   
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_POINT"
@@ -43168,7 +43168,7 @@
   
       "BaseClass"                     "ability_lua"
       "ScriptFile"                    "heroes/hero_flicker/flicker_rapid_strike.lua"
-      "AbilityTextureName"            "ember_spirit_sleight_of_fist"
+      "AbilityTextureName"            "flicker_rapid_strike"
       "MaxLevel"                         "4"
   
   
@@ -43204,7 +43204,7 @@
   {
       "BaseClass"                     "ability_lua"
       "ScriptFile"                    "heroes/hero_flicker/flicker_recall.lua"
-      "AbilityTextureName"            "kunkka_x_marks_the_spot"
+      "AbilityTextureName"            "flicker_recall"
       "MaxLevel"                         "1"
   
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
@@ -43227,7 +43227,7 @@
   "flicker_stabilize"
   {
       "BaseClass"                     "ability_datadriven"
-      "AbilityTextureName"            "earthshaker_aftershock"
+      "AbilityTextureName"            "flicker_stabilize"
       "MaxLevel"                         "4"
   
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_NO_TARGET" 
@@ -43341,7 +43341,7 @@
   "shielder_chaos_nova"
   {
       "BaseClass"                     "ability_datadriven"
-      "AbilityTextureName"            "antimage_mana_void"
+      "AbilityTextureName"            "shielder_chaos_nova"
       "MaxLevel"                         "3"
       "FightRecapLevel"                    "2"
   
@@ -43384,7 +43384,7 @@
   "shielder_energy_shield"
   {
       "BaseClass"                     "ability_datadriven"
-      "AbilityTextureName"            "medusa_mana_shield"
+      "AbilityTextureName"            "shielder_energy_shield"
       "MaxLevel"                         "1"
   
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
@@ -43433,7 +43433,7 @@
       "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
       "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"
       "FightRecapLevel"               "1"
-      "AbilityTextureName"            "death_prophet_spirit_siphon"
+      "AbilityTextureName"            "shielder_essence_drain"
   
       // Precache
       "precache"
@@ -44125,7 +44125,7 @@
   {   
   
       "BaseClass"                     "ability_datadriven"
-      "AbilityTextureName"            "riki_permanent_invisibility"
+      "AbilityTextureName"            "shielder_ghost_reaver_life"
       "MaxLevel"                         "4"
   
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_TOGGLE"
@@ -44233,7 +44233,7 @@
   "valkyrie_judgment"
   {
       "BaseClass"                     "ability_datadriven"
-      "AbilityTextureName"            "omniknight_purification"
+      "AbilityTextureName"            "valkyrie_judgment"
       "MaxLevel"                         "4"
   
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
@@ -44379,7 +44379,7 @@
   {   
   
       "BaseClass"                     "ability_datadriven"
-      "AbilityTextureName"            "omniknight_repel"
+      "AbilityTextureName"            "valkyrie_resurrect"
       "MaxLevel"                         "3"
       "FightRecapLevel"                   "2"
   
@@ -44468,7 +44468,7 @@
   "valkyrie_soul_rip"
   {
       "BaseClass"                     "ability_datadriven"
-      "AbilityTextureName"            "visage_grave_chill"
+      "AbilityTextureName"            "valkyrie_soul_rip"
       "MaxLevel"                         "4"
   
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
@@ -44905,7 +44905,7 @@
     "MaxLevel"                  "1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "lina_dragon_slave"
+    "AbilityTextureName"            "pulse_bullet"
     "precache"
     {
       "particle"  "particles/units/heroes/hero_brewmaster/brewmaster_fire_ambient.vpcf"
@@ -45040,7 +45040,7 @@
     "MaxLevel"                  "1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "furion_sprout"
+    "AbilityTextureName"            "ultimate_tree_defense"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_furion/furion_sprout.vpcf"
@@ -45098,7 +45098,7 @@
     "MaxLevel"                  "1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "furion_wrath_of_nature"
+    "AbilityTextureName"            "blessing_of_nature"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_furion/furion_force_of_nature_cast.vpcf"
@@ -45155,13 +45155,13 @@
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"      "antimage_blink"
+    "AbilityTextureName"      "survivor_blink"
     "AbilityCastRange"        "9999"
     "AbilityCastPoint"        "0.1"
-    "AbilityCooldown"       "30"
-    "MaxLevel"                  "1"
+    "AbilityCooldown"       "30 25 20 15"
+    "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "AbilityManaCost"               "20"
+    "AbilityManaCost"               "50 40 30 20"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_antimage/antimage_blink_start.vpcf"
@@ -45225,14 +45225,14 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
-    "AbilityCastRange"            "250"
+    "AbilityCastRange"            "250 300 350 400"
     "AbilityCooldown"             "1"
-    "AbilityManaCost"             "5"
+    "AbilityManaCost"             "5 10 15 20"
     "AbilityCastPoint"        "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "forest_troll_high_priest_heal"
+    "AbilityTextureName"            "heal"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_oracle/oracle_false_promise_heal.vpcf"
@@ -45272,7 +45272,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "heal"          "25"
+        "heal"          "25 35 45 55"
       }
     }
   }
@@ -45283,13 +45283,13 @@
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO"
-    "AbilityCooldown"             "75"
+    "AbilityCooldown"             "75 65 55"
     "AbilityManaCost"             "30"
     "AbilityCastPoint"        "0"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "bounty_hunter_wind_walk"
+    "AbilityTextureName"            "wind_walk"
     "precache"
     {
       "soundfile"       "soundevents/game_sounds_heroes/game_sounds_weaver.vsndevts"
@@ -45393,7 +45393,7 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"          "10"
+        "duration"          "10 11 12"
       }
       "02"
       {
@@ -45412,14 +45412,14 @@
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
-    "AbilityCooldown"             "70"
-    "AbilityManaCost"             "25"
-    "AbilityCastRange"            "128"
+    "AbilityCooldown"             "70 80 90"
+    "AbilityManaCost"             "25 35 45"
+    "AbilityCastRange"            "128 228 328"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "terrorblade_conjure_image"
+    "AbilityTextureName"            "cloning"
     "precache"
     {
       "soundfile"       "soundevents/game_sounds_heroes/game_sounds_terrorblade.vsndevts"
@@ -45449,7 +45449,7 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "illusion_duration"         "25"
+        "illusion_duration"         "25 27 29"
       }
       "02"
       {
@@ -45459,7 +45459,7 @@
       "03"
       {
         "var_type"        "FIELD_FLOAT"
-        "illusion_incoming_damage"          "200"
+        "illusion_incoming_damage"          "200 180 160"
       }
       "01"
       {
@@ -45516,12 +45516,12 @@
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
-    "AbilityCastRange"            "500"
-    "AbilityCooldown"             "35"
-    "AbilityManaCost"             "25"
+    "AbilityCastRange"            "500 600 700"
+    "AbilityCooldown"             "35 40 45"
+    "AbilityManaCost"             "25 30 35"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "nyx_assassin_mana_burn"
     "precache"
@@ -45553,7 +45553,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "mana_burn"       "25"
+        "mana_burn"       "25 35 45"
       }
       "02"
       {
@@ -45569,12 +45569,12 @@
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
-    "AbilityCastRange"            "1000"
-    "AbilityCooldown"             "40"
-    "AbilityManaCost"             "15"
+    "AbilityCastRange"            "1000 1100 1200"
+    "AbilityCooldown"             "40 45 50"
+    "AbilityManaCost"             "15 20 25"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "healing_wave"
     "precache"
@@ -45602,13 +45602,13 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "healing"       "70"
+        "healing"       "70 90 110"
       }
       
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "max_bounces"       "2"
+        "max_bounces"       "2 2 3"
       }
       "03"
       {
@@ -45636,10 +45636,10 @@
     "AbilityTextureName"      "nyx_assassin_unburrow"
     "AbilityCastRange"        "%range"
     "AbilityCastPoint"        "0.1"
-    "AbilityCooldown"       "30"
-    "MaxLevel"                  "1"
+    "AbilityCooldown"       "30 35 40"
+    "MaxLevel"                  "3"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "AbilityManaCost"               "20"
+    "AbilityManaCost"               "20 30 40"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_windrunner/windrunner_windrun.vpcf"
@@ -45705,7 +45705,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "range"       "1400"
+        "range"       "1400 1500 1600"
       }
       "02"
       {
@@ -45715,7 +45715,7 @@
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "height"        "380"
+        "height"        "380 400 420"
       }
     }
   }
@@ -45730,10 +45730,10 @@
     "AbilityCastRange"        "%range"
     "AOERadius"           "%radius"
     "AbilityCastPoint"        "0.1"
-    "AbilityCooldown"       "7.0"
-    "MaxLevel"                  "1"
+    "AbilityCooldown"       "7.0 8.0 9.0 10.0"
+    "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "AbilityManaCost"               "20"
+    "AbilityManaCost"               "20 40 60 80"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_huskar/huskar_burning_spear_debuff.vpcf"
@@ -45800,12 +45800,12 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "range"         "800"
+        "range"         "800 900 1000 1100"
       }
       "02"
       {
         "var_type"        "FIELD_FLOAT"
-        "radius"        "200"
+        "radius"        "200 240 280 340"
       }
       "03"
       {
@@ -45815,12 +45815,12 @@
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "100"
+        "damage"        "100 140 180 220"
       }
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "berserker_bonus"       "50"
+        "berserker_bonus"       "50 50 60 65"
       }
       "06"
       {
@@ -45843,12 +45843,12 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
-    "AbilityCastRange"            "800"
-    "AbilityCooldown"             "45"
-    "AbilityManaCost"             "25"
+    "AbilityCastRange"            "800 1000 1200"
+    "AbilityCooldown"             "45 40 35"
+    "AbilityManaCost"             "25 50 75"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "vengefulspirit_nether_swap"
     "precache"
@@ -45942,14 +45942,14 @@
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
     "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO"
-    "AbilityCastRange"            "600"
-    "AbilityCooldown"             "45"
-    "AbilityManaCost"             "15"
+    "AbilityCastRange"            "600 800 1000"
+    "AbilityCooldown"             "45 50 55"
+    "AbilityManaCost"             "15 35 55"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "dragon_knight_elder_dragon_form"
+    "AbilityTextureName"            "dragon_escort"
     "precache"
     {
       "particle"        "particles/units/heroes/hero_dragon_knight/dragon_knight_transform_green_spotlight.vpcf"
@@ -46064,12 +46064,12 @@
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "speed"         "570"
+        "speed"         "570 580 590"
       }
       "03"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"          "5.0"
+        "duration"          "5.0 7.0 9.0"
       }
     }
   }
@@ -46079,7 +46079,7 @@
     "BaseClass"                 "ability_datadriven"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityTextureName"      "centaur_hoof_stomp"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
@@ -46087,11 +46087,11 @@
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
   
-    "AbilityCastRange"        "250"
+    "AbilityCastRange"        "250 300 350"
     "AbilityCastPoint"        "0.1"
-    "AbilityCooldown"       "25.0"
+    "AbilityCooldown"       "25.0 25.0 30.0"
   
-    "AbilityManaCost"       "15"
+    "AbilityManaCost"       "15 25 35"
     
     "precache"
     {
@@ -46104,22 +46104,22 @@
       "01"
       {
         "var_type"          "FIELD_INTEGER"
-        "radius"          "250"
+        "radius"          "250 300 350"
       }
       "02"
       {
         "var_type"          "FIELD_FLOAT"
-        "duration"          "1.0"
+        "duration"          "1.0 2.0 3.0"
       }
       "03"
       {
         "var_type"          "FIELD_FLOAT"
-        "duration_creeps"     "1.0"
+        "duration_creeps"     "1.0 2.0 3.0"
       }
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "damage"          "35"
+        "damage"          "35 75 115"
       }
       "05"
       {
@@ -46213,17 +46213,17 @@
   "refresh"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "oracle_fortunes_end"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "refresh"
+    "MaxLevel"            "3"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
   
-    "AbilityCastRange"        "250"
+    "AbilityCastRange"        "250 450 750"
     "AbilityCastPoint"        "0.1"
-    "AbilityCooldown"       "300.0"
+    "AbilityCooldown"       "300.0 250 200"
   
     "AbilityManaCost"       "0"
     
@@ -46243,12 +46243,12 @@
       "02"
       {
         "var_type"          "FIELD_FLOAT"
-        "health_restored"         "50.0"
+        "health_restored"         "50.0 110.0 220.0"
       }
       "03"
       {
         "var_type"          "FIELD_FLOAT"
-        "mana_restored"     "20.0"
+        "mana_restored"     "20.0 80.0 200.0"
       }
     }
   
@@ -46271,8 +46271,8 @@
   "lightning_burst"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "zuus_lightning_bolt"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "lightning_burst"
+    "MaxLevel"            "3"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
@@ -46280,10 +46280,10 @@
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
   
-    "AbilityCastRange"        "1000"
+    "AbilityCastRange"        "1000 1200 1400"
     "AbilityCastPoint"        "0"
-    "AbilityCooldown"       "36.0"
-    "AbilityManaCost"       "15"
+    "AbilityCooldown"       "36.0 32.0 28.0"
+    "AbilityManaCost"       "25 45 65"
     "precache"
     {
       "particle"          "particles/items_fx/chain_lightning.vpcf"
@@ -46340,7 +46340,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "10"
+        "damage"        "10 12 14"
       }
       "02"
       {
@@ -46368,13 +46368,13 @@
   "berserkers_rush"
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "AbilityCooldown"             "22"
     "AbilityManaCost"             "16"
     "AbilityCastPoint"        "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_IDLE"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "ogre_magi_bloodlust"
+    "AbilityTextureName"            "berserkers_rush"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf"
@@ -46435,17 +46435,17 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"          "7"
+        "duration"          "7 9 11 13"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "attack_speed"        "50"
+        "attack_speed"        "50 60 70 80"
       }
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "movement_speed"        "40"
+        "movement_speed"        "40 45 50 55"
       }
     }
   }
@@ -46459,7 +46459,7 @@
     "AbilityUnitTargetType"       "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastPoint"            "0.0"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "AbilityCastRange"            "0"
     "AbilityCooldown"             "0"
     "AbilityManaCost"             "0"
@@ -46476,7 +46476,7 @@
       "01"
       {
         "var_type"          "FIELD_INTEGER"
-        "damage"          "8"
+        "damage"          "8 12 16 20"
       }
       "02"
       {
@@ -46501,7 +46501,7 @@
       "05"
       {
         "var_type"          "FIELD_INTEGER"
-        "radius"           "240"
+        "radius"           "240 260 280 300"
       }
     }
    
@@ -46555,13 +46555,13 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"      "juggernaut_blade_fury"
+    "AbilityTextureName"      "berserkers_blender"
     "AbilityCastPoint"        "0.0"
-    "MaxLevel"            "1"
-    "AbilityCooldown"       "10"
+    "MaxLevel"            "3"
+    "AbilityCooldown"       "10 12 18"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
     "AbilityRange"          "%radius"
-    "AbilityManaCost"       "10"
+    "AbilityManaCost"       "10 60 80"
     "precache"
     {
       "particle"          "particles/units/heroes/hero_juggernaut/juggernaut_blade_fury.vpcf"
@@ -46710,13 +46710,13 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "30"
+        "damage"        "30 40 50"
       }
       
       "02"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"        "5.0"
+        "duration"        "5.0 7.0 9.0"
       }
       "03"
       {
@@ -46739,8 +46739,8 @@
   "frozen_prison"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "lich_frost_nova"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "frozen_prison"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
@@ -46748,9 +46748,9 @@
     "AOERadius"           "%radius"
     "AbilityCastRange"        "1000"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "20"
+    "AbilityCooldown"       "20 22 25"
   
-    "AbilityManaCost"       "30"
+    "AbilityManaCost"       "30 35 40"
     
     "precache"
     {
@@ -46771,7 +46771,7 @@
       "02"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"    "3.0"
+        "duration"    "3.0 4.0 5.0"
       }
       "03"
       {
@@ -46781,7 +46781,7 @@
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"  "10"
+        "damage"  "10 14 18"
       }
       "06"
       {
@@ -46864,18 +46864,18 @@
   "eye_of_frozen_death"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "lich_chain_frost"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "eye_of_frozen_death"
+    "MaxLevel"            "3"
   
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
   
-    "AbilityCastRange"        "500"
+    "AbilityCastRange"        "500 700 900"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "26"
+    "AbilityCooldown"       "26 24 22"
   
-    "AbilityManaCost"       "15"
+    "AbilityManaCost"       "15 20 25"
     "precache"
     {
       "soundfile"             "soundevents/game_sounds_heroes/game_sounds_lich.vsndevts"
@@ -46888,17 +46888,17 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"        "15.0"
+        "duration"        "15.0 17.0 21.0"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "ward_hp_tooltip"   "5"
+        "ward_hp_tooltip"   "5 6 7"
       }
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "ward_damage_tooltip" "10"
+        "ward_damage_tooltip" "10 12 14"
       }
     }
   
@@ -46951,21 +46951,22 @@
   "magic_flight"
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
-    "MaxLevel"            "1"
-    "AbilityCooldown"             "40"
-    "AbilityManaCost"             "30"
+    "MaxLevel"            "4"
+    "AbilityCooldown"             "40 36 32 28"
+    "AbilityManaCost"             "30 35 40 45"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_IDLE"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "storm_spirit_ball_lightning"
+    "AbilityTextureName"            "magic_flight"
     "precache"
     {
       "particle"              "particles/econ/courier/courier_wyvern_hatchling/courier_wyvern_hatchling_ice.vpcf"
       "soundfile"             "soundevents/game_sounds_heroes/game_sounds_ancient_apparition.vsndevts"
       "particle"              "particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/cm_arcana_pup_flee.vpcf"
     }
+
     "OnSpellStart"
-        {
+    {
       "FireSound"
       {
         "EffectName"    "Hero_Ancient_Apparition.IceVortexCast"
@@ -46982,8 +46983,8 @@
         "Target"    "CASTER"
         "Duration"    "%duration"
       }
-    
     }
+
     "Modifiers"
     { 
       "modifier_magic_flight"
@@ -47043,12 +47044,12 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"          "14"
+        "duration"          "14 16 18 20"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "movement_speed"        "20"
+        "movement_speed"        "20 25 30 35"
       }
     }
   }
@@ -47056,8 +47057,8 @@
   "frost_burst"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "crystal_maiden_crystal_nova_icecowl"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "frost_burst"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
@@ -47065,9 +47066,9 @@
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
   
-    "AbilityCastRange"        "250"
+    "AbilityCastRange"        "250 300 350 400"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "6.0"
+    "AbilityCooldown"       "6.0 8.0 10.0 12.0"
   
     "AbilityManaCost"       "10"
     
@@ -47084,32 +47085,32 @@
       "01"
       {
         "var_type"          "FIELD_INTEGER"
-        "radius"          "250"
+        "radius"          "250 300 350 400"
       }
       "02"
       {
         "var_type"          "FIELD_FLOAT"
-        "duration"          "3.0"
+        "duration"          "3.0 4.0 5.0 6.0" 
       }
       "03"
       {
         "var_type"          "FIELD_FLOAT"
-        "duration_creeps"     "3.0"
+        "duration_creeps"     "3.0 4.0 5.0 6.0"
       }
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "attack_slow"         "-50"
+        "attack_slow"         "-50 -55 -60 -65"
       }
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "movement_slow"         "-50"
+        "movement_slow"         "-50 -55 -60 -65"
       }
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "damage"          "40"
+        "damage"          "40 70 90 120"
       }
       "05"
       {
@@ -47231,13 +47232,13 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"      "death_prophet_carrion_swarm"
+    "AbilityTextureName"      "bat_form"
     "AbilityCastRange"        "900"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "AbilityCastPoint"        "0.1"
-    "AbilityCooldown"       "9"
+    "AbilityCooldown"       "9 8 7 6"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "AbilityManaCost"               "12"
+    "AbilityManaCost"               "12 24 36 48"
     "precache"
     {
       "particle"      "particles/units/heroes/hero_death_prophet/death_prophet_carrion_swarm.vpcf"
@@ -47291,13 +47292,13 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "50"
+        "damage"        "50 70 90 110"
       }
       
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"        "110"
+        "radius"        "110 140 170 210"
       }
       "03"
       {
@@ -47315,8 +47316,8 @@
   "sleep_curse"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "lone_druid_true_form_druid"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "sleep_curse"
+    "MaxLevel"            "3"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
@@ -47324,9 +47325,9 @@
     "AOERadius"           "%radius"
     "AbilityCastRange"        "800"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "16"
+    "AbilityCooldown"       "16 14 12"
   
-    "AbilityManaCost"       "12"
+    "AbilityManaCost"       "12 24 36"
     
     "precache"
     {
@@ -47341,12 +47342,12 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"        "8.0"
+        "duration"        "8.0 10.0 12.0"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"        "150"
+        "radius"        "150 200 250"
       }
     }
   
@@ -47432,14 +47433,14 @@
   "call_of_the_unliving"
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-    "AbilityCastRange"            "200"
-    "AbilityCooldown"             "28"
-    "AbilityManaCost"             "19"
+    "AbilityCastRange"            "200 300 300 400"
+    "AbilityCooldown"             "28 26 24 22"
+    "AbilityManaCost"             "19 25 30 40"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "dark_troll_warlord_raise_dead"
+    "AbilityTextureName"            "call_of_the_unliving"
     "precache"
     {
       "model"         "models/heroes/undying/undying_minion.vmdl"
@@ -47498,7 +47499,7 @@
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "unit_count"          "2"
+        "unit_count"          "2 2 3 4"
       }
       "04"
       {
@@ -47512,14 +47513,14 @@
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityCastRange"            "250"
-    "AbilityCooldown"             "62"
-    "AbilityManaCost"             "22"
+    "AbilityCooldown"             "62 55 50 45"
+    "AbilityManaCost"             "22 25 28 31"
     "AbilityCastPoint"        "1.0"
     "AnimationPlaybackRate"     "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "oracle_purifying_flames"
+    "AbilityTextureName"            "infernal_guard"
     "precache"
     {
       "particle"        "particles/units/heroes/hero_oracle/oracle_purifyingflames_hit.vpcf"
@@ -47598,7 +47599,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "cast_damage"         "25"
+        "cast_damage"         "25 50 75 100"
       }
       "02"
       {
@@ -47608,12 +47609,12 @@
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "duration"          "25"
+        "duration"          "25 30 30 35"
       }
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"          "25"
+        "damage"          "25 28 31 33"
       }
       "05"
       {
@@ -47641,8 +47642,8 @@
   "bloodthirst"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "ursa_fury_swipes"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "bloodthirst"
+    "MaxLevel"            "4"
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "precache"
     {
@@ -47655,17 +47656,17 @@
       "01"
       {
         "var_type"          "FIELD_INTEGER"
-        "day_chance"        "20"
+        "day_chance"        "20 23 26 29"
       }
       "02"
       {
         "var_type"          "FIELD_INTEGER"
-        "night_chance"        "33"
+        "night_chance"        "33 35 37 39"
       }
       "02"
       {
         "var_type"          "FIELD_INTEGER"
-        "bonus_damage"        "20"
+        "bonus_damage"        "20 28 40 55"
       }
     }
   
@@ -47733,11 +47734,11 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"      "techies_focused_detonate"
+    "AbilityTextureName"      "zeppelin_bombing"
     "AbilityCastRange"        "1500"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "14"
-    "MaxLevel"            "1"
+    "AbilityCooldown"       "14 19 28 38"
+    "MaxLevel"            "4"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
     "AbilityManaCost"               "11"
     "precache"
@@ -47799,7 +47800,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "75"
+        "damage"        "75 150 250 350"
       }
       "2"
       {
@@ -47809,7 +47810,7 @@
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "explosives"        "5"
+        "explosives"        "5 5 6 7"
       }
       "04"
       {
@@ -47819,7 +47820,7 @@
       "05"
       {
         "var_type"        "FIELD_FLOAT"
-        "distance"          "1500"
+        "distance"          "1500 1500 1900 2100"
       }
       "06"
       {
@@ -47833,7 +47834,7 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "tinker_heat_seeking_missile"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
@@ -47843,8 +47844,8 @@
   
     "AbilityCastRange"        "1000"
     "AbilityCastPoint"        "0"
-    "AbilityCooldown"       "21.0"
-    "AbilityManaCost"       "10"
+    "AbilityCooldown"       "21.0  19.0 17.0 15.0"
+    "AbilityManaCost"       "80 120 160 150"
     
     "AbilityChannelTime"      "%duration"
     "precache"
@@ -47858,17 +47859,17 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "5"
+        "damage"        "5 7 9 11"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "range"       "1000"
+        "range"       "1000 1100 1200 1300"
       }
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "tank_damage"       "6"
+        "tank_damage"       "6 7 8 9"
       }
       "04"
       {
@@ -47878,7 +47879,7 @@
       "05"
       {
         "var_type"      "FIELD_FLOAT"
-        "duration"      "3"
+        "duration"      "3.0 3.3 3.6 3.9"
       } 
       "06"
       {
@@ -47983,8 +47984,8 @@
   "mgbt"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "tinker_march_of_the_machines"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "mgbt"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
@@ -47992,9 +47993,9 @@
     "AOERadius"           "%radius"
     "AbilityCastRange"        "1400"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "22"
+    "AbilityCooldown"       "82 72 62 52"
   
-    "AbilityManaCost"       "20"
+    "AbilityManaCost"       "40 80 150 220"
     
     "precache"
     {
@@ -48034,8 +48035,8 @@
   "timebomb"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "techies_land_mines"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "timebomb"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
@@ -48043,9 +48044,9 @@
     "AOERadius"           "%radius"
     "AbilityCastRange"        "600"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "30"
+    "AbilityCooldown"       "30 28 26 24"
   
-    "AbilityManaCost"       "16"
+    "AbilityManaCost"       "36 45 55 81"
     
     "precache"
     {
@@ -48069,14 +48070,14 @@
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"        "700"
+        "radius"        "700 900 1000 1200"
       }
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "50"
+        "damage"        "50 110 190 250"
       }
-      "01"
+      "04"
       {
         "var_type"        "FIELD_FLOAT"
         "explosion_delay"         "0.1"
@@ -48121,14 +48122,14 @@
   "tank_mode"
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "AbilityCooldown"             "0"
-    "AbilityManaCost"             "8"
+    "AbilityManaCost"             "50 75 100 125"
     "AbilityCastPoint"        "1.5"
     "AbilityCastAnimation"      "ACT_DOTA_TINKER_REARM3"
     "AnimationPlaybackRate"     "0.75"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "rattletrap_power_cogs"
+    "AbilityTextureName"            "tank_mode"
     "precache"
     {
       "model"               "models/items/courier/carty/carty.vmdl"
@@ -48136,7 +48137,7 @@
       "soundfile"             "soundevents/game_sounds_heroes/game_sounds_wisp.vsndevts"
     }
     "OnSpellStart"
-        {
+    {
       "RunScript"
       {
         "ScriptFile"      "abilities/tank_mode.lua"       
@@ -48203,14 +48204,14 @@
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "health_bonus"        "200"
+        "health_bonus"        "200 400 500 600"
       }
-      "02"
+      "03"
       {
         "var_type"        "FIELD_FLOAT"
-        "health_regen_bonus"        "0.4"
+        "health_regen_bonus"        "0.4 0.5 0.6 0.8"
       }
-      "02"
+      "04"
       {
         "var_type"        "FIELD_INTEGER"
         "movement_speed_penalty"        "-20"
@@ -48396,16 +48397,16 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "enraged_wildkin_tornado"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
     
     "AbilityCastRange"        "700"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "15"
+    "AbilityCooldown"       "40 35 30 25"
   
-    "AbilityManaCost"       "14"
+    "AbilityManaCost"       "80 120 140 160"
     
     "precache"
     {
@@ -48430,7 +48431,7 @@
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "blades"        "4"
+        "blades"        "4 4 5 5"
       }
       "03"
       {
@@ -48450,12 +48451,12 @@
       "06"
       {
         "var_type"        "FIELD_FLOAT"
-        "cyclone_duration"        "2.5"
+        "cyclone_duration"        "2.5 2.5 3 3.5"
       }
       "07"
       {
         "var_type"        "FIELD_INTEGER"
-        "cyclone_damage"        "45"
+        "cyclone_damage"        "60 90 140 220"
       }
       "08"
       {
@@ -48558,13 +48559,13 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"      "antimage_mana_void"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "combustion"
+    "MaxLevel"            "3"
     "AbilityCastRange"        "1800"
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "6"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
-    "AbilityManaCost"               "11"
+    "AbilityManaCost"               "110 150 190"
     "precache"
     {
       "particle"            "particles/units/heroes/hero_disruptor/disruptor_thunder_strike_buff.vpcf"
@@ -48578,13 +48579,13 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "mana_ratio"        "2.0"
+        "mana_ratio"        "2.0 2.0 2.0 3.0"
       }
       
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"        "80"
+        "radius"        "80 120 150 160"
       }
       "03"
       {
@@ -48676,13 +48677,13 @@
   "myst"
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
-    "MaxLevel"            "1"
-    "AbilityCooldown"             "30"
-    "AbilityManaCost"             "14"
+    "MaxLevel"            "4"
+    "AbilityCooldown"             "30 28 26 24"
+    "AbilityManaCost"             "70 80 90 100"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "riki_smoke_screen"
+    "AbilityTextureName"            "myst"
     "precache"
     {
       "particle"              "particles/custom_particles/abilities/myst/slark_shadow_dance_dummy.vpcf"
@@ -48741,12 +48742,12 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"          "250"
+        "radius"          "250 280 320 400"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "mana_drain"        "10"
+        "mana_drain"        "10 12 14 17"
       }
       "02"
       {
@@ -48765,13 +48766,13 @@
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"      "invoker_deafening_blast"
+    "AbilityTextureName"      "energy_current"
     "AbilityCastRange"        "%range"
     "AbilityCastPoint"        "0.1"
     "AbilityCooldown"       "15"
-    "MaxLevel"                  "1"
+    "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "AbilityManaCost"               "12"
+    "AbilityManaCost"               "50 70 100 120"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_leshrac/leshrac_lightning_slow.vpcf"
@@ -48785,7 +48786,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "range"       "1000"
+        "range"       "1000 1100 1200 1300"
       }
       "02"
       {
@@ -48820,7 +48821,7 @@
       "08"
       {
         "var_type"        "FIELD_INTEGER"
-        "wave_damage"       "50"
+        "wave_damage"       "50 100 150 200"
       }
     }
     "OnAbilityPhaseStart"
@@ -48904,16 +48905,16 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "phoenix_supernova"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
     
     "AbilityCastRange"        "0"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "26"
+    "AbilityCooldown"       "26 24 24 22"
   
-    "AbilityManaCost"       "13"
+    "AbilityManaCost"       "40 50 60 70"
     
     "precache"
     {
@@ -48945,17 +48946,17 @@
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "flight_damage"       "20"
+        "flight_damage"       "80 100 120 140"
       }
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "explosion_radius"        "200"
+        "explosion_radius"        "200 200 300 400"
       }
       "06"
       {
         "var_type"        "FIELD_INTEGER"
-        "explosion_damage"        "30"
+        "explosion_damage"        "90 140 180 220"
       }
       "06"
       {
@@ -49001,7 +49002,7 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "beastmaster_wild_axes"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
@@ -49010,7 +49011,7 @@
     "AbilityCastPoint"        "0.5"
     "AbilityCooldown"       "8"
   
-    "AbilityManaCost"       "10"
+    "AbilityManaCost"       "30 60 90 90"
     
     "precache"
     {
@@ -49025,7 +49026,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "65"
+        "damage"        "65 85 120 150"
       }
       "02"
       {
@@ -49092,16 +49093,16 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "meepo_earthbind"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
     
     "AbilityCastRange"        "%distance"
     "AbilityCastPoint"        "0.5"
-    "AbilityCooldown"       "18"
+    "AbilityCooldown"       "18 16 10 8"
   
-    "AbilityManaCost"       "12"
+    "AbilityManaCost"       "45 55 55 65"
     
     "precache"
     {
@@ -49127,12 +49128,12 @@
       "03"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"        "3.0"
+        "duration"        "3.0 4.0 5.0 6.0"
       }
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "distance"        "1200"
+        "distance"        "1200 1200 1400 1400"
       }
       "05"
       {
@@ -49204,8 +49205,8 @@
   "call_pet"
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
-    "MaxLevel"            "1"
-    "AbilityCooldown"             "60"
+    "MaxLevel"            "4"
+    "AbilityCooldown"             "60 50 40 30"
     "AbilityManaCost"             "0"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
@@ -49238,8 +49239,9 @@
         }
       }
     }
+
     "OnSpellStart"
-        {
+    {
       "RunScript"
       {
         "ScriptFile"      "abilities/call_pet.lua"        
@@ -49251,17 +49253,17 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "bear_health"       "100"
+        "bear_health"       "300 500 700 900"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "bear_damage"       "26"
+        "bear_damage"       "40 50 60 70"
       }
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "bear_movement_speed"   "310"
+        "bear_movement_speed"   "310 310 330 360"
       }
     }
   }
@@ -49269,13 +49271,14 @@
   "ride_pet"
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
+    "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityCooldown"             "50"
     "AbilityManaCost"             "20"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "lone_druid_rabid"
+    "AbilityTextureName"            "ride_pet"
     "precache"
     {
       "model"               "models/heroes/lone_druid/spirit_bear.vmdl"
@@ -49338,7 +49341,7 @@
       }
     }
     "OnSpellStart"
-        {
+    {
       "RunScript"
       {
         "ScriptFile"      "abilities/ride_pet.lua"        
@@ -49350,12 +49353,12 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "movement_speed"        "20"
+        "movement_speed"        "20 40 60"
       }
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"        "20.0"
+        "duration"        "20.0 25.0 30.0"
       }
     }
   }
@@ -49363,17 +49366,17 @@
   "toss_pet"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "lone_druid_true_form_battle_cry"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "toss_pet"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
     
-    "AbilityCastRange"        "900"
+    "AbilityCastRange"        "900 900 1200 1300"
     "AbilityCastPoint"        "0.5"
-    "AbilityCooldown"       "10"
+    "AbilityCooldown"       "10 10 8 8"
   
-    "AbilityManaCost"       "10"
+    "AbilityManaCost"       "100 150 160 190"
     
     "precache"
     {
@@ -49393,17 +49396,17 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "70"
+        "damage"        "70 90 120 150"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"        "150"
+        "radius"        "150 150 150 200"
       }
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "bounces"       "2"
+        "bounces"       "2 2 2 3"
       }
       "04"
       {
@@ -49465,12 +49468,12 @@
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityCooldown"             "35"
-    "AbilityManaCost"             "18"
+    "AbilityManaCost"             "100"
     "AbilityCastPoint"        "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "doom_bringer_scorched_earth"
+    "AbilityTextureName"            "blazing_trails"
     "precache"
     {
       "particle"        "particles/units/heroes/hero_batrider/batrider_firefly_ember.vpcf"
@@ -49581,12 +49584,12 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "duration"          "20"
+        "duration"          "20 23 26 29"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "flame_duration"          "20"
+        "flame_duration"          "20 23 26 29"
       }
       "03"
       {
@@ -49601,7 +49604,7 @@
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"          "20"
+        "damage"          "50 90 110 130"
       }
     }
   }
@@ -49613,7 +49616,7 @@
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastRange"            "9999"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
     "AbilityCooldown"             "28"
     "AbilityManaCost"             "15"
     "AbilityCastPoint"        "0.3"
@@ -49629,7 +49632,7 @@
       "soundfile"             "soundevents/game_sounds_heroes/game_sounds_shadow_demon.vsndevts"
     }
     "OnSpellStart"
-        {
+    {
       "FireSound"
       {
         "EffectName"    "Hero_ShadowDemon.Soul_Catcher"
@@ -49672,17 +49675,17 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"          "12"
+        "duration"          "12 15 18"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "25"
+        "damage"        "25 27 29"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "bounces"       "1"
+        "bounces"       "1 1 2"
       }
       "02"
       {
@@ -49721,9 +49724,9 @@
     "AbilityCastPoint"        "1.0"
     "AnimationPlaybackRate"     "0.8"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_6"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "doom_bringer_doom"
+    "AbilityTextureName"            "pitfall"
     "precache"
     {
       "particle"        "particles/units/heroes/hero_phoenix/phoenix_supernova_egg.vpcf"
@@ -49732,7 +49735,7 @@
       "soundfile"             "soundevents/game_sounds_heroes/game_sounds_phoenix.vsndevts"
     }
     "OnSpellStart"
-        {
+    {
       "RunScript"
       {
         "ScriptFile"      "abilities/pitfall.lua"       
@@ -49776,12 +49779,12 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"          "2"
+        "duration"          "2 3 4 5"
       }
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"          "40"
+        "damage"          "40 80 90 110"
       }
       "03"
       {
@@ -49791,7 +49794,7 @@
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"          "550"
+        "radius"          "550 600 650 700"
       }
     }
   }
@@ -49799,15 +49802,15 @@
   "juggernauts_charge"
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
-    "AbilityCooldown"             "11"
-    "AbilityManaCost"             "10"
+    "AbilityCooldown"             "11 13 15 17"
+    "AbilityManaCost"             "40 80 90 140"
     "AbilityCastRange"        "1000"
     "AbilityCastPoint"        "0.7"
     "AnimationPlaybackRate"     "0.8"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "MaxLevel"            "1"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "huskar_life_break_alt"
+    "AbilityTextureName"            "juggernauts_charge"
     "precache"
     {
       "particle"        "particles/econ/items/huskar/huskar_searing_dominator/huskar_searing_lifebreak_cast.vpcf"
@@ -49880,12 +49883,12 @@
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"          "40"
+        "damage"          "60 110 150 180"
       }
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"          "175"
+        "radius"          "175 225 260 310"
       }
     }
   }
@@ -49895,7 +49898,7 @@
     "BaseClass"               "ability_datadriven"
     "AbilityBehavior"         "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "MaxLevel"            "1"
-    "AbilityTextureName"            "doom_bringer_devour"
+    "AbilityTextureName"            "hell_spawn"
     "Modifiers"
     {
       
@@ -49917,7 +49920,7 @@
     "AbilityCooldown"             "3"
     "AbilityManaCost"             "4"
     "AbilityCastPoint"        "0.3"
-    "MaxLevel"                  "1"
+    "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "joker_pulse_bullet"
@@ -49975,12 +49978,12 @@
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"        "80"
+        "radius"        "80 120 160 190"
       } 
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "2"
+        "damage"        "2 2 3 4"
       }
       "04"
       {
@@ -49998,7 +50001,7 @@
     "AbilityCastRange"        "9999"
     "AbilityCastPoint"        "0.1"
     "AbilityCooldown"       "1"
-    "MaxLevel"                  "1"
+    "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
     "AbilityManaCost"               "7"
     "precache"
@@ -50054,7 +50057,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "distance"        "1050"
+        "distance"        "1050 1150 1250 1450"
       }
     }
   }
@@ -50066,7 +50069,7 @@
     "AbilityCooldown"             "55"
     "AbilityManaCost"             "8"
     "AbilityCastPoint"        "0.3"
-    "MaxLevel"                  "1"
+    "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "joker_tree_defense"
@@ -50094,7 +50097,7 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "interval"          "0.25"
+        "interval"          "0.25 0.20 0.15 0.10"
       }
       "01"
       {
@@ -50114,7 +50117,7 @@
     "AbilityManaCost"             "1"
     "AbilityCastPoint"        "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "joker_heal"
     "precache"
@@ -50156,7 +50159,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "heal"          "25"
+        "heal"          "50 100 150 200"
       }
     }
   }
@@ -50164,17 +50167,17 @@
   "well_of_evil"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "faceless_void_time_lock"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "well_of_evil"
+    "MaxLevel"            "3"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
     
-    "AbilityCastRange"        "700"
+    "AbilityCastRange"        "700 900 1100"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "16"
+    "AbilityCooldown"       "30 25 20"
   
-    "AbilityManaCost"       "8"
+    "AbilityManaCost"       "180 250 300"
     
     "precache"
     {
@@ -50195,7 +50198,7 @@
       "02"
       {
         "var_type"        "FIELD_FLOAT"
-        "duration"        "6.0"
+        "duration"        "6.0 7.0 8.0"
       }
       "03"
       {
@@ -50205,7 +50208,7 @@
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "suffering_damage"        "50"
+        "suffering_damage"        "50 100 150"
       }
       "06"
       {
@@ -50220,7 +50223,7 @@
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "summoning_skeletons"   "2"
+        "summoning_skeletons"   "2 2 3"
       }
       "05"
       {
@@ -50230,7 +50233,7 @@
       "06"
       {
         "var_type"        "FIELD_INTEGER"
-        "death_damage"      "100"
+        "death_damage"      "100 150 200"
       }
       "06"
       {
@@ -50296,13 +50299,13 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "qtf_hax"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
 
     "AbilityCastPoint"        "0.5"
-    "AbilityCooldown"       "40.0"
+    "AbilityCooldown"       "40.0 35.0 30.0 25.0"
   
     "AbilityManaCost"       "15"
     
@@ -50318,7 +50321,7 @@
       "01"
       {
         "var_type"          "FIELD_FLOAT"
-        "duration"          "30"
+        "duration"          "10 15 20"
       }
     }
     "OnSpellStart"
@@ -50361,12 +50364,12 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastRange"            "700"
-    "AbilityCooldown"             "26"
-    "AbilityManaCost"             "12"
+    "AbilityCooldown"             "26 24 22 18"
+    "AbilityManaCost"             "24 35 45 55"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
     "AnimationPlaybackRate"     "1.3"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "phantom_assassin_stifling_dagger"
     "precache"
@@ -50442,7 +50445,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "initial_damage"          "30"
+        "initial_damage"          "40 80 120 150"
       }
       "02"
       {
@@ -50452,7 +50455,7 @@
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "poison_damage"     "3"
+        "poison_damage"     "3 6 9 12"
       }
       "04"
       {
@@ -50476,13 +50479,13 @@
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCooldown"             "11"
-    "AbilityManaCost"             "10"
+    "AbilityManaCost"             "20 40 80 120"
     "AbilityCastRange"        "700"
     "AbilityCastPoint"        "0.2"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "phantom_assassin_coup_de_grace"
+    "AbilityTextureName"            "dash"
     "precache"
     {
       "particle"        "particles/units/heroes/hero_phantom_assassin/phantom_assassin_blur.vpcf"
@@ -50638,7 +50641,7 @@
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "crit_damage"         "180"
+        "crit_damage"         "180 230 260 290"
       }
       "04"
       {
@@ -50651,8 +50654,8 @@
   "arcane_speed"
   {
     "BaseClass"                 "ability_datadriven"
-    "AbilityTextureName"      "phantom_assassin_blur"
-    "MaxLevel"            "1"
+    "AbilityTextureName"      "arcane_speed"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
@@ -50690,12 +50693,12 @@
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "attacks"         "10"
+        "attacks"         "10 12 14 16"
       }
       "05"
       {
         "var_type"          "FIELD_INTEGER"
-        "attack_damage"         "16"
+        "attack_damage"         "16 25 35 55"
       }
       "03"
       {
@@ -50819,15 +50822,15 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "fade_out"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
   
     "AbilityCastPoint"        "0.1"
-    "AbilityCooldown"       "50.0"
+    "AbilityCooldown"       "50.0 42.0 34.0"
   
-    "AbilityManaCost"       "25"
+    "AbilityManaCost"       "80 140 170"
     
     "precache"
     {
@@ -50840,12 +50843,12 @@
       "02"
       {
         "var_type"          "FIELD_FLOAT"
-        "duration"          "25.0"
+        "duration"          "25.0 30.0 34.0"
       }
       "04"
       {
         "var_type"          "FIELD_FLOAT"
-        "delay"         "2.5"
+        "delay"         "2.5 2.5 2.0"
       }
     }
   
@@ -50939,7 +50942,7 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "brewmaster_drunken_brawler"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
@@ -50949,7 +50952,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "1.0"
   
-    "AbilityManaCost"       "7"
+    "AbilityManaCost"       "70"
     
     "precache"
     {
@@ -50963,17 +50966,17 @@
       "02"
       {
         "var_type"          "FIELD_INTEGER"
-        "damage"          "30"
+        "damage"          "45 75 115 165"
       }
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "distance"          "300"
+        "distance"          "300 400 500 600"
       }
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "radius"          "40"
+        "radius"          "40 50 60 70"
       }
     }
     
@@ -51012,12 +51015,12 @@
     "AOERadius"           "%radius"
     "AbilityCastRange"            "800"
     "AbilityCooldown"             "8"
-    "AbilityManaCost"             "8"
+    "AbilityManaCost"             "70 90 100 100"
     "AbilityCastPoint"        "0.3"
-    "MaxLevel"                  "1"
+    "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
     "BaseClass"           "ability_datadriven"
-    "AbilityTextureName"            "sven_storm_bolt"
+    "AbilityTextureName"            "barrel_slam"
     "precache"
     {
       "particle"              "particles/custom_particles/abilities/brawler/brawler_spell_storm_bolt.vpcf"
@@ -51038,12 +51041,12 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"          "50"
+        "damage"          "50 80 120 160"
       }
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"        "225"
+        "radius"        "225 275 315 325"
       }
       "04"
       {
@@ -51064,12 +51067,12 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
-    "AbilityCastRange"            "550"
-    "AbilityCooldown"             "15"
-    "AbilityManaCost"             "8"
+    "AbilityCastRange"            "550 650 750 850"
+    "AbilityCooldown"             "15 14 13 12"
+    "AbilityManaCost"             "80"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "brewmaster_drunken_haze"
     "precache"
@@ -51147,7 +51150,7 @@
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "movement_slow"       "-30"
+        "movement_slow"       "-30 -33 -36 -39"
       }
       "06"
       {
@@ -51164,7 +51167,7 @@
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_PHYSICAL"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
     
     "precache"
     {
@@ -51182,12 +51185,12 @@
       "02"
       {
         "var_type"        "FIELD_FLOAT"
-        "stun_duration"     "1.0"
+        "stun_duration"     "1.0 1.3 1.6 2.1"
       }
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "bonus_damage"        "15"
+        "bonus_damage"        "25 40 52 61"
       }
     }
   
@@ -51249,7 +51252,7 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "brewmaster_thunder_clap"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
   
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
@@ -51271,12 +51274,12 @@
       "01"
       {
         "var_type"          "FIELD_INTEGER"
-        "radius"          "500"
+        "radius"          "500 550 600"
       }
       "04"
       {
         "var_type"          "FIELD_INTEGER"
-        "damage"          "70"
+        "damage"          "70 100 120 140"
       }
       "02"
       {
@@ -51909,14 +51912,14 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "medusa_split_shot"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     
     "AbilityCastRange"        "900"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "9"
+    "AbilityCooldown"       "9 8 7 6"
   
     "AbilityManaCost"       "10"
     
@@ -51933,7 +51936,7 @@
       "01"
       {
         "var_type"        "FIELD_FLOAT"
-        "arrows"        "4"
+        "arrows"        "4 4 5 5"
       }
       "02"
       {
@@ -51953,7 +51956,7 @@
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"  "65"
+        "damage"  "65 70 75 80"
       }
       "06"
       {
@@ -52009,7 +52012,7 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "medusa_stone_gaze"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
@@ -52018,7 +52021,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "13"
   
-    "AbilityManaCost"       "12"
+    "AbilityManaCost"       "30 45 60 75"
     
     "precache"
     {
@@ -52049,7 +52052,7 @@
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "30"
+        "damage"        "45 60 75 90"
       }
       "06"
       {
@@ -52134,7 +52137,7 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "morphling_adaptive_strike"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
     "AbilityCastAnimation"      "ACT_DOTA_TELEPORT_END"
@@ -52142,9 +52145,9 @@
     "AOERadius"           "%radius"
     "AbilityCastRange"        "1500"
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "29"
+    "AbilityCooldown"       "29 27 25 20"
   
-    "AbilityManaCost"       "11"
+    "AbilityManaCost"       "40 50 60 70"
     
     "precache"
     {
@@ -52158,12 +52161,12 @@
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"        "200"
+        "radius"        "200 230 260 300 340"
       }
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "60"
+        "damage"        "60 70 80 90"
       }
       "03"
       {
@@ -52234,18 +52237,18 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "naga_siren_rip_tide"
-    "MaxLevel"            "1"
+    "MaxLevel"            "3"
   
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
     
     "AOERadius"           "%radius"
-    "AbilityCastRange"        "600"
+    "AbilityCastRange"        "600 700 800"
     "AbilityCastPoint"        "0.6"
-    "AbilityCooldown"       "60"
+    "AbilityCooldown"       "60 55 50"
   
-    "AbilityManaCost"       "18"
+    "AbilityManaCost"       "100 110 150"
     
     "precache"
     {
@@ -52270,12 +52273,12 @@
       "05"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"      "5"
+        "damage"      "10 13 15"
       }
       "06"
       {
         "var_type"        "FIELD_INTEGER"
-        "radius"      "250"
+        "radius"      "250 300 350"
       }
     }
   
@@ -52368,15 +52371,15 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "naga_siren_mirror_image"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
   
     "AbilityCastPoint"        "0.3"
-    "AbilityCooldown"       "55.0"
+    "AbilityCooldown"       "55.0 50.0 45.0"
   
-    "AbilityManaCost"       "20"
+    "AbilityManaCost"       "60 80 100 120"
     "AbilitySpecial"
     {
       "01"
@@ -52387,12 +52390,12 @@
       "01"
       {
         "var_type"          "FIELD_INTEGER"
-        "clones"          "2"
+        "clones"          "2 3 4 5"
       }
       "01"
       {
         "var_type"          "FIELD_FLOAT"
-        "clones_duration"         "20.0"
+        "clones_duration"         "10.0 13.0 16.0 19.0"
       }
       "01"
       {
@@ -52520,11 +52523,11 @@
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastRange"            "600"
-    "AbilityCooldown"             "8"
+    "AbilityCooldown"             "25 20 17 14"
     "AbilityManaCost"             "40"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "MaxLevel"            "3"
+    "MaxLevel"            "4"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "shadow_demon_shadow_poison"
     "precache"
@@ -52573,7 +52576,7 @@
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "movespeed_reduction"       "-50"
+        "movespeed_reduction"       "-50 -55 -60 -60"
       }
       "04"
       {
@@ -52606,7 +52609,7 @@
   {
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "morphling_waveform"
-    "MaxLevel"            "1"
+    "MaxLevel"            "4"
   
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_AOE"
     "AOERadius"           "%radius"
@@ -52631,7 +52634,7 @@
       "01"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "10"
+        "damage"        "70 100 124 216"
       }
       "02"
       {
@@ -52750,7 +52753,6 @@
   
   "hurl_boulder"
   {
-    "ID"              "1946"
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"

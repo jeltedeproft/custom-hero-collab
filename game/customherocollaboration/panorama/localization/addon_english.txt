@@ -16,7 +16,7 @@
 	"DOTA_Custom7"    								"Ground"
 	"DOTA_Custom8"    								"Psychic"
 	
-	"addonname"										"Barebones"
+	"addonname"										"Heroes of the New Age"
 
 	"npc_dota_hero_ancient_apparition_hype"         "Goofy can charm enemies with his clumsiness. But he has a friendly hearth and welcomes everyone."
 	"npc_dota_hero_antimage_hype"					"Mario was just a simple plumber, until he decided to become a hero. Using the power of mushrooms he defeats his opponents with ease."
