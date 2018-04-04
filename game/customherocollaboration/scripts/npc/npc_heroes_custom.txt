@@ -154,7 +154,7 @@
     "AbilityLayout"     "6"
     "override_hero"     "npc_dota_hero_axe"
     "Model"             "models/heroacadmia/dekurechtopnieuwnoggroter.vmdl"
-    "ModelScale"        "2.0"
+    "ModelScale"        "1.7"
     "Portrait"                  "vgui/hud/heroportraits/portrait_axe"
     "SoundSet"                  "Hero_Axe"
     "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_axe.vsndevts"
@@ -553,7 +553,7 @@
     "AttackDamageMax"     "29"                   // Damage range max.
     "AttackRange"                "600"
 
-    "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
+    "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
     "AttributeBaseStrength"   "19"                   // Base strength
     "AttributeStrengthGain"   "2.6"                   // Strength bonus per level.
     "AttributeBaseIntelligence" "22"                   // Base intelligence
@@ -657,7 +657,7 @@
     "GameSoundsFile"            "soundevents/game_sounds_heroes/game_sounds_dazzle.vsndevts"
     "VoiceFile"                 "soundevents/voscripts/game_sounds_vo_dazzle.vsndevts"
     "HeroSelectSoundEffect"     "alakazamselect"
-    //"PickSound"       "dekupick"
+    "PickSound"       "alakazamselect"
     "BanSound"        ""
     "Ability1"        "alakazamteleport" 
     "Ability2"        "alakazamblast" 

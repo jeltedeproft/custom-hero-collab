@@ -16,7 +16,55 @@ function GameMode:OnGameRulesStateChange(keys)
   DebugPrint("[BAREBONES] GameRules State Changed")
   DebugPrintTable(keys)
 
-  local newState = GameRules:State_Get()
+  local nNewState = GameRules:State_Get()
+
+
+  if GetMapName() ~= "dota" then
+    if nNewState == DOTA_GAMERULES_STATE_HERO_SELECTION then
+
+    end
+
+    if nNewState == DOTA_GAMERULES_STATE_PRE_GAME then
+
+      local numberOfPlayers = PlayerResource:GetPlayerCount()
+
+      if numberOfPlayers > 7 then
+
+        --self.TEAM_KILLS_TO_WIN = 25
+        nCOUNTDOWNTIMER = 1501
+      elseif numberOfPlayers > 4 and numberOfPlayers <= 7 then
+
+        --self.TEAM_KILLS_TO_WIN = 20
+        nCOUNTDOWNTIMER = 1321
+      else
+        --self.TEAM_KILLS_TO_WIN = 15
+        nCOUNTDOWNTIMER = 1201
+      end
+      if GetMapName() == "forest_solo" then
+        self.TEAM_KILLS_TO_WIN = 25
+      elseif GetMapName() == "desert_duo" then
+        self.TEAM_KILLS_TO_WIN = 30
+      elseif GetMapName() == "desert_quintet" then
+        self.TEAM_KILLS_TO_WIN = 50
+      elseif GetMapName() == "temple_quartet" then
+        self.TEAM_KILLS_TO_WIN = 50
+      else
+        self.TEAM_KILLS_TO_WIN = 30
+      end
+      --print( "Kills to win = " .. tostring(self.TEAM_KILLS_TO_WIN) )
+
+      CustomNetTables:SetTableValue( "game_state", "victory_condition", { kills_to_win = self.TEAM_KILLS_TO_WIN } );
+
+      self._fPreGameStartTime = GameRules:GetGameTime()
+    end
+
+    if nNewState == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
+      --print( "OnGameRulesStateChange: Game In Progress" )
+      self.countdownEnabled = true
+      CustomGameEventManager:Send_ServerToAllClients( "show_timer", {} )
+      DoEntFire( "center_experience_ring_particles", "Start", "0", 0, self, self  )
+    end
+  end
 end
 
 -- An NPC has spawned somewhere in game.  This includes heroes
@@ -32,7 +80,26 @@ function GameMode:OnNPCSpawned(keys)
       ParticleManager:DestroyParticle( deathEffects, true )
       npc:DeleteAttribute( "effectsID" )
     end
+
+    if self.allSpawned == false then
+      if GetMapName() == "mines_trio" then
+        --print("mines_trio is the map")
+        --print("self.allSpawned is " .. tostring(self.allSpawned) )
+        local unitTeam = spawnedUnit:GetTeam()
+        local particleSpawn = ParticleManager:CreateParticleForTeam( "particles/addons_gameplay/player_deferred_light.vpcf", PATTACH_ABSORIGIN, spawnedUnit, unitTeam )
+        ParticleManager:SetParticleControlEnt( particleSpawn, PATTACH_ABSORIGIN, spawnedUnit, PATTACH_ABSORIGIN, "attach_origin", spawnedUnit:GetAbsOrigin(), true )
+      end
+    end
   end
+end
+
+--------------------------------------------------------------------------------
+-- Event: BountyRunePickupFilter
+--------------------------------------------------------------------------------
+function GameMode:BountyRunePickupFilter( filterTable )
+  filterTable["xp_bounty"] = 2*filterTable["xp_bounty"]
+  filterTable["gold_bounty"] = 2*filterTable["gold_bounty"]
+  return true
 end
 
 -- An entity somewhere has been hurt.  This event fires very often with many units so don't do too many expensive
@@ -71,7 +138,7 @@ function GameMode:OnItemPickedUp(keys)
   local player = PlayerResource:GetPlayer(keys.PlayerID)
   local itemname = keys.itemname
 
-  r = 100
+  r = 50
 
   if itemname == "item_bag_of_gold" then
     PlayerResource:ModifyGold( player:GetPlayerID(), r, true, 0 )
@@ -263,33 +330,106 @@ function GameMode:OnTeamKillCredit(keys)
   local victimPlayer = PlayerResource:GetPlayer(keys.victim_userid)
   local numKills = keys.herokills
   local killerTeamNumber = keys.teamnumber
+
+  if GetMapName() ~= "dota" then
+
+    local broadcast_kill_event =
+    {
+      killer_id = keys.killer_userid,
+      team_id = keys.teamnumber,
+      team_kills = nTeamKills,
+      kills_remaining = nKillsRemaining,
+      victory = 0,
+      close_to_victory = 0,
+      very_close_to_victory = 0,
+    }
+
+    if nKillsRemaining <= 0 then
+      GameRules:SetCustomVictoryMessage( self.m_VictoryMessages[nTeamID] )
+      GameRules:SetGameWinner( nTeamID )
+      broadcast_kill_event.victory = 1
+    elseif nKillsRemaining == 1 then
+      EmitGlobalSound( "ui.npe_objective_complete" )
+      broadcast_kill_event.very_close_to_victory = 1
+    elseif nKillsRemaining <= self.CLOSE_TO_VICTORY_THRESHOLD then
+      EmitGlobalSound( "ui.npe_objective_given" )
+      broadcast_kill_event.close_to_victory = 1
+    end
+
+    CustomGameEventManager:Send_ServerToAllClients( "kill_event", broadcast_kill_event )
+  end
 end
 
 -- An entity died
 function GameMode:OnEntityKilled( keys )
-  DebugPrint( '[BAREBONES] OnEntityKilled Called' )
-  DebugPrintTable( keys )
-  
-
-  -- The Unit that was Killed
   local killedUnit = EntIndexToHScript( keys.entindex_killed )
-  -- The Killing entity
-  local killerEntity = nil
+  local killedTeam = killedUnit:GetTeam()
+  local hero = EntIndexToHScript( keys.entindex_attacker )
+  local heroTeam = hero:GetTeam()
+  local extraTime = 0
 
-  if keys.entindex_attacker ~= nil then
-    killerEntity = EntIndexToHScript( keys.entindex_attacker )
+  if GetMapName() ~= "dota" then
+    if killedUnit:IsRealHero() then
+      self.allSpawned = true
+      --print("Hero has been killed")
+      --Add extra time if killed by Necro Ult
+      if hero:IsRealHero() == true then
+        if keys.entindex_inflictor ~= nil then
+          local inflictor_index = keys.entindex_inflictor
+          if inflictor_index ~= nil then
+            local ability = EntIndexToHScript( keys.entindex_inflictor )
+            if ability ~= nil then
+              if ability:GetAbilityName() ~= nil then
+                if ability:GetAbilityName() == "necrolyte_reapers_scythe" then
+                  print("Killed by Necro Ult")
+                  extraTime = 20
+                end
+              end
+            end
+          end
+        end
+      end
+      if hero:IsRealHero() and heroTeam ~= killedTeam then
+        --print("Granting killer xp")
+        if killedUnit:GetTeam() == self.leadingTeam and self.isGameTied == false then
+          local memberID = hero:GetPlayerID()
+          PlayerResource:ModifyGold( memberID, 500, true, 0 )
+          hero:AddExperience( 100, 0, false, false )
+          local name = hero:GetClassname()
+          local victim = killedUnit:GetClassname()
+          local kill_alert =
+            {
+              hero_id = hero:GetClassname()
+            }
+          CustomGameEventManager:Send_ServerToAllClients( "kill_alert", kill_alert )
+        else
+          hero:AddExperience( 50, 0, false, false )
+        end
+      end
+      --Granting XP to all heroes who assisted
+      local allHeroes = HeroList:GetAllHeroes()
+      for _,attacker in pairs( allHeroes ) do
+        --print(killedUnit:GetNumAttackers())
+        for i = 0, killedUnit:GetNumAttackers() - 1 do
+          if attacker == killedUnit:GetAttacker( i ) then
+            --print("Granting assist xp")
+            attacker:AddExperience( 25, 0, false, false )
+          end
+        end
+      end
+      if killedUnit:GetRespawnTime() > 10 then
+        --print("Hero has long respawn time")
+        if killedUnit:IsReincarnating() == true then
+          --print("Set time for Wraith King respawn disabled")
+          return nil
+        else
+          GameMode:SetRespawnTime( killedTeam, killedUnit, extraTime )
+        end
+      else
+        GameMode:SetRespawnTime( killedTeam, killedUnit, extraTime )
+      end
+    end
   end
-
-  -- The ability/item used to kill, or nil if not killed by an item/ability
-  local killerAbility = nil
-
-  if keys.entindex_inflictor ~= nil then
-    killerAbility = EntIndexToHScript( keys.entindex_inflictor )
-  end
-
-  local damagebits = keys.damagebits -- This might always be 0 and therefore useless
-
-  -- Put code here to handle when an entity gets killed
 end
 
 function GameMode:SetRespawnTime( killedTeam, killedUnit, extraTime )

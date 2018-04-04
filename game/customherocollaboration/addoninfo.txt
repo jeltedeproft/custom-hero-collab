@@ -1,22 +1,33 @@
 "AddonInfo"
 {
-  "TeamCount" "10"
-  "maps"      "testmap dota"
+  "maps"      "dota desert_duo mines_trio forest_solo desert_quintet temple_quartet"
   "IsPlayable"  "1"
   "testmap"
-  {
-          "MaxPlayers"                    "10"
-  }
+//  {
+//          "MaxPlayers"                    "10"
+//  }
   "dota"
   {
           "MaxPlayers"                    "10"
   }
-//  "desert_duo"
-//  {
-//          "MaxPlayers"                    "10"
-//  }
-//  "forest_solo"
-//  {
-//          "MaxPlayers"                    "10"
-//  }
+  "desert_duo"
+  {
+          "MaxPlayers"                    "10"
+  }
+  "forest_solo"
+  {
+          "MaxPlayers"                    "10"
+  }
+  "mines_trio"
+  {
+          "MaxPlayers"                    "9"
+  }
+  "desert_quintet"
+  {
+          "MaxPlayers"                    "15"
+  }
+  "temple_quartet"
+  {
+          "MaxPlayers"                    "16"
+  }
 }

@@ -15,21 +15,23 @@
 
 #TitlePanel
 {
-  horizontal-align: left;
+  text-align: center;
   vertical-align: bottom;
   margin-bottom: 100px;
-  margin-left: 100px;
+  margin-left: 500px;
   flow-children: right;
 }
 
 #AddonTitle
 {
-  margin-bottom: -10px;
   vertical-align: center;
-  text-transform: uppercase;
-  font-size: 80px;
+  text-align: center;
+  font-size: 100px;
   color: #cccccc;
   text-shadow: 2px 2px 2px #000000;
+  font-family: Arial;
+  color: #0C1761;
+  margin-bottom: 75px;
 }
 
 .SeqImg
@@ -56,7 +58,7 @@
 {
   /*margin-top: 160px;*/
   /*margin-bottom: 0px;*/
-  position: -300px -250px 0px;
+  position: 0px 0px 0px;
   
 }
 

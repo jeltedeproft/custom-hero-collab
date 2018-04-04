@@ -2805,7 +2805,7 @@
 		{
 			"default"
 			{
-				"PortraitPosition"		"500 0 205"
+				"PortraitPosition"		"500 0 135"
 				"PortraitAngles"		"0 180 0"
 				"PortraitFOV"			"14"
 			}

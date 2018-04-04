@@ -1,4 +1,4 @@
-require('timers')
+require('libraries/timers')
 
 function bvo_usopp_skill_0_stop(keys)
 	local caster = keys.caster

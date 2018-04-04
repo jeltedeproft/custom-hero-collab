@@ -4,7 +4,7 @@
   </styles>
   <Panel class="AddonLoadingRoot">
     <!--<Panel id="CustomBg" >/-->
-    <Image id="gamemode" src="file://{images}/custom_game/loading_screen/psycholoadingscreen.jpg" scaling="stretch"/>
+    <Image id="gamemode" src="file://{images}/custom_game/loading_screen/ls.jpg" scaling="stretch"/>
     <!--</Panel>/-->
     <Panel id="TitlePanel"> 
       <Label id="AddonTitle" text="#addon_game_name" style="" />

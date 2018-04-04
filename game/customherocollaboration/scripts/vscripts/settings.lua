@@ -6,7 +6,7 @@ UNIVERSAL_SHOP_MODE = true             -- Should the main shop contain Secret Sh
 ALLOW_SAME_HERO_SELECTION = true        -- Should we let people select the same hero as each other
 
 HERO_SELECTION_TIME = 70.0              -- How long should we let people select their hero?
-PRE_GAME_TIME = 75.0                    -- How long after people select their heroes should the horn blow and the game start?
+PRE_GAME_TIME = 10.0                    -- How long after people select their heroes should the horn blow and the game start?
 POST_GAME_TIME = 60.0                   -- How long should we let people look at the scoreboard before closing the server automatically?
 TREE_REGROW_TIME = 60.0                 -- How long should it take individual trees to respawn after being cut down/destroyed?
 
@@ -113,7 +113,6 @@ ENABLED_RUNES[DOTA_RUNE_BOUNTY] = true
 ENABLED_RUNES[DOTA_RUNE_ARCANE] = true
 
 
-MAX_NUMBER_OF_TEAMS = 10                -- How many potential teams can be in this game mode?
 USE_CUSTOM_TEAM_COLORS = true           -- Should we use custom team colors?
 USE_CUSTOM_TEAM_COLORS_FOR_PLAYERS = true          -- Should we use custom team colors to color the players/minimap?
 
@@ -131,6 +130,7 @@ TEAM_COLORS[DOTA_TEAM_CUSTOM_8] = { 140, 42, 244 }  --    Purple
 
 
 USE_AUTOMATIC_PLAYERS_PER_TEAM = true   -- Should we set the number of players to 10 / MAX_NUMBER_OF_TEAMS?
+MAX_NUMBER_OF_TEAMS = 2
 
 CUSTOM_TEAM_PLAYER_COUNT = {}           -- If we're not automatically setting the number of players per team, use this table
 CUSTOM_TEAM_PLAYER_COUNT[DOTA_TEAM_GOODGUYS] = 1
