@@ -3499,7 +3499,7 @@
 
   "npc_custom_hero_ailil"
     {
-      "AbilityLayout"     "4"
+      "AbilityLayout"     "6"
       "override_hero"     "npc_dota_hero_omniknight"
       "SoundSet"          "0"
       "Model"            "models/ailil/iceman.vmdl"
@@ -3525,23 +3525,19 @@
       "MagicalResistance"       "25"                 // Magical protection (percentage).
   
       "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
-      "AttackDamageMin"     "27"                   // Damage range min.
-      "AttackDamageMax"     "37"                   // Damage range max.
+      "AttackDamageMin"     "37"                   // Damage range min.
+      "AttackDamageMax"     "43"                   // Damage range max.
       "AttackRange"         "600"
-      "ProjectileModel"            "particles/units/heroes/hero_drow/drow_base_attack.vpcf"
+      "ProjectileModel"            "particles/units/heroes/hero_ancient_apparition/ancient_apparition_base_attack.vpcf"
       "ProjectileSpeed"            "1400"
   
-      "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+      "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
       "AttributeBaseStrength"   "19"                   // Base strength
       "AttributeStrengthGain"   "2.5"                   // Strength bonus per level.
-      "AttributeBaseIntelligence" "19"                   // Base intelligence
-      "AttributeIntelligenceGain" "2.1"                   // Intelligence bonus per level.
-      "AttributeBaseAgility"    "23"                   // Base agility
-      "AttributeAgilityGain"    "3.2"                   // Agility bonus per level.
-  
-      "BountyXP"          "0"                 // Experience earn.
-      "BountyGoldMin"       "0"                   // Gold earned min.
-      "BountyGoldMax"       "0"                   // Gold earned max.
+      "AttributeBaseIntelligence" "23"                   // Base intelligence
+      "AttributeIntelligenceGain" "3.2"                   // Intelligence bonus per level.
+      "AttributeBaseAgility"    "19"                   // Base agility
+      "AttributeAgilityGain"    "2.1"                   // Agility bonus per level.
   
       //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
       //"RingRadius"        "70"
@@ -3551,9 +3547,9 @@
       "MovementTurnRate"      "1.0"                 // Turning rate.
   
       "StatusHealth"        "200"                 // Base health.
-      "StatusHealthRegen"     "0.25"                 // Health regeneration rate.
-      "StatusMana"        "0"                   // Base mana.
-      "StatusManaRegen"     "0"                 // Mana regeneration rate.
+      "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+      "StatusMana"        "75"                   // Base mana.
+      "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
   
       "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
       "VisionNighttimeRange"    "800"                  // Range of vision at night time.
@@ -3561,7 +3557,7 @@
     }
   "npc_custom_hero_deadeye"
     {
-      "AbilityLayout"     "4"
+      "AbilityLayout"     "6"
       "override_hero"     "npc_dota_hero_pugna"
       "ModelScale"                "1.0"
       "Model"                 "models/deadeye/deadeye.vmdl"
@@ -3588,10 +3584,10 @@
       "MagicalResistance"       "25"                 // Magical protection (percentage).
   
       "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
-      "AttackDamageMin"     "27"                   // Damage range min.
-      "AttackDamageMax"     "37"                   // Damage range max.
+      "AttackDamageMin"     "36"                   // Damage range min.
+      "AttackDamageMax"     "42"                   // Damage range max.
       "AttackRange"         "600"
-      "ProjectileModel"            "particles/units/heroes/hero_drow/drow_base_attack.vpcf"
+      "ProjectileModel"            "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
       "ProjectileSpeed"            "1400"
   
       "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
@@ -3601,10 +3597,7 @@
       "AttributeIntelligenceGain" "2.1"                   // Intelligence bonus per level.
       "AttributeBaseAgility"    "23"                   // Base agility
       "AttributeAgilityGain"    "3.2"                   // Agility bonus per level.
-  
-      "BountyXP"          "0"                 // Experience earn.
-      "BountyGoldMin"       "0"                   // Gold earned min.
-      "BountyGoldMax"       "0"                   // Gold earned max.
+
   
       //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
       //"RingRadius"        "70"
@@ -3614,9 +3607,9 @@
       "MovementTurnRate"      "1.0"                 // Turning rate.
   
       "StatusHealth"        "200"                 // Base health.
-      "StatusHealthRegen"     "0.25"                 // Health regeneration rate.
-      "StatusMana"        "0"                   // Base mana.
-      "StatusManaRegen"     "0"                 // Mana regeneration rate.
+      "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+      "StatusMana"        "75"                   // Base mana.
+      "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
   
       "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
       "VisionNighttimeRange"    "800"                  // Range of vision at night time.
@@ -3651,11 +3644,11 @@
           "MagicalResistance"       "25"                 // Magical protection (percentage).
   
           "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-          "AttackDamageMin"     "27"                   // Damage range min.
-          "AttackDamageMax"     "37"                   // Damage range max.
+          "AttackDamageMin"     "44"                   // Damage range min.
+          "AttackDamageMax"     "54"                   // Damage range max.
           "AttackRange"         "150"
           //"ProjectileModel"            "particles/units/heroes/hero_drow/drow_base_attack.vpcf"
-          "ProjectileSpeed"            "1400"
+          //"ProjectileSpeed"            "1400"
   
           "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLECT"
           "AttributeBaseStrength"   "18"                   // Base strength
@@ -3664,10 +3657,7 @@
           "AttributeIntelligenceGain" "3.0"                   // Intelligence bonus per level.
           "AttributeBaseAgility"    "16"                   // Base agility
           "AttributeAgilityGain"    "2.2"                   // Agility bonus per level.
-  
-          "BountyXP"          "0"                 // Experience earn.
-          "BountyGoldMin"       "0"                   // Gold earned min.
-          "BountyGoldMax"       "0"                   // Gold earned max.
+
   
           //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
           //"RingRadius"        "70"
@@ -3677,9 +3667,9 @@
           "MovementTurnRate"      "1.0"                 // Turning rate.
   
           "StatusHealth"        "200"                 // Base health.
-          "StatusHealthRegen"     "0.25"                 // Health regeneration rate.
-          "StatusMana"        "0"                   // Base mana.
-          "StatusManaRegen"     "0"                 // Mana regeneration rate.
+          "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+          "StatusMana"        "75"                   // Base mana.
+          "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
   
           "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
           "VisionNighttimeRange"    "800"                  // Range of vision at night time.
@@ -3688,7 +3678,7 @@
   }
   "npc_custom_hero_flicker"
     {
-      "AbilityLayout"     "5"
+      "AbilityLayout"     "6"
       "override_hero"     "npc_dota_hero_razor"
       "ModelScale"                "1.0"
       "Model"                 "models/flickerfox/flickerfox.vmdl"
@@ -3715,8 +3705,8 @@
       "MagicalResistance"       "35"                 // Magical protection (percentage).
   
       "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-      "AttackDamageMin"     "28"                   // Damage range min.
-      "AttackDamageMax"     "34"                   // Damage range max.
+      "AttackDamageMin"     "48"                   // Damage range min.
+      "AttackDamageMax"     "54"                   // Damage range max.
       "AttackRange"         "150"
       "AttackRate"            "1.55"
   
@@ -3726,11 +3716,7 @@
       "AttributeBaseIntelligence" "21"                   // Base intelligence
       "AttributeIntelligenceGain" "2.0"                   // Intelligence bonus per level.
       "AttributeBaseAgility"    "22"                   // Base agility
-      "AttributeAgilityGain"    "2.3"                   // Agility bonus per level.
-  
-      "BountyXP"          "0"                 // Experience earn.
-      "BountyGoldMin"       "0"                   // Gold earned min.
-      "BountyGoldMax"       "0"                   // Gold earned max.
+      "AttributeAgilityGain"    "2.3"                   // Agility bonus per level
   
       //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
       //"RingRadius"        "70"
@@ -3740,9 +3726,9 @@
       "MovementTurnRate"      "1.8"                 // Turning rate.
   
       "StatusHealth"        "200"                 // Base health.
-      "StatusHealthRegen"     "0.25"                 // Health regeneration rate.
-      "StatusMana"        "50"                   // Base mana.
-      "StatusManaRegen"     "0.01"                 // Mana regeneration rate.
+      "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+      "StatusMana"        "75"                   // Base mana.
+      "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
   
       "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
       "VisionNighttimeRange"    "800"                  // Range of vision at night time.
@@ -3777,8 +3763,8 @@
       "MagicalResistance"       "35"                 // Magical protection (percentage).
   
       "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-      "AttackDamageMin"     "28"                   // Damage range min.
-      "AttackDamageMax"     "34"                   // Damage range max.
+      "AttackDamageMin"     "48"                   // Damage range min.
+      "AttackDamageMax"     "54"                   // Damage range max.
       "AttackRange"         "150"
   
       "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
@@ -3786,12 +3772,8 @@
       "AttributeStrengthGain"   "2.3"                   // Strength bonus per level.
       "AttributeBaseIntelligence" "17"                   // Base intelligence
       "AttributeIntelligenceGain" "2.1"                   // Intelligence bonus per level.
-      "AttributeBaseAgility"    "16"                   // Base agility
-      "AttributeAgilityGain"    "1.3"                   // Agility bonus per level.
-  
-      "BountyXP"          "0"                 // Experience earn.
-      "BountyGoldMin"       "0"                   // Gold earned min.
-      "BountyGoldMax"       "0"                   // Gold earned max.
+      "AttributeBaseAgility"    "18"                   // Base agility
+      "AttributeAgilityGain"    "1.7"                   // Agility bonus per level.
   
       //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
       //"RingRadius"        "70"
@@ -3800,10 +3782,10 @@
       "MovementSpeed"       "320"                 // Speed.
       "MovementTurnRate"      "1.0"                 // Turning rate.
   
-      "StatusHealth"        "70"                 // Base health.
-      "StatusHealthRegen"     "1"                 // Health regeneration rate.
-      "StatusMana"        "130"                   // Base mana.
-      "StatusManaRegen"     "2"                 // Mana regeneration rate.
+      "StatusHealth"        "200"                 // Base health.
+      "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+      "StatusMana"        "75"                   // Base mana.
+      "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
   
       "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
       "VisionNighttimeRange"    "800"                  // Range of vision at night time.
@@ -3852,10 +3834,6 @@
       "AttributeBaseAgility"    "17"                   // Base agility
       "AttributeAgilityGain"    "2.2"                   // Agility bonus per level.
   
-      "BountyXP"          "0"                 // Experience earn.
-      "BountyGoldMin"       "0"                   // Gold earned min.
-      "BountyGoldMax"       "0"                   // Gold earned max.
-  
       //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
       //"RingRadius"        "70"
   
@@ -3874,7 +3852,7 @@
     }
   "npc_custom_hero_valkyrie"
     {
-      "AbilityLayout"     "4"
+      "AbilityLayout"     "6"
       "override_hero"     "npc_dota_hero_storm_spirit"
       "Model"                 "models/valkyrie/valkyrie.vmdl"
       "ModelScale"                "1.0"
@@ -3883,8 +3861,8 @@
       "Ability2"        "valkyrie_judgment" 
       "Ability3"        "valkyrie_ghost_form" 
       "Ability4"        "generic_hidden"
-      "Ability5"         "generic_hidden"
-      "Ability6"         "valkyrie_resurrect"
+      "Ability5"        "generic_hidden"
+      "Ability6"        "valkyrie_resurrect"
       "Ability7"        "attribute_bonus"
       "Ability8"        ""
       "Ability9"        ""
@@ -3901,8 +3879,8 @@
       "MagicalResistance"       "25"                 // Magical protection (percentage).
   
       "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-      "AttackDamageMin"     "28"                   // Damage range min.
-      "AttackDamageMax"     "34"                   // Damage range max.
+      "AttackDamageMin"     "48"                   // Damage range min.
+      "AttackDamageMax"     "54"                   // Damage range max.
       "AttackRange"         "150"
   
       "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
@@ -3910,12 +3888,8 @@
       "AttributeStrengthGain"   "2.3"                   // Strength bonus per level.
       "AttributeBaseIntelligence" "17"                   // Base intelligence
       "AttributeIntelligenceGain" "2.1"                   // Intelligence bonus per level.
-      "AttributeBaseAgility"    "16"                   // Base agility
-      "AttributeAgilityGain"    "1.3"                   // Agility bonus per level.
-  
-      "BountyXP"          "0"                 // Experience earn.
-      "BountyGoldMin"       "0"                   // Gold earned min.
-      "BountyGoldMax"       "0"                   // Gold earned max.
+      "AttributeBaseAgility"    "19"                   // Base agility
+      "AttributeAgilityGain"    "1.5"                   // Agility bonus per level.
   
       //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
       //"RingRadius"        "70"
@@ -3924,10 +3898,10 @@
       "MovementSpeed"       "320"                 // Speed.
       "MovementTurnRate"      "1.0"                 // Turning rate.
   
-      "StatusHealth"        "70"                 // Base health.
-      "StatusHealthRegen"     "1"                 // Health regeneration rate.
-      "StatusMana"        "130"                   // Base mana.
-      "StatusManaRegen"     "2"                 // Mana regeneration rate.
+      "StatusHealth"        "200"                 // Base health.
+      "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+      "StatusMana"        "75"                   // Base mana.
+      "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
   
       "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
       "VisionNighttimeRange"    "800"                  // Range of vision at night time.
@@ -3936,7 +3910,7 @@
 
     "npc_dota_hero_survivor"
     {
-        "AbilityLayout"         "5"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_invoker"
         "Model"                 "models/joker/joker.vmdl"
         "Ability1"              "pulse_bullet" 
@@ -3962,27 +3936,24 @@
         
         "ModelScale"                "1.0"
 
-        "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
-        "AttackDamageMin"                       "1"                                                                             // Damage range min.
-        "AttackDamageMax"                       "1"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "1.0"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.5"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "10"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "10"                                                                   // Range within a target can be attacked.
-        "ProjectileModel"                       ""                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       ""                                                                   // Speed of projectile.
+        "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+        "AttackDamageMin"                       "10"                                              // Damage range min.
+        "AttackDamageMax"                       "100"                                              // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                      // Type of damage dealt.
+        "AttackRate"                            "1.0"                                            // Speed of attack.
+        "AttackAnimationPoint"                "0.5"                               // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"                                  // Range within a target can be acquired.
+        "AttackRange"                           "500"                                 // Range within a target can be attacked.
+        "ProjectileModel"          "particles/units/heroes/hero_bane/bane_projectile.vpcf"  // Particle system model for projectile.
+        "ProjectileSpeed"                       "1400"                                   // Speed of projectile.
 
-        "AttributeBaseStrength"     "1"                                     // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "1"                                     // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "1"                                     // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
+        "AttributeBaseStrength"     "22"                                     // Base strength
+        "AttributeStrengthGain"     "1.7"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "22"                                     // Base intelligence
+        "AttributeIntelligenceGain" "1.7"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "22"                                     // Base agility
+        "AttributeAgilityGain"      "1.7"                                     // Agility bonus per level.
 
         "BoundsHullName"            "DOTA_HULL_SIZE_SMALL"
         "RingRadius"                "60"
@@ -3990,10 +3961,10 @@
         "MovementSpeed"             "270"                                   // Speed.
         "MovementTurnRate"          "0.6"                                   // Turning rate.
 
-        "StatusHealth"              "81"                                    // Base health.
-        "StatusHealthRegen"         "0.22"                                  // Health regeneration rate.
-        "StatusMana"                "37"                                        // Base mana.
-        "StatusManaRegen"           "0.73"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate.
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
         
@@ -4002,7 +3973,7 @@
     
     "npc_dota_hero_berserker"
     {
-        "AbilityLayout"         "4"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_tidehunter"
         "Model"                 "models/berserker/berserker.vmdl"
         "Ability1"              "berserkers_rush" 
@@ -4023,32 +3994,29 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "1.5"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
-        "ModelScale"                "1.0"
+        "ModelScale"                "1.1"
 
+        "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
         "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageMin"                       "2"                                                                             // Damage range min.
-        "AttackDamageMax"                       "38"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "1.77"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.33"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "100"                                                                   // Range within a target can be attacked.
-        "ProjectileModel"                       ""                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       ""                                                                   // Speed of projectile.
+        "AttackDamageMin"                       "52"                       // Damage range min.
+        "AttackDamageMax"                       "62"                       // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"  // Type of damage dealt.
+        "AttackRate"                            "1.77"                     // Speed of attack.
+        "AttackAnimationPoint"                "0.33"                    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"                    // Range within a target can be acquired.
+        "AttackRange"                           "100"                  // Range within a target can be attacked.
+        //"ProjectileModel"                       ""                     // Particle system model for projectile.
+        //"ProjectileSpeed"                       ""                    // Speed of projectile.
 
-        "AttributeBaseStrength"     "16"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "7"                                     // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "12"                                        // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributeBaseStrength"     "25"                                        // Base strength
+        "AttributeStrengthGain"     "2.8"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "20"                                     // Base intelligence
+        "AttributeIntelligenceGain" "2.2"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "18"                                        // Base agility
+        "AttributeAgilityGain"      "1.6"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4056,10 +4024,10 @@
         "MovementSpeed"             "300"                                   // Speed.
         "MovementTurnRate"          "0.6"                                   // Turning rate.
 
-        "StatusHealth"              "96"                                    // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "14"                                        // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
@@ -4067,7 +4035,7 @@
     
     "npc_dota_hero_assassin"
     {
-        "AbilityLayout"         "4"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_witch_doctor"
         "Model"                 "models/assassin/assassin.vmdl"
         "Ability1"              "poison_dagger" 
@@ -4089,31 +4057,28 @@
         "Ability17"        ""
 
         "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
         "ModelScale"                "1.0"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageMin"                       "19"                                                                             // Damage range min.
-        "AttackDamageMax"                       "21"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "1.7"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.3"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "100"                                                                   // Range within a target can be attacked.
-        "ProjectileModel"                       ""                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       ""                                                                   // Speed of projectile.
+        "AttackDamageMin"                       "57"                       // Damage range min.
+        "AttackDamageMax"                       "63"                    // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"     // Type of damage dealt.
+        "AttackRate"                            "1.7"                     // Speed of attack.
+        "AttackAnimationPoint"                "0.3"                    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"                  // Range within a target can be acquired.
+        "AttackRange"                           "100"                // Range within a target can be attacked.
+        //"ProjectileModel"                       ""                  // Particle system model for projectile.
+        //"ProjectileSpeed"                       ""                  // Speed of projectile.
 
-        "AttributeBaseStrength"     "10"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "10"                                        // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "12"                                        // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+        "AttributeBaseStrength"     "20"                                        // Base strength
+        "AttributeStrengthGain"     "2.15"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "23"                                        // Base intelligence
+        "AttributeIntelligenceGain" "3.15"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "15"                                        // Base agility
+        "AttributeAgilityGain"      "1.4"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4121,17 +4086,17 @@
         "MovementSpeed"             "300"                                   // Speed.
         "MovementTurnRate"          "0.6"                                   // Turning rate.
 
-        "StatusHealth"              "110"                                   // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "5"                                     // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
     
     "npc_dota_hero_demon"
     {
-        "AbilityLayout"         "5"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_weaver"
         "Model"                 "models/demon/demon.vmdl"
         "Ability1"              "juggernauts_charge" 
@@ -4152,32 +4117,29 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "3"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
         "ModelScale"                "1.0"
 
         "AttackCapabilities"                    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageMin"                       "1"                                                                             // Damage range min.
-        "AttackDamageMax"                       "23"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "2.05"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.5"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "100"                                                                   // Range within a target can be attacked.
-        "ProjectileModel"                       ""                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       ""                                                                   // Speed of projectile.
+        "AttackDamageMin"                       "46"                    // Damage range min.
+        "AttackDamageMax"                       "48"                                                                             // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"   // Type of damage dealt.
+        "AttackRate"                            "2.05"                        // Speed of attack.
+        "AttackAnimationPoint"                "0.5"                           // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"                          // Range within a target can be acquired.
+        "AttackRange"                           "100"                        // Range within a target can be attacked.
+        //"ProjectileModel"                       ""                           // Particle system model for projectile.
+        //"ProjectileSpeed"                       ""                          // Speed of projectile.
 
-        "AttributeBaseStrength"     "17"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "9"                                     // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "12"                                        // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
+        "AttributeBaseStrength"     "21"                                        // Base strength
+        "AttributeStrengthGain"     "2.2"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "18"                                     // Base intelligence
+        "AttributeIntelligenceGain" "2.2"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "23"                                        // Base agility
+        "AttributeAgilityGain"      "2.7"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4185,17 +4147,17 @@
         "MovementSpeed"             "270"                                   // Speed.
         "MovementTurnRate"          "0.4"                                   // Turning rate.
 
-        "StatusHealth"              "102"                                   // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "3"                                     // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
     
     "npc_dota_hero_hunter"
     {
-        "AbilityLayout"         "5"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_viper"
         "Model"                 "models/hunter/hunter.vmdl"
         "Ability1"              "hunting_nets" 
@@ -4216,32 +4178,29 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "1"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
         "ModelScale"                "1.0"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageMin"                       "1"                                                                             // Damage range min.
-        "AttackDamageMax"                       "35"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "2.2"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.3"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "128"                                                                   // Range within a target can be attacked.
-        "ProjectileModel"                       ""                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       ""                                                                   // Speed of projectile.
+        "AttackDamageMin"                       "61"                     // Damage range min.
+        "AttackDamageMax"                       "63"                    // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"   // Type of damage dealt.
+        "AttackRate"                            "2.2"                         // Speed of attack.
+        "AttackAnimationPoint"                "0.3"                           // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"                          // Range within a target can be acquired.
+        "AttackRange"                           "128"                         // Range within a target can be attacked.
+        //"ProjectileModel"                       ""                            // Particle system model for projectile.
+        //"ProjectileSpeed"                       ""                            // Speed of projectile.
 
-        "AttributeBaseStrength"     "15"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "10"                                        // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "12"                                        // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+        "AttributeBaseStrength"     "17"                                        // Base strength
+        "AttributeStrengthGain"     "2.4"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "24"                                        // Base intelligence
+        "AttributeIntelligenceGain" "2.7"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "13"                                        // Base agility
+        "AttributeAgilityGain"      "1.4"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4249,17 +4208,17 @@
         "MovementSpeed"             "300"                                   // Speed.
         "MovementTurnRate"          "0.6"                                   // Turning rate.
 
-        "StatusHealth"              "115"                                   // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "5"                                     // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
     
     "npc_dota_hero_lich"
     {
-        "AbilityLayout"         "4"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_venomancer"
         "Model"                 "models/lich/lich.vmdl"
         "Ability1"              "frost_burst" 
@@ -4280,33 +4239,30 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "-1.1"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
-        //"ModelScale"              "1.0"
+        "ModelScale"              "1.0"
         
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
-        "AttackDamageMin"                       "1"                                                                             // Damage range min.
-        "AttackDamageMax"                       "17"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "1.9"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.4"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "250"                                                                   // Range within a target can be attacked.
-        "ProjectileModel"                       "particles/units/heroes/hero_lich/lich_base_attack.vpcf"                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       "800"                                                                   // Speed of projectile.
+        "AttackDamageMin"                       "51"             // Damage range min.
+        "AttackDamageMax"                       "56"            // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"   // Type of damage dealt.
+        "AttackRate"                            "1.9"            // Speed of attack.
+        "AttackAnimationPoint"                "0.4"              // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"             // Range within a target can be acquired.
+        "AttackRange"                           "250"            // Range within a target can be attacked.
+        "ProjectileModel"                "particles/units/heroes/hero_lich/lich_base_attack.vpcf"                                                   // Particle system model for projectile.   
+        "ProjectileSpeed"                       "800"           // Speed of projectile.
 
-        "AttributeBaseStrength"     "10"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "13"                                        // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "9"                                     // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
+        "AttributeBaseStrength"     "18"                                        // Base strength
+        "AttributeStrengthGain"     "1.85"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "15"                                        // Base intelligence
+        "AttributeIntelligenceGain" "2"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "18"                                     // Base agility
+        "AttributeAgilityGain"      "3.25"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4314,17 +4270,17 @@
         "MovementSpeed"             "270"                                   // Speed.
         "MovementTurnRate"          "0.5"                                   // Turning rate.
 
-        "StatusHealth"              "110"                                   // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "11"                                        // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
     
     "npc_dota_hero_sage"
     {
-        "AbilityLayout"         "4"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_oracle"
         "Model"                 "models/sage/sagemonk.vmdl"
         "Ability1"              "energy_current" 
@@ -4345,32 +4301,29 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "1.1"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
         //"ModelScale"              "1.0"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
-        "AttackDamageMin"                       "1"                                                                             // Damage range min.
-        "AttackDamageMax"                       "15"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "2.13"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.4"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "550"                                                                   // Range within a target can be attacked.
+        "AttackDamageMin"                       "43"             // Damage range min.
+        "AttackDamageMax"                       "49"            // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"          // Type of damage dealt.
+        "AttackRate"                            "2.13"           // Speed of attack.
+        "AttackAnimationPoint"                "0.4"             // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"             // Range within a target can be acquired.
+        "AttackRange"                           "550"            // Range within a target can be attacked.
         "ProjectileModel"                       "particles/units/heroes/hero_oracle/oracle_base_attack.vpcf"                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       "900"                                                                   // Speed of projectile.
+        "ProjectileSpeed"                       "900"           // Speed of projectile.
 
-        "AttributeBaseStrength"     "9"                                     // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
+        "AttributeBaseStrength"     "16"                                     // Base strength
+        "AttributeStrengthGain"     "2.3"                                     // Strength bonus per level.
         "AttributeBaseIntelligence" "15"                                        // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "9"                                     // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributeIntelligenceGain" "1.2"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "22"                                     // Base agility
+        "AttributeAgilityGain"      "2.5"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4378,10 +4331,10 @@
         "MovementSpeed"             "285"                                   // Speed.
         "MovementTurnRate"          "0.5"                                   // Turning rate.
 
-        "StatusHealth"              "104"                                   // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "0"                                     // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
@@ -4409,32 +4362,29 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "2.3"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
         "ModelScale"                "0.6"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
-        "AttackDamageMin"                       "2"                                                                             // Damage range min.
-        "AttackDamageMax"                       "22"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "2.28"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.5"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "400"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "300"                                                                   // Range within a target can be attacked.
+        "AttackDamageMin"                       "1"                 // Damage range min.
+        "AttackDamageMax"                       "100"                // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"     // Type of damage dealt.
+        "AttackRate"                            "2.28"               // Speed of attack.
+        "AttackAnimationPoint"                "0.5"                  // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "400"                // Range within a target can be acquired.
+        "AttackRange"                           "300"               // Range within a target can be attacked.
         "ProjectileModel"                       "particles/units/heroes/hero_bane/bane_projectile.vpcf"                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       "500"                                                                   // Speed of projectile.
+        "ProjectileSpeed"                       "500"           // Speed of projectile.
 
-        "AttributeBaseStrength"     "3"                                     // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "7"                                     // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "15"                                        // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
+        "AttributeBaseStrength"     "20"                                     // Base strength
+        "AttributeStrengthGain"     "1.8"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "20"                                     // Base intelligence
+        "AttributeIntelligenceGain" "1.8"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "20"                                        // Base agility
+        "AttributeAgilityGain"      "1.8"                                     // Agility bonus per level.
 
         "BoundsHullName"            "DOTA_HULL_SIZE_SMALL"
         //"RingRadius"              "70"
@@ -4442,10 +4392,10 @@
         "MovementSpeed"             "270"                                   // Speed.
         "MovementTurnRate"          "0.6"                                   // Turning rate.
 
-        "StatusHealth"              "93"                                    // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "9"                                     // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
         
@@ -4454,7 +4404,7 @@
     
     "npc_dota_hero_vampire"
     {
-        "AbilityLayout"         "5"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_tiny"
         "Model"                 "models/vampire/vampire.vmdl"
         "Ability1"              "bat_form" 
@@ -4475,32 +4425,29 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "3.6"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
-        //"ModelScale"              "1.0"
+        "ModelScale"              "1.0"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageMin"                       "2"                                                                             // Damage range min.
-        "AttackDamageMax"                       "26"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "1.8"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.55"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "115"                                                                   // Range within a target can be attacked.
-        "ProjectileModel"                       ""                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       ""                                                                   // Speed of projectile.
+        "AttackDamageMin"                       "61"                     // Damage range min.
+        "AttackDamageMax"                       "65"                    // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"     // Type of damage dealt.
+        "AttackRate"                            "1.8"                    // Speed of attack.
+        "AttackAnimationPoint"                "0.55"                     // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"                     // Range within a target can be acquired.
+        "AttackRange"                           "115"                    // Range within a target can be attacked.
+        //"ProjectileModel"                       ""                       // Particle system model for projectile.
+        //"ProjectileSpeed"                       ""                       // Speed of projectile.
 
-        "AttributeBaseStrength"     "11"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "11"                                        // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "9"                                     // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+        "AttributeBaseStrength"     "23"                                        // Base strength
+        "AttributeStrengthGain"     "3.1"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "18"                                        // Base intelligence
+        "AttributeIntelligenceGain" "2.25"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "13"                                     // Base agility
+        "AttributeAgilityGain"      "1.6"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4508,17 +4455,17 @@
         "MovementSpeed"             "280"                                   // Speed.
         "MovementTurnRate"          "0.5"                                   // Turning rate.
 
-        "StatusHealth"              "166"                                   // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "22"                                        // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
     
     "npc_dota_hero_machinist"
     {
-        "AbilityLayout"         "5"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_tinker"
         "Model"                 "models/mechanic/mechanic.vmdl"
         "Ability1"              "heat_seekers" 
@@ -4539,32 +4486,29 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "0.5"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
         //"ModelScale"              "1.0"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
-        "AttackDamageMin"                       "1"                                                                             // Damage range min.
-        "AttackDamageMax"                       "25"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "2.0"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.35"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "250"                                                                   // Range within a target can be attacked.
+        "AttackDamageMin"                       "46"              // Damage range min.
+        "AttackDamageMax"                       "48"             // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"      // Type of damage dealt.
+        "AttackRate"                            "2.0"             // Speed of attack.
+        "AttackAnimationPoint"                "0.35"              // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"              // Range within a target can be acquired.
+        "AttackRange"                           "250"             // Range within a target can be attacked.
         "ProjectileModel"                       "particles/units/heroes/hero_tinker/tinker_base_attack.vpcf"                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       "900"                                                                   // Speed of projectile.
+        "ProjectileSpeed"                       "900"            // Speed of projectile.
 
-        "AttributeBaseStrength"     "13"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "12"                                        // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "9"                                     // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_INTELLIGENCE"
+        "AttributeBaseStrength"     "17"                                        // Base strength
+        "AttributeStrengthGain"     "2.3"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "13"                                        // Base intelligence
+        "AttributeIntelligenceGain" "1.2"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "30"                                     // Base agility
+        "AttributeAgilityGain"      "2.2"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4572,17 +4516,17 @@
         "MovementSpeed"             "240"                                   // Speed.
         "MovementTurnRate"          "0.6"                                   // Turning rate.
 
-        "StatusHealth"              "103"                                   // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "9"                                     // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
     
     "npc_dota_hero_brawler"
     {
-        "AbilityLayout"         "5"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_brewmaster"
         "Model"                 "models/brawler/brawler.vmdl"
         "Ability1"              "barrel_slam" 
@@ -4603,32 +4547,30 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "3.1"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
         "ModelScale"                "1.0"
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageMin"                       "2"                                                                             // Damage range min.
-        "AttackDamageMax"                       "30"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "2.13"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.33"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "100"                                                                   // Range within a target can be attacked.
-        "ProjectileModel"                       ""                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       ""                                                                   // Speed of projectile.
+        "AttackDamageMin"                       "52"                       // Damage range min.
+        "AttackDamageMax"                       "59"                     // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"    // Type of damage dealt.
+        "AttackRate"                            "2.13"                   // Speed of attack.
+        "AttackAnimationPoint"                "0.33"                     // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"                     // Range within a target can be acquired.
+        "AttackRange"                           "100"                    // Range within a target can be attacked.
+        //"ProjectileModel"                       ""                       // Particle system model for projectile.
+        //"ProjectileSpeed"                       ""                        // Speed of projectile.
 
-        "AttributeBaseStrength"     "15"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "9"                                     // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "12"                                        // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+        "AttributeBaseStrength"     "23"                                        // Base strength
+        "AttributeStrengthGain"     "3.2"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "22"                                     // Base intelligence
+        "AttributeIntelligenceGain" "1.95"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "14"                                        // Base agility
+        "AttributeAgilityGain"      "1.25"                                     // Agility bonus per level.
 
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4636,17 +4578,17 @@
         "MovementSpeed"             "290"                                   // Speed.
         "MovementTurnRate"          "0.6"                                   // Turning rate.
 
-        "StatusHealth"              "90"                                    // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "8"                                     // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
     
     "npc_dota_hero_gorgon"
     {
-        "AbilityLayout"         "5"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_medusa"
         "Model"                 "models/gorgon/gorgon.vmdl"
         "Ability1"              "scatter_arrows" 
@@ -4667,33 +4609,30 @@
         "Ability16"        ""
         "Ability17"        ""
 
-        "ArmorPhysical"             "0"                                 // Physical protection.
-        "MagicalResistance"             "0"                                 // Magical protection (percentage).
+        "ArmorPhysical"             "2.33"                                 // Physical protection.
+        "MagicalResistance"             "25"                                 // Magical protection (percentage).
         
         //"ModelScale"              "1.0"
         
 
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
-        "AttackDamageMin"                       "2"                                                                             // Damage range min.
-        "AttackDamageMax"                       "20"                                                                             // Damage range max.
-        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"                             // Type of damage dealt.
-        "AttackRate"                            "1.9"                                                                   // Speed of attack.
-        "AttackAnimationPoint"                "0.54"                                                                  // Normalized time in animation cycle to attack.
-        "AttackAcquisitionRange"               "500"                                                                   // Range within a target can be acquired.
-        "AttackRange"                           "500"                                                                   // Range within a target can be attacked.
+        "AttackDamageMin"                       "44"                     // Damage range min.
+        "AttackDamageMax"                       "50"                   // Damage range max.
+        "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"    // Type of damage dealt.
+        "AttackRate"                            "1.9"                   // Speed of attack.
+        "AttackAnimationPoint"                "0.54"                    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"               "500"                   // Range within a target can be acquired.
+        "AttackRange"                           "500"                 // Range within a target can be attacked.
         "ProjectileModel"                       "particles/units/heroes/hero_medusa/medusa_base_attack.vpcf"                                                   // Particle system model for projectile.
-        "ProjectileSpeed"                       "1200"                                                                   // Speed of projectile.
+        "ProjectileSpeed"                       "1200"              // Speed of projectile.
 
-        "AttributeBaseStrength"     "10"                                        // Base strength
-        "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
-        "AttributeBaseIntelligence" "12"                                        // Base intelligence
-        "AttributeIntelligenceGain" "0"                                     // Intelligence bonus per level.
-        "AttributeBaseAgility"      "10"                                        // Base agility
-        "AttributeAgilityGain"      "0"                                     // Agility bonus per level.
-
-        "BountyXP"                  "0"                                 // Experience earn.
-        "BountyGoldMin"             "0"                                     // Gold earned min.
-        "BountyGoldMax"             "0"                                     // Gold earned max.
+        "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+        "AttributeBaseStrength"     "14"                                        // Base strength
+        "AttributeStrengthGain"     "1.3"                                     // Strength bonus per level.
+        "AttributeBaseIntelligence" "20"                                        // Base intelligence
+        "AttributeIntelligenceGain" "2.5"                                     // Intelligence bonus per level.
+        "AttributeBaseAgility"      "19"                                        // Base agility
+        "AttributeAgilityGain"      "2.1"                                     // Agility bonus per level.
 
         //"BoundsHullName"          "DOTA_HULL_SIZE_HERO"
         //"RingRadius"              "70"
@@ -4701,17 +4640,17 @@
         "MovementSpeed"             "305"                                   // Speed.
         "MovementTurnRate"          "0.6"                                   // Turning rate.
 
-        "StatusHealth"              "110"                                   // Base health.
-        "StatusHealthRegen"         "0.25"                                  // Health regeneration rate.
-        "StatusMana"                "9"                                     // Base mana.
-        "StatusManaRegen"           "0.10"                                  // Mana regeneration rate.
+        "StatusHealth"        "200"                 // Base health.
+        "StatusHealthRegen"     "1.5"                 // Health regeneration rate.
+        "StatusMana"        "75"                   // Base mana.
+        "StatusManaRegen"     "0.9"                 // Mana regeneration rate
 
         "VisionNighttimeRange"      "800"                                   // Range of vision at night time.
     }
     
     "npc_dota_hero_instectoid"
     {
-        "AbilityLayout"         "4"
+        "AbilityLayout"         "6"
         "override_hero"         "npc_dota_hero_nyx_assassin"
         "Ability1"              "burrow" 
         "Ability2"              "" 
@@ -4749,6 +4688,7 @@
         "ProjectileModel"                       ""                                                   // Particle system model for projectile.
         "ProjectileSpeed"                       ""                                                                   // Speed of projectile.
 
+        "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
         "AttributeBaseStrength"     "13"                                        // Base strength
         "AttributeStrengthGain"     "0"                                     // Strength bonus per level.
         "AttributeBaseIntelligence" "9"                                     // Base intelligence

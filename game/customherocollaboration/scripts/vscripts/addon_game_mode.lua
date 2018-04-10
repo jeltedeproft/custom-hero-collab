@@ -70,6 +70,11 @@ function Precache( context )
   PrecacheResource( "particle", "particles/units/heroes/hero_skywrath_mage/skywrath_mage_base_attack.vpcf", context )
   PrecacheResource( "particle", "particles/custom_particles/goku/goku_spiritbomb.vpcf", context )
   PrecacheResource( "particle", "particles/custom_particles/goku/goku_kamehameha_cast.vpcf", context )
+  PrecacheResource( "particle", "particles/units/heroes/hero_ancient_apparition/ancient_apparition_base_attack.vpcf", context )
+  PrecacheResource( "particle", "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf", context )
+  PrecacheResource( "particle", "particles/units/heroes/hero_bane/bane_projectile.vpcf", context )
+
+  
   PrecacheModel( "npc_dota_hero_pugna", context )
   PrecacheModel( "npc_dota_hero_omniknight", context )
   PrecacheModel( "npc_dota_hero_rattletrap", context )

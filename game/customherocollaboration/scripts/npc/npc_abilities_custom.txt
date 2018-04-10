@@ -42074,7 +42074,7 @@
         "AbilityCastPoint"        "0.0"
   
         "AbilityCooldown"       "0"
-          "AbilityManaCost"               "15"
+          "AbilityManaCost"               "65"
   
           "AbilityDamage"                 "15 20 25 30"
           "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"
@@ -43448,7 +43448,7 @@
       "AbilityUnitDamageType"            "DAMAGE_TYPE_MAGICAL"
   
       "AbilityCooldown"   "0.0"
-      "AbilityManaCost"   "20"
+      "AbilityManaCost"   "110"
   
   
       "AbilityCastRange"  "425 500 575 650"
@@ -43762,7 +43762,7 @@
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_POINT"
   
       "AbilityCooldown"                "0.5"
-      "AbilityManaCost"                "50"
+      "AbilityManaCost"                "75"
       "AbilityCastRange"                "0"
       "AbilityCastPoint"                "0.1"
       "AbilityCastAnimation"            "ACT_DOTA_CAST_ABILITY_2"
@@ -43846,7 +43846,7 @@
   
   
       "AbilityCooldown"                "0.5"
-      "AbilityManaCost"                "50"
+      "AbilityManaCost"                "75"
       "AbilityCastRange"                "0"
       "AbilityCastPoint"                "0.1"
       "AbilityCastAnimation"            "ACT_DOTA_CAST_ABILITY_2"
@@ -44766,7 +44766,7 @@
       "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_TOGGLE"
   
       "AbilityCooldown"                "12 10 8 6"
-      "AbilityManaCost"                "20"
+      "AbilityManaCost"                "120"
   
       "AbilitySpecial"
       {
@@ -45535,7 +45535,7 @@
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastRange"            "1800"
     "AbilityCooldown"             "18"
-    "AbilityManaCost"             "15"
+    "AbilityManaCost"             "85"
     "AbilityCastPoint"        "0.3"
     "MaxLevel"                  "1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
@@ -45611,7 +45611,7 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
     "AbilityCastRange"            "800"
     "AbilityCooldown"             "27"
-    "AbilityManaCost"             "20"
+    "AbilityManaCost"             "100 110 120 130"
     "AbilityCastPoint"        "0.3"
     "AOERadius"           "%radius"
     "MaxLevel"                  "1"
@@ -45669,7 +45669,7 @@
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityCastRange"            "600"
     "AbilityCooldown"             "50"
-    "AbilityManaCost"             "20"
+    "AbilityManaCost"             "75 85 99 110"
     "AbilityCastPoint"        "0.3"
     "AOERadius"           "%radius"
     "MaxLevel"                  "1"
@@ -45727,7 +45727,7 @@
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityCastRange"            "1500"
     "AbilityCooldown"             "30"
-    "AbilityManaCost"             "15"
+    "AbilityManaCost"             "95"
     "AbilityCastPoint"        "0.3"
     "AOERadius"           "%radius"
     "MaxLevel"                  "1"
@@ -45862,7 +45862,7 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastRange"            "250 300 350 400"
     "AbilityCooldown"             "1"
-    "AbilityManaCost"             "5 10 15 20"
+    "AbilityManaCost"             "50 65 70 80"
     "AbilityCastPoint"        "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "MaxLevel"            "4"
@@ -45919,7 +45919,7 @@
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO"
     "AbilityCooldown"             "75 65 55"
-    "AbilityManaCost"             "30"
+    "AbilityManaCost"             "90"
     "AbilityCastPoint"        "0"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
     "MaxLevel"            "3"
@@ -46048,7 +46048,7 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityCooldown"             "70 80 90"
-    "AbilityManaCost"             "25 35 45"
+    "AbilityManaCost"             "75 85 95"
     "AbilityCastRange"            "128 228 328"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
@@ -46153,7 +46153,7 @@
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastRange"            "500 600 700"
     "AbilityCooldown"             "35 40 45"
-    "AbilityManaCost"             "25 30 35"
+    "AbilityManaCost"             "85 90 95"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "MaxLevel"            "3"
@@ -46206,7 +46206,7 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastRange"            "1000 1100 1200"
     "AbilityCooldown"             "40 45 50"
-    "AbilityManaCost"             "15 20 25"
+    "AbilityManaCost"             "55 65 75"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "MaxLevel"            "3"
@@ -46274,7 +46274,7 @@
     "AbilityCooldown"       "30 35 40"
     "MaxLevel"                  "3"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "AbilityManaCost"               "20 30 40"
+    "AbilityManaCost"               "100 110 115"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_windrunner/windrunner_windrun.vpcf"
@@ -46368,7 +46368,7 @@
     "AbilityCooldown"       "7.0 8.0 9.0 10.0"
     "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
-    "AbilityManaCost"               "20 40 60 80"
+    "AbilityManaCost"               "100"
     "precache"
     {
       "particle"              "particles/units/heroes/hero_huskar/huskar_burning_spear_debuff.vpcf"
@@ -46480,7 +46480,7 @@
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastRange"            "800 1000 1200"
     "AbilityCooldown"             "45 40 35"
-    "AbilityManaCost"             "25 50 75"
+    "AbilityManaCost"             "95 120 120"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "MaxLevel"            "3"
@@ -46579,7 +46579,7 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO"
     "AbilityCastRange"            "600 800 1000"
     "AbilityCooldown"             "45 50 55"
-    "AbilityManaCost"             "15 35 55"
+    "AbilityManaCost"             "55 75 80"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
     "MaxLevel"            "3"
@@ -46726,7 +46726,7 @@
     "AbilityCastPoint"        "0.1"
     "AbilityCooldown"       "25.0 25.0 30.0"
   
-    "AbilityManaCost"       "15 25 35"
+    "AbilityManaCost"       "75 75 85"
     
     "precache"
     {
@@ -46918,7 +46918,7 @@
     "AbilityCastRange"        "1000 1200 1400"
     "AbilityCastPoint"        "0"
     "AbilityCooldown"       "36.0 32.0 28.0"
-    "AbilityManaCost"       "25 45 65"
+    "AbilityManaCost"       "75 80 85"
     "precache"
     {
       "particle"          "particles/items_fx/chain_lightning.vpcf"
@@ -47005,7 +47005,7 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
     "MaxLevel"            "4"
     "AbilityCooldown"             "22"
-    "AbilityManaCost"             "16"
+    "AbilityManaCost"             "96"
     "AbilityCastPoint"        "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_IDLE"
     "BaseClass"           "ability_datadriven"
@@ -47196,7 +47196,7 @@
     "AbilityCooldown"       "10 12 18"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
     "AbilityRange"          "%radius"
-    "AbilityManaCost"       "10 60 80"
+    "AbilityManaCost"       "90 105 110"
     "precache"
     {
       "particle"          "particles/units/heroes/hero_juggernaut/juggernaut_blade_fury.vpcf"
@@ -47385,7 +47385,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "20 22 25"
   
-    "AbilityManaCost"       "30 35 40"
+    "AbilityManaCost"       "90 100 110"
     
     "precache"
     {
@@ -47510,7 +47510,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "26 24 22"
   
-    "AbilityManaCost"       "15 20 25"
+    "AbilityManaCost"       "75 80 85"
     "precache"
     {
       "soundfile"             "soundevents/game_sounds_heroes/game_sounds_lich.vsndevts"
@@ -47588,7 +47588,7 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
     "MaxLevel"            "4"
     "AbilityCooldown"             "40 36 32 28"
-    "AbilityManaCost"             "30 35 40 45"
+    "AbilityManaCost"             "90 95 100 105"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_IDLE"
     "BaseClass"           "ability_datadriven"
@@ -47705,7 +47705,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "6.0 8.0 10.0 12.0"
   
-    "AbilityManaCost"       "10"
+    "AbilityManaCost"       "90"
     
     "precache"
     {
@@ -47873,7 +47873,7 @@
     "AbilityCastPoint"        "0.1"
     "AbilityCooldown"       "9 8 7 6"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "AbilityManaCost"               "12 24 36 48"
+    "AbilityManaCost"               "72 84 96 108"
     "precache"
     {
       "particle"      "particles/units/heroes/hero_death_prophet/death_prophet_carrion_swarm.vpcf"
@@ -47962,7 +47962,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "16 14 12"
   
-    "AbilityManaCost"       "12 24 36"
+    "AbilityManaCost"       "120"
     
     "precache"
     {
@@ -48070,7 +48070,7 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityCastRange"            "200 300 300 400"
     "AbilityCooldown"             "28 26 24 22"
-    "AbilityManaCost"             "19 25 30 40"
+    "AbilityManaCost"             "89 95 100 110"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
     "MaxLevel"            "4"
@@ -48149,7 +48149,7 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityCastRange"            "250"
     "AbilityCooldown"             "62 55 50 45"
-    "AbilityManaCost"             "22 25 28 31"
+    "AbilityManaCost"             "82 85 88 91"
     "AbilityCastPoint"        "1.0"
     "AnimationPlaybackRate"     "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
@@ -48375,7 +48375,7 @@
     "AbilityCooldown"       "14 19 28 38"
     "MaxLevel"            "4"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "AbilityManaCost"               "11"
+    "AbilityManaCost"               "110"
     "precache"
     {
       "model"       "models/heroes/techies/fx_techies_remotebomb.vmdl"
@@ -48681,7 +48681,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "30 28 26 24"
   
-    "AbilityManaCost"       "36 45 55 81"
+    "AbilityManaCost"       "56 65 75 91"
     
     "precache"
     {
@@ -49909,7 +49909,7 @@
     "MaxLevel"            "3"
     "AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE" 
     "AbilityCooldown"             "50"
-    "AbilityManaCost"             "20"
+    "AbilityManaCost"             "50"
     "AbilityCastPoint"        "0.1"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
     "BaseClass"           "ability_datadriven"
@@ -50253,7 +50253,7 @@
     "AbilityCastRange"            "9999"
     "MaxLevel"            "3"
     "AbilityCooldown"             "28"
-    "AbilityManaCost"             "15"
+    "AbilityManaCost"             "95"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
     "BaseClass"           "ability_datadriven"
@@ -50354,7 +50354,7 @@
   {
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     "AbilityCooldown"             "24"
-    "AbilityManaCost"             "14"
+    "AbilityManaCost"             "100"
     "AbilityCastRange"        "%radius"
     "AbilityCastPoint"        "1.0"
     "AnimationPlaybackRate"     "0.8"
@@ -50553,7 +50553,7 @@
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
     "AbilityCastRange"            "1800"
     "AbilityCooldown"             "3"
-    "AbilityManaCost"             "4"
+    "AbilityManaCost"             "80"
     "AbilityCastPoint"        "0.3"
     "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
@@ -50638,7 +50638,7 @@
     "AbilityCooldown"       "1"
     "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
-    "AbilityManaCost"               "7"
+    "AbilityManaCost"               "70"
     "precache"
     {
       "particle"              "particles/custom_particles/abilities/joker_blink/joker_blink_start.vpcf"
@@ -50702,7 +50702,7 @@
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
     "AbilityCastRange"            "9999"
     "AbilityCooldown"             "55"
-    "AbilityManaCost"             "8"
+    "AbilityManaCost"             "80"
     "AbilityCastPoint"        "0.3"
     "MaxLevel"                  "4"
     "AbilityCastAnimation"      "ACT_DOTA_ATTACK"
@@ -50749,7 +50749,7 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastRange"            "250"
     "AbilityCooldown"             "1"
-    "AbilityManaCost"             "1"
+    "AbilityManaCost"             "75"
     "AbilityCastPoint"        "0.5"
     "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
     "MaxLevel"            "4"
@@ -50942,7 +50942,7 @@
     "AbilityCastPoint"        "0.5"
     "AbilityCooldown"       "40.0 35.0 30.0 25.0"
   
-    "AbilityManaCost"       "15"
+    "AbilityManaCost"       "88"
     
     "precache"
     {
@@ -51302,7 +51302,7 @@
     "AbilityCastPoint"        "0.1"
     "AbilityCooldown"       "10.0"
   
-    "AbilityManaCost"       "20"
+    "AbilityManaCost"       "65"
     
     "precache"
     {
@@ -51902,7 +51902,7 @@
     "AbilityCastPoint"        "1.2"
     "AbilityCooldown"       "20.0"
   
-    "AbilityManaCost"       "13"
+    "AbilityManaCost"       "99"
     
     "AbilitySpecial"
     {
@@ -52035,7 +52035,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "1"
   
-    "AbilityManaCost"       "5"
+    "AbilityManaCost"       "75"
     
     "precache"
     {
@@ -52093,7 +52093,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "1.0"
   
-    "AbilityManaCost"       "5"
+    "AbilityManaCost"       "80"
     "AbilitySpecial"
     {
       "01"
@@ -52207,7 +52207,7 @@
     "AbilityCastRange"        "800"
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "1"
-    "AbilityManaCost"       "5"
+    "AbilityManaCost"       "75"
     "AOERadius"           "%area_of_effect"
     "precache"
     {
@@ -52278,7 +52278,7 @@
     "AbilityCastRange"        "150"
     "AbilityCastPoint"        "0.1"
     "AbilityCooldown"       "1.0"
-    "AbilityManaCost"       "5"
+    "AbilityManaCost"       "75"
   
     "AbilityChannelTime"      "14.0"
     
@@ -52420,7 +52420,7 @@
     "AbilityCastRange"        "800"
     "AbilityCastPoint"        "0.1"
     "AbilityCooldown"       "1"
-    "AbilityManaCost"       "5"
+    "AbilityManaCost"       "75"
     "AOERadius"           "%radius"
     "precache"
     {
@@ -52556,7 +52556,7 @@
     "AbilityCastPoint"        "0.3"
     "AbilityCooldown"       "9 8 7 6"
   
-    "AbilityManaCost"       "10"
+    "AbilityManaCost"       "75"
     
     "precache"
     {
@@ -53159,7 +53159,7 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastRange"            "600"
     "AbilityCooldown"             "25 20 17 14"
-    "AbilityManaCost"             "40"
+    "AbilityManaCost"             "80"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
     "MaxLevel"            "4"
@@ -53256,7 +53256,7 @@
     "AbilityCastRange"        "1000"
     "AbilityCastPoint"        "0"
     "AbilityCooldown"       "35.0"
-    "AbilityManaCost"       "30"
+    "AbilityManaCost"       "90"
     
     "AbilityChannelTime"      "4.6"
     "precache"
@@ -53393,7 +53393,7 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastRange"            "800"
     "AbilityCooldown"             "8"
-    "AbilityManaCost"             "75"
+    "AbilityManaCost"             "95"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_CAST"
     "BaseClass"           "ability_datadriven"
@@ -53480,7 +53480,7 @@
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC"
     "AbilityCastRange"            "500"
     "AbilityCooldown"             "15"
-    "AbilityManaCost"             "10"
+    "AbilityManaCost"             "100"
     "AbilityCastPoint"        "0.3"
     "AbilityCastAnimation"      "ACT_DOTA_SPAWN"
     "BaseClass"           "ability_datadriven"
@@ -53693,7 +53693,7 @@
     "AbilityCastRange"            "0"
     "AbilityCooldown"             "6"
     "AbilityCastPoint"        "0.5"
-    "AbilityManaCost"             "16"
+    "AbilityManaCost"             "100"
     "MaxLevel"            "1"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "nyx_assassin_burrow"
