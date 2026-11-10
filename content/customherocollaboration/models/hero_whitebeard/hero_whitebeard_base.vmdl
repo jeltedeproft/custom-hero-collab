@@ -1,1605 +1,582 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
-	_class = "CVModel"
-	m_meshList =
+	rootNode = 
 	{
-		m_meshList =
+		_class = "RootNode"
+		children = 
 		[
 			{
-				m_meshName = "hero_whitebeard_base"
-				m_meshFile = "models/hero_whitebeard/hero_whitebeard_base.fbx"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bExpensiveVertices = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-		]
-	}
-	m_clothProxyMeshList =
-	{
-		_class = "CVClothProxyMeshList"
-		m_flClothEnableThreshold = 0.050000
-		m_bCreateStaticBone = false
-		m_nMaxBonesPerVertex = 4
-		m_bRemoveUnusedBonesEnabled = false
-		m_bDriveMeshesWithBacksolvedJointsOnly = true
-		m_flMatchProxiesToMeshes = 1.000000
-		m_flReservedFloat = 0.000000
-		m_nReservedInt = 0
-		m_bReservedBool1 = false
-		m_bReservedBool2 = false
-		m_bReservedBool3 = false
-		m_bReservedBool4 = false
-		m_clothProxyMeshList =
-		[
-		]
-	}
-	m_physicsMeshList =
-	{
-		m_meshList =
-		[
-		]
-	}
-	m_pModelInfo = null
-	m_pBoneFlagList =
-	{
-		_class = "CVBoneFlagListReference"
-		m_pObject = null
-	}
-	m_pHitBoxSetLists =
-	[
-		{
-			_class = "CVhitBoxSetListReference"
-			m_pObject =
-			{
-				m_HitBoxSets =
+				_class = "MaterialGroupList"
+				children = 
 				[
 					{
-						m_name = "default"
-						m_HitBoxes =
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/hero_whitebeard/whitebeard_main.vmat"
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_head"
+						parent_bone = "bone21"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "follow_overhead"
+						parent_bone = "bone21"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "follow_origin"
+						parent_bone = "bone12"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_origin"
+						parent_bone = "bone12"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						parent_bone = "bone15"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack1"
+						parent_bone = "bone16"
+						relative_origin = [ -0.000004, -164.7203, 0.0 ]
+						relative_angles = [ 0.000002, -0.000001, -0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack2"
+						parent_bone = "bone16"
+						relative_origin = [ 0.0, 55.42188, 0.0 ]
+						relative_angles = [ 0.0, -0.000011, -0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
 						[
 							{
-								m_name = "bone02"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone02"
-								m_vMinBounds =
-								[
-									-33.538345,
-									-25.384491,
-									-18.186760,
-								]
-								m_vMaxBounds =
-								[
-									32.571609,
-									20.263439,
-									24.294601,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone02"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -33.538345, -25.384491, -18.18676 ]
+								hitbox_maxs = [ 32.57161, 20.26344, 24.294601 ]
 							},
 							{
-								m_name = "bone11"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone11"
-								m_vMinBounds =
-								[
-									-32.005390,
-									-22.726347,
-									6.649567,
-								]
-								m_vMaxBounds =
-								[
-									31.189487,
-									21.676229,
-									22.604797,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone11"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -32.00539, -22.726347, 6.649567 ]
+								hitbox_maxs = [ 31.189487, 21.67623, 22.604797 ]
 							},
 							{
-								m_name = "bone12"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone12"
-								m_vMinBounds =
-								[
-									-35.476746,
-									-25.831631,
-									-10.159088,
-								]
-								m_vMaxBounds =
-								[
-									35.495567,
-									29.243038,
-									37.010025,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone12"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -35.476746, -25.83163, -10.159088 ]
+								hitbox_maxs = [ 35.495567, 29.243038, 37.010025 ]
 							},
 							{
-								m_name = "bone03"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone03"
-								m_vMinBounds =
-								[
-									-33.443375,
-									-19.012669,
-									-55.808815,
-								]
-								m_vMaxBounds =
-								[
-									5.423065,
-									22.279640,
-									-5.983215,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone03"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -33.443375, -19.012669, -55.808815 ]
+								hitbox_maxs = [ 5.423065, 22.27964, -5.983215 ]
 							},
 							{
-								m_name = "bone07"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone07"
-								m_vMinBounds =
-								[
-									-6.270836,
-									-18.997364,
-									-56.017250,
-								]
-								m_vMaxBounds =
-								[
-									32.595543,
-									22.294945,
-									-6.191711,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone07"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.270836, -18.997364, -56.01725 ]
+								hitbox_maxs = [ 32.595543, 22.294945, -6.191711 ]
 							},
 							{
-								m_name = "bone13"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone13"
-								m_vMinBounds =
-								[
-									-50.881554,
-									-15.440325,
-									-7.590942,
-								]
-								m_vMaxBounds =
-								[
-									-2.894798,
-									14.026537,
-									18.911148,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone13"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -50.881554, -15.440325, -7.590942 ]
+								hitbox_maxs = [ -2.894798, 14.026537, 18.911148 ]
 							},
 							{
-								m_name = "bone04"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone04"
-								m_vMinBounds =
-								[
-									-20.648506,
-									-23.618759,
-									-56.608894,
-								]
-								m_vMaxBounds =
-								[
-									16.650299,
-									19.699806,
-									-3.740204,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone04"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -20.648506, -23.61876, -56.608894 ]
+								hitbox_maxs = [ 16.6503, 19.699806, -3.740204 ]
 							},
 							{
-								m_name = "bone08"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone08"
-								m_vMinBounds =
-								[
-									-16.039482,
-									-19.967533,
-									-56.761200,
-								]
-								m_vMaxBounds =
-								[
-									21.259315,
-									23.351032,
-									-3.892509,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone08"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -16.039482, -19.967533, -56.7612 ]
+								hitbox_maxs = [ 21.259315, 23.351032, -3.892509 ]
 							},
 							{
-								m_name = "bone14"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone14"
-								m_vMinBounds =
-								[
-									-38.988457,
-									-8.679667,
-									-8.645721,
-								]
-								m_vMaxBounds =
-								[
-									-3.563515,
-									8.586386,
-									9.321701,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone14"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -38.988457, -8.679667, -8.645721 ]
+								hitbox_maxs = [ -3.563515, 8.586386, 9.321701 ]
 							},
 							{
-								m_name = "bone17"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone17"
-								m_vMinBounds =
-								[
-									-41.113251,
-									-15.034313,
-									-30.157501,
-								]
-								m_vMaxBounds =
-								[
-									51.849762,
-									18.673157,
-									17.751083,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone17"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -41.11325, -15.034313, -30.157501 ]
+								hitbox_maxs = [ 51.849762, 18.673157, 17.751083 ]
 							},
 							{
-								m_name = "bone22"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone22"
-								m_vMinBounds =
-								[
-									-50.543098,
-									-13.675124,
-									-16.950729,
-								]
-								m_vMaxBounds =
-								[
-									55.221558,
-									44.176636,
-									14.692398,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone22"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -50.5431, -13.675124, -16.95073 ]
+								hitbox_maxs = [ 55.221558, 44.176636, 14.692398 ]
 							},
 							{
-								m_name = "bone05"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone05"
-								m_vMinBounds =
-								[
-									-8.926052,
-									-9.274115,
-									-21.452572,
-								]
-								m_vMaxBounds =
-								[
-									7.053425,
-									8.283178,
-									-4.700079,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone05"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.926052, -9.274115, -21.452572 ]
+								hitbox_maxs = [ 7.053425, 8.283178, -4.700079 ]
 							},
 							{
-								m_name = "bone09"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone09"
-								m_vMinBounds =
-								[
-									-7.472563,
-									-10.373346,
-									-19.587101,
-								]
-								m_vMaxBounds =
-								[
-									8.506914,
-									7.183947,
-									-2.834608,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone09"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.472563, -10.373346, -19.587101 ]
+								hitbox_maxs = [ 8.506914, 7.183947, -2.834608 ]
 							},
 							{
-								m_name = "bone18"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone18"
-								m_vMinBounds =
-								[
-									2.806351,
-									-10.658357,
-									-8.645721,
-								]
-								m_vMaxBounds =
-								[
-									38.231178,
-									6.607694,
-									9.321701,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone18"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 2.806351, -10.658357, -8.645721 ]
+								hitbox_maxs = [ 38.23118, 6.607694, 9.321701 ]
 							},
 							{
-								m_name = "bone20"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone20"
-								m_vMinBounds =
-								[
-									-18.829659,
-									-7.667294,
-									6.905289,
-								]
-								m_vMaxBounds =
-								[
-									18.422356,
-									16.923706,
-									9.958755,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone20"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -18.829659, -7.667294, 6.905289 ]
+								hitbox_maxs = [ 18.422356, 16.923706, 9.958755 ]
 							},
 							{
-								m_name = "bone23"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone23"
-								m_vMinBounds =
-								[
-									-17.491047,
-									-1.729258,
-									-56.285690,
-								]
-								m_vMaxBounds =
-								[
-									23.907829,
-									25.679277,
-									8.891754,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone23"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -17.491047, -1.729258, -56.28569 ]
+								hitbox_maxs = [ 23.90783, 25.679277, 8.891754 ]
 							},
 							{
-								m_name = "bone25"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone25"
-								m_vMinBounds =
-								[
-									-39.573921,
-									-2.245022,
-									-57.887527,
-								]
-								m_vMaxBounds =
-								[
-									38.925690,
-									19.199306,
-									-6.273087,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone25"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -39.57392, -2.245022, -57.887527 ]
+								hitbox_maxs = [ 38.92569, 19.199306, -6.273087 ]
 							},
 							{
-								m_name = "bone27"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone27"
-								m_vMinBounds =
-								[
-									-22.481422,
-									-0.452009,
-									-63.006271,
-								]
-								m_vMaxBounds =
-								[
-									18.909599,
-									26.956528,
-									2.171173,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone27"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -22.481422, -0.452009, -63.00627 ]
+								hitbox_maxs = [ 18.9096, 26.956528, 2.171173 ]
 							},
 							{
-								m_name = "bone29"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone29"
-								m_vMinBounds =
-								[
-									-18.942539,
-									-3.488043,
-									-38.287735,
-								]
-								m_vMaxBounds =
-								[
-									18.279503,
-									20.821644,
-									-6.736801,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone29"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -18.94254, -3.488043, -38.287735 ]
+								hitbox_maxs = [ 18.279503, 20.821644, -6.736801 ]
 							},
 							{
-								m_name = "bone31"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone31"
-								m_vMinBounds =
-								[
-									-21.308270,
-									-1.644613,
-									-36.443344,
-								]
-								m_vMaxBounds =
-								[
-									15.913773,
-									22.665073,
-									-4.892410,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone31"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -21.30827, -1.644613, -36.443344 ]
+								hitbox_maxs = [ 15.913773, 22.665073, -4.89241 ]
 							},
 							{
-								m_name = "bone33"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone33"
-								m_vMinBounds =
-								[
-									-2.585279,
-									-9.265162,
-									-21.221161,
-								]
-								m_vMaxBounds =
-								[
-									11.491434,
-									7.176309,
-									-2.941208,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone33"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.585279, -9.265162, -21.22116 ]
+								hitbox_maxs = [ 11.491434, 7.176309, -2.941208 ]
 							},
 							{
-								m_name = "bone06"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone06"
-								m_vMinBounds =
-								[
-									-10.222195,
-									-19.733742,
-									-5.658389,
-								]
-								m_vMaxBounds =
-								[
-									8.435619,
-									-4.969547,
-									3.567584,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone06"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.222195, -19.733742, -5.658389 ]
+								hitbox_maxs = [ 8.435619, -4.969547, 3.567584 ]
 							},
 							{
-								m_name = "bone10"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone10"
-								m_vMinBounds =
-								[
-									-9.852581,
-									-18.253361,
-									-5.110621,
-								]
-								m_vMaxBounds =
-								[
-									8.805237,
-									-3.489166,
-									4.115352,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone10"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.852581, -18.25336, -5.110621 ]
+								hitbox_maxs = [ 8.805237, -3.489166, 4.115352 ]
 							},
 							{
-								m_name = "bone21"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone21"
-								m_vMinBounds =
-								[
-									-17.297901,
-									-17.300934,
-									-0.843338,
-								]
-								m_vMaxBounds =
-								[
-									17.297817,
-									12.972813,
-									25.178375,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone21"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -17.297901, -17.300934, -0.843338 ]
+								hitbox_maxs = [ 17.297817, 12.972813, 25.178375 ]
 							},
 							{
-								m_name = "bone34"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone34"
-								m_vMinBounds =
-								[
-									-8.261114,
-									-5.653568,
-									-37.781258,
-								]
-								m_vMaxBounds =
-								[
-									11.288309,
-									15.884588,
-									-7.590805,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "bone34"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.261114, -5.653568, -37.781258 ]
+								hitbox_maxs = [ 11.288309, 15.884588, -7.590805 ]
 							},
 						]
 					},
 				]
-				m_AutoCreateSetName = ""
-			}
-		},
-	]
-	m_pAttachmentLists =
-	[
-		{
-			_class = "CVattachmentListReference"
-			m_pObject =
+			},
 			{
-				m_name = ""
-				m_attachments =
+				_class = "RenderMeshList"
+				children = 
 				[
 					{
-						m_name = "attach_head"
-						m_influences =
-						[
-							{
-								m_influenceName = "bone21"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "follow_overhead"
-						m_influences =
-						[
-							{
-								m_influenceName = "bone21"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "follow_origin"
-						m_influences =
-						[
-							{
-								m_influenceName = "bone12"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_origin"
-						m_influences =
-						[
-							{
-								m_influenceName = "bone12"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences =
-						[
-							{
-								m_influenceName = "bone15"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences =
-						[
-							{
-								m_influenceName = "bone19"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								m_flWeight = 1.000000
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack1"
-						m_influences =
-						[
-							{
-								m_influenceName = "bone16"
-								m_vTranslationOffset =
-								[
-									-0.000004,
-									-164.720306,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									-0.000000,
-									0.000002,
-									-0.000001,
-								]
-								m_flWeight = 1.000000
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack2"
-						m_influences =
-						[
-							{
-								m_influenceName = "bone16"
-								m_vTranslationOffset =
-								[
-									0.000000,
-									55.421879,
-									0.000000,
-								]
-								m_vRotationOffset =
-								[
-									-0.000000,
-									0.000000,
-									-0.000011,
-								]
-								m_flWeight = 1.000000
-								m_bRoot = false
-							},
-						]
+						_class = "RenderMeshFile"
+						name = "hero_whitebeard_base"
+						filename = "models/hero_whitebeard/hero_whitebeard_base.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 				]
-			}
-		},
-	]
-	m_pAnimGroup =
-	{
-		_class = "CVanimGroupReference"
-		m_pObject =
-		{
-			m_Name = ""
-			m_pReferenceSkeleton =
+			},
 			{
-				_class = "CVReferenceSkeletonReference"
-				m_pObject = null
-			}
-			m_pBoneFlagList =
-			{
-				_class = "CVBoneFlagListReference"
-				m_pObject = null
-			}
-			m_pSeqGroup =
-			{
-				_class = "CVseqGroupReference"
-				m_pObject = null
-			}
-			m_pAnimGroups =
-			[
-			]
-			m_Vanim =
-			[
-				{
-					m_Animationname = "hero_whitebeard_attack"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 156
-					m_nEndframe = 184
-					m_flFps = 30.000000
-					m_Loop =
+				_class = "AnimationList"
+				children = 
+				[
 					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
+						_class = "AnimFile"
+						name = "hero_whitebeard_attack"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 156
+						end_frame = 184
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+						_class = "AnimFile"
+						name = "hero_whitebeard_attack2"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 193
+						end_frame = 228
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_whitebeard_attack2"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 193
-					m_nEndframe = 228
-					m_flFps = 30.000000
-					m_Loop =
+						_class = "AnimFile"
+						name = "hero_whitebeard_idle"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 4
+						end_frame = 96
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
+						_class = "AnimFile"
+						name = "hero_whitebeard_run"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_RUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 112
+						end_frame = 137
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+						_class = "AnimFile"
+						name = "hero_whitebeard_death"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 537
+						end_frame = 568
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_whitebeard_idle"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 4
-					m_nEndframe = 96
-					m_flFps = 30.000000
-					m_Loop =
+						_class = "AnimFile"
+						name = "hero_whitebeard_spell1"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 243
+						end_frame = 274
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_IDLE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
+						_class = "AnimFile"
+						name = "hero_whitebeard_spell2"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 368
+						end_frame = 403
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
+						_class = "AnimFile"
+						name = "hero_whitebeard_spell3"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_3"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 434
+						end_frame = 471
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_whitebeard_run"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 112
-					m_nEndframe = 137
-					m_flFps = 30.000000
-					m_Loop =
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
-					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
-					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_whitebeard_death"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 537
-					m_nEndframe = 568
-					m_flFps = 30.000000
-					m_Loop =
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_DIE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
-					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
-					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_whitebeard_spell1"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 243
-					m_nEndframe = 274
-					m_flFps = 30.000000
-					m_Loop =
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_1"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
-					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
-					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_whitebeard_spell2"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 368
-					m_nEndframe = 403
-					m_flFps = 30.000000
-					m_Loop =
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
-					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
-					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_whitebeard_spell3"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 434
-					m_nEndframe = 471
-					m_flFps = 30.000000
-					m_Loop =
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_3"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
-					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
-					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_whitebeard_spell4"
-					m_Filepath = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
-					m_nStartframe = 493
-					m_nEndframe = 531
-					m_flFps = 30.000000
-					m_Loop =
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_4"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
-					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
-					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-			]
-			m_sScripts =
-			[
-			]
-			m_folderNames =
-			[
-			]
-		}
-	}
-	m_pMaterialGroupList =
-	{
-		_class = "CVNodeMaterialGroupListReference"
-		m_pObject = null
-	}
-	m_pMeshGroupList =
-	{
-		_class = "CVMeshGroupListReference"
-		m_pObject = null
-	}
-	m_pLodGroupList =
-	{
-		_class = "CVLODGroupListReference"
-		m_pObject = null
-	}
-	m_pPropBreakableList =
-	{
-		_class = "CVpropBreakableListReference"
-		m_pObject = null
-	}
-	m_pPropDataList =
-	{
-		_class = "CVpropDataListReference"
-		m_pObject = null
-	}
-	m_pConstraintLists =
-	[
-	]
-	m_collision = ""
-	m_softbody = ""
-	m_sMDLFilename = ""
-	m_sOffsetHitboxSets =
-	[
-	]
-	m_vHitboxSetOffset =
-	[
-		0.000000,
-		0.000000,
-		0.000000,
-	]
-	m_scriptFiles =
-	[
-	]
-	m_pMaterialRemapList =
-	{
-		m_vMaterialRemapList =
-		[
-			{
-				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/hero_whitebeard/whitebeard_main.vmat"
+						_class = "AnimFile"
+						name = "hero_whitebeard_spell4"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_4"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_whitebeard/hero_whitebeard_animation.fbx"
+						import_bone_scales = false
+						start_frame = 493
+						end_frame = 531
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		importer_notes = "Imported from VMDL\n==Warnings==\nImportAttachmentList - Failed to create node: attach_hitloc (Likely skipping duplicate)\n"
+		document_sub_type = "ModelDocSubType_None"
 	}
-	m_flFbxScale = 1.000000
-	m_flQCScale = 1.000000
-	m_vOrigin =
-	[
-		0.000000,
-		0.000000,
-		0.000000,
-	]
-	m_pPsfList = null
-	m_keyValueText = ""
-	m_bStaticProp = false
-	m_bEnableClothProcessing = true
-	m_flClothEnableThreshold = 0.050000
-	m_nMaxClothVertsPerMesh = 2048
-	m_bBuildClothBoneHierarchy = false
-	m_nNavType = "AUTH_NAV_MESH"
-	m_bMakeUniqueVMeshes = false
-	m_bMakeImplicitBindPoseSequence = false
-	m_bAdjustSkeletonFromBoneFlags = false
-	m_pAnimGroups =
-	[
-	]
 }

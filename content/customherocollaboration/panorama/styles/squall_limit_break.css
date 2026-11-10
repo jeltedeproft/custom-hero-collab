@@ -7,7 +7,7 @@
 
 #LimitBreakBox
 {
-    background-image: url("file://{resources}/images/custom_game/squall_gunblade.png");
+    /* squall_gunblade.png was never in the repo; missing images are now a compile error */
     horizontal-align: center;
     vertical-align: center;
     margin-bottom: 50%;
@@ -29,8 +29,7 @@
 
 .LimitBreakGood
 {
-    background-size: 100% 100%;
-    background-image: url("file://{resources}/images/custom_game/squall_gunblade_hitarea.png");
+    background-color: #3dd296aa;
     horizontal-align: left;
     margin-left: 65%;
     width: 15%;
@@ -39,10 +38,7 @@
 
 #LimitBreak
 {
-    background-position: center;
-    background-repeat: no-repeat round;
-    background-size: 60% 100%;
-    background-image: url("file://{resources}/images/custom_game/squall_gunblade_hitmarker.png");
+    background-color: #ffffff;
     horizontal-align: left;
     margin-left: 0%;
     width: 5%;

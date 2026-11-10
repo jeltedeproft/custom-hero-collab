@@ -64,7 +64,6 @@
   
   "example_ability"
   {
-    "ID"              "1852"
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"      "holdout_blade_fury"
@@ -52264,7 +52263,6 @@
   
   "stampede"
   {
-    "ID"              "1915"
     "BaseClass"                 "ability_datadriven"
     "AbilityTextureName"      "omniknight_repel"
     "MaxLevel"            "1"

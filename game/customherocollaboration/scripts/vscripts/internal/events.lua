@@ -90,10 +90,10 @@ function GameMode:_OnConnectFull(keys)
 
   GameMode:_CaptureGameMode()
 
-  local entIndex = keys.index+1
-  -- The Player entity of the joining user
-  local ply = EntIndexToHScript(entIndex)
-  
+  -- The Player entity of the joining user. The event no longer maps to an
+  -- entity index (keys.index+1), it carries the PlayerID directly.
+  local ply = PlayerResource:GetPlayer(keys.PlayerID)
+
   local userID = keys.userid
 
   self.vUserIds = self.vUserIds or {}

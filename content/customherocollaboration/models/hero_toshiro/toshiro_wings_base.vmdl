@@ -1,483 +1,169 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
-	_class = "CVModel"
-	m_meshList =
+	rootNode = 
 	{
-		m_meshList =
+		_class = "RootNode"
+		children = 
 		[
 			{
-				m_meshName = "toshiro_wings_base"
-				m_meshFile = "models/hero_toshiro/toshiro_wings_base.fbx"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bExpensiveVertices = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-		]
-	}
-	m_clothProxyMeshList =
-	{
-		_class = "CVClothProxyMeshList"
-		m_flClothEnableThreshold = 0.050000
-		m_bCreateStaticBone = false
-		m_nMaxBonesPerVertex = 4
-		m_bRemoveUnusedBonesEnabled = false
-		m_bDriveMeshesWithBacksolvedJointsOnly = true
-		m_flMatchProxiesToMeshes = 1.000000
-		m_flReservedFloat = 0.000000
-		m_nReservedInt = 0
-		m_bReservedBool1 = false
-		m_bReservedBool2 = false
-		m_bReservedBool3 = false
-		m_bReservedBool4 = false
-		m_clothProxyMeshList =
-		[
-		]
-	}
-	m_physicsMeshList =
-	{
-		m_meshList =
-		[
-		]
-	}
-	m_pModelInfo = null
-	m_pBoneFlagList =
-	{
-		_class = "CVBoneFlagListReference"
-		m_pObject = null
-	}
-	m_pHitBoxSetLists =
-	[
-		{
-			_class = "CVhitBoxSetListReference"
-			m_pObject =
-			{
-				m_HitBoxSets =
+				_class = "MaterialGroupList"
+				children = 
 				[
 					{
-						m_name = "default"
-						m_HitBoxes =
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/hero_toshiro/toshiro_head.vmat"
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
 						[
 							{
-								m_name = "Object01"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object01"
-								m_vMinBounds =
-								[
-									-13.317146,
-									2.337311,
-									-58.677582,
-								]
-								m_vMaxBounds =
-								[
-									10.309551,
-									136.300888,
-									16.415316,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object01"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -13.317146, 2.337311, -58.67758 ]
+								hitbox_maxs = [ 10.309551, 136.30089, 16.415316 ]
 							},
 							{
-								m_name = "Object06"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object06"
-								m_vMinBounds =
-								[
-									0.319004,
-									-16.847118,
-									-16.188103,
-								]
-								m_vMaxBounds =
-								[
-									50.022511,
-									38.093140,
-									73.713600,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object06"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.319004, -16.847118, -16.188103 ]
+								hitbox_maxs = [ 50.02251, 38.09314, 73.7136 ]
 							},
 							{
-								m_name = "Object09"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object09"
-								m_vMinBounds =
-								[
-									-50.022476,
-									-16.847118,
-									-20.737556,
-								]
-								m_vMaxBounds =
-								[
-									-0.318996,
-									38.093140,
-									69.164146,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object09"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -50.022476, -16.847118, -20.737556 ]
+								hitbox_maxs = [ -0.318996, 38.09314, 69.16415 ]
 							},
 							{
-								m_name = "Object02"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object02"
-								m_vMinBounds =
-								[
-									-5.363237,
-									-7.571312,
-									-48.882572,
-								]
-								m_vMaxBounds =
-								[
-									12.618948,
-									87.758270,
-									5.350521,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object02"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.363237, -7.571312, -48.882572 ]
+								hitbox_maxs = [ 12.618948, 87.75827, 5.350521 ]
 							},
 							{
-								m_name = "Object05"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object05"
-								m_vMinBounds =
-								[
-									-2.697121,
-									-24.422224,
-									-93.478287,
-								]
-								m_vMaxBounds =
-								[
-									115.818550,
-									61.255371,
-									58.625519,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object05"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.697121, -24.422224, -93.47829 ]
+								hitbox_maxs = [ 115.81855, 61.25537, 58.62552 ]
 							},
 							{
-								m_name = "Object08"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object08"
-								m_vMinBounds =
-								[
-									-114.525085,
-									-30.558733,
-									-97.447662,
-								]
-								m_vMaxBounds =
-								[
-									3.990692,
-									55.118866,
-									54.656143,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object08"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -114.525085, -30.558733, -97.44766 ]
+								hitbox_maxs = [ 3.990692, 55.118866, 54.656143 ]
 							},
 							{
-								m_name = "Object03"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object03"
-								m_vMinBounds =
-								[
-									-3.453209,
-									-5.081360,
-									-36.504967,
-								]
-								m_vMaxBounds =
-								[
-									10.765880,
-									69.940796,
-									3.695648,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object03"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.453209, -5.08136, -36.504967 ]
+								hitbox_maxs = [ 10.76588, 69.940796, 3.695648 ]
 							},
 							{
-								m_name = "Object04"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object04"
-								m_vMinBounds =
-								[
-									-12.554592,
-									-58.167931,
-									-124.009995,
-								]
-								m_vMaxBounds =
-								[
-									137.399567,
-									46.119362,
-									16.717407,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object04"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -12.554592, -58.16793, -124.009995 ]
+								hitbox_maxs = [ 137.39957, 46.11936, 16.717407 ]
 							},
 							{
-								m_name = "Object07"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Object07"
-								m_vMinBounds =
-								[
-									-126.442688,
-									-49.378418,
-									-133.494064,
-								]
-								m_vMaxBounds =
-								[
-									23.511471,
-									54.908875,
-									7.233337,
-								]
-								m_bTranslationOnly = false
-								m_cRenderColor =
-								[
-									0,
-									0,
-									0,
-									0,
-								]
+								_class = "Hitbox"
+								parent_bone = "Object07"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -126.44269, -49.378418, -133.49406 ]
+								hitbox_maxs = [ 23.51147, 54.908875, 7.233337 ]
 							},
 						]
 					},
 				]
-				m_AutoCreateSetName = ""
-			}
-		},
-	]
-	m_pAttachmentLists =
-	[
-	]
-	m_pAnimGroup =
-	{
-		_class = "CVanimGroupReference"
-		m_pObject =
-		{
-			m_Name = ""
-			m_pReferenceSkeleton =
+			},
 			{
-				_class = "CVReferenceSkeletonReference"
-				m_pObject = null
-			}
-			m_pBoneFlagList =
-			{
-				_class = "CVBoneFlagListReference"
-				m_pObject = null
-			}
-			m_pSeqGroup =
-			{
-				_class = "CVseqGroupReference"
-				m_pObject = null
-			}
-			m_pAnimGroups =
-			[
-			]
-			m_Vanim =
-			[
-				{
-					m_Animationname = "toshiro_wings_animation"
-					m_Filepath = "models/hero_toshiro/toshiro_wings_animation.FBX"
-					m_nStartframe = 6
-					m_nEndframe = 53
-					m_flFps = 30.000000
-					m_Loop =
+				_class = "RenderMeshList"
+				children = 
+				[
 					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop =
+						_class = "RenderMeshFile"
+						name = "toshiro_wings_base"
+						filename = "models/hero_toshiro/toshiro_wings_base.fbx"
+						import_scale = 1.0
+						import_filter = 
 						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
+							exclude_by_default = false
+							exception_list = [  ]
 						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities =
-					[
-						{
-							m_Name = "ACT_DOTA_IDLE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents =
-					[
-					]
-					m_MotionFrames =
-					[
-					]
-					m_pIkRules =
-					[
-					]
-					m_pAlignAnimation = null
-					m_adjustAnimation =
-					{
-						m_translation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						m_rotation =
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-					}
-					m_Keywords =
-					[
-					]
-					m_sequenceParams =
-					{
-						m_flFadeInTime = 0.200000
-						m_flFadeOutTime = 0.200000
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-			]
-			m_sScripts =
-			[
-			]
-			m_folderNames =
-			[
-			]
-		}
-	}
-	m_pMaterialGroupList =
-	{
-		_class = "CVNodeMaterialGroupListReference"
-		m_pObject = null
-	}
-	m_pMeshGroupList =
-	{
-		_class = "CVMeshGroupListReference"
-		m_pObject = null
-	}
-	m_pLodGroupList =
-	{
-		_class = "CVLODGroupListReference"
-		m_pObject = null
-	}
-	m_pPropBreakableList =
-	{
-		_class = "CVpropBreakableListReference"
-		m_pObject = null
-	}
-	m_pPropDataList =
-	{
-		_class = "CVpropDataListReference"
-		m_pObject = null
-	}
-	m_pConstraintLists =
-	[
-	]
-	m_collision = ""
-	m_softbody = ""
-	m_sMDLFilename = ""
-	m_sOffsetHitboxSets =
-	[
-	]
-	m_vHitboxSetOffset =
-	[
-		0.000000,
-		0.000000,
-		0.000000,
-	]
-	m_scriptFiles =
-	[
-	]
-	m_pMaterialRemapList =
-	{
-		m_vMaterialRemapList =
-		[
+					},
+				]
+			},
 			{
-				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/hero_toshiro/toshiro_head.vmat"
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "toshiro_wings_animation"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_toshiro/toshiro_wings_animation.FBX"
+						import_bone_scales = false
+						start_frame = 6
+						end_frame = 53
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		importer_notes = "Imported from VMDL"
+		document_sub_type = "ModelDocSubType_None"
 	}
-	m_flFbxScale = 1.000000
-	m_flQCScale = 1.000000
-	m_vOrigin =
-	[
-		0.000000,
-		0.000000,
-		0.000000,
-	]
-	m_pPsfList = null
-	m_keyValueText = ""
-	m_bStaticProp = false
-	m_bEnableClothProcessing = true
-	m_flClothEnableThreshold = 0.050000
-	m_nMaxClothVertsPerMesh = 2048
-	m_bBuildClothBoneHierarchy = false
-	m_nNavType = "AUTH_NAV_MESH"
-	m_bMakeUniqueVMeshes = false
-	m_bMakeImplicitBindPoseSequence = false
-	m_bAdjustSkeletonFromBoneFlags = false
-	m_pAnimGroups =
-	[
-	]
 }

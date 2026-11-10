@@ -1,950 +1,670 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
-	m_meshList = 
+	rootNode = 
 	{
-		m_meshList = 
+		_class = "RootNode"
+		children = 
 		[
 			{
-				m_meshName = "hero_yoruichi_base"
-				m_meshFile = "models/hero_yoruichi/hero_yoruichi_base.fbx"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-		]
-	}
-	m_clothProxyMeshList = 
-	{
-		_class = "CVClothProxyMeshList"
-		m_flClothEnableThreshold = 0.05
-		m_bCreateStaticBone = false
-		m_nMaxBonesPerVertex = 4
-		m_bRemoveUnusedBonesEnabled = false
-		m_bDriveMeshesWithBacksolvedJointsOnly = true
-		m_flMatchProxiesToMeshes = 1.0
-		m_flFallbackEnvelope = 1.0
-		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
-		m_bReservedBool2 = false
-		m_bReservedBool3 = false
-		m_bReservedBool4 = false
-		m_clothProxyMeshList = [  ]
-	}
-	m_physicsMeshList = 
-	{
-		m_meshList = [  ]
-	}
-	m_pModelInfo = null
-	m_pBoneFlagList = 
-	{
-		m_pObject = null
-	}
-	m_pHitBoxSetLists = 
-	[
-		{
-			m_pObject = 
-			{
-				m_HitBoxSets = 
+				_class = "MaterialGroupList"
+				children = 
 				[
 					{
-						m_name = "default"
-						m_HitBoxes = 
+						_class = "DefaultMaterialGroup"
+						remaps = 
 						[
 							{
-								m_name = "Default"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Default"
-								m_vMinBounds = [ -8.681998, -4.571439, -9.204903 ]
-								m_vMaxBounds = [ 8.681998, 7.706561, 5.099106 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday2.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "Chest"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Chest"
-								m_vMinBounds = [ -20.236498, -12.285566, -85.730141 ]
-								m_vMaxBounds = [ 20.047701, 14.2907, 43.160301 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday3.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "Chest2"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Chest2"
-								m_vMinBounds = [ -11.738987, -6.726561, -1.917068 ]
-								m_vMaxBounds = [ 11.685009, 8.153438, 14.810936 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday4.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "L_arm"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_arm"
-								m_vMinBounds = [ -0.5798, -3.669419, -3.771347 ]
-								m_vMaxBounds = [ 17.5242, 3.804581, 3.746658 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday5.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "R_arm"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_arm"
-								m_vMinBounds = [ -17.089289, -4.021638, -4.063416 ]
-								m_vMaxBounds = [ 1.014711, 3.452361, 3.45459 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday6.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "Head"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Head"
-								m_vMinBounds = [ -10.471962, -8.96932, -2.837822 ]
-								m_vMaxBounds = [ 10.372034, 8.572676, 16.14019 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday7.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "L_elbow"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_elbow"
-								m_vMinBounds = [ -0.256422, -3.044105, -2.488564 ]
-								m_vMaxBounds = [ 14.021574, 2.301895, 2.001434 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday8.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "R_elbow"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_elbow"
-								m_vMinBounds = [ -14.111036, -3.303871, -2.545052 ]
-								m_vMaxBounds = [ 0.16696, 2.042129, 1.944946 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday9.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "Hair_1"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Hair_1"
-								m_vMinBounds = [ -3.014586, -0.760465, -3.359245 ]
-								m_vMaxBounds = [ 3.265414, 2.727535, 2.868759 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday10.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "L_leg"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_leg"
-								m_vMinBounds = [ -3.890946, -5.880893, -23.158646 ]
-								m_vMaxBounds = [ 4.835052, 5.231104, 0.649353 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday11.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "R_leg"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_leg"
-								m_vMinBounds = [ -4.835052, -5.932378, -23.110916 ]
-								m_vMaxBounds = [ 3.890946, 5.179619, 0.697083 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday12.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "L_hand"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_hand"
-								m_vMinBounds = [ 0.002003, -4.071748, -2.24292 ]
-								m_vMaxBounds = [ 7.68, 2.682252, 2.173073 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday13.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "R_hand"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_hand"
-								m_vMinBounds = [ -6.648663, -4.098, -2.616585 ]
-								m_vMaxBounds = [ 0.521339, 2.666, 1.935417 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday14.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "Hair_2"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Hair_2"
-								m_vMinBounds = [ -3.328742, -1.886018, -1.316513 ]
-								m_vMaxBounds = [ 2.883257, 1.86198, 0.921486 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday15.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "L_knee"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_knee"
-								m_vMinBounds = [ -3.643481, -3.981202, -35.132729 ]
-								m_vMaxBounds = [ 4.118517, 6.278796, 0.801273 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday16.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "R_knee"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_knee"
-								m_vMinBounds = [ -4.118498, -3.981202, -35.423149 ]
-								m_vMaxBounds = [ 3.6435, 6.278796, 0.510853 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday17.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "L_fingers1"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_fingers1"
-								m_vMinBounds = [ -0.468124, -2.33997, -0.7239 ]
-								m_vMaxBounds = [ 1.101879, 2.358029, 0.510101 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday18.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "R_fingers1"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_fingers1"
-								m_vMinBounds = [ -1.226604, -2.410638, -0.785347 ]
-								m_vMaxBounds = [ 0.303394, 2.349361, 0.884666 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday19.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "Hair_3"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Hair_3"
-								m_vMinBounds = [ -3.956258, -1.868259, -1.302521 ]
-								m_vMaxBounds = [ 3.153741, 1.771742, 1.04348 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday20.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "L_foot"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_foot"
-								m_vMinBounds = [ -3.789142, -3.701378, -2.285168 ]
-								m_vMaxBounds = [ 3.990856, 3.996621, 0.582833 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday21.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "R_foot"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_foot"
-								m_vMinBounds = [ -4.124979, -3.701377, -2.227153 ]
-								m_vMaxBounds = [ 3.655019, 3.996622, 0.582848 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday22.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
 							},
 							{
-								m_name = "L_fingers2"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_fingers2"
-								m_vMinBounds = [ -0.317558, -1.985118, -0.707191 ]
-								m_vMaxBounds = [ 0.362438, 1.952881, 0.680809 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday23.vmat"
+								to = "materials/hero_yoruichi/yoruichi_main.vmat"
+							},
+						]
+						use_global_default = true
+						global_default_material = "materials/hero_yoruichi/yoruichi_main.vmat"
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "follow_overhead"
+						parent_bone = "Head"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_head"
+						parent_bone = "Head"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						parent_bone = "L_hand"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "follow_origin"
+						parent_bone = "Chest"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_origin"
+						parent_bone = "Chest"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack2"
+						parent_bone = "L_heel"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "Default"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.681998, -4.571439, -9.204903 ]
+								hitbox_maxs = [ 8.681998, 7.706561, 5.099106 ]
 							},
 							{
-								m_name = "R_fingers2"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_fingers2"
-								m_vMinBounds = [ -0.600075, -2.022175, -0.76368 ]
-								m_vMaxBounds = [ 0.249924, 2.261825, 0.624321 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "Chest"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -20.236498, -12.285566, -85.73014 ]
+								hitbox_maxs = [ 20.0477, 14.2907, 43.1603 ]
 							},
 							{
-								m_name = "Hair_4"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Hair_4"
-								m_vMinBounds = [ -3.84887, -1.793822, -0.588783 ]
-								m_vMaxBounds = [ 3.405129, 1.930178, 0.671211 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "Chest2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -11.738987, -6.726561, -1.917068 ]
+								hitbox_maxs = [ 11.685009, 8.153438, 14.810936 ]
 							},
 							{
-								m_name = "L_heel"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_heel"
-								m_vMinBounds = [ -2.957173, -6.514216, -3.374959 ]
-								m_vMaxBounds = [ 3.194825, 3.883782, 0.861041 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "L_arm"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.5798, -3.669419, -3.771347 ]
+								hitbox_maxs = [ 17.5242, 3.804581, 3.746658 ]
 							},
 							{
-								m_name = "R_heel"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_heel"
-								m_vMinBounds = [ -3.234416, -6.478127, -3.43361 ]
-								m_vMaxBounds = [ 2.917583, 3.919872, 0.80239 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "R_arm"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -17.089289, -4.021638, -4.063416 ]
+								hitbox_maxs = [ 1.014711, 3.452361, 3.45459 ]
 							},
 							{
-								m_name = "L_fingers3"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_fingers3"
-								m_vMinBounds = [ -0.646046, -1.687941, -0.816368 ]
-								m_vMaxBounds = [ 1.893959, 2.142059, 0.661629 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "Head"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.471962, -8.96932, -2.837822 ]
+								hitbox_maxs = [ 10.372034, 8.572676, 16.14019 ]
 							},
 							{
-								m_name = "L_thumb"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_thumb"
-								m_vMinBounds = [ -0.503323, -0.779771, -1.315636 ]
-								m_vMaxBounds = [ 0.984676, 0.966229, 0.022362 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "L_elbow"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.256422, -3.044105, -2.488564 ]
+								hitbox_maxs = [ 14.021574, 2.301895, 2.001434 ]
 							},
 							{
-								m_name = "R_fingers3"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_fingers3"
-								m_vMinBounds = [ -1.928692, -1.68794, -1.058434 ]
-								m_vMaxBounds = [ 0.265308, 1.802059, 0.419563 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "R_elbow"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -14.111036, -3.303871, -2.545052 ]
+								hitbox_maxs = [ 0.16696, 2.042129, 1.944946 ]
 							},
 							{
-								m_name = "R_thumb"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_thumb"
-								m_vMinBounds = [ -1.430359, -1.726992, -1.060127 ]
-								m_vMaxBounds = [ 0.05764, 0.019008, 0.27787 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "Hair_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.014586, -0.760465, -3.359245 ]
+								hitbox_maxs = [ 3.265414, 2.727535, 2.868759 ]
 							},
 							{
-								m_name = "Hair_5"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "Hair_5"
-								m_vMinBounds = [ -3.062296, -2.289826, -10.595787 ]
-								m_vMaxBounds = [ 3.487703, 2.298173, 0.492218 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "L_leg"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.890946, -5.880893, -23.158646 ]
+								hitbox_maxs = [ 4.835052, 5.231104, 0.649353 ]
 							},
 							{
-								m_name = "L_toes"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "L_toes"
-								m_vMinBounds = [ -2.898143, -5.656623, -1.243005 ]
-								m_vMaxBounds = [ 3.285855, 0.431377, 1.852995 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "R_leg"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.835052, -5.932378, -23.110916 ]
+								hitbox_maxs = [ 3.890946, 5.179619, 0.697083 ]
 							},
 							{
-								m_name = "R_toes"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "R_toes"
-								m_vMinBounds = [ -3.285855, -5.504609, -1.243005 ]
-								m_vMaxBounds = [ 2.898143, 0.583391, 1.852995 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "L_hand"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.002003, -4.071748, -2.24292 ]
+								hitbox_maxs = [ 7.68, 2.682252, 2.173073 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_hand"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.648663, -4.098, -2.616585 ]
+								hitbox_maxs = [ 0.521339, 2.666, 1.935417 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "Hair_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.328742, -1.886018, -1.316513 ]
+								hitbox_maxs = [ 2.883257, 1.86198, 0.921486 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "L_knee"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.643481, -3.981202, -35.13273 ]
+								hitbox_maxs = [ 4.118517, 6.278796, 0.801273 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_knee"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.118498, -3.981202, -35.42315 ]
+								hitbox_maxs = [ 3.6435, 6.278796, 0.510853 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "L_fingers1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.468124, -2.33997, -0.7239 ]
+								hitbox_maxs = [ 1.101879, 2.358029, 0.510101 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_fingers1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.226604, -2.410638, -0.785347 ]
+								hitbox_maxs = [ 0.303394, 2.349361, 0.884666 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "Hair_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.956258, -1.868259, -1.302521 ]
+								hitbox_maxs = [ 3.153741, 1.771742, 1.04348 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "L_foot"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.789142, -3.701378, -2.285168 ]
+								hitbox_maxs = [ 3.990856, 3.996621, 0.582833 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_foot"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.124979, -3.701377, -2.227153 ]
+								hitbox_maxs = [ 3.655019, 3.996622, 0.582848 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "L_fingers2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.317558, -1.985118, -0.707191 ]
+								hitbox_maxs = [ 0.362438, 1.952881, 0.680809 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_fingers2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.600075, -2.022175, -0.76368 ]
+								hitbox_maxs = [ 0.249924, 2.261825, 0.624321 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "Hair_4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.84887, -1.793822, -0.588783 ]
+								hitbox_maxs = [ 3.405129, 1.930178, 0.671211 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "L_heel"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.957173, -6.514216, -3.374959 ]
+								hitbox_maxs = [ 3.194825, 3.883782, 0.861041 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_heel"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.234416, -6.478127, -3.43361 ]
+								hitbox_maxs = [ 2.917583, 3.919872, 0.80239 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "L_fingers3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.646046, -1.687941, -0.816368 ]
+								hitbox_maxs = [ 1.893959, 2.142059, 0.661629 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "L_thumb"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.503323, -0.779771, -1.315636 ]
+								hitbox_maxs = [ 0.984676, 0.966229, 0.022362 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_fingers3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.928692, -1.68794, -1.058434 ]
+								hitbox_maxs = [ 0.265308, 1.802059, 0.419563 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_thumb"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.430359, -1.726992, -1.060127 ]
+								hitbox_maxs = [ 0.05764, 0.019008, 0.27787 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "Hair_5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.062296, -2.289826, -10.595787 ]
+								hitbox_maxs = [ 3.487703, 2.298173, 0.492218 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "L_toes"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.898143, -5.656623, -1.243005 ]
+								hitbox_maxs = [ 3.285855, 0.431377, 1.852995 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "R_toes"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.285855, -5.504609, -1.243005 ]
+								hitbox_maxs = [ 2.898143, 0.583391, 1.852995 ]
 							},
 						]
 					},
 				]
-				m_AutoCreateSetName = ""
-			}
-		},
-	]
-	m_pAttachmentLists = 
-	[
-		{
-			m_pObject = 
+			},
 			{
-				m_name = ""
-				m_attachments = 
+				_class = "RenderMeshList"
+				children = 
 				[
 					{
-						m_name = "follow_overhead"
-						m_influences = 
-						[
-							{
-								m_influenceName = "Head"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_head"
-						m_influences = 
-						[
-							{
-								m_influenceName = "Head"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences = 
-						[
-							{
-								m_influenceName = "L_hand"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences = 
-						[
-							{
-								m_influenceName = "R_hand"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "follow_origin"
-						m_influences = 
-						[
-							{
-								m_influenceName = "Chest"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_origin"
-						m_influences = 
-						[
-							{
-								m_influenceName = "Chest"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack2"
-						m_influences = 
-						[
-							{
-								m_influenceName = "L_heel"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
+						_class = "RenderMeshFile"
+						name = "hero_yoruichi_base"
+						filename = "models/hero_yoruichi/hero_yoruichi_base.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 				]
-			}
-		},
-	]
-	m_pAnimGroup = 
-	{
-		m_pObject = 
-		{
-			m_Name = ""
-			m_pReferenceSkeleton = 
+			},
 			{
-				m_pObject = null
-			}
-			m_pBoneFlagList = 
-			{
-				m_pObject = null
-			}
-			m_pSeqGroup = 
-			{
-				m_pObject = null
-			}
-			m_pAnimGroups = [  ]
-			m_Vanim = 
-			[
-				{
-					m_Animationname = "hero_yoruichi_attack"
-					m_Filepath = "models/hero_yoruichi/hero_yoruichi_animation.FBX"
-					m_nStartframe = 281
-					m_nEndframe = 313
-					m_flFps = 30.0
-					m_Loop = 
+				_class = "AnimationList"
+				children = 
+				[
 					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
+						_class = "AnimFile"
+						name = "hero_yoruichi_attack"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_yoruichi/hero_yoruichi_animation.FBX"
+						import_bone_scales = false
+						start_frame = 281
+						end_frame = 313
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+						_class = "AnimFile"
+						name = "hero_yoruichi_attack2"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
+						import_bone_scales = false
+						start_frame = 343
+						end_frame = 382
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_yoruichi_attack2"
-					m_Filepath = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
-					m_nStartframe = 343
-					m_nEndframe = 382
-					m_flFps = 30.0
-					m_Loop = 
+						_class = "AnimFile"
+						name = "hero_yoruichi_idle"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = ""
+								event_frame = -157
+								event_end_frame = -1
+								event_keys = null
+							},
+						]
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
+						import_bone_scales = false
+						start_frame = 157
+						end_frame = 218
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
+						_class = "AnimFile"
+						name = "hero_yoruichi_spell"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
+						import_bone_scales = false
+						start_frame = 1000
+						end_frame = 1031
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+						_class = "AnimFile"
+						name = "hero_yoruichi_death"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
+						import_bone_scales = false
+						start_frame = 500
+						end_frame = 531
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_yoruichi_idle"
-					m_Filepath = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
-					m_nStartframe = 157
-					m_nEndframe = 218
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_IDLE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = 
-					[
-						{
-							m_Event = ""
-							m_nFrame = 0
-							m_DataString = ""
-						},
-					]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_yoruichi_spell"
-					m_Filepath = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
-					m_nStartframe = 1000
-					m_nEndframe = 1031
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_1"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_yoruichi_death"
-					m_Filepath = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
-					m_nStartframe = 500
-					m_nEndframe = 531
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_DIE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_yoruichi_walk"
-					m_Filepath = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
-					m_nStartframe = 94
-					m_nEndframe = 125
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-			]
-			m_sScripts = [  ]
-			m_folderNames = [  ]
-			m_sCompileScripts = [  ]
-		}
-	}
-	m_pMaterialGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pMeshGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pLodGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pPropBreakableList = 
-	{
-		m_pObject = null
-	}
-	m_pPropDataList = 
-	{
-		m_pObject = null
-	}
-	m_pConstraintLists = [  ]
-	m_collision = ""
-	m_softbody = ""
-	m_sMDLFilename = ""
-	m_sOffsetHitboxSets = [  ]
-	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
-	m_scriptFiles = [  ]
-	m_pMaterialRemapList = 
-	{
-		m_vMaterialRemapList = 
-		[
-			{
-				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday2.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday3.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday4.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday5.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday6.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday7.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday8.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday9.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday10.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday11.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday12.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday13.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday14.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday15.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday16.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday17.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday18.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday19.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday20.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday21.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday22.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday23.vmat"
-				m_sReplaceMaterial = "materials/hero_yoruichi/yoruichi_main.vmat"
+						_class = "AnimFile"
+						name = "hero_yoruichi_walk"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_RUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_yoruichi/hero_yoruichi_animation.fbx"
+						import_bone_scales = false
+						start_frame = 94
+						end_frame = 125
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		importer_notes = "Imported from VMDL\n==Warnings==\nImportAttachmentList - Failed to create node: attach_hitloc (Likely skipping duplicate)\n"
+		document_sub_type = "ModelDocSubType_None"
 	}
-	m_flFbxScale = 1.0
-	m_flQCScale = 1.0
-	m_vOrigin = [ 0.0, 0.0, 0.0 ]
-	m_pPsfList = null
-	m_keyValueText = ""
-	m_bStaticProp = false
-	m_bEnableClothProcessing = true
-	m_flClothEnableThreshold = 0.05
-	m_nMaxClothVertsPerMesh = 2048
-	m_bBuildClothBoneHierarchy = false
-	m_nNavType = "AUTH_NAV_MESH"
-	m_bMakeUniqueVMeshes = false
-	m_bMakeImplicitBindPoseSequence = false
-	m_bAdjustSkeletonFromBoneFlags = false
-	m_bHiddenAssetFlag = false
-	m_pAnimGroups = [  ]
 }

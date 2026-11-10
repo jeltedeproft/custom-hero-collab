@@ -1,902 +1,588 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
-	m_meshList = 
+	rootNode = 
 	{
-		m_meshList = 
+		_class = "RootNode"
+		children = 
 		[
 			{
-				m_meshName = "hero_ikkaku_bankai_base"
-				m_meshFile = "models/hero_ikkaku/hero_ikkaku_bankai_base.fbx"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-		]
-	}
-	m_clothProxyMeshList = 
-	{
-		_class = "CVClothProxyMeshList"
-		m_flClothEnableThreshold = 0.05
-		m_bCreateStaticBone = false
-		m_nMaxBonesPerVertex = 4
-		m_bRemoveUnusedBonesEnabled = false
-		m_bDriveMeshesWithBacksolvedJointsOnly = true
-		m_flMatchProxiesToMeshes = 1.0
-		m_flFallbackEnvelope = 1.0
-		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
-		m_bReservedBool2 = false
-		m_bReservedBool3 = false
-		m_bReservedBool4 = false
-		m_clothProxyMeshList = [  ]
-	}
-	m_physicsMeshList = 
-	{
-		m_meshList = [  ]
-	}
-	m_pModelInfo = null
-	m_pBoneFlagList = 
-	{
-		m_pObject = null
-	}
-	m_pHitBoxSetLists = 
-	[
-		{
-			m_pObject = 
-			{
-				m_HitBoxSets = 
+				_class = "MaterialGroupList"
+				children = 
 				[
 					{
-						m_name = "default"
-						m_HitBoxes = 
+						_class = "DefaultMaterialGroup"
+						remaps = 
 						[
 							{
-								m_name = "bone01"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone01"
-								m_vMinBounds = [ -58.957066, -36.995762, -167.89978 ]
-								m_vMaxBounds = [ 59.142281, 28.652271, 43.262974 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported2.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone02"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone02"
-								m_vMinBounds = [ -15.334682, -10.454075, 0.113205 ]
-								m_vMaxBounds = [ 14.28027, 10.318134, 6.744339 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported3.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone03"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone03"
-								m_vMinBounds = [ -40.96376, -14.042, 0.1857 ]
-								m_vMaxBounds = [ 40.07552, 14.822327, 48.748924 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported4.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone04"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone04"
-								m_vMinBounds = [ 1.885643, -5.310068, -7.091309 ]
-								m_vMaxBounds = [ 42.448761, 9.48276, 7.284103 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported5.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone13"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone13"
-								m_vMinBounds = [ -41.805443, -6.560898, -7.088348 ]
-								m_vMaxBounds = [ -1.253319, 6.972342, 7.287064 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported6.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone05"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone05"
-								m_vMinBounds = [ 3.272038, -9.643631, -5.320206 ]
-								m_vMaxBounds = [ 35.570919, 2.732548, 5.342331 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported7.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone14"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone14"
-								m_vMinBounds = [ -33.176704, -6.086796, -5.514114 ]
-								m_vMaxBounds = [ 1.352104, 6.289383, 5.148422 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported8.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone21"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone21"
-								m_vMinBounds = [ -27.537817, -19.02018, -35.285461 ]
-								m_vMaxBounds = [ 31.27466, 22.132446, -2.15535 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported9.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone22"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone22"
-								m_vMinBounds = [ -23.982227, -23.889519, -49.509972 ]
-								m_vMaxBounds = [ 16.159794, 30.935493, -14.453888 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported10.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone26"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone26"
-								m_vMinBounds = [ -17.758717, -22.122181, -41.626106 ]
-								m_vMaxBounds = [ 16.993443, 27.236069, -15.18576 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported11.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone23"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone23"
-								m_vMinBounds = [ -34.218529, -26.439125, -67.719666 ]
-								m_vMaxBounds = [ 13.83985, 39.956512, 2.747658 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported12.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone27"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone27"
-								m_vMinBounds = [ -13.723114, -27.529358, -67.827713 ]
-								m_vMaxBounds = [ 34.335274, 38.86628, 8.893623 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported13.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone12"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone12"
-								m_vMinBounds = [ -9.984658, -18.669033, -0.89772 ]
-								m_vMaxBounds = [ 10.359143, 6.863247, 27.010941 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported14.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone24"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone24"
-								m_vMinBounds = [ -7.133382, -27.006384, -17.330902 ]
-								m_vMaxBounds = [ 5.814005, 6.581392, -1.007534 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported15.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone25"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone25"
-								m_vMinBounds = [ -18.736925, -16.418346, -56.586021 ]
-								m_vMaxBounds = [ 2.657747, 27.593979, 1.593033 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported16.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone28"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone28"
-								m_vMinBounds = [ -5.723685, -27.050022, -17.402206 ]
-								m_vMaxBounds = [ 7.223699, 6.537754, -1.078838 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported17.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone29"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone29"
-								m_vMinBounds = [ -2.752222, -16.613461, -58.531128 ]
-								m_vMaxBounds = [ 18.261644, 31.887985, -0.688965 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported18.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 							},
 							{
-								m_name = "bone41"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone41"
-								m_vMinBounds = [ -28.042686, -29.075661, -31.710869 ]
-								m_vMaxBounds = [ 25.401894, 16.035141, 4.69635 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "milkshapeexported19.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
+							},
+							{
+								from = "milkshapeexported20.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
+							},
+							{
+								from = "milkshapeexported21.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
+							},
+							{
+								from = "milkshapeexported22.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
+							},
+							{
+								from = "milkshapeexported23.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
+							},
+							{
+								from = ".vmat.vmat"
+								to = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
+							},
+						]
+						use_global_default = true
+						global_default_material = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_head"
+						parent_bone = "bone12"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "follow_overhead"
+						parent_bone = "bone12"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "follow_origin"
+						parent_bone = "bone03"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_origin"
+						parent_bone = "bone03"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						parent_bone = "bone15"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack2"
+						parent_bone = "bone06"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack1"
+						parent_bone = "bone15"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "bone01"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -58.957066, -36.99576, -167.89978 ]
+								hitbox_maxs = [ 59.14228, 28.652271, 43.262974 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone02"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -15.334682, -10.454075, 0.113205 ]
+								hitbox_maxs = [ 14.28027, 10.318134, 6.744339 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone03"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -40.96376, -14.042, 0.1857 ]
+								hitbox_maxs = [ 40.07552, 14.822327, 48.748924 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone04"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.885643, -5.310068, -7.091309 ]
+								hitbox_maxs = [ 42.44876, 9.48276, 7.284103 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone13"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -41.805443, -6.560898, -7.088348 ]
+								hitbox_maxs = [ -1.253319, 6.972342, 7.287064 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone05"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.272038, -9.643631, -5.320206 ]
+								hitbox_maxs = [ 35.57092, 2.732548, 5.342331 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone14"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -33.176704, -6.086796, -5.514114 ]
+								hitbox_maxs = [ 1.352104, 6.289383, 5.148422 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone21"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -27.537817, -19.02018, -35.28546 ]
+								hitbox_maxs = [ 31.27466, 22.132446, -2.15535 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone22"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -23.982227, -23.889519, -49.50997 ]
+								hitbox_maxs = [ 16.159794, 30.935493, -14.453888 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone26"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -17.758717, -22.12218, -41.626106 ]
+								hitbox_maxs = [ 16.993443, 27.236069, -15.18576 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone23"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -34.21853, -26.439125, -67.719666 ]
+								hitbox_maxs = [ 13.83985, 39.956512, 2.747658 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone27"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -13.723114, -27.529358, -67.82771 ]
+								hitbox_maxs = [ 34.335274, 38.86628, 8.893623 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone12"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.984658, -18.669033, -0.89772 ]
+								hitbox_maxs = [ 10.359143, 6.863247, 27.01094 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone24"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.133382, -27.006384, -17.330902 ]
+								hitbox_maxs = [ 5.814005, 6.581392, -1.007534 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone25"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -18.736925, -16.418346, -56.58602 ]
+								hitbox_maxs = [ 2.657747, 27.593979, 1.593033 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone28"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.723685, -27.050022, -17.402206 ]
+								hitbox_maxs = [ 7.223699, 6.537754, -1.078838 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone29"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.752222, -16.61346, -58.531128 ]
+								hitbox_maxs = [ 18.261644, 31.887985, -0.688965 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone41"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -28.042686, -29.07566, -31.710869 ]
+								hitbox_maxs = [ 25.401894, 16.035141, 4.69635 ]
 							},
 						]
 					},
 				]
-				m_AutoCreateSetName = ""
-			}
-		},
-	]
-	m_pAttachmentLists = 
-	[
-		{
-			m_pObject = 
+			},
 			{
-				m_name = ""
-				m_attachments = 
+				_class = "RenderMeshList"
+				children = 
 				[
 					{
-						m_name = "attach_head"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone12"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "follow_overhead"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone12"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "follow_origin"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone03"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_origin"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone03"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone15"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone06"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack2"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone06"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack1"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone15"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
+						_class = "RenderMeshFile"
+						name = "hero_ikkaku_bankai_base"
+						filename = "models/hero_ikkaku/hero_ikkaku_bankai_base.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 				]
-			}
-		},
-	]
-	m_pAnimGroup = 
-	{
-		m_pObject = 
-		{
-			m_Name = ""
-			m_pReferenceSkeleton = 
-			{
-				m_pObject = null
-			}
-			m_pBoneFlagList = 
-			{
-				m_pObject = null
-			}
-			m_pSeqGroup = 
-			{
-				m_pObject = null
-			}
-			m_pAnimGroups = [  ]
-			m_Vanim = 
-			[
-				{
-					m_Animationname = "hero_ikkaku_bankai_attack"
-					m_Filepath = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
-					m_nStartframe = 156
-					m_nEndframe = 175
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_ikkaku_bankai_attack2"
-					m_Filepath = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
-					m_nStartframe = 187
-					m_nEndframe = 207
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_ikkaku_bankai_idle"
-					m_Filepath = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
-					m_nStartframe = 94
-					m_nEndframe = 125
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_IDLE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_ikkaku_bankai_walk"
-					m_Filepath = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
-					m_nStartframe = 250
-					m_nEndframe = 273
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_ikkaku_bankai_dead"
-					m_Filepath = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
-					m_nStartframe = 219
-					m_nEndframe = 243
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_DIE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_ikkaku_bankai_spell1"
-					m_Filepath = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
-					m_nStartframe = 394
-					m_nEndframe = 419
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_1"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_ikkaku_bankai_spell2"
-					m_Filepath = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
-					m_nStartframe = 328
-					m_nEndframe = 353
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_ikkaku_bankai_spell3"
-					m_Filepath = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
-					m_nStartframe = 297
-					m_nEndframe = 316
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_3"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-			]
-			m_sScripts = [  ]
-			m_folderNames = [  ]
-			m_sCompileScripts = [  ]
-		}
-	}
-	m_pMaterialGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pMeshGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pLodGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pPropBreakableList = 
-	{
-		m_pObject = null
-	}
-	m_pPropDataList = 
-	{
-		m_pObject = null
-	}
-	m_pConstraintLists = [  ]
-	m_collision = ""
-	m_softbody = ""
-	m_sMDLFilename = ""
-	m_sOffsetHitboxSets = [  ]
-	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
-	m_scriptFiles = [  ]
-	m_pMaterialRemapList = 
-	{
-		m_vMaterialRemapList = 
-		[
-			{
-				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
 			},
 			{
-				m_sSearchMaterial = "milkshapeexported2.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported3.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported4.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported5.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported6.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported7.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported8.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported9.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported10.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported11.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported12.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported13.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported14.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported15.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported16.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported17.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported18.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported19.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported20.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported21.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported22.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "milkshapeexported23.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
-			},
-			{
-				m_sSearchMaterial = ".vmat.vmat"
-				m_sReplaceMaterial = "materials/hero_ikkaku/ikkaku_bankai_main.vmat"
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "hero_ikkaku_bankai_attack"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
+						import_bone_scales = false
+						start_frame = 156
+						end_frame = 175
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_ikkaku_bankai_attack2"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
+						import_bone_scales = false
+						start_frame = 187
+						end_frame = 207
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_ikkaku_bankai_idle"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
+						import_bone_scales = false
+						start_frame = 94
+						end_frame = 125
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_ikkaku_bankai_walk"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_RUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
+						import_bone_scales = false
+						start_frame = 250
+						end_frame = 273
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_ikkaku_bankai_dead"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
+						import_bone_scales = false
+						start_frame = 219
+						end_frame = 243
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_ikkaku_bankai_spell1"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
+						import_bone_scales = false
+						start_frame = 394
+						end_frame = 419
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_ikkaku_bankai_spell2"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
+						import_bone_scales = false
+						start_frame = 328
+						end_frame = 353
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_ikkaku_bankai_spell3"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_3"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_ikkaku/hero_ikkaku_bankai_animation.FBX"
+						import_bone_scales = false
+						start_frame = 297
+						end_frame = 316
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		importer_notes = "Imported from VMDL\n==Warnings==\nImportAttachmentList - Failed to create node: attach_hitloc (Likely skipping duplicate)\n"
+		document_sub_type = "ModelDocSubType_None"
 	}
-	m_flFbxScale = 1.0
-	m_flQCScale = 1.0
-	m_vOrigin = [ 0.0, 0.0, 0.0 ]
-	m_pPsfList = null
-	m_keyValueText = ""
-	m_bStaticProp = false
-	m_bEnableClothProcessing = true
-	m_flClothEnableThreshold = 0.05
-	m_nMaxClothVertsPerMesh = 2048
-	m_bBuildClothBoneHierarchy = false
-	m_nNavType = "AUTH_NAV_MESH"
-	m_bMakeUniqueVMeshes = false
-	m_bMakeImplicitBindPoseSequence = false
-	m_bAdjustSkeletonFromBoneFlags = false
-	m_bHiddenAssetFlag = false
-	m_pAnimGroups = [  ]
 }

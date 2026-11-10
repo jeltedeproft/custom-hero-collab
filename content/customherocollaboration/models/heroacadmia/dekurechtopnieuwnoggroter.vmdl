@@ -1,1095 +1,730 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
-	m_meshList = 
+	rootNode = 
 	{
-		m_meshList = 
+		_class = "RootNode"
+		children = 
 		[
 			{
-				m_meshName = "dekurechtopnieuwnoggroter"
-				m_meshFile = "models/heroacadmia/dekurechtopnieuwnoggroterderder.smd"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-		]
-	}
-	m_clothProxyMeshList = 
-	{
-		_class = "CVClothProxyMeshList"
-		m_flClothEnableThreshold = 0.05
-		m_bCreateStaticBone = false
-		m_nMaxBonesPerVertex = 4
-		m_bRemoveUnusedBonesEnabled = false
-		m_bDriveMeshesWithBacksolvedJointsOnly = true
-		m_flMatchProxiesToMeshes = 1.0
-		m_flFallbackEnvelope = 1.0
-		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
-		m_bReservedBool2 = false
-		m_bReservedBool3 = false
-		m_bReservedBool4 = false
-		m_clothProxyMeshList = [  ]
-	}
-	m_physicsMeshList = 
-	{
-		m_meshList = [  ]
-	}
-	m_pModelInfo = null
-	m_pBoneFlagList = 
-	{
-		m_pObject = null
-	}
-	m_pHitBoxSetLists = 
-	[
-		{
-			m_pObject = 
-			{
-				m_HitBoxSets = 
+				_class = "MaterialGroupList"
+				children = 
 				[
 					{
-						m_name = "default"
-						m_HitBoxes = 
+						_class = "DefaultMaterialGroup"
+						remaps = 
 						[
 							{
-								m_name = "hips"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "hips"
-								m_vMinBounds = [ -5.80024, -13.534082, -8.515577 ]
-								m_vMaxBounds = [ 16.294701, 13.533743, 9.57173 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_hand.vmat"
+								to = "materials/dekuhand.vmat"
 							},
 							{
-								m_name = "spine"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "spine"
-								m_vMinBounds = [ 1.596756, -9.234026, -12.28767 ]
-								m_vMaxBounds = [ 17.757324, 8.515581, 12.287632 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_chest.vmat"
+								to = "materials/dekuchest.vmat"
 							},
 							{
-								m_name = "chest"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "chest"
-								m_vMinBounds = [ 0.841011, -8.414925, -16.091396 ]
-								m_vMaxBounds = [ 32.932999, 9.266428, 16.091373 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_arm.vmat"
+								to = "materials/dekuarm.vmat"
 							},
 							{
-								m_name = "shoulder_L"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "shoulder_L"
-								m_vMinBounds = [ 3.452659, -3.683517, -5.269854 ]
-								m_vMaxBounds = [ 15.028777, 2.52269, 3.725924 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_face.vmat"
+								to = "materials/dekuface.vmat"
 							},
 							{
-								m_name = "shoulder_R"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "shoulder_R"
-								m_vMinBounds = [ -15.028744, -2.522896, -3.725742 ]
-								m_vMaxBounds = [ -3.452415, 3.685051, 5.269775 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_eye.vmat"
+								to = "materials/dekueye.vmat"
 							},
 							{
-								m_name = "leg_L1"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "leg_L1"
-								m_vMinBounds = [ -3.286369, -7.779701, -6.731066 ]
-								m_vMaxBounds = [ 30.303265, 7.573342, 6.872096 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_mouth.vmat"
+								to = "materials/dekumouth.vmat"
 							},
 							{
-								m_name = "leg_R1"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "leg_R1"
-								m_vMinBounds = [ -30.449398, -7.573346, -6.871793 ]
-								m_vMaxBounds = [ 3.270294, 7.567454, 6.731855 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_cheek.vmat"
+								to = "materials/dekucheek.vmat"
 							},
 							{
-								m_name = "arm_L1"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "arm_L1"
-								m_vMinBounds = [ -3.154062, -5.486839, -6.804395 ]
-								m_vMaxBounds = [ 21.1085, 6.18425, 5.452439 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_head.vmat"
+								to = "materials/dekuhead.vmat"
 							},
 							{
-								m_name = "arm_R1"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "arm_R1"
-								m_vMinBounds = [ -21.108656, -6.184921, -5.449295 ]
-								m_vMaxBounds = [ 3.154039, 5.486351, 6.807302 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "ch00_j00_leg.vmat"
+								to = "materials/dekuleg.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						parent_bone = "chest"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_origin"
+						parent_bone = "chest"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack1"
+						parent_bone = "hand_L"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack2"
+						parent_bone = "hand_R"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "hips"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.80024, -13.534082, -8.515577 ]
+								hitbox_maxs = [ 16.2947, 13.533743, 9.57173 ]
 							},
 							{
-								m_name = "leg_L2"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "leg_L2"
-								m_vMinBounds = [ -3.893536, -14.825148, -7.280907 ]
-								m_vMaxBounds = [ 30.03146, 6.912163, 7.551932 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "spine"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.596756, -9.234026, -12.28767 ]
+								hitbox_maxs = [ 17.757324, 8.515581, 12.287632 ]
 							},
 							{
-								m_name = "leg_R2"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "leg_R2"
-								m_vMinBounds = [ -30.031464, -6.472393, -7.552431 ]
-								m_vMaxBounds = [ 3.828163, 14.993484, 7.280407 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "chest"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.841011, -8.414925, -16.091396 ]
+								hitbox_maxs = [ 32.933, 9.266428, 16.091373 ]
 							},
 							{
-								m_name = "arm_L2"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "arm_L2"
-								m_vMinBounds = [ -0.784189, -4.004875, -3.263906 ]
-								m_vMaxBounds = [ 18.579903, 2.863144, 3.603928 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "shoulder_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.452659, -3.683517, -5.269854 ]
+								hitbox_maxs = [ 15.028777, 2.52269, 3.725924 ]
 							},
 							{
-								m_name = "arm_R2"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "arm_R2"
-								m_vMinBounds = [ -18.578136, -2.863716, -3.600833 ]
-								m_vMaxBounds = [ 0.786005, 4.00428, 3.266844 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "shoulder_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -15.028744, -2.522896, -3.725742 ]
+								hitbox_maxs = [ -3.452415, 3.685051, 5.269775 ]
 							},
 							{
-								m_name = "foot_L"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "foot_L"
-								m_vMinBounds = [ -6.596549, -8.03724, -6.863909 ]
-								m_vMaxBounds = [ 6.905299, 6.740806, 15.958542 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "leg_L1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.286369, -7.779701, -6.731066 ]
+								hitbox_maxs = [ 30.303265, 7.573342, 6.872096 ]
 							},
 							{
-								m_name = "foot_R"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "foot_R"
-								m_vMinBounds = [ -6.905817, -6.643431, -15.958546 ]
-								m_vMaxBounds = [ 6.59603, 8.037193, 6.863823 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "leg_R1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -30.449398, -7.573346, -6.871793 ]
+								hitbox_maxs = [ 3.270294, 7.567454, 6.731855 ]
 							},
 							{
-								m_name = "neck"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "neck"
-								m_vMinBounds = [ -0.986557, -6.017929, -6.857204 ]
-								m_vMaxBounds = [ 5.74308, 5.733932, 6.856938 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "arm_L1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.154062, -5.486839, -6.804395 ]
+								hitbox_maxs = [ 21.1085, 6.18425, 5.452439 ]
 							},
 							{
-								m_name = "hand_L"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "hand_L"
-								m_vMinBounds = [ -2.345272, -2.998497, -4.567811 ]
-								m_vMaxBounds = [ 4.012825, 2.034615, 4.214375 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "arm_R1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -21.108656, -6.184921, -5.449295 ]
+								hitbox_maxs = [ 3.154039, 5.486351, 6.807302 ]
 							},
 							{
-								m_name = "hand_R"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "hand_R"
-								m_vMinBounds = [ -3.973747, -1.610939, -4.210735 ]
-								m_vMaxBounds = [ 2.34462, 2.999771, 4.570681 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "leg_L2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.893536, -14.825148, -7.280907 ]
+								hitbox_maxs = [ 30.03146, 6.912163, 7.551932 ]
 							},
 							{
-								m_name = "toe_L"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "toe_L"
-								m_vMinBounds = [ -0.598752, -3.434289, -6.567307 ]
-								m_vMaxBounds = [ 9.535634, 4.69413, 6.046934 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "leg_R2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -30.031464, -6.472393, -7.552431 ]
+								hitbox_maxs = [ 3.828163, 14.993484, 7.280407 ]
 							},
 							{
-								m_name = "toe_R"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "toe_R"
-								m_vMinBounds = [ -9.535588, -4.696846, -6.04634 ]
-								m_vMaxBounds = [ 0.598658, 3.431704, 6.567884 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "arm_L2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.784189, -4.004875, -3.263906 ]
+								hitbox_maxs = [ 18.579903, 2.863144, 3.603928 ]
 							},
 							{
-								m_name = "head"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "head"
-								m_vMinBounds = [ -2.501244, -15.839899, -15.638927 ]
-								m_vMaxBounds = [ 28.390305, 13.278524, 15.394898 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "arm_R2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -18.578136, -2.863716, -3.600833 ]
+								hitbox_maxs = [ 0.786005, 4.00428, 3.266844 ]
 							},
 							{
-								m_name = "m_lhand00"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_lhand00"
-								m_vMinBounds = [ 2.816998, -4.816498, -5.808424 ]
-								m_vMaxBounds = [ 14.891575, 2.367348, 5.650678 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "foot_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.596549, -8.03724, -6.863909 ]
+								hitbox_maxs = [ 6.905299, 6.740806, 15.958542 ]
 							},
 							{
-								m_name = "m_lhand01"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_lhand01"
-								m_vMinBounds = [ 3.192284, -2.983208, -6.140112 ]
-								m_vMaxBounds = [ 16.420803, 2.367348, 5.88431 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "foot_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.905817, -6.643431, -15.958546 ]
+								hitbox_maxs = [ 6.59603, 8.037193, 6.863823 ]
 							},
 							{
-								m_name = "m_lhand02"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_lhand02"
-								m_vMinBounds = [ 3.421299, -3.941505, -5.258164 ]
-								m_vMaxBounds = [ 10.379288, 2.367348, 4.557878 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "neck"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.986557, -6.017929, -6.857204 ]
+								hitbox_maxs = [ 5.74308, 5.733932, 6.856938 ]
 							},
 							{
-								m_name = "m_lhand03"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_lhand03"
-								m_vMinBounds = [ 3.420349, -4.350571, -7.242036 ]
-								m_vMaxBounds = [ 15.997417, 1.963051, 4.544616 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "hand_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.345272, -2.998497, -4.567811 ]
+								hitbox_maxs = [ 4.012825, 2.034615, 4.214375 ]
 							},
 							{
-								m_name = "m_lhand04"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_lhand04"
-								m_vMinBounds = [ 3.320194, -5.84137, -7.863134 ]
-								m_vMaxBounds = [ 15.899426, 4.518837, 4.844 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "hand_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.973747, -1.610939, -4.210735 ]
+								hitbox_maxs = [ 2.34462, 2.999771, 4.570681 ]
 							},
 							{
-								m_name = "m_lhand05"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_lhand05"
-								m_vMinBounds = [ 3.326485, -4.984009, -5.278171 ]
-								m_vMaxBounds = [ 12.749172, 2.367348, 5.402726 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "toe_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.598752, -3.434289, -6.567307 ]
+								hitbox_maxs = [ 9.535634, 4.69413, 6.046934 ]
 							},
 							{
-								m_name = "m_rhand00"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_rhand00"
-								m_vMinBounds = [ -14.892391, -2.367775, -5.646391 ]
-								m_vMaxBounds = [ -2.817814, 4.8144, 5.811974 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "toe_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.535588, -4.696846, -6.04634 ]
+								hitbox_maxs = [ 0.598658, 3.431704, 6.567884 ]
 							},
 							{
-								m_name = "m_rhand01"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_rhand01"
-								m_vMinBounds = [ -16.421535, -2.366913, -5.880582 ]
-								m_vMaxBounds = [ -3.1931, 2.985626, 6.143741 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "head"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.501244, -15.839899, -15.638927 ]
+								hitbox_maxs = [ 28.390305, 13.278524, 15.394898 ]
 							},
 							{
-								m_name = "m_rhand02"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_rhand02"
-								m_vMinBounds = [ -10.380119, -2.367775, -4.553967 ]
-								m_vMaxBounds = [ -3.422112, 3.942329, 5.261435 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "m_lhand00"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 2.816998, -4.816498, -5.808424 ]
+								hitbox_maxs = [ 14.891575, 2.367348, 5.650678 ]
 							},
 							{
-								m_name = "m_rhand03"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_rhand03"
-								m_vMinBounds = [ -15.998165, -1.963493, -4.540761 ]
-								m_vMaxBounds = [ -3.421169, 4.351326, 7.245534 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "m_lhand01"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.192284, -2.983208, -6.140112 ]
+								hitbox_maxs = [ 16.420803, 2.367348, 5.88431 ]
 							},
 							{
-								m_name = "m_rhand04"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_rhand04"
-								m_vMinBounds = [ -15.900249, -4.519127, -4.83896 ]
-								m_vMaxBounds = [ -3.320923, 5.844116, 7.866782 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "m_lhand02"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.421299, -3.941505, -5.258164 ]
+								hitbox_maxs = [ 10.379288, 2.367348, 4.557878 ]
 							},
 							{
-								m_name = "m_rhand05"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "m_rhand05"
-								m_vMinBounds = [ -12.749989, -2.367775, -5.398046 ]
-								m_vMaxBounds = [ -3.327301, 4.983276, 5.281635 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "m_lhand03"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.420349, -4.350571, -7.242036 ]
+								hitbox_maxs = [ 15.997417, 1.963051, 4.544616 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "m_lhand04"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.320194, -5.84137, -7.863134 ]
+								hitbox_maxs = [ 15.899426, 4.518837, 4.844 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "m_lhand05"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.326485, -4.984009, -5.278171 ]
+								hitbox_maxs = [ 12.749172, 2.367348, 5.402726 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "m_rhand00"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -14.892391, -2.367775, -5.646391 ]
+								hitbox_maxs = [ -2.817814, 4.8144, 5.811974 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "m_rhand01"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -16.421535, -2.366913, -5.880582 ]
+								hitbox_maxs = [ -3.1931, 2.985626, 6.143741 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "m_rhand02"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.380119, -2.367775, -4.553967 ]
+								hitbox_maxs = [ -3.422112, 3.942329, 5.261435 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "m_rhand03"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -15.998165, -1.963493, -4.540761 ]
+								hitbox_maxs = [ -3.421169, 4.351326, 7.245534 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "m_rhand04"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -15.900249, -4.519127, -4.83896 ]
+								hitbox_maxs = [ -3.320923, 5.844116, 7.866782 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "m_rhand05"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -12.749989, -2.367775, -5.398046 ]
+								hitbox_maxs = [ -3.327301, 4.983276, 5.281635 ]
 							},
 						]
 					},
 				]
-				m_AutoCreateSetName = ""
-			}
-		},
-	]
-	m_pAttachmentLists = 
-	[
-		{
-			m_pObject = 
+			},
 			{
-				m_name = ""
-				m_attachments = 
+				_class = "RenderMeshList"
+				children = 
 				[
 					{
-						m_name = "attach_hitloc"
-						m_influences = 
-						[
-							{
-								m_influenceName = "chest"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_origin"
-						m_influences = 
-						[
-							{
-								m_influenceName = "chest"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack1"
-						m_influences = 
-						[
-							{
-								m_influenceName = "hand_L"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack2"
-						m_influences = 
-						[
-							{
-								m_influenceName = "hand_R"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
+						_class = "RenderMeshFile"
+						name = "dekurechtopnieuwnoggroter"
+						filename = "models/heroacadmia/dekurechtopnieuwnoggroterderder.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 				]
-			}
-		},
-	]
-	m_pAnimGroup = 
-	{
-		m_pObject = 
-		{
-			m_Name = ""
-			m_pReferenceSkeleton = 
-			{
-				m_pObject = null
-			}
-			m_pBoneFlagList = 
-			{
-				m_pObject = null
-			}
-			m_pSeqGroup = 
-			{
-				m_pObject = null
-			}
-			m_pAnimGroups = [  ]
-			m_Vanim = 
-			[
-				{
-					m_Animationname = "breathing"
-					m_Filepath = "models/heroacadmia/new animations bigger/breathing.smd"
-					m_nStartframe = 0
-					m_nEndframe = 35
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_IDLE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "fall"
-					m_Filepath = "models/heroacadmia/new animations bigger/fall.smd"
-					m_nStartframe = 0
-					m_nEndframe = 25
-					m_flFps = 24.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_DIE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hitleftarm"
-					m_Filepath = "models/heroacadmia/new animations bigger/hitleftarm.smd"
-					m_nStartframe = 0
-					m_nEndframe = 18
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hitrightarm"
-					m_Filepath = "models/heroacadmia/new animations bigger/hitrightarm.smd"
-					m_nStartframe = 0
-					m_nEndframe = 27
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "twistaround"
-					m_Filepath = "models/heroacadmia/new animations bigger/twistaround.smd"
-					m_nStartframe = 0
-					m_nEndframe = 41
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_6"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "run"
-					m_Filepath = "models/heroacadmia/new animations bigger/run.smd"
-					m_nStartframe = 0
-					m_nEndframe = 17
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "spawn"
-					m_Filepath = "models/heroacadmia/new animations bigger/hitleftarm.smd"
-					m_nStartframe = 0
-					m_nEndframe = 18
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_SPAWN"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "flail"
-					m_Filepath = "models/heroacadmia/new animations bigger/flail.smd"
-					m_nStartframe = 0
-					m_nEndframe = 6
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_FLAIL"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "kick"
-					m_Filepath = "models/heroacadmia/new animations bigger/kick.smd"
-					m_nStartframe = 0
-					m_nEndframe = 10
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "teleport"
-					m_Filepath = "models/heroacadmia/new animations bigger/fall.smd"
-					m_nStartframe = 0
-					m_nEndframe = 48
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_3"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "motivate"
-					m_Filepath = "models/heroacadmia/new animations bigger/hitleftarm.smd"
-					m_nStartframe = 0
-					m_nEndframe = 18
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_1"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-			]
-			m_sScripts = [  ]
-			m_folderNames = [  ]
-			m_sCompileScripts = [  ]
-		}
-	}
-	m_pMaterialGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pMeshGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pLodGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pPropBreakableList = 
-	{
-		m_pObject = null
-	}
-	m_pPropDataList = 
-	{
-		m_pObject = null
-	}
-	m_pConstraintLists = [  ]
-	m_collision = ""
-	m_softbody = ""
-	m_sMDLFilename = ""
-	m_sOffsetHitboxSets = [  ]
-	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
-	m_scriptFiles = [  ]
-	m_pMaterialRemapList = 
-	{
-		m_vMaterialRemapList = 
-		[
-			{
-				m_sSearchMaterial = "ch00_j00_hand.vmat"
-				m_sReplaceMaterial = "materials/dekuhand.vmat"
 			},
 			{
-				m_sSearchMaterial = "ch00_j00_chest.vmat"
-				m_sReplaceMaterial = "materials/dekuchest.vmat"
-			},
-			{
-				m_sSearchMaterial = "ch00_j00_arm.vmat"
-				m_sReplaceMaterial = "materials/dekuarm.vmat"
-			},
-			{
-				m_sSearchMaterial = "ch00_j00_face.vmat"
-				m_sReplaceMaterial = "materials/dekuface.vmat"
-			},
-			{
-				m_sSearchMaterial = "ch00_j00_eye.vmat"
-				m_sReplaceMaterial = "materials/dekueye.vmat"
-			},
-			{
-				m_sSearchMaterial = "ch00_j00_mouth.vmat"
-				m_sReplaceMaterial = "materials/dekumouth.vmat"
-			},
-			{
-				m_sSearchMaterial = "ch00_j00_cheek.vmat"
-				m_sReplaceMaterial = "materials/dekucheek.vmat"
-			},
-			{
-				m_sSearchMaterial = "ch00_j00_head.vmat"
-				m_sReplaceMaterial = "materials/dekuhead.vmat"
-			},
-			{
-				m_sSearchMaterial = "ch00_j00_leg.vmat"
-				m_sReplaceMaterial = "materials/dekuleg.vmat"
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "breathing"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/breathing.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 35
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "fall"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/fall.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 25
+						framerate = 24.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hitleftarm"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/hitleftarm.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 18
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hitrightarm"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/hitrightarm.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 27
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "twistaround"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_6"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/twistaround.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 41
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "run"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								extract_initial_offset = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_RUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/run.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 17
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "spawn"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_SPAWN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/hitleftarm.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 18
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "flail"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_FLAIL"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/flail.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 6
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "kick"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/kick.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 10
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "teleport"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_3"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/fall.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 48
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "motivate"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/heroacadmia/new animations bigger/hitleftarm.smd"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 18
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		importer_notes = "Imported from VMDL"
+		document_sub_type = "ModelDocSubType_None"
 	}
-	m_flFbxScale = 1.0
-	m_flQCScale = 1.0
-	m_vOrigin = [ 0.0, 0.0, 0.0 ]
-	m_pPsfList = null
-	m_keyValueText = ""
-	m_bStaticProp = false
-	m_bEnableClothProcessing = true
-	m_flClothEnableThreshold = 0.05
-	m_nMaxClothVertsPerMesh = 2048
-	m_bBuildClothBoneHierarchy = false
-	m_nNavType = "AUTH_NAV_MESH"
-	m_bMakeUniqueVMeshes = false
-	m_bMakeImplicitBindPoseSequence = false
-	m_bAdjustSkeletonFromBoneFlags = false
-	m_bHiddenAssetFlag = false
-	m_pAnimGroups = [  ]
 }

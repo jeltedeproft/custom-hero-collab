@@ -455,12 +455,10 @@ function GameMode:OnConnectFull(keys)
   DebugPrint('[BAREBONES] OnConnectFull')
   DebugPrintTable(keys)
   
-  local entIndex = keys.index+1
-  -- The Player entity of the joining user
-  local ply = EntIndexToHScript(entIndex)
-  
   -- The Player ID of the joining player
-  local playerID = ply:GetPlayerID()
+  local playerID = keys.PlayerID
+  -- The Player entity of the joining user
+  local ply = PlayerResource:GetPlayer(playerID)
 end
 
 -- This function is called whenever illusions are created and tells you which was/is the original entity

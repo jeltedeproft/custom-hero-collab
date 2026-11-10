@@ -2,10 +2,6 @@
 {
   "maps"      "dota desert_duo mines_trio forest_solo desert_quintet temple_quartet"
   "IsPlayable"  "1"
-  "testmap"
-//  {
-//          "MaxPlayers"                    "10"
-//  }
   "dota"
   {
           "MaxPlayers"                    "10"

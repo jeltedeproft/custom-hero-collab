@@ -1,1011 +1,685 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
-	m_meshList = 
+	rootNode = 
 	{
-		m_meshList = 
+		_class = "RootNode"
+		children = 
 		[
 			{
-				m_meshName = "hero_renji_base"
-				m_meshFile = "models/hero_renji/hero_renji_base.fbx"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-		]
-	}
-	m_clothProxyMeshList = 
-	{
-		_class = "CVClothProxyMeshList"
-		m_flClothEnableThreshold = 0.05
-		m_bCreateStaticBone = false
-		m_nMaxBonesPerVertex = 4
-		m_bRemoveUnusedBonesEnabled = false
-		m_bDriveMeshesWithBacksolvedJointsOnly = true
-		m_flMatchProxiesToMeshes = 1.0
-		m_flFallbackEnvelope = 1.0
-		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
-		m_bReservedBool2 = false
-		m_bReservedBool3 = false
-		m_bReservedBool4 = false
-		m_clothProxyMeshList = [  ]
-	}
-	m_physicsMeshList = 
-	{
-		m_meshList = [  ]
-	}
-	m_pModelInfo = null
-	m_pBoneFlagList = 
-	{
-		m_pObject = null
-	}
-	m_pHitBoxSetLists = 
-	[
-		{
-			m_pObject = 
-			{
-				m_HitBoxSets = 
+				_class = "MaterialGroupList"
+				children = 
 				[
 					{
-						m_name = "default"
-						m_HitBoxes = 
+						_class = "DefaultMaterialGroup"
+						remaps = 
 						[
 							{
-								m_name = "bone01"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone01"
-								m_vMinBounds = [ -9.193998, -9.65555, -4.009964 ]
-								m_vMaxBounds = [ 9.397999, 9.674448, 2.238045 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday5.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone02"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone02"
-								m_vMinBounds = [ -9.888969, -9.247794, 0.148911 ]
-								m_vMaxBounds = [ 9.687027, 7.686206, 2.172905 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday6.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone03"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone03"
-								m_vMinBounds = [ -10.193018, -8.157837, -0.310852 ]
-								m_vMaxBounds = [ 10.394979, 8.546162, 6.093147 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday7.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone04"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone04"
-								m_vMinBounds = [ -13.270364, -11.496847, 1.307732 ]
-								m_vMaxBounds = [ 13.363633, 6.245152, 17.453735 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday8.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone05"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone05"
-								m_vMinBounds = [ -21.161461, -6.398251, -13.684044 ]
-								m_vMaxBounds = [ -1.555466, 11.463745, 2.511963 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday9.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone06"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone06"
-								m_vMinBounds = [ -16.127438, -4.819508, -12.412071 ]
-								m_vMaxBounds = [ -3.585438, 12.77449, 3.541931 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday10.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone07"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone07"
-								m_vMinBounds = [ -10.010662, -4.249641, -3.637268 ]
-								m_vMaxBounds = [ 1.161327, 3.428357, 1.538727 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday11.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone40"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone40"
-								m_vMinBounds = [ 1.307669, -6.413467, -13.706444 ]
-								m_vMaxBounds = [ 20.913662, 11.448528, 2.489563 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday12.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone41"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone41"
-								m_vMinBounds = [ 3.790661, -4.836646, -11.755409 ]
-								m_vMaxBounds = [ 21.894661, 12.757352, 4.198593 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday13.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone42"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone42"
-								m_vMinBounds = [ 0.52298, -4.644654, -3.504547 ]
-								m_vMaxBounds = [ 9.800968, 3.705344, 1.671448 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday14.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone48"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone48"
-								m_vMinBounds = [ -15.187309, -10.833137, -20.456779 ]
-								m_vMaxBounds = [ 14.986687, 11.740863, -1.044777 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday15.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone08"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone08"
-								m_vMinBounds = [ -2.667759, -0.354956, -0.571442 ]
-								m_vMaxBounds = [ -2.491756, 0.881043, 0.572563 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday16.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
 							},
 							{
-								m_name = "bone11"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone11"
-								m_vMinBounds = [ -2.382221, -0.482903, -0.675018 ]
-								m_vMaxBounds = [ -2.226223, 0.921096, 0.64698 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								from = "convertedbyfarday17.vmat"
+								to = "materials/hero_renji/renji_main.vmat"
+							},
+						]
+						use_global_default = true
+						global_default_material = "materials/hero_renji/renji_main.vmat"
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_head"
+						parent_bone = "bone47"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "follow_overhead"
+						parent_bone = "bone47"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "follow_origin"
+						parent_bone = "bone04"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_origin"
+						parent_bone = "bone04"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						parent_bone = "bone07"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack1"
+						parent_bone = "bone07"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack2"
+						parent_bone = "bone07"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_root"
+						parent_bone = "bone00"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "bone01"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.193998, -9.65555, -4.009964 ]
+								hitbox_maxs = [ 9.397999, 9.674448, 2.238045 ]
 							},
 							{
-								m_name = "bone14"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone14"
-								m_vMinBounds = [ -2.458145, -0.827023, -0.724243 ]
-								m_vMaxBounds = [ -2.328156, 0.748977, 0.68576 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone02"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.888969, -9.247794, 0.148911 ]
+								hitbox_maxs = [ 9.687027, 7.686206, 2.172905 ]
 							},
 							{
-								m_name = "bone17"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone17"
-								m_vMinBounds = [ -2.17701, -0.949479, -0.615814 ]
-								m_vMaxBounds = [ -1.98101, 0.454521, 0.660187 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone03"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.193018, -8.157837, -0.310852 ]
+								hitbox_maxs = [ 10.394979, 8.546162, 6.093147 ]
 							},
 							{
-								m_name = "bone43"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone43"
-								m_vMinBounds = [ 1.845417, -3.652943, -0.571381 ]
-								m_vMaxBounds = [ 2.543415, 3.395056, 0.916626 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone04"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -13.270364, -11.496847, 1.307732 ]
+								hitbox_maxs = [ 13.363633, 6.245152, 17.453735 ]
 							},
 							{
-								m_name = "bone49"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone49"
-								m_vMinBounds = [ -11.795223, -10.038355, -26.397629 ]
-								m_vMaxBounds = [ 7.038772, 15.075644, -6.063622 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone05"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -21.16146, -6.398251, -13.684044 ]
+								hitbox_maxs = [ -1.555466, 11.463745, 2.511963 ]
 							},
 							{
-								m_name = "bone52"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone52"
-								m_vMinBounds = [ -6.51296, -7.456985, -26.590393 ]
-								m_vMaxBounds = [ 12.321035, 17.657013, -6.254387 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone06"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -16.127438, -4.819508, -12.412071 ]
+								hitbox_maxs = [ -3.585438, 12.77449, 3.541931 ]
 							},
 							{
-								m_name = "bone09"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone09"
-								m_vMinBounds = [ -1.521751, -0.457706, -0.521118 ]
-								m_vMaxBounds = [ -0.151749, 0.680294, 0.432877 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone07"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.010662, -4.249641, -3.637268 ]
+								hitbox_maxs = [ 1.161327, 3.428357, 1.538727 ]
 							},
 							{
-								m_name = "bone12"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone12"
-								m_vMinBounds = [ -2.050056, -0.506041, -0.671051 ]
-								m_vMaxBounds = [ -0.246056, 0.799959, 0.546944 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone40"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.307669, -6.413467, -13.706444 ]
+								hitbox_maxs = [ 20.913662, 11.448528, 2.489563 ]
 							},
 							{
-								m_name = "bone15"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone15"
-								m_vMinBounds = [ -2.165344, -0.749618, -0.717216 ]
-								m_vMaxBounds = [ -0.257339, 0.714382, 0.578781 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone41"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.790661, -4.836646, -11.755409 ]
+								hitbox_maxs = [ 21.89466, 12.757352, 4.198593 ]
 							},
 							{
-								m_name = "bone18"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone18"
-								m_vMinBounds = [ -1.903694, -0.858349, -0.635315 ]
-								m_vMaxBounds = [ -0.111694, 0.495651, 0.560684 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone42"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.52298, -4.644654, -3.504547 ]
+								hitbox_maxs = [ 9.800968, 3.705344, 1.671448 ]
 							},
 							{
-								m_name = "bone44"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone44"
-								m_vMinBounds = [ -0.293602, -3.970538, -0.697769 ]
-								m_vMaxBounds = [ 2.370399, 3.315461, 0.670227 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone48"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -15.187309, -10.833137, -20.45678 ]
+								hitbox_maxs = [ 14.986687, 11.740863, -1.044777 ]
 							},
 							{
-								m_name = "bone50"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone50"
-								m_vMinBounds = [ -18.902149, -9.85191, -36.831726 ]
-								m_vMaxBounds = [ 7.439848, 23.298088, 0.684277 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone08"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.667759, -0.354956, -0.571442 ]
+								hitbox_maxs = [ -2.491756, 0.881043, 0.572563 ]
 							},
 							{
-								m_name = "bone53"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone53"
-								m_vMinBounds = [ -7.393534, -11.361818, -36.641022 ]
-								m_vMaxBounds = [ 18.948462, 21.788179, 0.874985 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone11"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.382221, -0.482903, -0.675018 ]
+								hitbox_maxs = [ -2.226223, 0.921096, 0.64698 ]
 							},
 							{
-								m_name = "bone10"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone10"
-								m_vMinBounds = [ -1.511917, -0.400657, -0.43959 ]
-								m_vMaxBounds = [ -0.065918, 0.557343, 0.374405 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone14"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.458145, -0.827023, -0.724243 ]
+								hitbox_maxs = [ -2.328156, 0.748977, 0.68576 ]
 							},
 							{
-								m_name = "bone13"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone13"
-								m_vMinBounds = [ -1.833801, -0.438598, -0.518166 ]
-								m_vMaxBounds = [ -0.1278, 0.633402, 0.497833 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone17"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.17701, -0.949479, -0.615814 ]
+								hitbox_maxs = [ -1.98101, 0.454521, 0.660187 ]
 							},
 							{
-								m_name = "bone16"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone16"
-								m_vMinBounds = [ -2.042633, -0.60123, -0.555519 ]
-								m_vMaxBounds = [ -0.168633, 0.60077, 0.526474 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone43"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.845417, -3.652943, -0.571381 ]
+								hitbox_maxs = [ 2.543415, 3.395056, 0.916626 ]
 							},
 							{
-								m_name = "bone19"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone19"
-								m_vMinBounds = [ -1.780098, -0.673561, -0.614456 ]
-								m_vMaxBounds = [ -0.0821, 0.438439, 0.51754 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone49"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -11.795223, -10.038355, -26.397629 ]
+								hitbox_maxs = [ 7.038772, 15.075644, -6.063622 ]
 							},
 							{
-								m_name = "bone20"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone20"
-								m_vMinBounds = [ -3.315884, -3.311311, -1.293396 ]
-								m_vMaxBounds = [ 0.832119, 0.228688, 1.542603 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone52"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.51296, -7.456985, -26.590393 ]
+								hitbox_maxs = [ 12.321035, 17.657013, -6.254387 ]
 							},
 							{
-								m_name = "bone45"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone45"
-								m_vMinBounds = [ -0.970024, -4.122818, -0.559601 ]
-								m_vMaxBounds = [ 2.393974, 3.145182, 0.612396 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone09"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.521751, -0.457706, -0.521118 ]
+								hitbox_maxs = [ -0.151749, 0.680294, 0.432877 ]
 							},
 							{
-								m_name = "bone46"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone46"
-								m_vMinBounds = [ -0.29509, -2.967061, -1.180908 ]
-								m_vMaxBounds = [ 3.224911, 0.572939, 1.65509 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone12"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.050056, -0.506041, -0.671051 ]
+								hitbox_maxs = [ -0.246056, 0.799959, 0.546944 ]
 							},
 							{
-								m_name = "bone47"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone47"
-								m_vMinBounds = [ -9.316332, -10.282253, -2.546326 ]
-								m_vMaxBounds = [ 8.073664, 13.503746, 22.185677 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone15"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.165344, -0.749618, -0.717216 ]
+								hitbox_maxs = [ -0.257339, 0.714382, 0.578781 ]
 							},
 							{
-								m_name = "bone51"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone51"
-								m_vMinBounds = [ -3.92327, -13.250423, -11.562969 ]
-								m_vMaxBounds = [ 4.636729, 6.159575, -0.456969 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone18"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.903694, -0.858349, -0.635315 ]
+								hitbox_maxs = [ -0.111694, 0.495651, 0.560684 ]
 							},
 							{
-								m_name = "bone54"
-								m_sSurfaceProperty = ""
-								m_nGroupId = 0
-								m_sBoneName = "bone54"
-								m_vMinBounds = [ -4.036423, -12.990467, -11.119183 ]
-								m_vMaxBounds = [ 4.521576, 6.419533, -0.013183 ]
-								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								_class = "Hitbox"
+								parent_bone = "bone44"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.293602, -3.970538, -0.697769 ]
+								hitbox_maxs = [ 2.370399, 3.315461, 0.670227 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone50"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -18.90215, -9.85191, -36.831726 ]
+								hitbox_maxs = [ 7.439848, 23.298088, 0.684277 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone53"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.393534, -11.361818, -36.64102 ]
+								hitbox_maxs = [ 18.948462, 21.78818, 0.874985 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone10"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.511917, -0.400657, -0.43959 ]
+								hitbox_maxs = [ -0.065918, 0.557343, 0.374405 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone13"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.833801, -0.438598, -0.518166 ]
+								hitbox_maxs = [ -0.1278, 0.633402, 0.497833 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone16"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.042633, -0.60123, -0.555519 ]
+								hitbox_maxs = [ -0.168633, 0.60077, 0.526474 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone19"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.780098, -0.673561, -0.614456 ]
+								hitbox_maxs = [ -0.0821, 0.438439, 0.51754 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone20"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.315884, -3.311311, -1.293396 ]
+								hitbox_maxs = [ 0.832119, 0.228688, 1.542603 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone45"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.970024, -4.122818, -0.559601 ]
+								hitbox_maxs = [ 2.393974, 3.145182, 0.612396 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone46"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.29509, -2.967061, -1.180908 ]
+								hitbox_maxs = [ 3.224911, 0.572939, 1.65509 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone47"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.316332, -10.282253, -2.546326 ]
+								hitbox_maxs = [ 8.073664, 13.503746, 22.185677 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone51"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.92327, -13.250423, -11.562969 ]
+								hitbox_maxs = [ 4.636729, 6.159575, -0.456969 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "bone54"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.036423, -12.990467, -11.119183 ]
+								hitbox_maxs = [ 4.521576, 6.419533, -0.013183 ]
 							},
 						]
 					},
 				]
-				m_AutoCreateSetName = ""
-			}
-		},
-	]
-	m_pAttachmentLists = 
-	[
-		{
-			m_pObject = 
+			},
 			{
-				m_name = ""
-				m_attachments = 
+				_class = "RenderMeshList"
+				children = 
 				[
 					{
-						m_name = "attach_head"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone47"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "follow_overhead"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone47"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "follow_origin"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone04"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_origin"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone04"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone07"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone42"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack1"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone07"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack2"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone07"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_root"
-						m_influences = 
-						[
-							{
-								m_influenceName = "bone00"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
+						_class = "RenderMeshFile"
+						name = "hero_renji_base"
+						filename = "models/hero_renji/hero_renji_base.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 				]
-			}
-		},
-	]
-	m_pAnimGroup = 
-	{
-		m_pObject = 
-		{
-			m_Name = ""
-			m_pReferenceSkeleton = 
-			{
-				m_pObject = null
-			}
-			m_pBoneFlagList = 
-			{
-				m_pObject = null
-			}
-			m_pSeqGroup = 
-			{
-				m_pObject = null
-			}
-			m_pAnimGroups = [  ]
-			m_Vanim = 
-			[
-				{
-					m_Animationname = "hero_renji_attack"
-					m_Filepath = "models/hero_renji/hero_renji_animation.FBX"
-					m_nStartframe = 187
-					m_nEndframe = 213
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_renji_attack2"
-					m_Filepath = "models/hero_renji/hero_renji_animation.fbx"
-					m_nStartframe = 218
-					m_nEndframe = 244
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_ATTACK2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_renji_idle"
-					m_Filepath = "models/hero_renji/hero_renji_animation.fbx"
-					m_nStartframe = 126
-					m_nEndframe = 156
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_IDLE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_renji_death"
-					m_Filepath = "models/hero_renji/hero_renji_animation.fbx"
-					m_nStartframe = 250
-					m_nEndframe = 281
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_DIE"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_renji_walk"
-					m_Filepath = "models/hero_renji/hero_renji_animation.fbx"
-					m_nStartframe = 285
-					m_nEndframe = 308
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_renji_spell1"
-					m_Filepath = "models/hero_renji/hero_renji_animation.fbx"
-					m_nStartframe = 313
-					m_nEndframe = 343
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_1"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "hero_renji_spell2"
-					m_Filepath = "models/hero_renji/hero_renji_animation.fbx"
-					m_nStartframe = 344
-					m_nEndframe = 375
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_2"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-			]
-			m_sScripts = [  ]
-			m_folderNames = [  ]
-			m_sCompileScripts = [  ]
-		}
-	}
-	m_pMaterialGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pMeshGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pLodGroupList = 
-	{
-		m_pObject = null
-	}
-	m_pPropBreakableList = 
-	{
-		m_pObject = null
-	}
-	m_pPropDataList = 
-	{
-		m_pObject = null
-	}
-	m_pConstraintLists = [  ]
-	m_collision = ""
-	m_softbody = ""
-	m_sMDLFilename = ""
-	m_sOffsetHitboxSets = [  ]
-	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
-	m_scriptFiles = [  ]
-	m_pMaterialRemapList = 
-	{
-		m_vMaterialRemapList = 
-		[
-			{
-				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
 			},
 			{
-				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday5.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday6.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday7.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday8.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday9.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday10.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday11.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday12.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday13.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday14.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday15.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday16.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
-			},
-			{
-				m_sSearchMaterial = "convertedbyfarday17.vmat"
-				m_sReplaceMaterial = "materials/hero_renji/renji_main.vmat"
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "hero_renji_attack"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_renji/hero_renji_animation.FBX"
+						import_bone_scales = false
+						start_frame = 187
+						end_frame = 213
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_renji_attack2"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_ATTACK2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_renji/hero_renji_animation.fbx"
+						import_bone_scales = false
+						start_frame = 218
+						end_frame = 244
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_renji_idle"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_renji/hero_renji_animation.fbx"
+						import_bone_scales = false
+						start_frame = 126
+						end_frame = 156
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_renji_death"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_renji/hero_renji_animation.fbx"
+						import_bone_scales = false
+						start_frame = 250
+						end_frame = 281
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_renji_walk"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_RUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_renji/hero_renji_animation.fbx"
+						import_bone_scales = false
+						start_frame = 285
+						end_frame = 308
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_renji_spell1"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_renji/hero_renji_animation.fbx"
+						import_bone_scales = false
+						start_frame = 313
+						end_frame = 343
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+					{
+						_class = "AnimFile"
+						name = "hero_renji_spell2"
+						is_default_idle_anim = false
+						activity_name = "ACT_DOTA_CAST_ABILITY_2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						delete_from_compiled_model = false
+						source_filename = "models/hero_renji/hero_renji_animation.fbx"
+						import_bone_scales = false
+						start_frame = 344
+						end_frame = 375
+						framerate = 30.0
+						reverse = false
+						additional_anim_files = [  ]
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		importer_notes = "Imported from VMDL\n==Warnings==\nImportAttachmentList - Failed to create node: attach_hitloc (Likely skipping duplicate)\n"
+		document_sub_type = "ModelDocSubType_None"
 	}
-	m_flFbxScale = 1.0
-	m_flQCScale = 1.0
-	m_vOrigin = [ 0.0, 0.0, 0.0 ]
-	m_pPsfList = null
-	m_keyValueText = ""
-	m_bStaticProp = false
-	m_bEnableClothProcessing = true
-	m_flClothEnableThreshold = 0.05
-	m_nMaxClothVertsPerMesh = 2048
-	m_bBuildClothBoneHierarchy = false
-	m_nNavType = "AUTH_NAV_MESH"
-	m_bMakeUniqueVMeshes = false
-	m_bMakeImplicitBindPoseSequence = false
-	m_bAdjustSkeletonFromBoneFlags = false
-	m_bHiddenAssetFlag = false
-	m_pAnimGroups = [  ]
 }

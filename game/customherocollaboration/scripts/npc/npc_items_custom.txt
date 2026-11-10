@@ -5,7 +5,6 @@
     // General
     //-------------------------------------------------------------------------------------------------------------
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-    "ID"              "1835"
     "BaseClass"         "item_lua"
     "AbilityTextureName"        "item_present"
     "ScriptFile"          "libraries/abilities/item_containers_lua_pack.lua"
@@ -39,7 +38,6 @@
     // General
     //-------------------------------------------------------------------------------------------------------------
     "AbilityName"         "item_bag_of_gold_goofy"
-    "ID" "3222"
     "BaseClass"           "item_bag_of_gold"
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
@@ -73,7 +71,6 @@
   {
     // General
     //-------------------------------------------------------------------------------------------------------------
-    "ID"              "1001"
     "AbilityName"         "item_treasure_chest"
     "BaseClass"           "item_bag_of_gold"
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_ITEM"
