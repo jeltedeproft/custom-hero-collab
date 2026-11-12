@@ -8,13 +8,13 @@ function CastSunRay( event )
 	local caster	= event.caster
 	local ability	= event.ability
 
-	local pathLength					= event.path_length
-	local numThinkers					= event.num_thinkers
-	local thinkerStep					= event.thinker_step
-	local thinkerRadius					= event.thinker_radius
-	local turnRateInitial				= event.turn_rate_initial
-	local turnRate						= event.turn_rate
-	local initialTurnDuration			= event.initial_turn_max_duration
+	local pathLength					= tonumber(event.path_length)
+	local numThinkers					= math.floor(tonumber(event.num_thinkers) + 0.5)
+	local thinkerStep					= tonumber(event.thinker_step)
+	local thinkerRadius					= tonumber(event.thinker_radius)
+	local turnRateInitial				= tonumber(event.turn_rate_initial)
+	local turnRate						= tonumber(event.turn_rate)
+	local initialTurnDuration			= tonumber(event.initial_turn_max_duration)
 	local modifierCasterName			= event.modifier_caster_name
 	local modifierThinkerName			= event.modifier_thinker_name
 	local modifierIgnoreTurnRateName	= event.modifier_ignore_turn_rate_limit_name
@@ -33,7 +33,7 @@ function CastSunRay( event )
 		ability:ApplyDataDrivenModifier( caster, thinker, modifierThinkerName, {} )
 	end
 
-	local endcap = vThinkers[numThinkers]
+	local endcap = vThinkers[#vThinkers]
 
 	-- Create particle FX
 	local particleName = "particles/custom_particles/alakazam/alakazam_blast.vpcf"
@@ -139,7 +139,7 @@ function CastSunRay( event )
 		local endcapPos = casterOrigin + casterForward * pathLength
 		endcapPos = GetGroundPosition( endcapPos, nil )
 		endcapPos.z = endcapPos.z + 92
-		endcap:SetAbsOrigin( endcapPos )
+		if endcap and not endcap:IsNull() then endcap:SetAbsOrigin( endcapPos ) end
 
 		for i=1, numThinkers-1 do
 			local thinker = vThinkers[i]
@@ -192,7 +192,7 @@ function CheckForCollision( event )
 	local target			= event.target
 	local ability			= event.ability
 
-	local pathLength		= event.path_length
+	local pathLength		= tonumber(event.path_length)
 	local pathRadius		= event.path_radius
 
 	local tickInterval		= event.tick_interval

@@ -6,6 +6,7 @@ LinkLuaModifier("modifier_flash_step_charges", "heroes/hero_flicker/modifier_fla
 LinkLuaModifier("modifier_flash_step_trace", "heroes/hero_flicker/modifier_flash_step_trace.lua", LUA_MODIFIER_MOTION_NONE)
 
 function flicker_flash_step:OnSpellStart()
+	self:GetCaster():EmitSound("Hero_Antimage.Blink_out")
     local caster = self:GetCaster()
     local target = self:GetCursorPosition()
 

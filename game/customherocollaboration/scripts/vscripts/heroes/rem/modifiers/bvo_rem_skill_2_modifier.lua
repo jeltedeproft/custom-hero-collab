@@ -25,7 +25,7 @@ end
 
 function bvo_rem_skill_2_modifier:OnCreated( kv )
 	if IsServer() then
-		self.intellect = self:GetCaster():GetIntellect()
+		self.intellect = self:GetCaster():GetIntellect(false)
 		self.multiplier = self:GetAbility():GetSpecialValueFor("heal_int_multi")
 	end
 end

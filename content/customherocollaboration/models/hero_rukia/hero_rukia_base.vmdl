@@ -462,10 +462,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_rukia/hero_rukia_animation.fbx"
+						source_filename = "models/hero_rukia/v2/rukia_idle_v2.fbx"
 						import_bone_scales = false
-						start_frame = 953
-						end_frame = 989
+						start_frame = 0
+						end_frame = 74
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]

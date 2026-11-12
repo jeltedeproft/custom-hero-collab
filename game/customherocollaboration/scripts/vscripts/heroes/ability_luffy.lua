@@ -18,7 +18,7 @@ function Blink(keys)
 
 	local casterPosB = caster:GetAbsOrigin()
 	if not GridNav:CanFindPath(casterPos, casterPosB) then
-		ability:EndCooldown()
+		Timers:CreateTimer(0.03, function() ability:EndCooldown() end) -- the cooldown only starts after OnSpellStart
 		caster:GiveMana(ability:GetManaCost(1))
 		FindClearSpaceForUnit(caster, casterPos, false)
     	return
@@ -53,7 +53,7 @@ function bvo_luffy_skill_1(keys)
 
 	local casterPosB = caster:GetAbsOrigin()
 	if not GridNav:CanFindPath(casterPos, casterPosB) then
-		ability:EndCooldown()
+		Timers:CreateTimer(0.03, function() ability:EndCooldown() end) -- the cooldown only starts after OnSpellStart
 		caster:GiveMana(ability:GetManaCost(1))
 		FindClearSpaceForUnit(caster, casterPos, false)
 		ability.wrongMove = true

@@ -4,6 +4,7 @@ LinkLuaModifier("modifier_ailil_armor", "heroes/hero_ailil/modifier_ailil_armor.
 
 
 function ailil_armor:OnSpellStart()
+	self:GetCaster():EmitSound("Hero_Ancient_Apparition.ColdFeetCast")
     local mod = self:GetCaster():AddNewModifier(self:GetCaster(), self, "modifier_ailil_armor", {duration = self:GetDuration()})
     mod:SetStackCount(self:GetInstances())
 end

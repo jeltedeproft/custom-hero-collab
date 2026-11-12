@@ -14,7 +14,7 @@ function Leap( keys )
 
 	local casterPosB = caster:GetAbsOrigin()
 	if not GridNav:CanFindPath(casterPos, casterPosB) then
-		ability:EndCooldown()
+		Timers:CreateTimer(0.03, function() ability:EndCooldown() end) -- the cooldown only starts after OnSpellStart
 		caster:GiveMana(ability:GetManaCost(1))
 		FindClearSpaceForUnit(caster, casterPos, false)
     	return
@@ -93,7 +93,7 @@ function bvo_robin_skill_1_damage(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = damage + caster:GetIntellect() * 1,
+		damage = damage + caster:GetIntellect(false) * 1,
 		damage_type = DAMAGE_TYPE_PHYSICAL,
 	}
 	ApplyDamage(damageTable)
@@ -142,7 +142,7 @@ function bvo_robin_skill_3(keys)
 			local damageTable = {
 				victim = unit,
 				attacker = caster,
-				damage = damage + ( caster:GetIntellect() + ( caster:GetLevel() * ability:GetLevel() ) ),
+				damage = damage + ( caster:GetIntellect(false) + ( caster:GetLevel() * ability:GetLevel() ) ),
 				damage_type = damage_type,
 			}
 			ApplyDamage(damageTable)
@@ -186,7 +186,7 @@ function bvo_robin_skill_5(keys)
 		local damageTable = {
 			victim = unit,
 			attacker = caster,
-			damage = caster:GetIntellect() * multi,
+			damage = caster:GetIntellect(false) * multi,
 			damage_type = DAMAGE_TYPE_PHYSICAL,
 		}
 		ApplyDamage(damageTable)

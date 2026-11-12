@@ -152,7 +152,7 @@ function bvo_zaraki_skill_3_charge(keys)
 	local caster = keys.caster
 	local ability = keys.ability
 	local current_stack = caster:GetModifierStackCount( "bvo_zaraki_skill_3_modifier", ability )
-	ability.zaraki_skill_3_stacks = ability.zaraki_skill_3_stacks + 1
+	ability.zaraki_skill_3_stacks = (ability.zaraki_skill_3_stacks or 0) + 1
 	if not caster:HasModifier("bvo_zaraki_skill_3_modifier") then
 		ability:ApplyDataDrivenModifier(caster, caster, "bvo_zaraki_skill_3_modifier", {} )
 	end

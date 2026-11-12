@@ -179,7 +179,9 @@ function FireEffect_Destroy_IcePath_A( event )
 	local ability		= event.ability
 	local pfxIcePath	= ability.pfxIcePath
 
-	ParticleManager:DestroyParticle( pfxIcePath, false )
+	if pfxIcePath then
+		ParticleManager:DestroyParticle( pfxIcePath, false )
+	end
 
 	ability.pfxIcePath = nil
 end

@@ -24,7 +24,13 @@ function LightningBurst ( event )
   if redu >= 1 then
     force = force / redu
   end
-  target:AddPhysicsVelocity(diffNormalized * force)
+  -- Creeps and summons are not always registered with the physics library
+  if not target.AddPhysicsVelocity and Physics then
+    Physics:Unit(target)
+  end
+  if target.AddPhysicsVelocity then
+    target:AddPhysicsVelocity(diffNormalized * force)
+  end
 end
 
 function SetTarget( event )

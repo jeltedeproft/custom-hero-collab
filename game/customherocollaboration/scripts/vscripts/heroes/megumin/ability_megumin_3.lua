@@ -39,7 +39,7 @@ function bvo_megumin_skill_3_cast( keys )
 		local damageTable = {
 			victim = unit,
 			attacker = caster,
-			damage = damage + caster:GetIntellect() * multi,
+			damage = damage + caster:GetIntellect(false) * multi,
 			damage_type = DAMAGE_TYPE_MAGICAL,
 		}
 		ApplyDamage(damageTable)

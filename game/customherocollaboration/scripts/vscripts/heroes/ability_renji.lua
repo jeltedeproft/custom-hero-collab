@@ -18,7 +18,7 @@ function Blink(keys)
 
 	local casterPosB = caster:GetAbsOrigin()
 	if not GridNav:CanFindPath(casterPos, casterPosB) then
-		ability:EndCooldown()
+		Timers:CreateTimer(0.03, function() ability:EndCooldown() end) -- the cooldown only starts after OnSpellStart
 		caster:GiveMana(ability:GetManaCost(1))
 		FindClearSpaceForUnit(caster, casterPos, false)
     	return
@@ -175,7 +175,7 @@ function bvo_renji_skill_3(keys)
 		table.insert(ability.dummyList, dummy)
 		if dummy ~= nil then
 			local projTable = {
-		        EffectName = "particles/custom/renji/renji_weapon_throw.vpcf",
+		        EffectName = "particles/units/heroes/hero_troll_warlord/troll_warlord_whirling_axe_ranged.vpcf",
 		        Ability = ability,
 		        Target = dummy,
 		        Source = caster,
@@ -241,7 +241,7 @@ function bvo_renji_skill_3_damage(keys)
 			for _,dummy in pairs(ability.dummyList) do
 				--local difference = dummy:GetAbsOrigin() - ability.target:GetAbsOrigin()
 				local projTable = {
-			        EffectName = "particles/custom/renji/renji_weapon_throw.vpcf",
+			        EffectName = "particles/units/heroes/hero_troll_warlord/troll_warlord_whirling_axe_ranged.vpcf",
 			        Ability = ability,
 			        Target = ability.target,
 			        Source = dummy,

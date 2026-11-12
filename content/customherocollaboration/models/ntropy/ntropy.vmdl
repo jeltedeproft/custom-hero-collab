@@ -24,7 +24,7 @@
 					{
 						_class = "Attachment"
 						name = "attach_hitloc"
-						parent_bone = "mixamorig_Head"
+						parent_bone = "head"
 						relative_origin = [ 0.0, 0.0, 0.0 ]
 						relative_angles = [ 0.0, 0.0, 0.0 ]
 						weight = 1.0
@@ -33,7 +33,7 @@
 					{
 						_class = "Attachment"
 						name = "attach_attack1"
-						parent_bone = "mixamorig_LeftArm"
+						parent_bone = "leftarm"
 						relative_origin = [ 0.0, 0.0, 0.0 ]
 						relative_angles = [ 0.0, 0.0, 0.0 ]
 						weight = 1.0
@@ -42,7 +42,7 @@
 					{
 						_class = "Attachment"
 						name = "attach_attack2"
-						parent_bone = "mixamorig_RightArm"
+						parent_bone = "rightarm"
 						relative_origin = [ 0.0, 0.0, 0.0 ]
 						relative_angles = [ 0.0, 0.0, 0.0 ]
 						weight = 1.0
@@ -51,7 +51,7 @@
 					{
 						_class = "Attachment"
 						name = "attach_origin"
-						parent_bone = "mixamorig_Head"
+						parent_bone = "head"
 						relative_origin = [ 0.0, 0.0, 0.0 ]
 						relative_angles = [ 0.0, 0.0, 0.0 ]
 						weight = 1.0
@@ -70,7 +70,7 @@
 						[
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_Hips"
+								parent_bone = "hips"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -79,7 +79,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_Spine"
+								parent_bone = "spine"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -88,7 +88,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_Spine1"
+								parent_bone = "spine1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -97,7 +97,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_Spine2"
+								parent_bone = "spine2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -106,7 +106,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftShoulder"
+								parent_bone = "leftshoulder"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -115,7 +115,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightShoulder"
+								parent_bone = "rightshoulder"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -124,7 +124,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftArm"
+								parent_bone = "leftarm"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -133,7 +133,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightArm"
+								parent_bone = "rightarm"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -142,7 +142,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftForeArm"
+								parent_bone = "leftforearm"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -151,7 +151,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightForeArm"
+								parent_bone = "rightforearm"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -160,7 +160,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHand"
+								parent_bone = "lefthand"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -169,7 +169,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHand"
+								parent_bone = "righthand"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -178,7 +178,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftUpLeg"
+								parent_bone = "leftupleg"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -187,7 +187,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightUpLeg"
+								parent_bone = "rightupleg"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -196,7 +196,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandThumb1"
+								parent_bone = "lefthandthumb1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -205,7 +205,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandIndex1"
+								parent_bone = "lefthandindex1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -214,7 +214,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandMiddle1"
+								parent_bone = "lefthandmiddle1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -223,7 +223,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandRing1"
+								parent_bone = "lefthandring1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -232,7 +232,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandThumb1"
+								parent_bone = "righthandthumb1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -241,7 +241,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandIndex1"
+								parent_bone = "righthandindex1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -250,7 +250,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandMiddle1"
+								parent_bone = "righthandmiddle1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -259,7 +259,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandRing1"
+								parent_bone = "righthandring1"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -268,7 +268,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftLeg"
+								parent_bone = "leftleg"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -277,7 +277,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightLeg"
+								parent_bone = "rightleg"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -286,7 +286,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_Neck"
+								parent_bone = "neck"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -295,7 +295,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandThumb2"
+								parent_bone = "lefthandthumb2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -304,7 +304,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandIndex2"
+								parent_bone = "lefthandindex2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -313,7 +313,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandMiddle2"
+								parent_bone = "lefthandmiddle2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -322,7 +322,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandRing2"
+								parent_bone = "lefthandring2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -331,7 +331,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandThumb2"
+								parent_bone = "righthandthumb2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -340,7 +340,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandIndex2"
+								parent_bone = "righthandindex2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -349,7 +349,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandMiddle2"
+								parent_bone = "righthandmiddle2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -358,7 +358,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandRing2"
+								parent_bone = "righthandring2"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -367,7 +367,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftFoot"
+								parent_bone = "leftfoot"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -376,7 +376,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightFoot"
+								parent_bone = "rightfoot"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -385,7 +385,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_Head"
+								parent_bone = "head"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -394,7 +394,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandThumb3"
+								parent_bone = "lefthandthumb3"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -403,7 +403,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandIndex3"
+								parent_bone = "lefthandindex3"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -412,7 +412,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandMiddle3"
+								parent_bone = "lefthandmiddle3"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -421,7 +421,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftHandRing3"
+								parent_bone = "lefthandring3"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -430,7 +430,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandThumb3"
+								parent_bone = "righthandthumb3"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -439,7 +439,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandIndex3"
+								parent_bone = "righthandindex3"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -448,7 +448,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandMiddle3"
+								parent_bone = "righthandmiddle3"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -457,7 +457,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightHandRing3"
+								parent_bone = "righthandring3"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -466,7 +466,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_LeftToeBase"
+								parent_bone = "lefttoebase"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -475,7 +475,7 @@
 							},
 							{
 								_class = "Hitbox"
-								parent_bone = "mixamorig_RightToeBase"
+								parent_bone = "righttoebase"
 								surface_property = ""
 								translation_only = false
 								group_id = 0
@@ -524,10 +524,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/ntropy/animations/idle.smd"
+						source_filename = "models/ntropy/v2/ntropy_idle_v2.fbx"
 						import_bone_scales = false
 						start_frame = 0
-						end_frame = 32
+						end_frame = 64
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]

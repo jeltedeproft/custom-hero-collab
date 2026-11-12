@@ -1,6 +1,7 @@
 flicker_recall = class({})
 
 function flicker_recall:OnSpellStart()
+	self:GetCaster():EmitSound("Hero_Antimage.Blink_in")
     local caster = self:GetCaster()
     local allies = FindUnitsInRadius( caster:GetTeamNumber(),
                                       caster:GetAbsOrigin(),

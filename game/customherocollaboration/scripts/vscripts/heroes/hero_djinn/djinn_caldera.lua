@@ -12,6 +12,7 @@ LinkLuaModifier("modifier_caldera_thinker", "heroes/hero_djinn/modifier_caldera_
 LinkLuaModifier("modifier_caldera_buff", "heroes/hero_djinn/modifier_caldera_buff.lua", LUA_MODIFIER_MOTION_NONE)
 
 function djinn_caldera:OnSpellStart()
+	self:GetCaster():EmitSound("Hero_Jakiro.Macropyre.Cast")
     local point = self:GetCursorPosition()
     local caster = self:GetCaster()
     local dummy = CreateUnitByName("npc_dota_thinker", point, false, caster, caster, caster:GetTeamNumber())

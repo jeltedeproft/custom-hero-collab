@@ -5,7 +5,7 @@ function bvo_anzu_skill_5( keys )
 	local extra_gold = ability:GetLevelSpecialValueFor("extra_gold", ability:GetLevel() - 1 )
 	local int_as_gold = ability:GetLevelSpecialValueFor("int_as_gold", ability:GetLevel() - 1 )
 
-	local totalGoldGain = extra_gold + (caster:GetIntellect() * int_as_gold)
+	local totalGoldGain = extra_gold + (caster:GetIntellect(false) * int_as_gold)
 	if caster:GetTeam() == DOTA_TEAM_BADGUYS then
 		for _,hero in pairs(_G.tHeroesDire) do
 			local particle = ParticleManager:CreateParticle("particles/econ/items/bounty_hunter/bounty_hunter_hunters_hoard/bounty_hunter_hoard_track_reward.vpcf", PATTACH_ABSORIGIN_FOLLOW, hero)

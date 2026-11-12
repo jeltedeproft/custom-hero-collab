@@ -9,7 +9,7 @@ function bvo_mayuri_skill_3(keys)
 	local int_multi = ability:GetLevelSpecialValueFor("int_multi", ability:GetLevel() - 1 )
 	local agi_multi = ability:GetLevelSpecialValueFor("agi_multi", ability:GetLevel() - 1 )
 	
-	target:Heal(( caster:GetIntellect() * int_multi ) + ( caster:GetAgility() * agi_multi ), caster)
+	target:Heal(( caster:GetIntellect(false) * int_multi ) + ( caster:GetAgility() * agi_multi ), caster)
 	target:EmitSound("Hero_Omniknight.Purification")
 	local particle = ParticleManager:CreateParticle("particles/units/heroes/hero_omniknight/omniknight_purification.vpcf", PATTACH_ABSORIGIN_FOLLOW, target)
 	ParticleManager:SetParticleControl(particle, 0, target:GetAbsOrigin())

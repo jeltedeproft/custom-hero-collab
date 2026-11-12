@@ -38,7 +38,7 @@ function bvo_kuma_skill_1_damage(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = (caster:GetIntellect() * multi) + damage,
+		damage = (caster:GetIntellect(false) * multi) + damage,
 		damage_type = DAMAGE_TYPE_MAGICAL,
 	}
 	ApplyDamage(damageTable)
@@ -160,7 +160,7 @@ function bvo_kuma_skill_3_damage(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = ((caster:GetIntellect() * multi) + damage) * 0.25,
+		damage = ((caster:GetIntellect(false) * multi) + damage) * 0.25,
 		damage_type = DAMAGE_TYPE_MAGICAL,
 	}
 	ApplyDamage(damageTable)
@@ -178,7 +178,7 @@ function bvo_kuma_skill_4_heal(keys)
 	local heal_h = ability:GetLevelSpecialValueFor("int_heal", 0 )
 	local heal_m = ability:GetLevelSpecialValueFor("int_mana", 0 )
 
-	local int = caster:GetIntellect()
+	local int = caster:GetIntellect(false)
 	
 	local target = caster:FindAbilityByName("bvo_kuma_skill_4").target
 	
@@ -273,7 +273,7 @@ function bvo_kuma_skill_5_damage(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = 1000 + (caster:GetIntellect() * multi),
+		damage = 1000 + (caster:GetIntellect(false) * multi),
 		damage_type = DAMAGE_TYPE_PHYSICAL,
 	}
 	ApplyDamage(damageTable)

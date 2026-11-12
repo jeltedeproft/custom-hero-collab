@@ -49,7 +49,7 @@ function bvo_mayuri_skill_1_explode(keys)
 		local damageTable = {
 			victim = unit,
 			attacker = caster,
-			damage = ( caster:GetIntellect() * multi ) + damage,
+			damage = ( caster:GetIntellect(false) * multi ) + damage,
 			damage_type = DAMAGE_TYPE_PHYSICAL,
 		}
 		ApplyDamage(damageTable)

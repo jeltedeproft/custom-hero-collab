@@ -11,15 +11,20 @@ function bvo_brook_skill_4(keys)
 
 	ability:ApplyDataDrivenModifier(caster, caster, "bvo_brook_skill_4_caster", {duration=delay})
 
+	-- The reappear step sets this; if it runs before the hide below, skip the hide
+	-- so the hero can never be left invisible.
+	caster.brook_skill_4_hidden_done = false
 	local max_runs = (delay / 2) / 0.03
 	local runs = 0
 	Timers:CreateTimer(0.03, function ()
-		if runs < max_runs then
+		if runs < max_runs and not caster.brook_skill_4_hidden_done then
 			runs = runs + 1
 			caster:SetAbsOrigin( caster:GetAbsOrigin() - caster:GetForwardVector() * 4 )
 			return 0.03
 		end
-		caster:AddNoDraw()
+		if not caster.brook_skill_4_hidden_done then
+			caster:AddNoDraw()
+		end
 		return nil
 	end)
 end
@@ -39,6 +44,7 @@ function bvo_brook_skill_4_cast(keys)
 		endPoint = point + ( caster.brook_skill_4_forward * (radius / 2) ) - caster.brook_skill_4_forward * offset
 	end
 	FindClearSpaceForUnit(caster, endPoint, false)
+	caster.brook_skill_4_hidden_done = true
 	caster:RemoveNoDraw()
 	caster:EmitSound("Hero_Beastmaster.Attack")
 	caster:StartGestureWithPlaybackRate(ACT_DOTA_ATTACK2, 2.5)

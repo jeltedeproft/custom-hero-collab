@@ -358,10 +358,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_aokiji/hero_aokiji_animation.fbx"
+						source_filename = "models/hero_aokiji/v2/aokiji_idle_v2.fbx"
 						import_bone_scales = false
-						start_frame = 95
-						end_frame = 237
+						start_frame = 0
+						end_frame = 143
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]

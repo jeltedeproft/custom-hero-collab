@@ -11,6 +11,7 @@ djinn_flame_path = class({})
 LinkLuaModifier("modifier_flame_path_thinker", "heroes/hero_djinn/modifier_flame_path_thinker.lua", LUA_MODIFIER_MOTION_NONE)
 
 function djinn_flame_path:OnSpellStart()
+	self:GetCaster():EmitSound("Hero_Lina.DragonSlave")
     -- spend flame
     self:GetCaster().flame = self:GetCaster().flame - self:GetFlameCost()
 

@@ -226,7 +226,7 @@ function bvo_nami_skill_2_damage(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = damage + (caster:GetIntellect() * multi),
+		damage = damage + (caster:GetIntellect(false) * multi),
 		damage_type = DAMAGE_TYPE_PHYSICAL,
 	}
 
@@ -386,7 +386,7 @@ function bvo_nami_skill_4_damage(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = caster:GetIntellect() * multi,
+		damage = caster:GetIntellect(false) * multi,
 		damage_type = DAMAGE_TYPE_PHYSICAL,
 	}
 
@@ -424,7 +424,7 @@ function bvo_nami_skill_5_damage(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = ( caster:GetIntellect() * multi ) + damage,
+		damage = ( caster:GetIntellect(false) * multi ) + damage,
 		damage_type = DAMAGE_TYPE_PURE,
 	}
 

@@ -18,7 +18,7 @@ function releasesouls( keys )
 	local talent = caster:FindAbilityByName("haunter_wings_damage_bonus")
 
 	if talent:GetLevel() > 0 then
-		damage_per_charge = damage_per_charge + talent:GetSpecialValueFor("value"))
+		damage_per_charge = damage_per_charge + talent:GetSpecialValueFor("value")
 	end
 
 	local total_damage = damage_per_charge * (current_permanent_souls + current_temporary_souls)

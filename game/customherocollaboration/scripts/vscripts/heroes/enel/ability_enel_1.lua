@@ -46,7 +46,7 @@ function bvo_enel_skill_1( keys )
 				local damageTable = {
 					victim = unit,
 					attacker = caster,
-					damage = caster:GetIntellect() * int_multi + damage,
+					damage = caster:GetIntellect(false) * int_multi + damage,
 					damage_type = DAMAGE_TYPE_MAGICAL,
 				}
 				ApplyDamage(damageTable)
@@ -59,7 +59,7 @@ function enel_skill_1(keys)
 	local caster = keys.caster
 	local target = keys.target
 
-	local c_int = caster:GetIntellect()
+	local c_int = caster:GetIntellect(false)
 
 	local p_dmg = 150 + (c_int * 2)
 

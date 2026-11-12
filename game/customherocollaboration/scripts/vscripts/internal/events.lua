@@ -63,7 +63,7 @@ function GameMode:_OnEntityKilled( keys )
     killerEntity = EntIndexToHScript( keys.entindex_attacker )
   end
 
-  if killedUnit:IsRealHero() then 
+  if killedUnit:IsRealHero() and killerEntity ~= nil then 
     DebugPrint("KILLED, KILLER: " .. killedUnit:GetName() .. " -- " .. killerEntity:GetName())
     if END_GAME_ON_KILLS and GetTeamHeroKills(killerEntity:GetTeam()) >= KILLS_TO_END_GAME_FOR_TEAM then
       GameRules:SetSafeToLeave( true )

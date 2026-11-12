@@ -58,7 +58,7 @@ function modifier_rapid_strike:Teleport()
         local parent = self:GetParent()
         local a_loc = parent:GetOrigin()
         local t_loc = self.target:GetOrigin()
-        local dist = parent:GetAttackRange() --+ parent:BoundingRadius2D() + self.target:BoundingRadius2D()
+        local dist = parent:Script_GetAttackRange() --+ parent:BoundingRadius2D() + self.target:BoundingRadius2D()
 
         local new_dir = (a_loc - t_loc):Normalized()
         local new_dir = RotatePosition(new_dir, QAngle(0, RandomFloat(-20, 20) + RandomFloat(-20, 20) + RandomFloat(-20, 20), 0), Vector(0, 0, 0)) - new_dir        local new_pos = t_loc + new_dir * dist --* 0.8

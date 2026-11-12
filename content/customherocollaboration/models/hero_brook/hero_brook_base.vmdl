@@ -14,6 +14,10 @@
 						remaps = 
 						[
 							{
+								from = "brook_main.vmat"
+								to = "materials/hero_brook/brook_main.vmat"
+							},
+							{
 								from = "milkshapeexported2.vmat"
 								to = "materials/hero_brook/brook_main.vmat"
 							},
@@ -366,7 +370,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "hero_brook_base"
-						filename = "models/hero_brook/hero_brook_base.fbx"
+						filename = "models/hero_brook/v2/brook_mesh.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -397,10 +401,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_brook/hero_brook_animation.FBX"
+						source_filename = "models/hero_brook/v2/hero_brook_attack.fbx"
 						import_bone_scales = false
-						start_frame = 187
-						end_frame = 219
+						start_frame = 0
+						end_frame = 32
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]
@@ -422,10 +426,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_brook/hero_brook_animation.fbx"
+						source_filename = "models/hero_brook/v2/hero_brook_attack2.fbx"
 						import_bone_scales = false
-						start_frame = 250
-						end_frame = 281
+						start_frame = 0
+						end_frame = 31
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]
@@ -447,10 +451,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_brook/hero_brook_animation.fbx"
+						source_filename = "models/hero_brook/v2/hero_brook_idle_v2.fbx"
 						import_bone_scales = false
-						start_frame = 3
-						end_frame = 35
+						start_frame = 0
+						end_frame = 64
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]
@@ -472,10 +476,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_brook/hero_brook_animation.fbx"
+						source_filename = "models/hero_brook/v2/hero_brook_walk.fbx"
 						import_bone_scales = false
-						start_frame = 750
-						end_frame = 772
+						start_frame = 0
+						end_frame = 22
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]
@@ -497,10 +501,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_brook/hero_brook_animation.fbx"
+						source_filename = "models/hero_brook/v2/hero_brook_death.fbx"
 						import_bone_scales = false
-						start_frame = 500
-						end_frame = 562
+						start_frame = 0
+						end_frame = 62
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]
@@ -522,10 +526,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_brook/hero_brook_animation.fbx"
+						source_filename = "models/hero_brook/v2/hero_brook_spell.fbx"
 						import_bone_scales = false
-						start_frame = 312
-						end_frame = 347
+						start_frame = 0
+						end_frame = 35
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]

@@ -163,7 +163,7 @@ function bvo_orihime_skill_2(keys)
 	local damage = keys.damage
 	local ability = keys.ability
 	local block = ability:GetLevelSpecialValueFor("damage_block", ability:GetLevel() - 1 )
-	local int_block = caster:GetIntellect()
+	local int_block = caster:GetIntellect(false)
 	local target = ability.target
 
 	if target:GetHealth() > 0 then
@@ -195,7 +195,7 @@ end
 function bvo_orihime_skill_3(keys)
 	local caster = keys.caster
 
-	local int = caster:GetIntellect()
+	local int = caster:GetIntellect(false)
 	
 	local target = caster:FindAbilityByName("bvo_orihime_skill_3").target
 	
@@ -229,7 +229,7 @@ function bvo_orihime_skill_5_good(keys)
 
 	if ability ~= nil then
 		local owner = ability.casterOwner
-		local int = owner:GetIntellect()
+		local int = owner:GetIntellect(false)
 
 		target:Heal(int, owner)
 		target:GiveMana(int * 0.5)
@@ -242,7 +242,7 @@ function bvo_orihime_skill_5_bad(keys)
 
 	if ability ~= nil then
 		local owner = ability.casterOwner
-		local int = owner:GetIntellect()
+		local int = owner:GetIntellect(false)
 
 		local damageTable = {
 			victim = target,

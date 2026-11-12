@@ -773,10 +773,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/golem/animations/idle.smd"
+						source_filename = "models/golem/v2/golem_idle_v2.fbx"
 						import_bone_scales = false
 						start_frame = 0
-						end_frame = 1
+						end_frame = 75
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]

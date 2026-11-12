@@ -652,7 +652,7 @@ function bvo_moria_skill_4_damage(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = caster:GetIntellect() * 2,
+		damage = caster:GetIntellect(false) * 2,
 		damage_type = DAMAGE_TYPE_MAGICAL,
 	}
 

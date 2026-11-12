@@ -7,9 +7,9 @@ function motivatetalent(keys)
 	local bonus_physical_dmg_block = ability:GetLevelSpecialValueFor("bonus_physical_dmg_block", ability:GetLevel() - 1 )
 
 	--talent
-	local talent = caster:FindAbilityByName("aura_damage_bonus")
+	local talent = caster:FindAbilityByName("deku_motivate_dmg_block_bonus")
 
-	if talent:GetLevel() > 0 then
+	if talent and talent:GetLevel() > 0 then
 		local bonus_physical_dmg_block = bonus_physical_dmg_block + talent:GetSpecialValueFor("value")
 		local modifier = ability:ApplyDataDrivenModifier(caster, target, modifiername, {duration = ability:GetSpecialValueFor("duration")})
 		modifier:SetStackCount(talent:GetSpecialValueFor("value")) 

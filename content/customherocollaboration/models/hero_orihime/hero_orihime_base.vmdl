@@ -331,10 +331,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_orihime/hero_orihime_animation.FBX"
+						source_filename = "models/hero_orihime/v2/orihime_walk_v2.fbx"
 						import_bone_scales = false
-						start_frame = 177
-						end_frame = 208
+						start_frame = 0
+						end_frame = 32
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]
@@ -406,10 +406,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/hero_orihime/hero_orihime_animation.FBX"
+						source_filename = "models/hero_orihime/v2/orihime_idle_v2.fbx"
 						import_bone_scales = false
-						start_frame = 11
-						end_frame = 41
+						start_frame = 0
+						end_frame = 60
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]

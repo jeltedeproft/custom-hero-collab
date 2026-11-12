@@ -9,7 +9,7 @@ function enel_skill_2(keys)
 		return
 	end
 
-	local c_int = caster:GetIntellect()
+	local c_int = caster:GetIntellect(false)
 
 	local p_dmg = c_int * multi
 
@@ -28,7 +28,7 @@ function enel_skill_3(keys)
 	local target = keys.target
 	local multi = keys.Bonus
 
-	local c_int = caster:GetIntellect()
+	local c_int = caster:GetIntellect(false)
 
 	local p_dmg = c_int * multi
 

@@ -44,3 +44,11 @@ function modifier_ailil_armor:OnTakeDamage(kv)
         end
     end
 end
+
+function modifier_ailil_armor:GetEffectName()
+    return "particles/units/heroes/hero_lich/lich_frost_armor.vpcf"
+end
+
+function modifier_ailil_armor:GetEffectAttachType()
+    return PATTACH_OVERHEAD_FOLLOW
+end

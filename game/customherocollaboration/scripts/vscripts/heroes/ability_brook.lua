@@ -67,7 +67,7 @@ function bvo_brook_skill_2(keys)
 	local info = 
 	{
 		Ability = keys.ability,
-    	EffectName = "particles/units/heroes/hero_magnataur/magnataur_shockwave.vpcf",
+    	EffectName = "",
     	vSpawnOrigin = caster:GetAbsOrigin(),
     	fDistance = 800,
     	fStartRadius = 250,
@@ -86,6 +86,10 @@ function bvo_brook_skill_2(keys)
 		iVisionTeamNumber = caster:GetTeamNumber()
 	}
 	projectile = ProjectileManager:CreateLinearProjectile(info)
+
+	-- Brook dashes along with the (invisible) projectile, so the trail follows him
+	local trail = ParticleManager:CreateParticle("particles/custom/brook/brook_soul_dash.vpcf", PATTACH_ABSORIGIN_FOLLOW, caster)
+	ParticleManager:ReleaseParticleIndex(trail)
 end
 
 function bvo_brook_skill_3( event )

@@ -48,7 +48,7 @@ function bvo_mihawk_skill_3(keys)
 		local info = 
 		{
 			Ability = keys.ability,
-	    	EffectName = "particles/custom/mihawk/mihawk_shockwave.vpcf",
+	    	EffectName = "particles/units/heroes/hero_magnataur/magnataur_shockwave.vpcf",
 	    	vSpawnOrigin = casterPos,
 	    	fDistance = 1000,
 	    	fStartRadius = 250,
@@ -83,7 +83,7 @@ function bvo_mihawk_skill_4(keys)
 		local info = 
 		{
 			Ability = ability,
-	    	EffectName = "particles/custom/mihawk/mihawk_shockwave.vpcf",
+	    	EffectName = "particles/units/heroes/hero_magnataur/magnataur_shockwave.vpcf",
 	    	vSpawnOrigin = casterPos,
 	    	fDistance = distance,
 	    	fStartRadius = 10,

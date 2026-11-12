@@ -2,7 +2,9 @@ modifier_rapid_strike_target = class({})
 
 function modifier_rapid_strike_target:OnDestroy()
     local caster = self:GetCaster()
-    caster:RemoveModifierByName("modifier_rapid_strike")
+    if IsServer() and caster and not caster:IsNull() then
+        caster:RemoveModifierByName("modifier_rapid_strike")
+    end
 end
 
 function modifier_rapid_strike_target:IsHidden()

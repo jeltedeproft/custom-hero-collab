@@ -6,6 +6,7 @@ LinkLuaModifier("modifier_rapid_strike", "heroes/hero_flicker/modifier_rapid_str
 LinkLuaModifier("modifier_rapid_strike_target", "heroes/hero_flicker/modifier_rapid_strike_target.lua", LUA_MODIFIER_MOTION_NONE)
 
 function flicker_rapid_strike:OnSpellStart()
+	self:GetCaster():EmitSound("Hero_Riki.Blink_Strike")
     local target = self:GetCursorTarget()
     target:AddNewModifier(self:GetCaster(), self, "modifier_rapid_strike_target", {})
     self:GetCaster().rapid_strike_target = target

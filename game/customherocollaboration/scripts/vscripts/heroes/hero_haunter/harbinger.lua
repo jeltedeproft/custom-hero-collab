@@ -41,7 +41,7 @@ function switchabilities( keys )
 		args = {duration = new_duration}
 	end
 
-	ability:ApplyDataDrivenModifier(caster, target, string modifier, args)
+	ability:ApplyDataDrivenModifier(caster, target, modifier, args)
 end
 
 

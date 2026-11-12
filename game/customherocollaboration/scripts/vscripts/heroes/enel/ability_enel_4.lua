@@ -7,7 +7,7 @@ function bvo_enel_skill_4_melee(keys)
 	local damageTable = {
 		victim = attacker,
 		attacker = caster,
-		damage = caster:GetIntellect() * int_multi,
+		damage = caster:GetIntellect(false) * int_multi,
 		damage_type = DAMAGE_TYPE_PURE,
 	}
 
@@ -30,7 +30,7 @@ function bvo_enel_skill_4_cast(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = caster:GetIntellect() * int_multi,
+		damage = caster:GetIntellect(false) * int_multi,
 		damage_type = DAMAGE_TYPE_PURE,
 	}
 

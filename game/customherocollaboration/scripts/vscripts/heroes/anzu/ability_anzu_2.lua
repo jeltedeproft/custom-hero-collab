@@ -4,7 +4,7 @@ function bvo_anzu_skill_2( keys )
 	local ability = keys.ability
 	local int_heal = ability:GetLevelSpecialValueFor("int_heal", ability:GetLevel() - 1 )
 
-	local heal = caster:GetIntellect() * int_heal
+	local heal = caster:GetIntellect(false) * int_heal
 	target:Heal(heal, ability)
 	_G:PopupNumbers(target, "heal", Vector(50, 255, 5), 1.0, heal, POPUP_SYMBOL_PRE_PLUS, nil, true)
 end

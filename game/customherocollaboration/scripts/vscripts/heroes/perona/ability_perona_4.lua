@@ -8,7 +8,7 @@ function bvo_perona_skill_4(keys)
 	local damageTable = {
 		victim = target,
 		attacker = caster,
-		damage = ( caster:GetIntellect() * multi ) + damage,
+		damage = ( caster:GetIntellect(false) * multi ) + damage,
 		damage_type = DAMAGE_TYPE_PURE,
 	}
 	ApplyDamage(damageTable)

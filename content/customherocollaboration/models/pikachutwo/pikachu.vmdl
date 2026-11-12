@@ -458,10 +458,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/pikachutwo/animations/idle.smd"
+						source_filename = "models/pikachutwo/v2/pikachu_idle_v2.fbx"
 						import_bone_scales = false
 						start_frame = 0
-						end_frame = 32
+						end_frame = 64
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]
@@ -560,7 +560,7 @@
 						_class = "AnimFile"
 						name = "spawn"
 						is_default_idle_anim = false
-						activity_name = ""
+						activity_name = "ACT_DOTA_SPAWN"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -600,7 +600,7 @@
 							},
 						]
 						is_default_idle_anim = false
-						activity_name = ""
+						activity_name = "ACT_DOTA_ATTACK"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2

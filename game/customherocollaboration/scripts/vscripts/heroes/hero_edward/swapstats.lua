@@ -16,7 +16,7 @@ function swap( keys )
 	
 	local hero_strength = swaphero:GetStrength()
 	local hero_agility = swaphero:GetAgility()
-	local hero_int = swaphero:GetIntellect()
+	local hero_int = swaphero:GetIntellect(false)
 
 	--save old values
 	caster.old_strength = hero_strength

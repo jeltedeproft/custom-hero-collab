@@ -798,10 +798,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/albusdumbledore/animations/running.smd"
+						source_filename = "models/albusdumbledore/v2/albus_run_v2.fbx"
 						import_bone_scales = false
-						start_frame = 47
-						end_frame = 80
+						start_frame = 0
+						end_frame = 34
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]
@@ -888,10 +888,10 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "models/albusdumbledore/animations/idle.smd"
+						source_filename = "models/albusdumbledore/v2/albus_idle_v2.fbx"
 						import_bone_scales = false
 						start_frame = 0
-						end_frame = 32
+						end_frame = 64
 						framerate = 30.0
 						reverse = false
 						additional_anim_files = [  ]

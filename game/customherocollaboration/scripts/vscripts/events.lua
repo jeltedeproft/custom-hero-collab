@@ -142,11 +142,11 @@ function GameMode:OnItemPickedUp(keys)
 
   if itemname == "item_bag_of_gold" then
     PlayerResource:ModifyGold( player:GetPlayerID(), r, true, 0 )
-    UTIL_Remove( item ) -- otherwise it pollutes the player inventory
+    UTIL_Remove( itemEntity ) -- otherwise it pollutes the player inventory
     player:EmitSound("General.Coins")
   elseif itemname == "item_bag_of_gold_goofy" then
     PlayerResource:ModifyGold( player:GetPlayerID(), 100, true, 0 )
-    UTIL_Remove( item ) -- otherwise it pollutes the player inventory
+    UTIL_Remove( itemEntity ) -- otherwise it pollutes the player inventory
     player:EmitSound("General.Coins")
   elseif itemname == "item_treasure_chest" then
     DoEntFire( "item_spawn_particle_" .. self.itemSpawnIndex, "Stop", "0", 0, self, self )
@@ -332,6 +332,10 @@ function GameMode:OnTeamKillCredit(keys)
   local killerTeamNumber = keys.teamnumber
 
   if GetMapName() ~= "dota" then
+
+    local nTeamID = keys.teamnumber
+    local nTeamKills = keys.herokills
+    local nKillsRemaining = (self.TEAM_KILLS_TO_WIN or 30) - nTeamKills
 
     local broadcast_kill_event =
     {
